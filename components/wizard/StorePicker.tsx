@@ -1,6 +1,6 @@
 "use client";
 
-import { retailers, type RetailerId } from "@/data/retailers";
+import { nationalRetailers, type RetailerId } from "@/data/retailers";
 import { useWizardStore } from "@/lib/store";
 import { cn } from "@/lib/format";
 
@@ -11,7 +11,7 @@ export function StorePicker() {
 
   return (
     <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7">
-      {retailers.map((retailer) => {
+      {nationalRetailers.map((retailer) => {
         const selected = storeId === retailer.id;
         return (
           <button

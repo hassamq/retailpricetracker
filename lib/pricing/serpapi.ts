@@ -7,6 +7,7 @@ import {
 import {
   matchesVariant,
   type VariantFilter,
+  type VariantMatchMode,
 } from "./prefilter";
 import type { RawListing } from "./types";
 
@@ -358,7 +359,14 @@ export async function fetchRetailerTargetedOffers(
   retailerQueries: Array<{ retailerId: string; searchName: string }>,
   apiKey: string,
   variant: VariantFilter = {},
+  opts: {
+    mode?: VariantMatchMode;
+    /** When false, skip google_product expansion (saves Serp calls). */
+    expandStores?: boolean;
+  } = {},
 ): Promise<RawListing[]> {
+  const mode = opts.mode ?? "exact";
+  const expandStores = opts.expandStores !== false;
   const out: RawListing[] = [];
 
   for (const { retailerId, searchName } of retailerQueries) {
@@ -372,13 +380,13 @@ export async function fetchRetailerTargetedOffers(
         const title = String(r.title ?? "");
         const link = pickMerchantLink(r);
         if (!sourceMatchesRetailer(source, retailerId)) return false;
-        return matchesVariant(title, link, variant);
+        return matchesVariant(title, link, variant, mode);
       });
 
       if (!match) continue;
 
       const productId = match.product_id ? String(match.product_id) : "";
-      if (productId) {
+      if (expandStores && productId) {
         const stores = await fetchProductStoreOffers(productId, apiKey);
         const fromStores = stores.listings.find((l) => {
           if (!sourceMatchesRetailer(l.source.toLowerCase(), retailerId)) {
@@ -388,6 +396,7 @@ export async function fetchRetailerTargetedOffers(
             l.title || String(match.title ?? query),
             l.link,
             variant,
+            mode,
           );
         });
         if (fromStores && isUsableListingUrl(fromStores.link)) {
@@ -406,7 +415,7 @@ export async function fetchRetailerTargetedOffers(
           : parsePrice(match.price);
       if (price == null || !isUsableListingUrl(link)) continue;
       if (isAggregatorUrl(link)) continue;
-      if (!matchesVariant(String(match.title ?? query), link, variant)) {
+      if (!matchesVariant(String(match.title ?? query), link, variant, mode)) {
         continue;
       }
 
@@ -451,6 +460,15 @@ function sourceMatchesRetailer(source: string, retailerId: string): boolean {
   if (retailerId === "target") return source.includes("target");
   if (retailerId === "costco") return source.includes("costco");
   if (retailerId === "samsung") return source.includes("samsung");
+  if (retailerId === "att") {
+    return source.includes("at&t") || source.includes("att.com");
+  }
+  if (retailerId === "tmobile") {
+    return source.includes("t-mobile") || source.includes("tmobile");
+  }
+  if (retailerId === "verizon") {
+    return source.includes("verizon");
+  }
   return false;
 }
 

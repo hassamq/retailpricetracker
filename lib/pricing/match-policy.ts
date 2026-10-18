@@ -12,6 +12,8 @@ export function evaluateMatchability(
   if (competitor.retailerId === storeId) return false;
   if (!policy.matches.includes(competitor.retailerId)) return false;
   if (!competitor.listed) return false;
+  // Only exact variant matches are price-match eligible
+  if ((competitor.matchQuality ?? "exact") !== "exact") return false;
 
   const ex = policy.exclusions;
   if (ex.openBox && competitor.condition === "open-box") return false;

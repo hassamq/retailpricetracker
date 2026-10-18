@@ -41,6 +41,8 @@ export function fallbackParse(
       inStock,
       url,
       notes: listing.extensions.slice(0, 2).join(" · ") || null,
+      matchQuality: listing.matchQuality,
+      matchedVariant: listing.matchedVariant,
     };
   });
 }

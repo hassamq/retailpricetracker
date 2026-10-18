@@ -87,6 +87,15 @@ export function OfferRow({
                   <Tag tone="blue">Best value</Tag>
                 </span>
               )}
+              {offer.matchQuality === "nearest" && (
+                <Tag tone="muted">
+                  {(offer.matchedVariant?.connectivity ?? "Closest") +
+                    " · closest match"}
+                </Tag>
+              )}
+              {offer.matchQuality === "carrier" && (
+                <Tag tone="muted">Carrier 5G</Tag>
+              )}
             </div>
             <p className="mt-1 line-clamp-2 text-xs text-muted">{offer.title}</p>
             <div className="mt-2 flex flex-wrap gap-1.5">

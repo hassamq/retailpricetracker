@@ -18,7 +18,7 @@ Rules:
 - basePrice must be the listed price shown for that seller.
 - instantSavings is an on-page discount already reflected or a clip coupon amount; otherwise 0.
 - condition is "open-box" only when the listing explicitly says so; otherwise "new".
-- retailerId must be one of: bestbuy, costco, target, walmart, samsung, amazon.
+- retailerId must be one of: bestbuy, costco, target, walmart, samsung, amazon, att, tmobile, verizon.
 Return JSON matching the schema.`;
 
 export async function normalizeWithGemini(
@@ -128,12 +128,32 @@ export function antiHallucinationFilter(
     allowed.set(l.retailerId, set);
   }
 
+  const meta = new Map<
+    string,
+    {
+      matchQuality: FilteredListing["matchQuality"];
+      matchedVariant: FilteredListing["matchedVariant"];
+    }
+  >(
+    listings.map((l) => [
+      l.retailerId,
+      {
+        matchQuality: l.matchQuality,
+        matchedVariant: l.matchedVariant,
+      },
+    ]),
+  );
+
   const kept: ExtractedOffer[] = [];
   for (const offer of offers) {
     const prices = allowed.get(offer.retailerId);
     if (!prices) continue;
     if (!prices.has(round2(offer.basePrice))) continue;
-    const validated = ExtractedOfferSchema.safeParse(offer);
+    const withMeta = {
+      ...offer,
+      ...meta.get(offer.retailerId),
+    };
+    const validated = ExtractedOfferSchema.safeParse(withMeta);
     if (validated.success) kept.push(validated.data);
   }
 

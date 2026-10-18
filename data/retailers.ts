@@ -4,7 +4,10 @@ export type RetailerId =
   | "target"
   | "walmart"
   | "samsung"
-  | "amazon";
+  | "amazon"
+  | "att"
+  | "tmobile"
+  | "verizon";
 
 export type PriceMatchPolicy = {
   matches: RetailerId[];
@@ -26,12 +29,27 @@ export type Retailer = {
   priceMatchPolicy: PriceMatchPolicy;
   accent: string;
   dealContext: string;
+  /** Carrier storefronts appear in the matrix only for cellular variants. */
+  kind: "national" | "carrier";
 };
+
+const emptyMatchPolicy = (notes: string): PriceMatchPolicy => ({
+  matches: [],
+  exclusions: {
+    marketplace: true,
+    membershipPricing: true,
+    openBox: true,
+    bundles: true,
+    outOfStock: true,
+  },
+  notes,
+});
 
 export const retailers: Retailer[] = [
   {
     id: "bestbuy",
     displayName: "Best Buy",
+    kind: "national",
     sourceMatchers: ["Best Buy", "bestbuy.com", "BestBuy"],
     membershipProgram: "My Best Buy / Totaltech",
     accent: "#0046BE",
@@ -51,25 +69,19 @@ export const retailers: Retailer[] = [
   {
     id: "costco",
     displayName: "Costco",
+    kind: "national",
     sourceMatchers: ["Costco", "costco.com", "Costco Wholesale"],
     membershipProgram: "Costco",
     accent: "#E31837",
     dealContext: "Warehouse price, instant rebates, bundled accessories",
-    priceMatchPolicy: {
-      matches: [],
-      exclusions: {
-        marketplace: true,
-        membershipPricing: false,
-        openBox: true,
-        bundles: true,
-        outOfStock: true,
-      },
-      notes: "Costco generally does not price-match other retailers.",
-    },
+    priceMatchPolicy: emptyMatchPolicy(
+      "Costco generally does not price-match other retailers.",
+    ),
   },
   {
     id: "target",
     displayName: "Target",
+    kind: "national",
     sourceMatchers: ["Target", "target.com"],
     membershipProgram: "Target Circle",
     accent: "#CC0000",
@@ -89,6 +101,7 @@ export const retailers: Retailer[] = [
   {
     id: "walmart",
     displayName: "Walmart",
+    kind: "national",
     sourceMatchers: ["Walmart", "walmart.com"],
     membershipProgram: "Walmart+",
     accent: "#0071CE",
@@ -108,42 +121,91 @@ export const retailers: Retailer[] = [
   {
     id: "samsung",
     displayName: "Samsung.com",
+    kind: "national",
     sourceMatchers: ["Samsung", "samsung.com", "Samsung Electronics"],
     membershipProgram: null,
     accent: "#1428A0",
     dealContext: "Direct promos, trade-in credit, education/corporate discounts",
-    priceMatchPolicy: {
-      matches: [],
-      exclusions: {
-        marketplace: true,
-        membershipPricing: true,
-        openBox: true,
-        bundles: false,
-        outOfStock: true,
-      },
-      notes: "Samsung.com promotions are typically not matched by other stores.",
-    },
+    priceMatchPolicy: emptyMatchPolicy(
+      "Samsung.com promotions are typically not matched by other stores.",
+    ),
   },
   {
     id: "amazon",
     displayName: "Amazon",
+    kind: "national",
     sourceMatchers: ["Amazon", "amazon.com", "Amazon.com"],
     membershipProgram: "Prime",
     accent: "#FF9900",
     dealContext: "Prime price, clip coupons, Subscribe & Save; Amazon or Samsung only",
-    priceMatchPolicy: {
-      matches: [],
-      exclusions: {
-        marketplace: true,
-        membershipPricing: false,
-        openBox: true,
-        bundles: true,
-        outOfStock: true,
-      },
-      notes: "Amazon does not offer a general price-match program.",
-    },
+    priceMatchPolicy: emptyMatchPolicy(
+      "Amazon does not offer a general price-match program.",
+    ),
+  },
+  {
+    id: "att",
+    displayName: "AT&T",
+    kind: "carrier",
+    sourceMatchers: ["AT&T", "att.com", "AT&T Wireless"],
+    membershipProgram: null,
+    accent: "#00A8E0",
+    dealContext: "Carrier 5G tablet pricing and installment plans",
+    priceMatchPolicy: emptyMatchPolicy(
+      "Carrier pricing is not price-matched by national retailers.",
+    ),
+  },
+  {
+    id: "tmobile",
+    displayName: "T-Mobile",
+    kind: "carrier",
+    sourceMatchers: ["T-Mobile", "tmobile.com", "T Mobile"],
+    membershipProgram: null,
+    accent: "#E20074",
+    dealContext: "Carrier 5G tablet pricing and installment plans",
+    priceMatchPolicy: emptyMatchPolicy(
+      "Carrier pricing is not price-matched by national retailers.",
+    ),
+  },
+  {
+    id: "verizon",
+    displayName: "Verizon",
+    kind: "carrier",
+    sourceMatchers: ["Verizon", "verizon.com", "Verizon Wireless"],
+    membershipProgram: null,
+    accent: "#CD040B",
+    dealContext: "Carrier 5G tablet pricing and installment plans",
+    priceMatchPolicy: emptyMatchPolicy(
+      "Carrier pricing is not price-matched by national retailers.",
+    ),
   },
 ];
+
+export const NATIONAL_RETAILER_IDS: RetailerId[] = retailers
+  .filter((r) => r.kind === "national")
+  .map((r) => r.id);
+
+export const CARRIER_RETAILER_IDS: RetailerId[] = retailers
+  .filter((r) => r.kind === "carrier")
+  .map((r) => r.id);
+
+export const nationalRetailers = retailers.filter((r) => r.kind === "national");
+
+export function isCellularConnectivity(
+  connectivity: string | undefined | null,
+): boolean {
+  const c = connectivity?.toLowerCase().trim() ?? "";
+  return c === "5g" || c === "lte";
+}
+
+/** Matrix rows: nationals always; carriers only for cellular variants. */
+export function retailersForVariant(
+  variant: Record<string, string> = {},
+): Retailer[] {
+  if (isCellularConnectivity(variant.connectivity)) {
+    return retailers;
+  }
+  return nationalRetailers;
+}
 
 export const POLICY_FOOTNOTE =
   "Policies change. Verify at the register.";
@@ -209,6 +271,12 @@ export function getRetailerSearchUrl(
       return `https://www.costco.com/CatalogSearch?dept=All&keyword=${q}`;
     case "samsung":
       return `https://www.samsung.com/us/search/searchMain/?query=${q}`;
+    case "att":
+      return `https://www.att.com/buy/search/?q=${q}`;
+    case "tmobile":
+      return `https://www.t-mobile.com/commerce/search?q=${q}`;
+    case "verizon":
+      return `https://www.verizon.com/search/?q=${q}`;
     default:
       return `https://www.google.com/search?q=${q}`;
   }
@@ -234,14 +302,17 @@ export function resolveOfferUrl(
 
 export function matchRetailerId(source: string): RetailerId | null {
   const normalized = source.toLowerCase();
+  // Prefer longer / more specific matchers first (e.g. AT&T before generic)
+  let best: { id: RetailerId; len: number } | null = null;
   for (const retailer of retailers) {
-    if (
-      retailer.sourceMatchers.some((m) =>
-        normalized.includes(m.toLowerCase()),
-      )
-    ) {
-      return retailer.id;
+    for (const m of retailer.sourceMatchers) {
+      const needle = m.toLowerCase();
+      if (normalized.includes(needle)) {
+        if (!best || needle.length > best.len) {
+          best = { id: retailer.id, len: needle.length };
+        }
+      }
     }
   }
-  return null;
+  return best?.id ?? null;
 }

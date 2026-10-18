@@ -1,7 +1,15 @@
-import { retailers, type RetailerId } from "@/data/retailers";
+import {
+  retailersForVariant,
+  type Retailer,
+  type RetailerId,
+} from "@/data/retailers";
 import { getTradeInValue } from "@/data/trade-in";
 import { roundCents } from "@/lib/format";
-import type { CalculatedOffer, ExtractedOffer } from "./types";
+import type {
+  CalculatedOffer,
+  ExtractedOffer,
+  MatchQuality,
+} from "./types";
 import { evaluateMatchability, buildVerdict } from "./match-policy";
 import type { PriceMatchVerdict } from "./types";
 
@@ -13,6 +21,15 @@ export type CalculateOptions = {
   includeTradeIn: boolean;
   haveMemberships: boolean;
   promoDiscount?: number;
+  /** Defaults to nationals (+ carriers when variant is cellular). */
+  matrixRetailers?: Retailer[];
+  variant?: Record<string, string>;
+};
+
+const QUALITY_SORT: Record<MatchQuality, number> = {
+  exact: 0,
+  carrier: 1,
+  nearest: 2,
 };
 
 export function netPriceFor(
@@ -44,12 +61,18 @@ export function calculateOffers(
   verdict: PriceMatchVerdict | null;
 } {
   const tradeInValue = getTradeInValue(opts.productId);
+  const matrix =
+    opts.matrixRetailers ?? retailersForVariant(opts.variant ?? {});
+
   const byRetailer = new Map<string, ExtractedOffer>();
   for (const e of extracted) {
-    byRetailer.set(e.retailerId, e);
+    const prev = byRetailer.get(e.retailerId);
+    if (!prev || qualityRank(e) < qualityRank(prev)) {
+      byRetailer.set(e.retailerId, e);
+    }
   }
 
-  const calculated: CalculatedOffer[] = retailers.map((retailer) => {
+  const calculated: CalculatedOffer[] = matrix.map((retailer) => {
     const offer = byRetailer.get(retailer.id);
     if (!offer) {
       return {
@@ -65,6 +88,8 @@ export function calculateOffers(
         inStock: null,
         url: "",
         notes: null,
+        matchQuality: "exact" as const,
+        matchedVariant: null,
         netPrice: Number.POSITIVE_INFINITY,
         listed: false,
         matchable: false,
@@ -75,6 +100,7 @@ export function calculateOffers(
       };
     }
 
+    const matchQuality = offer.matchQuality ?? "exact";
     const membershipGated = Boolean(offer.membershipRequired);
     const net = netPriceFor(offer, {
       includeGiftCards: opts.includeGiftCards,
@@ -86,6 +112,8 @@ export function calculateOffers(
     return {
       ...offer,
       retailerId: retailer.id,
+      matchQuality,
+      matchedVariant: offer.matchedVariant ?? null,
       netPrice: net,
       listed: true,
       matchable: false,
@@ -96,9 +124,12 @@ export function calculateOffers(
     };
   });
 
-  // Sort: listed first by net ascending; unlisted at bottom
+  // Exact first, then carrier, then nearest; within tier by net ascending
   calculated.sort((a, b) => {
     if (a.listed !== b.listed) return a.listed ? -1 : 1;
+    const qa = QUALITY_SORT[a.matchQuality ?? "exact"];
+    const qb = QUALITY_SORT[b.matchQuality ?? "exact"];
+    if (qa !== qb) return qa - qb;
     if (a.netPrice !== b.netPrice) return a.netPrice - b.netPrice;
     const stockA = a.inStock === true ? 0 : 1;
     const stockB = b.inStock === true ? 0 : 1;
@@ -106,10 +137,16 @@ export function calculateOffers(
     return a.retailerId.localeCompare(b.retailerId);
   });
 
-  // Best Value: lowest net that is new, in stock (or unknown), not membership-gated unless toggle on
+  // Best Value: lowest net among exact matches only (when any exact exists)
+  const exactListed = calculated.filter(
+    (row) => row.listed && (row.matchQuality ?? "exact") === "exact",
+  );
+  const bestPool = exactListed.length
+    ? exactListed
+    : calculated.filter((row) => row.listed);
+
   let bestValue: CalculatedOffer | null = null;
-  for (const row of calculated) {
-    if (!row.listed) continue;
+  for (const row of bestPool) {
     if (row.condition !== "new") continue;
     if (row.inStock === false) continue;
     if (row.membershipGated && !opts.haveMemberships) continue;
@@ -121,7 +158,6 @@ export function calculateOffers(
     bestValue.isBestValue = true;
   }
 
-  // Matchability vs user's store
   if (opts.storeId && bestValue) {
     for (const row of calculated) {
       if (!row.listed) continue;
@@ -135,4 +171,8 @@ export function calculateOffers(
       : null;
 
   return { offers: calculated, bestValue, verdict };
+}
+
+function qualityRank(offer: ExtractedOffer): number {
+  return QUALITY_SORT[offer.matchQuality ?? "exact"];
 }

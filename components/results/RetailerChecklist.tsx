@@ -1,6 +1,6 @@
 "use client";
 
-import { retailers, type RetailerId } from "@/data/retailers";
+import { nationalRetailers, type RetailerId } from "@/data/retailers";
 import { cn } from "@/lib/format";
 
 type Props = {
@@ -11,7 +11,7 @@ type Props = {
 export function RetailerChecklist({ resolved, pending }: Props) {
   return (
     <ul className="flex flex-wrap gap-x-3 gap-y-1 text-xs font-semibold text-muted">
-      {retailers.map((r) => {
+      {nationalRetailers.map((r) => {
         const done = resolved.includes(r.id);
         return (
           <li key={r.id} className="inline-flex items-center gap-1">

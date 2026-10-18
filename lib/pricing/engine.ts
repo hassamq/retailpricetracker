@@ -2,10 +2,14 @@ import { getProduct, buildSearchQuery } from "@/data/products";
 import { cache, cacheKey, PRICE_CACHE_TTL_MS } from "@/lib/cache";
 import type { PriceSource } from "@/lib/store";
 import {
+  CARRIER_RETAILER_IDS,
   getRetailer,
+  isCellularConnectivity,
   isGoogleShoppingAggregatorUrl,
   isUsableListingUrl,
   matchRetailerId,
+  NATIONAL_RETAILER_IDS,
+  retailersForVariant,
   type RetailerId,
 } from "@/data/retailers";
 import {
@@ -20,7 +24,12 @@ import {
   SerpApiError,
   type SerpShoppingResponse,
 } from "./serpapi";
-import { prefilterListings, uniqueRetailerCount } from "./prefilter";
+import {
+  mergeFilteredByQuality,
+  prefilterListings,
+  uniqueRetailerCount,
+  type FilteredListing,
+} from "./prefilter";
 import { normalizeWithGemini } from "./gemini-normalize";
 import { calculateOffers } from "./calculate";
 import { generateMockListings, buildFixtureShoppingPayload } from "./mock-data";
@@ -42,6 +51,8 @@ export type EngineInput = {
 
 const MIN_LIVE_RETAILERS = 4;
 const MAX_SERP_CALLS = 4;
+const MAX_CARRIER_TARGETS = 3;
+const MAX_NEAREST_TARGETS = 4;
 
 export async function runPriceComparison(
   input: EngineInput,
@@ -67,6 +78,10 @@ export async function runPriceComparison(
   let serpCalls = 0;
   const serpApiKey = process.env.SERPAPI_KEY?.trim() ?? "";
   const useMock = process.env.USE_MOCK_DATA === "true";
+  const cellular = isCellularConnectivity(input.variant.connectivity);
+
+  let carrierRaw: RawListing[] = [];
+  let nearestRaw: RawListing[] = [];
 
   if (!useMock) {
     // 1) SerpApi Google Shopping (primary multi-retailer live path)
@@ -77,7 +92,6 @@ export async function runPriceComparison(
         listings = shopping.listings;
         if (listings.length) source = "live";
 
-        // Expand top catalog matches → per-store offers with direct PDP links
         const catalogIds = pickShoppingProductIds(
           shopping.data,
           {
@@ -95,7 +109,7 @@ export async function runPriceComparison(
               catalogId,
               serpApiKey,
             );
-            serpCalls += 2; // google_product (+ optional immersive)
+            serpCalls += 2;
             if (stores.listings.length) {
               listings = [...stores.listings, ...listings];
               source = "live";
@@ -109,10 +123,15 @@ export async function runPriceComparison(
           }
         }
 
-        let filtered = prefilterListings(listings, product, input.variant);
+        let exactFiltered = prefilterListings(
+          listings,
+          product,
+          input.variant,
+          { mode: "exact", matchQuality: "exact" },
+        );
 
         if (
-          uniqueRetailerCount(filtered) < MIN_LIVE_RETAILERS &&
+          uniqueRetailerCount(exactFiltered) < MIN_LIVE_RETAILERS &&
           serpCalls < MAX_SERP_CALLS
         ) {
           const token = listings.find((l) => l.productToken)?.productToken;
@@ -121,7 +140,12 @@ export async function runPriceComparison(
               const immersive = await fetchImmersiveProduct(token, serpApiKey);
               serpCalls += 1;
               listings = [...immersive.listings, ...listings];
-              filtered = prefilterListings(listings, product, input.variant);
+              exactFiltered = prefilterListings(
+                listings,
+                product,
+                input.variant,
+                { mode: "exact", matchQuality: "exact" },
+              );
             } catch (e) {
               liveError =
                 e instanceof Error
@@ -131,25 +155,28 @@ export async function runPriceComparison(
           }
         }
 
-        // Targeted retailer searches for still-missing national retailers
-        filtered = prefilterListings(listings, product, input.variant);
-        const have = new Set(filtered.map((l) => l.retailerId));
-        const missing = (
-          ["bestbuy", "amazon", "target", "costco", "walmart", "samsung"] as const
+        // Exact targeted fill for missing nationals
+        exactFiltered = prefilterListings(listings, product, input.variant, {
+          mode: "exact",
+          matchQuality: "exact",
+        });
+        const haveExact = new Set(exactFiltered.map((l) => l.retailerId));
+        const missingExact = NATIONAL_RETAILER_IDS.filter(
+          (id) => !haveExact.has(id),
         )
-          .filter((id) => !have.has(id))
           .slice(0, 4)
           .map((id) => ({
             retailerId: id,
             searchName: getRetailer(id).displayName,
           }));
-        if (missing.length && serpCalls < MAX_SERP_CALLS + 8) {
+        if (missingExact.length && serpCalls < MAX_SERP_CALLS + 8) {
           try {
             const targeted = await fetchRetailerTargetedOffers(
               query,
-              missing,
+              missingExact,
               serpApiKey,
               input.variant,
+              { mode: "exact" },
             );
             if (targeted.length) {
               listings = [...listings, ...targeted];
@@ -158,6 +185,74 @@ export async function runPriceComparison(
           } catch (e) {
             console.warn(
               "[pricing] targeted retailer fill failed:",
+              e instanceof Error ? e.message : e,
+            );
+          }
+        }
+
+        // Carrier tier (cellular variants only)
+        if (cellular && serpCalls < MAX_SERP_CALLS + 8 + MAX_CARRIER_TARGETS) {
+          const carrierQueries = CARRIER_RETAILER_IDS.slice(
+            0,
+            MAX_CARRIER_TARGETS,
+          ).map((id) => ({
+            retailerId: id,
+            searchName: getRetailer(id).displayName,
+          }));
+          try {
+            carrierRaw = await fetchRetailerTargetedOffers(
+              query,
+              carrierQueries,
+              serpApiKey,
+              input.variant,
+              { mode: "exact", expandStores: true },
+            );
+            if (carrierRaw.length) source = "live";
+          } catch (e) {
+            console.warn(
+              "[pricing] carrier fill failed:",
+              e instanceof Error ? e.message : e,
+            );
+          }
+        }
+
+        // Nearest Wi‑Fi tier for still-missing nationals
+        const afterExact = prefilterListings(
+          listings,
+          product,
+          input.variant,
+          { mode: "exact", matchQuality: "exact" },
+        );
+        const haveNationals = new Set(afterExact.map((l) => l.retailerId));
+        const missingNearest = NATIONAL_RETAILER_IDS.filter(
+          (id) => id !== "samsung" && !haveNationals.has(id),
+        ).slice(0, MAX_NEAREST_TARGETS);
+
+        if (
+          cellular &&
+          missingNearest.length &&
+          serpCalls < MAX_SERP_CALLS + 8 + MAX_CARRIER_TARGETS + 8
+        ) {
+          const nearestVariant = {
+            ...input.variant,
+            connectivity: "Wi-Fi",
+          };
+          const nearestQuery = buildSearchQuery(product, nearestVariant);
+          try {
+            nearestRaw = await fetchRetailerTargetedOffers(
+              nearestQuery,
+              missingNearest.map((id) => ({
+                retailerId: id,
+                searchName: getRetailer(id).displayName,
+              })),
+              serpApiKey,
+              nearestVariant,
+              { mode: "nearest", expandStores: true },
+            );
+            if (nearestRaw.length) source = "live";
+          } catch (e) {
+            console.warn(
+              "[pricing] nearest Wi‑Fi fill failed:",
               e instanceof Error ? e.message : e,
             );
           }
@@ -176,10 +271,13 @@ export async function runPriceComparison(
       liveError = "SERPAPI_KEY not set";
     }
 
-    // 2) Verified retailer pages/APIs — fill gaps; prefer these over Serp when both exist
+    // 2) Verified retailer pages — exact gaps only
     if (
       uniqueRetailerCount(
-        prefilterListings(listings, product, input.variant),
+        prefilterListings(listings, product, input.variant, {
+          mode: "exact",
+          matchQuality: "exact",
+        }),
       ) < MIN_LIVE_RETAILERS
     ) {
       try {
@@ -196,19 +294,23 @@ export async function runPriceComparison(
       }
     }
 
-    // 3) Gemini grounding for remaining retailers (never overrides verified/Serp)
+    // 3) Gemini grounding for remaining exact nationals
     if (
       uniqueRetailerCount(
-        prefilterListings(listings, product, input.variant),
+        prefilterListings(listings, product, input.variant, {
+          mode: "exact",
+          matchQuality: "exact",
+        }),
       ) < MIN_LIVE_RETAILERS &&
       isGenAIConfigured()
     ) {
       try {
         const grounded = await groundingPriceSearch(product, query);
         const have = new Set(
-          prefilterListings(listings, product, input.variant).map(
-            (l) => l.retailerId,
-          ),
+          prefilterListings(listings, product, input.variant, {
+            mode: "exact",
+            matchQuality: "exact",
+          }).map((l) => l.retailerId),
         );
         const missing = grounded.filter((raw) => {
           const id = matchRetailerId(raw.source);
@@ -230,7 +332,7 @@ export async function runPriceComparison(
   }
 
   // 4) Fixtures / generated mock (demo never hard-fails)
-  if (!listings.length) {
+  if (!listings.length && !carrierRaw.length && !nearestRaw.length) {
     const fixtureName = `shopping-${product.id}`;
     const fixture =
       (await loadFixture<SerpShoppingResponse>(fixtureName)) ??
@@ -241,20 +343,54 @@ export async function runPriceComparison(
     }
   }
 
-  if (!listings.length) {
+  if (!listings.length && !carrierRaw.length && !nearestRaw.length) {
     listings = generateMockListings(product);
     source = "mock";
   }
 
-  let filtered = prefilterListings(listings, product, input.variant);
+  const exactFiltered = prefilterListings(listings, product, input.variant, {
+    mode: "exact",
+    matchQuality: "exact",
+  });
+
+  const carrierFiltered = prefilterListings(
+    carrierRaw,
+    product,
+    input.variant,
+    { mode: "exact", matchQuality: "carrier" },
+  ).filter((l) => CARRIER_RETAILER_IDS.includes(l.retailerId));
+
+  const nearestVariant = {
+    ...input.variant,
+    connectivity: "Wi-Fi",
+  };
+  const nearestFiltered =
+    cellular && nearestRaw.length
+      ? prefilterListings(nearestRaw, product, nearestVariant, {
+          mode: "nearest",
+          matchQuality: "nearest",
+        }).filter((l) => {
+          if (!NATIONAL_RETAILER_IDS.includes(l.retailerId)) return false;
+          return !exactFiltered.some((e) => e.retailerId === l.retailerId);
+        })
+      : [];
+
+  let filtered: FilteredListing[] = mergeFilteredByQuality(
+    exactFiltered,
+    carrierFiltered,
+    nearestFiltered,
+  );
+
   if (!filtered.length) {
     filtered = prefilterListings(
       generateMockListings(product),
       product,
       input.variant,
+      { mode: "exact", matchQuality: "exact" },
     );
     if (source === "live") source = "mock";
   }
+
   const extracted = sanitizeOfferUrls(await normalizeWithGemini(filtered));
 
   const { offers, bestValue, verdict } = calculateOffers(extracted, {
@@ -265,6 +401,8 @@ export async function runPriceComparison(
     includeTradeIn: input.includeTradeIn ?? false,
     haveMemberships: input.haveMemberships ?? true,
     promoDiscount: input.promoDiscount ?? 0,
+    variant: input.variant,
+    matrixRetailers: retailersForVariant(input.variant),
   });
 
   const result: PriceComparisonResult = {
@@ -303,7 +441,6 @@ function sanitizeOfferUrls<T extends { url: string }>(offers: T[]): T[] {
   });
 }
 
-/** Prefer later (verified page) listings when the same retailer appears twice. */
 function mergePreferringVerified(
   existing: RawListing[],
   verified: RawListing[],
@@ -342,6 +479,8 @@ function recomputeFromCached(
       inStock: o.inStock,
       url: o.url,
       notes: o.notes,
+      matchQuality: o.matchQuality ?? "exact",
+      matchedVariant: o.matchedVariant ?? null,
     }));
 
   const { offers, bestValue, verdict } = calculateOffers(extracted, {
@@ -352,6 +491,8 @@ function recomputeFromCached(
     includeTradeIn: input.includeTradeIn ?? false,
     haveMemberships: input.haveMemberships ?? true,
     promoDiscount: input.promoDiscount ?? 0,
+    variant: input.variant,
+    matrixRetailers: retailersForVariant(input.variant),
   });
 
   return {

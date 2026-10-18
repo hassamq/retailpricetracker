@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { brand } from "@/lib/brand";
-import { retailers } from "@/data/retailers";
+import { nationalRetailers } from "@/data/retailers";
 import { categoryLabels, products } from "@/data/products";
 import { Wordmark } from "./Wordmark";
 
@@ -44,7 +44,7 @@ export function Footer() {
             Retailers
           </h3>
           <ul className="mt-4 space-y-2.5">
-            {retailers.map((r) => (
+            {nationalRetailers.map((r) => (
               <li key={r.id} className="text-sm text-muted">
                 {r.displayName}
               </li>

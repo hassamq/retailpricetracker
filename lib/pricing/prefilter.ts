@@ -5,11 +5,15 @@ import {
   matchRetailerId,
   type RetailerId,
 } from "@/data/retailers";
-import type { RawListing } from "./types";
+import type { MatchQuality, MatchedVariant, RawListing } from "./types";
+
+export type VariantMatchMode = "exact" | "nearest";
 
 export type FilteredListing = RawListing & {
   retailerId: RetailerId;
   condition: "new" | "open-box";
+  matchQuality: MatchQuality;
+  matchedVariant: MatchedVariant | null;
 };
 
 export type VariantFilter = {
@@ -37,12 +41,13 @@ const STORAGE_TOKENS = [
 
 /**
  * Reject listings that clearly advertise a different storage/connectivity
- * than the shopper selected (e.g. Wi-Fi PDP when they asked for 5G).
+ * than the shopper selected. Nearest mode allows Wi‑Fi when 5G was requested.
  */
 export function matchesVariant(
   title: string,
   link: string,
   variant: VariantFilter = {},
+  mode: VariantMatchMode = "exact",
 ): boolean {
   const blob = `${title} ${link}`.toLowerCase();
 
@@ -55,25 +60,73 @@ export function matchesVariant(
   }
 
   const connectivity = variant.connectivity?.toLowerCase().trim();
+  if (mode === "nearest") {
+    // Nearest: keep storage rules; allow alternate connectivity (Wi‑Fi ↔ 5G)
+    return true;
+  }
+
   if (connectivity === "5g") {
     const has5g = /\b5g\b/.test(blob);
     const hasWifi = /wi-?fi/.test(blob);
-    // Explicit Wi-Fi SKU with no 5G signal is the wrong catalog row
     if (hasWifi && !has5g) return false;
   } else if (connectivity === "wi-fi" || connectivity === "wifi") {
     const has5g = /\b5g\b/.test(blob);
     const hasWifi = /wi-?fi/.test(blob);
     if (has5g && !hasWifi) return false;
+  } else if (connectivity === "lte") {
+    const hasLte = /\blte\b/.test(blob);
+    const hasWifi = /wi-?fi/.test(blob);
+    if (hasWifi && !hasLte && !/\b5g\b/.test(blob)) return false;
   }
 
   return true;
+}
+
+/** Infer what variant the listing actually describes (for nearest badges). */
+export function inferMatchedVariant(
+  title: string,
+  link: string,
+  requested: VariantFilter = {},
+): MatchedVariant {
+  const blob = `${title} ${link}`.toLowerCase();
+  const matched: MatchedVariant = {};
+
+  const storageHit = STORAGE_TOKENS.find((token) => blob.includes(token));
+  if (storageHit) {
+    matched.storage = storageHit.replace("gb", "GB").replace("tb", "TB");
+  } else if (requested.storage) {
+    matched.storage = requested.storage;
+  }
+
+  if (/\b5g\b/.test(blob)) {
+    matched.connectivity = "5G";
+  } else if (/\blte\b/.test(blob)) {
+    matched.connectivity = "LTE";
+  } else if (/wi-?fi/.test(blob)) {
+    matched.connectivity = "Wi-Fi";
+  } else if (requested.connectivity) {
+    matched.connectivity = requested.connectivity;
+  }
+
+  if (requested.color) {
+    const color = requested.color.toLowerCase();
+    if (blob.includes(color)) matched.color = requested.color;
+  }
+
+  return matched;
 }
 
 export function prefilterListings(
   listings: RawListing[],
   product: Product,
   variant: VariantFilter = {},
+  opts: {
+    mode?: VariantMatchMode;
+    matchQuality?: MatchQuality;
+  } = {},
 ): FilteredListing[] {
+  const mode = opts.mode ?? "exact";
+  const matchQuality = opts.matchQuality ?? (mode === "nearest" ? "nearest" : "exact");
   const min = product.msrp * 0.4;
   const max = product.msrp * 1.6;
 
@@ -92,18 +145,16 @@ export function prefilterListings(
       continue;
     }
 
-    // Require key model tokens in the title (all must match)
     const missingToken = product.modelTokens.some(
       (t) => !titleLower.includes(t.toLowerCase()),
     );
     if (missingToken) continue;
 
-    if (!matchesVariant(listing.title, listing.link, variant)) continue;
+    if (!matchesVariant(listing.title, listing.link, variant, mode)) continue;
 
     const retailerId = matchRetailerId(listing.source);
     if (!retailerId) continue;
 
-    // Walmart / Amazon: drop marketplace / 3P sellers (e.g. "Walmart - HotDeals")
     if (retailerId === "walmart" || retailerId === "amazon") {
       const source = listing.source.trim();
       if (/^(walmart|amazon)\s*[-–:]\s*.+/i.test(source)) {
@@ -127,10 +178,21 @@ export function prefilterListings(
         ? "open-box"
         : "new";
 
-    out.push({ ...listing, retailerId, condition });
+    const matchedVariant = inferMatchedVariant(
+      listing.title,
+      listing.link,
+      variant,
+    );
+
+    out.push({
+      ...listing,
+      retailerId,
+      condition,
+      matchQuality,
+      matchedVariant,
+    });
   }
 
-  // Keep best offer per retailer: prefer a real PDP, then lowest price
   const best = new Map<RetailerId, FilteredListing>();
   for (const item of out) {
     const prev = best.get(item.retailerId);
@@ -143,6 +205,12 @@ export function prefilterListings(
 }
 
 function isPreferredListing(a: FilteredListing, b: FilteredListing): boolean {
+  const qualityRank = (q: MatchQuality) =>
+    q === "exact" ? 0 : q === "carrier" ? 1 : 2;
+  const qa = qualityRank(a.matchQuality);
+  const qb = qualityRank(b.matchQuality);
+  if (qa !== qb) return qa < qb;
+
   const aPdp = hasProductPage(a.link);
   const bPdp = hasProductPage(b.link);
   if (aPdp !== bPdp) return aPdp;
@@ -155,4 +223,20 @@ function hasProductPage(link: string): boolean {
 
 export function uniqueRetailerCount(listings: FilteredListing[]): number {
   return new Set(listings.map((l) => l.retailerId)).size;
+}
+
+/** Merge buckets: keep better matchQuality per retailer. */
+export function mergeFilteredByQuality(
+  ...groups: FilteredListing[][]
+): FilteredListing[] {
+  const best = new Map<RetailerId, FilteredListing>();
+  for (const group of groups) {
+    for (const item of group) {
+      const prev = best.get(item.retailerId);
+      if (!prev || isPreferredListing(item, prev)) {
+        best.set(item.retailerId, item);
+      }
+    }
+  }
+  return Array.from(best.values());
 }

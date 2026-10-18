@@ -7,7 +7,17 @@ const BodySchema = z.object({
   productId: z.string().min(1),
   variant: z.record(z.string(), z.string()).default({}),
   storeId: z
-    .enum(["bestbuy", "costco", "target", "walmart", "samsung", "amazon"])
+    .enum([
+      "bestbuy",
+      "costco",
+      "target",
+      "walmart",
+      "samsung",
+      "amazon",
+      "att",
+      "tmobile",
+      "verizon",
+    ])
     .nullable()
     .optional(),
   includeGiftCards: z.boolean().optional(),

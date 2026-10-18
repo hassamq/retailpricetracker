@@ -2,6 +2,16 @@ import { z } from "zod";
 import type { RetailerId } from "@/data/retailers";
 import type { PriceSource } from "@/lib/store";
 
+export const MatchQualitySchema = z.enum(["exact", "carrier", "nearest"]);
+export type MatchQuality = z.infer<typeof MatchQualitySchema>;
+
+export const MatchedVariantSchema = z.object({
+  storage: z.string().optional(),
+  connectivity: z.string().optional(),
+  color: z.string().optional(),
+});
+export type MatchedVariant = z.infer<typeof MatchedVariantSchema>;
+
 export const RawListingSchema = z.object({
   title: z.string(),
   source: z.string(),
@@ -30,6 +40,8 @@ export const ExtractedOfferSchema = z.object({
   inStock: z.boolean().nullable(),
   url: z.string(),
   notes: z.string().nullable(),
+  matchQuality: MatchQualitySchema.optional().default("exact"),
+  matchedVariant: MatchedVariantSchema.optional().nullable(),
 });
 
 export type ExtractedOffer = z.infer<typeof ExtractedOfferSchema>;
