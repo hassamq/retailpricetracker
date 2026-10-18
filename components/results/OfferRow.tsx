@@ -46,7 +46,9 @@ export function OfferRow({
       <div className="flex items-center gap-3 border-t border-line px-4 py-4 text-sm opacity-60">
         <span className="w-8 tabular-nums text-muted">{rank}</span>
         <span className="font-bold text-ink">{retailer.displayName}</span>
-        <span className="text-muted">Not listed</span>
+        <span className="text-muted">
+          No matching offer for this variant
+        </span>
       </div>
     );
   }
@@ -162,6 +164,7 @@ export function OfferRow({
               href={viewUrl}
               target="_blank"
               rel="noopener noreferrer"
+              title={viewUrl}
               className="inline-flex items-center gap-1.5 rounded-full border border-ink bg-ink px-3 py-1.5 text-xs font-bold text-paper transition-colors hover:bg-[#363636]"
             >
               View

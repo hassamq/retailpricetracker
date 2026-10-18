@@ -112,12 +112,14 @@ export const useWizardStore = create<WizardState>((set, get) => ({
     const color = params.get("color") ?? undefined;
     const category = params.get("category") as ProductCategory | null;
 
+    const compare = params.get("compare") === "1";
     set({
       productId: product,
       storeId: store,
       category: category,
       variant: { storage, connectivity, size, color },
-      step: product && store ? 4 : product ? 2 : 1,
+      // Store is optional — compare=1 (or a selected store) opens results
+      step: product && (store || compare) ? 4 : product ? 2 : 1,
     });
   },
 }));

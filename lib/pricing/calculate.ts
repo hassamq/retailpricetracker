@@ -54,7 +54,7 @@ export function calculateOffers(
     if (!offer) {
       return {
         retailerId: retailer.id,
-        title: "Not listed",
+        title: "No matching offer for this variant",
         basePrice: 0,
         instantSavings: 0,
         couponCode: null,

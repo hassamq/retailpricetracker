@@ -92,7 +92,7 @@ export function ResultsPanel() {
     void fetchPrices(false);
   }, [fetchPrices]);
 
-  if (!product || !store) {
+  if (!product) {
     return (
       <p className="text-sm text-muted">
         Complete the previous steps to compare prices.
@@ -147,7 +147,9 @@ export function ResultsPanel() {
             </h2>
             <p className="mt-1 text-sm text-muted">{variantLabel}</p>
             <p className="mt-2 text-sm font-semibold text-ink">
-              Your store: {store.displayName}
+              {store
+                ? `Your store: ${store.displayName}`
+                : "No store selected — price match tips are generic"}
             </p>
             <div className="mt-3 flex flex-wrap items-center gap-3">
               {data && (
@@ -206,7 +208,7 @@ export function ResultsPanel() {
             bestValue={data.bestValue}
             verdict={data.verdict}
             msrp={product.msrp}
-            storeName={store.displayName}
+            storeName={store?.displayName ?? "Any store"}
           />
 
           <ComparisonMatrix

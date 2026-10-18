@@ -12,7 +12,7 @@ export function SourceLabel({ source, updatedAt }: Props) {
   if (source === "live") {
     return (
       <span className="text-xs font-semibold text-success">
-        Live · updated {formatClockTime(updatedAt)} · verified retailer pages
+        Live · updated {formatClockTime(updatedAt)}
       </span>
     );
   }
@@ -25,7 +25,7 @@ export function SourceLabel({ source, updatedAt }: Props) {
   }
   return (
     <span className="text-xs font-semibold text-muted">
-      Sample data · live prices need Gemini (GOOGLE_API_KEY or Vertex)
+      Sample data · add SERPAPI_KEY for live retail prices
     </span>
   );
 }

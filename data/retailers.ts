@@ -154,7 +154,7 @@ export function getRetailer(id: RetailerId): Retailer {
   return found;
 }
 
-/** True when a listing URL is safe to open (not empty / placeholder). */
+/** True when a listing URL is a real product page (not empty / homepage / placeholder). */
 export function isUsableListingUrl(url: string | null | undefined): boolean {
   if (!url || url === "#" || url === "/") return false;
   try {
@@ -163,7 +163,28 @@ export function isUsableListingUrl(url: string | null | undefined): boolean {
     const host = parsed.hostname.toLowerCase();
     if (host === "example.com" || host.endsWith(".example.com")) return false;
     if (host === "localhost" || host === "127.0.0.1") return false;
+    // Bare retailer homepages are not product links
+    const path = parsed.pathname.replace(/\/+$/, "");
+    if (!path || path === "") return false;
     return true;
+  } catch {
+    return false;
+  }
+}
+
+/** Google Shopping aggregator pages are not the retailer's product PDP. */
+export function isGoogleShoppingAggregatorUrl(
+  url: string | null | undefined,
+): boolean {
+  if (!url) return false;
+  try {
+    const host = new URL(url).hostname.toLowerCase();
+    if (!host.includes("google.")) return false;
+    return (
+      url.includes("ibp=oshop") ||
+      url.includes("/shopping") ||
+      url.includes("prds=")
+    );
   } catch {
     return false;
   }
@@ -193,12 +214,21 @@ export function getRetailerSearchUrl(
   }
 }
 
+/**
+ * Prefer the exact retailer product URL that produced the listed price.
+ * Fall back to retailer search only when we don't have a real PDP link.
+ */
 export function resolveOfferUrl(
   retailerId: RetailerId,
   productName: string,
   listingUrl?: string | null,
 ): string {
-  if (isUsableListingUrl(listingUrl)) return listingUrl as string;
+  if (
+    isUsableListingUrl(listingUrl) &&
+    !isGoogleShoppingAggregatorUrl(listingUrl)
+  ) {
+    return listingUrl as string;
+  }
   return getRetailerSearchUrl(retailerId, productName);
 }
 

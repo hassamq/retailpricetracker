@@ -1,3 +1,7 @@
+import {
+  isGoogleShoppingAggregatorUrl,
+  isUsableListingUrl,
+} from "@/data/retailers";
 import type { FilteredListing } from "./prefilter";
 import type { ExtractedOffer } from "./types";
 
@@ -18,6 +22,11 @@ export function fallbackParse(
 
     const membershipRequired = detectMembership(listing.extensions, listing.retailerId);
     const inStock = detectStock(listing.extensions, listing.delivery);
+    const url =
+      isUsableListingUrl(listing.link) &&
+      !isGoogleShoppingAggregatorUrl(listing.link)
+        ? listing.link
+        : "";
 
     return {
       retailerId: listing.retailerId,
@@ -30,7 +39,7 @@ export function fallbackParse(
       membershipRequired,
       condition: listing.condition,
       inStock,
-      url: listing.link || "#",
+      url,
       notes: listing.extensions.slice(0, 2).join(" · ") || null,
     };
   });

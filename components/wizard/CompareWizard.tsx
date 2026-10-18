@@ -45,9 +45,10 @@ export function CompareWizard({ resultsSlot }: Props) {
     if (variant.size) params.set("size", variant.size);
     if (variant.color) params.set("color", variant.color);
     if (storeId) params.set("store", storeId);
+    if (step === 4) params.set("compare", "1");
     const qs = params.toString();
     router.replace(qs ? `/?${qs}` : "/", { scroll: false });
-  }, [category, productId, variant, storeId, router]);
+  }, [category, productId, variant, storeId, step, router]);
 
   const product = productId ? getProduct(productId) : undefined;
   const store = storeId ? getRetailer(storeId) : undefined;
