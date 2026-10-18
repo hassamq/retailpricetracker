@@ -1,0 +1,234 @@
+{
+  "search_metadata": {
+    "id": "6ad5064a6a1f11788fd89d36",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/MSRushjXcUHWQjLyGqnPIv1Uf_lkSaDLtJ1qgcZaMdE/6ad5064a6a1f11788fd89d36.json",
+    "markdown_endpoint": "https://serpapi.com/searches/MSRushjXcUHWQjLyGqnPIv1Uf_lkSaDLtJ1qgcZaMdE/6ad5064a6a1f11788fd89d36.md",
+    "created_at": "2026-10-18 17:47:54 UTC",
+    "processed_at": "2026-10-18 17:47:54 UTC",
+    "google_shopping_url": "https://www.google.com/search?udm=28&q=Samsung+Galaxy+Tab+S11+Ultra+256GB+Wi-Fi+Walmart&hl=en&gl=us",
+    "raw_html_file": "https://serpapi.com/searches/MSRushjXcUHWQjLyGqnPIv1Uf_lkSaDLtJ1qgcZaMdE/6ad5064a6a1f11788fd89d36.html",
+    "total_time_taken": 2.07
+  },
+  "search_parameters": {
+    "engine": "google_shopping",
+    "q": "Samsung Galaxy Tab S11 Ultra 256GB Wi-Fi Walmart",
+    "location_requested": "United States",
+    "location_used": "United States",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Tab S11 Ultra 256GB Wi-Fi Walmart",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Samsung Galaxy Tab S11",
+      "product_id": "10728800120893213193",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=Samsung Galaxy Tab S11 Ultra 256GB Wi-Fi Walmart&prds=catalogid:10728800120893213193,productid:11235086103137189610,headlineOfferDocid:18189273027037745589,imageDocid:7696831717058748051,rds:PC_10253872374134565257|PROD_PC_10253872374134565257,gpcid:15995645211746112720,mid:576462845792654628,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "HazZ8nicdZRJjuvIEYYN-wJe-AC1L9RDJmdWQQvOIiXOZFLiwgInSRSTEsVBJAWfpl53A93LbgPe-CKvFz6L-RreepHIQP6RiIgPP-I_f_rrZ1H-yx9TlDzIcfuY25HLnNopyc69_dy0t3zI-jL_J4QESQOOgYCEJAs5fol-zpI-wbfTdxmwBMcBAAnA8SQBSciTv56LJMfltbCPx6KVb9n3PG75SrAkIFhAsixF0xz_S1knp-IP_TeW4RmOhCxkAc2xFAdo-LXNu2-UIx0gIGiSYwmSpSBJ0QxN0Ow_HM-WD_9H_PE-FO38DfhJ3Q3X06uW4GSaX4MkffUhfA1x3yavBM1o4mtUvqnla5TgOmn7H0_NH73SPE8zFE1AyFLMAoAlwNe6zH-lWYZiCI6iWZ5g6O_h1-bRf55PPwwDLv49vkqC7uqSbqGIbnINVbpqgf3Ow9n4ecKfQ_d5xp_F9adb0jyO2e9__ptyG2WpGyU3bBoke8APAfTDrA9AY8Y1lvdPNXSf-RCsxcGUvW2hCnRYTefgUoEkxOdIRcgimzauAZmiGCVIRMnT2IWEhfcImciHVB5gM9F6FUFRi0FO7nHTuhiLVsUzRXh2Yh9a5i4WUegZQUiL1vXUexWMLJRfLBVtvUAc0ghNuxkqYZTbkexNphwzMTSOcaTePZCRMeC3Wa2DJOLlEFv3OOKDHDXbQsObSDa0Qs37PTDqrOqr9GK1eWU83DocA4R7FFpuEXnHHYHXZp23HvLsgNCnEAvAV_IZVaCPNDqOIr5O4NnIwibOMWrSnRjEkbU1kQVC4mya-JwEM4xj7HmZAi2rGp--mruhvCeKGntpndfL7I-F6d7E4t1EzTUJbzOC5zmLplshxx0i42usqceohGQO4sDbeXW-FiVUT3cvhK4b5JQPRddbo3KZpba0va9Ca2EanxdaZLCO6eyaUXso9qFWPTOoPrTSEL21NdtRHCIw-bFCy4ViLGzPl_3FuJvLTGkU04WsUDGOyR-mrj1-A4JK977NJLmzEbdliHb86SgxjBNf16bIBMXGfYeLDb9bnmUAoH_KbreqLH7_y999W_JXixM_Xg4Hv8iGtnjzA89ZCaJ1FpiTwridEaRG_-xj3UZjWRJdvRtFih2ipp77VhTyR5ziTlMokmRlSno4voWATAGDp_pTOfBh3ePe8R1P1aJ7B3TxgN3mInR3_PHiK4InrQ--YCq-Higr6eTq5UYXP14ERVoJScIrRkPkxU1CkpUFxuPYLGtivCpNTZfHU9jXa44XiYDnWgNVT14ftPRQCePHi2bb2lY5CGLoKwdlp5hOoNvWSpdXLEsUPEnzRcpRx4IF74G5-h8cCoB3adW-687yQnyhmS_UFwjh27u_Ijuuu6II0ldKP2ERnp44UfTbx4uMVhnXbEuyZQqHSkbnrOwedwoZ2pCalah6S461lJXulSQJik-MimhPmuxbPiWB8nB365EJiKk72LrYHVlVAGFdtH4ZxYTWnLwCB1TxpjtLeZs4QH82VYfwPH4gB8YWIzU4Wq365BCcwJleFkQVzod4v9np-RsXGXOiXumD0wUz51SwEt15c1NCPuhJEiP9kZ43ToNYNdhgkRT3G7A5ilv-FgZGfz872kUkLMGRbecGzZ3ypAxaC09Xr5YZUzOQyG28Gh1EgaXdugCwVzjXnwR7JxLEm9mlO2okiQx0xn2-bhTvWVOy3pp7akvuh35fHnlPGzFPXb0J-kf1qUjYym44GtcYsOFNCAxVyDedyL1VMnvKkDTSY5cKuNUY4jmSBurazrJYhJmbvXHPFzYK5_mtq9g9u_Xr6Q0qjpKetWGdqoeKXvd7F11Mnnv6U6OhTPt4CcOtsrq8Rk-lMwN9ORltXkxgBXvSkrPlFkZTmoY8mrqt2j2tp0Cbsg5MWei2QQWtpzLbcjWZKujSK-pSaexNnxq3Gg1TbewsDFb_BZTyWf0",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=HazZ8nicdZRJjuvIEYYN-wJe-AC1L9RDJmdWQQvOIiXOZFLiwgInSRSTEsVBJAWfpl53A93LbgPe-CKvFz6L-RreepHIQP6RiIgPP-I_f_rrZ1H-yx9TlDzIcfuY25HLnNopyc69_dy0t3zI-jL_J4QESQOOgYCEJAs5fol-zpI-wbfTdxmwBMcBAAnA8SQBSciTv56LJMfltbCPx6KVb9n3PG75SrAkIFhAsixF0xz_S1knp-IP_TeW4RmOhCxkAc2xFAdo-LXNu2-UIx0gIGiSYwmSpSBJ0QxN0Ow_HM-WD_9H_PE-FO38DfhJ3Q3X06uW4GSaX4MkffUhfA1x3yavBM1o4mtUvqnla5TgOmn7H0_NH73SPE8zFE1AyFLMAoAlwNe6zH-lWYZiCI6iWZ5g6O_h1-bRf55PPwwDLv49vkqC7uqSbqGIbnINVbpqgf3Ow9n4ecKfQ_d5xp_F9adb0jyO2e9__ptyG2WpGyU3bBoke8APAfTDrA9AY8Y1lvdPNXSf-RCsxcGUvW2hCnRYTefgUoEkxOdIRcgimzauAZmiGCVIRMnT2IWEhfcImciHVB5gM9F6FUFRi0FO7nHTuhiLVsUzRXh2Yh9a5i4WUegZQUiL1vXUexWMLJRfLBVtvUAc0ghNuxkqYZTbkexNphwzMTSOcaTePZCRMeC3Wa2DJOLlEFv3OOKDHDXbQsObSDa0Qs37PTDqrOqr9GK1eWU83DocA4R7FFpuEXnHHYHXZp23HvLsgNCnEAvAV_IZVaCPNDqOIr5O4NnIwibOMWrSnRjEkbU1kQVC4mya-JwEM4xj7HmZAi2rGp--mruhvCeKGntpndfL7I-F6d7E4t1EzTUJbzOC5zmLplshxx0i42usqceohGQO4sDbeXW-FiVUT3cvhK4b5JQPRddbo3KZpba0va9Ca2EanxdaZLCO6eyaUXso9qFWPTOoPrTSEL21NdtRHCIw-bFCy4ViLGzPl_3FuJvLTGkU04WsUDGOyR-mrj1-A4JK977NJLmzEbdliHb86SgxjBNf16bIBMXGfYeLDb9bnmUAoH_KbreqLH7_y999W_JXixM_Xg4Hv8iGtnjzA89ZCaJ1FpiTwridEaRG_-xj3UZjWRJdvRtFih2ipp77VhTyR5ziTlMokmRlSno4voWATAGDp_pTOfBh3ePe8R1P1aJ7B3TxgN3mInR3_PHiK4InrQ--YCq-Higr6eTq5UYXP14ERVoJScIrRkPkxU1CkpUFxuPYLGtivCpNTZfHU9jXa44XiYDnWgNVT14ftPRQCePHi2bb2lY5CGLoKwdlp5hOoNvWSpdXLEsUPEnzRcpRx4IF74G5-h8cCoB3adW-687yQnyhmS_UFwjh27u_Ijuuu6II0ldKP2ERnp44UfTbx4uMVhnXbEuyZQqHSkbnrOwedwoZ2pCalah6S461lJXulSQJik-MimhPmuxbPiWB8nB365EJiKk72LrYHVlVAGFdtH4ZxYTWnLwCB1TxpjtLeZs4QH82VYfwPH4gB8YWIzU4Wq365BCcwJleFkQVzod4v9np-RsXGXOiXumD0wUz51SwEt15c1NCPuhJEiP9kZ43ToNYNdhgkRT3G7A5ilv-FgZGfz872kUkLMGRbecGzZ3ypAxaC09Xr5YZUzOQyG28Gh1EgaXdugCwVzjXnwR7JxLEm9mlO2okiQx0xn2-bhTvWVOy3pp7akvuh35fHnlPGzFPXb0J-kf1qUjYym44GtcYsOFNCAxVyDedyL1VMnvKkDTSY5cKuNUY4jmSBurazrJYhJmbvXHPFzYK5_mtq9g9u_Xr6Q0qjpKetWGdqoeKXvd7F11Mnnv6U6OhTPt4CcOtsrq8Rk-lMwN9ORltXkxgBXvSkrPlFkZTmoY8mrqt2j2tp0Cbsg5MWei2QQWtpzLbcjWZKujSK-pSaexNnxq3Gg1TbewsDFb_BZTyWf0",
+      "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&page_token=HazZ8nicdZRJjuvIEYYN-wJe-AC1L9RDJmdWQQvOIiXOZFLiwgInSRSTEsVBJAWfpl53A93LbgPe-CKvFz6L-RreepHIQP6RiIgPP-I_f_rrZ1H-yx9TlDzIcfuY25HLnNopyc69_dy0t3zI-jL_J4QESQOOgYCEJAs5fol-zpI-wbfTdxmwBMcBAAnA8SQBSciTv56LJMfltbCPx6KVb9n3PG75SrAkIFhAsixF0xz_S1knp-IP_TeW4RmOhCxkAc2xFAdo-LXNu2-UIx0gIGiSYwmSpSBJ0QxN0Ow_HM-WD_9H_PE-FO38DfhJ3Q3X06uW4GSaX4MkffUhfA1x3yavBM1o4mtUvqnla5TgOmn7H0_NH73SPE8zFE1AyFLMAoAlwNe6zH-lWYZiCI6iWZ5g6O_h1-bRf55PPwwDLv49vkqC7uqSbqGIbnINVbpqgf3Ow9n4ecKfQ_d5xp_F9adb0jyO2e9__ptyG2WpGyU3bBoke8APAfTDrA9AY8Y1lvdPNXSf-RCsxcGUvW2hCnRYTefgUoEkxOdIRcgimzauAZmiGCVIRMnT2IWEhfcImciHVB5gM9F6FUFRi0FO7nHTuhiLVsUzRXh2Yh9a5i4WUegZQUiL1vXUexWMLJRfLBVtvUAc0ghNuxkqYZTbkexNphwzMTSOcaTePZCRMeC3Wa2DJOLlEFv3OOKDHDXbQsObSDa0Qs37PTDqrOqr9GK1eWU83DocA4R7FFpuEXnHHYHXZp23HvLsgNCnEAvAV_IZVaCPNDqOIr5O4NnIwibOMWrSnRjEkbU1kQVC4mya-JwEM4xj7HmZAi2rGp--mruhvCeKGntpndfL7I-F6d7E4t1EzTUJbzOC5zmLplshxx0i42usqceohGQO4sDbeXW-FiVUT3cvhK4b5JQPRddbo3KZpba0va9Ca2EanxdaZLCO6eyaUXso9qFWPTOoPrTSEL21NdtRHCIw-bFCy4ViLGzPl_3FuJvLTGkU04WsUDGOyR-mrj1-A4JK977NJLmzEbdliHb86SgxjBNf16bIBMXGfYeLDb9bnmUAoH_KbreqLH7_y999W_JXixM_Xg4Hv8iGtnjzA89ZCaJ1FpiTwridEaRG_-xj3UZjWRJdvRtFih2ipp77VhTyR5ziTlMokmRlSno4voWATAGDp_pTOfBh3ePe8R1P1aJ7B3TxgN3mInR3_PHiK4InrQ--YCq-Higr6eTq5UYXP14ERVoJScIrRkPkxU1CkpUFxuPYLGtivCpNTZfHU9jXa44XiYDnWgNVT14ftPRQCePHi2bb2lY5CGLoKwdlp5hOoNvWSpdXLEsUPEnzRcpRx4IF74G5-h8cCoB3adW-687yQnyhmS_UFwjh27u_Ijuuu6II0ldKP2ERnp44UfTbx4uMVhnXbEuyZQqHSkbnrOwedwoZ2pCalah6S461lJXulSQJik-MimhPmuxbPiWB8nB365EJiKk72LrYHVlVAGFdtH4ZxYTWnLwCB1TxpjtLeZs4QH82VYfwPH4gB8YWIzU4Wq365BCcwJleFkQVzod4v9np-RsXGXOiXumD0wUz51SwEt15c1NCPuhJEiP9kZ43ToNYNdhgkRT3G7A5ilv-FgZGfz872kUkLMGRbecGzZ3ypAxaC09Xr5YZUzOQyG28Gh1EgaXdugCwVzjXnwR7JxLEm9mlO2okiQx0xn2-bhTvWVOy3pp7akvuh35fHnlPGzFPXb0J-kf1qUjYym44GtcYsOFNCAxVyDedyL1VMnvKkDTSY5cKuNUY4jmSBurazrJYhJmbvXHPFzYK5_mtq9g9u_Xr6Q0qjpKetWGdqoeKXvd7F11Mnnv6U6OhTPt4CcOtsrq8Rk-lMwN9ORltXkxgBXvSkrPlFkZTmoY8mrqt2j2tp0Cbsg5MWei2QQWtpzLbcjWZKujSK-pSaexNnxq3Gg1TbewsDFb_BZTyWf0",
+      "source": "Walmart",
+      "source_icon": "https://serpapi.com/searches/6ad5064a6a1f11788fd89d36/images/xBDx7gstxArNVpNv8375SmnhzS7HYiDOVbYwlQ-TluI.png",
+      "multiple_sources": true,
+      "price": "$949.99",
+      "extracted_price": 949.99,
+      "old_price": "$1,000",
+      "extracted_old_price": 1000,
+      "rating": 4.8,
+      "reviews": 2100,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSOt-DYL1ccnkjDnDgdww3AgXQwwpFkWPAvi95mbdSHGdkCSklH0nbpYJN_I8YlD5l9u1iJOFaihhHD_SX64ywSNUlOPmaoRhPYcQaBlD1BrEGhqcKSDYqH",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/6V5zJXicDcnbDoIgAADQLypzVsu21jRKusxLrBVPDaEBiYhKMX-q_-lv6rye70dYa_ql5z007QZjH2xkSx2MeW-JlXRMm9rrRWOM1Hzdrv63jFIWJhRldgTwyadUV0-gAWfOBRG_Fc6ZXXXNo7cMZ3XJEExYtUGVghNdGnxI7_sFVmCmwpcvD9mOSCEguKPbfDo4lF5UltekOYsc04LECvhxt01ES48I4Bb-AFSyPoI",
+      "tag": "5% OFF",
+      "extensions": [
+        "5% OFF"
+      ],
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 2,
+      "title": "Samsung Galaxy Tab S11 11\" Tablet",
+      "product_id": "7290256708399237465",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=Samsung Galaxy Tab S11 Ultra 256GB Wi-Fi Walmart&prds=catalogid:7290256708399237465,productid:7353988386398505255,headlineOfferDocid:8424416232425391497,imageDocid:6058295225696143114,gpcid:5174278724769508525,mid:576462574790283684,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "_IyaL3icLVTLrrPIEU6UF8gjnL3lX1ya2znygrvBpsFcGswiFgZsMA3mADaGp4nOPzPSzHJmkU1eZGaRZwmjZNFVUn3VX5VKX9V__vL3r7z8lzeeUfKkx_1z6kY-dWqnpPvD_ee2u2ePdCiz3ziaoQWep3l2cQzBUAzzc5oMCb5f_0QpgaAYliN4WhAomgMs82uRJxkum9y-XPJOuadLGg8oAEiWoilALXQkELhfyjq55v-DWYLhKYGhFiaBJQFNkuB7l_X__PHzkXfT74SX1P2jua70BCevaeUn55VHkqsAD12yWj7p0ios11q5ChNcJ93w47X9k5YhOUBxPEcBjhUYgl96_16X2a8MxwKWYjjALc3zNMuD7-1z-CquPzweOP_3uJJF42DIBkQh02Y6qgwNEsfIxen4dcVfj_6rwF9589M9aZ-X9I-_fle7VJafqXQI2hYpLuEFrp1rBbSj-HbEpgdDYfACYjo2cXCM2iiv44MbLbjuFi55BbGKwrDJ3IQazHSLG6skp4Bq61yHSRxmboile0JK8lkzQ6ilVBKi_kwJXli1R4jhNldc11MkBWmodcnFEoLmR8UA9Rh6qmYlFe6zsNCyMFbzULOTGqEgGCJEu5OrMn2iHEmLxr6rH0c4a86hMaaMLkJICBXEGkjpzHajAxVq6OKFQhRGLUB1m8CJfCC63XsqIpbY1iNgh8IYnpX4dWyQDIkYpwFgEl9CwWzKlh8bnipoARKwtS00qJmjTx_n5IbczEeRr2EDVvhiSUYU0FmJao2y6MzKGjxlc3ELdPKQ-HAOQj4xKk1NaYOJsakfyMLPFBXk-pFAOI4hLcXZHExxzUw-hl6A1R9efXf5nRA1ZvBsNsmcnbQvAxQJ14vMsk7cbC2J9fPd4Z3kFiGDRdMsQTA_pfd7VeZ__O0fni17m0UYH2-nk5enjy5fe77rbEQJFiJ7VdlDb_pnc5iH2LDRWJZUX0ejBLhH2NbT0Eli9ozPuNdVQNOcAuSn40FEKIAwBTBcy4cQ1AMeHM9xNT387AlDOuFDexP7T_zx5qmiK29PnmipnuGrG_l6MMqdIX28iaq8EZNEUM2WyvK7vEw99c3npV3Wb2zUtmbKyzUY6i0vSJQv8J2JqlkwHvr5VInjx5tu2_pePYlS4KknNVItxzdsuDGUDcdRuUAzQn7mwSXniHff2vx_OIAg3uVN9244S4T6xrDfwDeSJNfv3obu-b5BIck0wLhiibzOOFGN-8ebgjYp3-5LumNzBySjU6jR8xMgU3-crUrS3CUHLmXlz0qWRdWjRlWyX7riQQ_IRHn6PNQj61Ov_mQbUn_hNJEI6rzzyjCm9Pbq5tgH-dpwlvI2dSK9ydIcynWFB_1gbSnU_AvstJlH5IsomFGRq2A6xcddZGRrPjSnRGuYk9P7E-9UZCUdpt1dDQR_oGmMjOe52Dkt4jR_hyVaOu6I3UXaC_fAN4fPwtFvEgVFR7GdO2lF6gxMRg-ujVsrrKWbSOJ3bo1OksgxhzonyEHlD95LtCOJotZWf47ASFMp0ZufU7NT3bkGitFZR7Cnj4_hWF4EVx-xABr3RXoXbVZlDNM7DsctJrjgLvqmJma7XuLXlcJdUySPzNifRdzpLDWPtIn6roeQQ5i927tDcePCYJrWfcUdub1Xv9ak6qjnQn9sz9qpYrbD8YBulsDP3qvVUap_vAXBXt3cVuGs9pZvLC9lrJtFQP9IQyVdvDha8uuRha9-r_UznEXGUgzCUsR-71cknNXJVqqXpRH9uVkulzwOlgfGvc6QZ33sISY2_wV-aiV_",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=_IyaL3icLVTLrrPIEU6UF8gjnL3lX1ya2znygrvBpsFcGswiFgZsMA3mADaGp4nOPzPSzHJmkU1eZGaRZwmjZNFVUn3VX5VKX9V__vL3r7z8lzeeUfKkx_1z6kY-dWqnpPvD_ee2u2ePdCiz3ziaoQWep3l2cQzBUAzzc5oMCb5f_0QpgaAYliN4WhAomgMs82uRJxkum9y-XPJOuadLGg8oAEiWoilALXQkELhfyjq55v-DWYLhKYGhFiaBJQFNkuB7l_X__PHzkXfT74SX1P2jua70BCevaeUn55VHkqsAD12yWj7p0ios11q5ChNcJ93w47X9k5YhOUBxPEcBjhUYgl96_16X2a8MxwKWYjjALc3zNMuD7-1z-CquPzweOP_3uJJF42DIBkQh02Y6qgwNEsfIxen4dcVfj_6rwF9589M9aZ-X9I-_fle7VJafqXQI2hYpLuEFrp1rBbSj-HbEpgdDYfACYjo2cXCM2iiv44MbLbjuFi55BbGKwrDJ3IQazHSLG6skp4Bq61yHSRxmboile0JK8lkzQ6ilVBKi_kwJXli1R4jhNldc11MkBWmodcnFEoLmR8UA9Rh6qmYlFe6zsNCyMFbzULOTGqEgGCJEu5OrMn2iHEmLxr6rH0c4a86hMaaMLkJICBXEGkjpzHajAxVq6OKFQhRGLUB1m8CJfCC63XsqIpbY1iNgh8IYnpX4dWyQDIkYpwFgEl9CwWzKlh8bnipoARKwtS00qJmjTx_n5IbczEeRr2EDVvhiSUYU0FmJao2y6MzKGjxlc3ELdPKQ-HAOQj4xKk1NaYOJsakfyMLPFBXk-pFAOI4hLcXZHExxzUw-hl6A1R9efXf5nRA1ZvBsNsmcnbQvAxQJ14vMsk7cbC2J9fPd4Z3kFiGDRdMsQTA_pfd7VeZ__O0fni17m0UYH2-nk5enjy5fe77rbEQJFiJ7VdlDb_pnc5iH2LDRWJZUX0ejBLhH2NbT0Eli9ozPuNdVQNOcAuSn40FEKIAwBTBcy4cQ1AMeHM9xNT387AlDOuFDexP7T_zx5qmiK29PnmipnuGrG_l6MMqdIX28iaq8EZNEUM2WyvK7vEw99c3npV3Wb2zUtmbKyzUY6i0vSJQv8J2JqlkwHvr5VInjx5tu2_pePYlS4KknNVItxzdsuDGUDcdRuUAzQn7mwSXniHff2vx_OIAg3uVN9244S4T6xrDfwDeSJNfv3obu-b5BIck0wLhiibzOOFGN-8ebgjYp3-5LumNzBySjU6jR8xMgU3-crUrS3CUHLmXlz0qWRdWjRlWyX7riQQ_IRHn6PNQj61Ov_mQbUn_hNJEI6rzzyjCm9Pbq5tgH-dpwlvI2dSK9ydIcynWFB_1gbSnU_AvstJlH5IsomFGRq2A6xcddZGRrPjSnRGuYk9P7E-9UZCUdpt1dDQR_oGmMjOe52Dkt4jR_hyVaOu6I3UXaC_fAN4fPwtFvEgVFR7GdO2lF6gxMRg-ujVsrrKWbSOJ3bo1OksgxhzonyEHlD95LtCOJotZWf47ASFMp0ZufU7NT3bkGitFZR7Cnj4_hWF4EVx-xABr3RXoXbVZlDNM7DsctJrjgLvqmJma7XuLXlcJdUySPzNifRdzpLDWPtIn6roeQQ5i927tDcePCYJrWfcUdub1Xv9ak6qjnQn9sz9qpYrbD8YBulsDP3qvVUap_vAXBXt3cVuGs9pZvLC9lrJtFQP9IQyVdvDha8uuRha9-r_UznEXGUgzCUsR-71cknNXJVqqXpRH9uVkulzwOlgfGvc6QZ33sISY2_wV-aiV_",
+      "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&page_token=_IyaL3icLVTLrrPIEU6UF8gjnL3lX1ya2znygrvBpsFcGswiFgZsMA3mADaGp4nOPzPSzHJmkU1eZGaRZwmjZNFVUn3VX5VKX9V__vL3r7z8lzeeUfKkx_1z6kY-dWqnpPvD_ee2u2ePdCiz3ziaoQWep3l2cQzBUAzzc5oMCb5f_0QpgaAYliN4WhAomgMs82uRJxkum9y-XPJOuadLGg8oAEiWoilALXQkELhfyjq55v-DWYLhKYGhFiaBJQFNkuB7l_X__PHzkXfT74SX1P2jua70BCevaeUn55VHkqsAD12yWj7p0ios11q5ChNcJ93w47X9k5YhOUBxPEcBjhUYgl96_16X2a8MxwKWYjjALc3zNMuD7-1z-CquPzweOP_3uJJF42DIBkQh02Y6qgwNEsfIxen4dcVfj_6rwF9589M9aZ-X9I-_fle7VJafqXQI2hYpLuEFrp1rBbSj-HbEpgdDYfACYjo2cXCM2iiv44MbLbjuFi55BbGKwrDJ3IQazHSLG6skp4Bq61yHSRxmboile0JK8lkzQ6ilVBKi_kwJXli1R4jhNldc11MkBWmodcnFEoLmR8UA9Rh6qmYlFe6zsNCyMFbzULOTGqEgGCJEu5OrMn2iHEmLxr6rH0c4a86hMaaMLkJICBXEGkjpzHajAxVq6OKFQhRGLUB1m8CJfCC63XsqIpbY1iNgh8IYnpX4dWyQDIkYpwFgEl9CwWzKlh8bnipoARKwtS00qJmjTx_n5IbczEeRr2EDVvhiSUYU0FmJao2y6MzKGjxlc3ELdPKQ-HAOQj4xKk1NaYOJsakfyMLPFBXk-pFAOI4hLcXZHExxzUw-hl6A1R9efXf5nRA1ZvBsNsmcnbQvAxQJ14vMsk7cbC2J9fPd4Z3kFiGDRdMsQTA_pfd7VeZ__O0fni17m0UYH2-nk5enjy5fe77rbEQJFiJ7VdlDb_pnc5iH2LDRWJZUX0ejBLhH2NbT0Eli9ozPuNdVQNOcAuSn40FEKIAwBTBcy4cQ1AMeHM9xNT387AlDOuFDexP7T_zx5qmiK29PnmipnuGrG_l6MMqdIX28iaq8EZNEUM2WyvK7vEw99c3npV3Wb2zUtmbKyzUY6i0vSJQv8J2JqlkwHvr5VInjx5tu2_pePYlS4KknNVItxzdsuDGUDcdRuUAzQn7mwSXniHff2vx_OIAg3uVN9244S4T6xrDfwDeSJNfv3obu-b5BIck0wLhiibzOOFGN-8ebgjYp3-5LumNzBySjU6jR8xMgU3-crUrS3CUHLmXlz0qWRdWjRlWyX7riQQ_IRHn6PNQj61Ov_mQbUn_hNJEI6rzzyjCm9Pbq5tgH-dpwlvI2dSK9ydIcynWFB_1gbSnU_AvstJlH5IsomFGRq2A6xcddZGRrPjSnRGuYk9P7E-9UZCUdpt1dDQR_oGmMjOe52Dkt4jR_hyVaOu6I3UXaC_fAN4fPwtFvEgVFR7GdO2lF6gxMRg-ujVsrrKWbSOJ3bo1OksgxhzonyEHlD95LtCOJotZWf47ASFMp0ZufU7NT3bkGitFZR7Cnj4_hWF4EVx-xABr3RXoXbVZlDNM7DsctJrjgLvqmJma7XuLXlcJdUySPzNifRdzpLDWPtIn6roeQQ5i927tDcePCYJrWfcUdub1Xv9ak6qjnQn9sz9qpYrbD8YBulsDP3qvVUap_vAXBXt3cVuGs9pZvLC9lrJtFQP9IQyVdvDha8uuRha9-r_UznEXGUgzCUsR-71cknNXJVqqXpRH9uVkulzwOlgfGvc6QZ33sISY2_wV-aiV_",
+      "source": "Walmart - Datavision Computer Video",
+      "source_icon": "https://serpapi.com/searches/6ad5064a6a1f11788fd89d36/images/xBDx7gstxArNVpNv8375Shnz9wFvV9zzXpbyZsznQgg.png",
+      "multiple_sources": true,
+      "price": "$999.99",
+      "extracted_price": 999.99,
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR4fi3YxWzLu9RAIfb3pUOO-k3juloXIrZTm3jQpLKQQmfM9EYsiM3djU8czX1K3_zZhYx6LDOifPkSsXDgExSM7i9QLdB0PZIETPmWmsZjpnpgcG94hPyhGQ",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/eXOoDnicDcnbCoIwAADQLzKrSbUgokhE0nRpeHmJnO6iTZdboH5Vv9Pf1Hk93w_TWqqtaVYt7kepq9LQRbucUaUfmuMZ7oSpWCclb-n-tfvf9nApoYOvFuEgG5LJe8PrwSUFkLcgMBpQv59d6vZ5LECNpHdGSBAf2pniPijr2wZP6eIM7lPOsmHlnQJOwiZS6YnaQ-SvOUReeZyHuWvHoUiEymvZSoodaLFwZA76AbiDPyA"
+    },
+    {
+      "position": 3,
+      "title": "Samsung Galaxy Tab S11 Ultra 14.6 in 256GB Grey Wi-Fi SM-X930 - New Damaged Box",
+      "product_id": "8572570396951731062",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=Samsung Galaxy Tab S11 Ultra 256GB Wi-Fi Walmart&prds=productid:8572570396951731062,headlineOfferDocid:8572570396951731062,imageDocid:18026528502932920633,rds:PC_7601385828499301314|PROD_PC_7601385828499301314,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "oTC_A3icbVPLrrPIEU6UF8gjnP3R-UVz5xx5ARgw2DT3BrOIxc0G02AM2GA0DzM6c5Emy2Sk2cyL_KNRniWeKMtZVFep7l311X_-8vfPovrFm1KU3Klpd3_0E5_ZjV1Rg3P5qesv-S0bq_zfPMORDEdQAiswgKMAwZI_ZcmY4Mupyr_9V1kkOa7awjoei359yf484p9Vk5yK_5l_BjxBsgzJMwQpUKRAEixFfdfnw1fSlg8cSwCKZ3iSpwWBesqA_sZ2rfXhz20_XG9F__hKeEkz3NrTq5bgZH68-kn66gHwGuCxT15JhtWk17B6U6vXMMFN0o8_nLpnK99-1_zxdPfxszx9f7vh4tfpVRZ1R5d1iEKmyzVU6yok9pGLs-nzhD9vw2eJP4v2x0vS3Y_Zb3_9XbnpsnzVZSfoOrR2CX9TykWIiQLBnbuBUoFU6PrxxcNCFKvGktalnzax6YRg79e4MYFaRgS0srP-8HyUBGp-90gHRGSJEyRNOYatFaI-UWHkK-biNLkMUe4VreoGzVylVD6mjUsEbXmEEXKtEFox6bJZUyYJDpYUd0Red0wSliQkZjuWAYHWMNm3RgOx4YQ1Y4eaSgdniOMFDd6DoCyldDMklb4W-yGCQxyUWnx291mEnQCVql_PTwDEWtHMshlBLSLrKaU6PWg7xqOcMQ7G559mkGEjSjY5m2tlEICcDVs0OqCe0OJagWbcXRLJHtHRMQE2CHSaG6hhjGPaw6pnRvGyJ-cahvCeKVjKN0YCwxnta6GDGnDgRqTNSL0GqpBADe1SrHgqgNQex2V-hpS_iZmszeg9kMZAq5cMqHetMqTnTh5WGHthjTd_5NyTA0ixPheog1ABUgyECi5llJEM9f089MevhKgyo2exSW5vpV0VoEg4HWWWteN2Y0qsX2ydd8AJJEUz7BOjBPNjdrnUVfHb3_7hWbK3eiLq4-Vw8Irs1hdvnu_aK1GCpcieFNYZDD81xmWMdQtNVUUOTTRJNHcLu-Yx9pKY3-MUD5pCUxS3puW77UFErGnCEOjxVN2EoBnxaHu2q2rhdSB06YCd7iwOV_zx4imiK28Onmgqnu4rK_nk6NVWlz5eREVeiUkiKEZH5sVFRjLMfON-7J5nPLVK1zDV8RSMzYYXJNIX-N5A9SLoNy091OL08aJZlrZTDqIUeMpBiRTT9nULrvT1iuPIQqAYoUh5-lhwxLtvrv4_HJog3uVV_67bTw35hWG_0F8AAG_v3ooa-KFFIWBaWj9hCZwWnCj65eNljVYZ3-0qqmcLm04mu1Si-5VGhnZLzVpS3acPfJaVr7Usi4pHTopkzdragx4tE9Xh6jQT65PzcLB0aThyqkgETdF7VRiTWndyC-zTxZtuP8tb5AF4D1O1SdcVbtSNtaRQ9Y-wVxcegZkomWkt18HjEO-3kZ6_8aHxSNSWOdiD_-DtGtSS89helEDwR4rCSL-n5dbuEKf6WyxR0n5LbI_STrgEvjFeS1s7SyQU7bVlX4AZKQttMFpwat1mzZqagSR-6zboIIkc4zQFAUaFd7xZtCKJJN_MIY3oiSIzYjCuj3aruEtDr_Xe3NM7an8b99VRcLUJC3TrzsA7qosiY5hdcDhtMMEFF9E3VDHfDhL_Vq-5U4bkiZmGVMS9xpLLRBlo6AcIOYTZi7V1yjMXBo_H21Bze27nNfMbUGwlLbXbJlUPNbMZ9w46mwK_eHOnoUz7eAmCnbI6v4aLMpi-_qSMMc8mAf09BdfZk4uTKc-3PJyHnToscBEZc60T5locdn4N4KI8rHU9myoxpC0aUnkaTY-edhoDUm0aICZW_wXgijp_",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=oTC_A3icbVPLrrPIEU6UF8gjnP3R-UVz5xx5ARgw2DT3BrOIxc0G02AM2GA0DzM6c5Emy2Sk2cyL_KNRniWeKMtZVFep7l311X_-8vfPovrFm1KU3Klpd3_0E5_ZjV1Rg3P5qesv-S0bq_zfPMORDEdQAiswgKMAwZI_ZcmY4Mupyr_9V1kkOa7awjoei359yf484p9Vk5yK_5l_BjxBsgzJMwQpUKRAEixFfdfnw1fSlg8cSwCKZ3iSpwWBesqA_sZ2rfXhz20_XG9F__hKeEkz3NrTq5bgZH68-kn66gHwGuCxT15JhtWk17B6U6vXMMFN0o8_nLpnK99-1_zxdPfxszx9f7vh4tfpVRZ1R5d1iEKmyzVU6yok9pGLs-nzhD9vw2eJP4v2x0vS3Y_Zb3_9XbnpsnzVZSfoOrR2CX9TykWIiQLBnbuBUoFU6PrxxcNCFKvGktalnzax6YRg79e4MYFaRgS0srP-8HyUBGp-90gHRGSJEyRNOYatFaI-UWHkK-biNLkMUe4VreoGzVylVD6mjUsEbXmEEXKtEFox6bJZUyYJDpYUd0Red0wSliQkZjuWAYHWMNm3RgOx4YQ1Y4eaSgdniOMFDd6DoCyldDMklb4W-yGCQxyUWnx291mEnQCVql_PTwDEWtHMshlBLSLrKaU6PWg7xqOcMQ7G559mkGEjSjY5m2tlEICcDVs0OqCe0OJagWbcXRLJHtHRMQE2CHSaG6hhjGPaw6pnRvGyJ-cahvCeKVjKN0YCwxnta6GDGnDgRqTNSL0GqpBADe1SrHgqgNQex2V-hpS_iZmszeg9kMZAq5cMqHetMqTnTh5WGHthjTd_5NyTA0ixPheog1ABUgyECi5llJEM9f089MevhKgyo2exSW5vpV0VoEg4HWWWteN2Y0qsX2ydd8AJJEUz7BOjBPNjdrnUVfHb3_7hWbK3eiLq4-Vw8Irs1hdvnu_aK1GCpcieFNYZDD81xmWMdQtNVUUOTTRJNHcLu-Yx9pKY3-MUD5pCUxS3puW77UFErGnCEOjxVN2EoBnxaHu2q2rhdSB06YCd7iwOV_zx4imiK28Onmgqnu4rK_nk6NVWlz5eREVeiUkiKEZH5sVFRjLMfON-7J5nPLVK1zDV8RSMzYYXJNIX-N5A9SLoNy091OL08aJZlrZTDqIUeMpBiRTT9nULrvT1iuPIQqAYoUh5-lhwxLtvrv4_HJog3uVV_67bTw35hWG_0F8AAG_v3ooa-KFFIWBaWj9hCZwWnCj65eNljVYZ3-0qqmcLm04mu1Si-5VGhnZLzVpS3acPfJaVr7Usi4pHTopkzdragx4tE9Xh6jQT65PzcLB0aThyqkgETdF7VRiTWndyC-zTxZtuP8tb5AF4D1O1SdcVbtSNtaRQ9Y-wVxcegZkomWkt18HjEO-3kZ6_8aHxSNSWOdiD_-DtGtSS89helEDwR4rCSL-n5dbuEKf6WyxR0n5LbI_STrgEvjFeS1s7SyQU7bVlX4AZKQttMFpwat1mzZqagSR-6zboIIkc4zQFAUaFd7xZtCKJJN_MIY3oiSIzYjCuj3aruEtDr_Xe3NM7an8b99VRcLUJC3TrzsA7qosiY5hdcDhtMMEFF9E3VDHfDhL_Vq-5U4bkiZmGVMS9xpLLRBlo6AcIOYTZi7V1yjMXBo_H21Bze27nNfMbUGwlLbXbJlUPNbMZ9w46mwK_eHOnoUz7eAmCnbI6v4aLMpi-_qSMMc8mAf09BdfZk4uTKc-3PJyHnToscBEZc60T5locdn4N4KI8rHU9myoxpC0aUnkaTY-edhoDUm0aICZW_wXgijp_",
+      "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&page_token=oTC_A3icbVPLrrPIEU6UF8gjnP3R-UVz5xx5ARgw2DT3BrOIxc0G02AM2GA0DzM6c5Emy2Sk2cyL_KNRniWeKMtZVFep7l311X_-8vfPovrFm1KU3Klpd3_0E5_ZjV1Rg3P5qesv-S0bq_zfPMORDEdQAiswgKMAwZI_ZcmY4Mupyr_9V1kkOa7awjoei359yf484p9Vk5yK_5l_BjxBsgzJMwQpUKRAEixFfdfnw1fSlg8cSwCKZ3iSpwWBesqA_sZ2rfXhz20_XG9F__hKeEkz3NrTq5bgZH68-kn66gHwGuCxT15JhtWk17B6U6vXMMFN0o8_nLpnK99-1_zxdPfxszx9f7vh4tfpVRZ1R5d1iEKmyzVU6yok9pGLs-nzhD9vw2eJP4v2x0vS3Y_Zb3_9XbnpsnzVZSfoOrR2CX9TykWIiQLBnbuBUoFU6PrxxcNCFKvGktalnzax6YRg79e4MYFaRgS0srP-8HyUBGp-90gHRGSJEyRNOYatFaI-UWHkK-biNLkMUe4VreoGzVylVD6mjUsEbXmEEXKtEFox6bJZUyYJDpYUd0Red0wSliQkZjuWAYHWMNm3RgOx4YQ1Y4eaSgdniOMFDd6DoCyldDMklb4W-yGCQxyUWnx291mEnQCVql_PTwDEWtHMshlBLSLrKaU6PWg7xqOcMQ7G559mkGEjSjY5m2tlEICcDVs0OqCe0OJagWbcXRLJHtHRMQE2CHSaG6hhjGPaw6pnRvGyJ-cahvCeKVjKN0YCwxnta6GDGnDgRqTNSL0GqpBADe1SrHgqgNQex2V-hpS_iZmszeg9kMZAq5cMqHetMqTnTh5WGHthjTd_5NyTA0ixPheog1ABUgyECi5llJEM9f089MevhKgyo2exSW5vpV0VoEg4HWWWteN2Y0qsX2ydd8AJJEUz7BOjBPNjdrnUVfHb3_7hWbK3eiLq4-Vw8Irs1hdvnu_aK1GCpcieFNYZDD81xmWMdQtNVUUOTTRJNHcLu-Yx9pKY3-MUD5pCUxS3puW77UFErGnCEOjxVN2EoBnxaHu2q2rhdSB06YCd7iwOV_zx4imiK28Onmgqnu4rK_nk6NVWlz5eREVeiUkiKEZH5sVFRjLMfON-7J5nPLVK1zDV8RSMzYYXJNIX-N5A9SLoNy091OL08aJZlrZTDqIUeMpBiRTT9nULrvT1iuPIQqAYoUh5-lhwxLtvrv4_HJog3uVV_67bTw35hWG_0F8AAG_v3ooa-KFFIWBaWj9hCZwWnCj65eNljVYZ3-0qqmcLm04mu1Si-5VGhnZLzVpS3acPfJaVr7Usi4pHTopkzdragx4tE9Xh6jQT65PzcLB0aThyqkgETdF7VRiTWndyC-zTxZtuP8tb5AF4D1O1SdcVbtSNtaRQ9Y-wVxcegZkomWkt18HjEO-3kZ6_8aHxSNSWOdiD_-DtGtSS89helEDwR4rCSL-n5dbuEKf6WyxR0n5LbI_STrgEvjFeS1s7SyQU7bVlX4AZKQttMFpwat1mzZqagSR-6zboIIkc4zQFAUaFd7xZtCKJJN_MIY3oiSIzYjCuj3aruEtDr_Xe3NM7an8b99VRcLUJC3TrzsA7qosiY5hdcDhtMMEFF9E3VDHfDhL_Vq-5U4bkiZmGVMS9xpLLRBlo6AcIOYTZi7V1yjMXBo_H21Bze27nNfMbUGwlLbXbJlUPNbMZ9w46mwK_eHOnoUz7eAmCnbI6v4aLMpi-_qSMMc8mAf09BdfZk4uTKc-3PJyHnToscBEZc60T5locdn4N4KI8rHU9myoxpC0aUnkaTY-edhoDUm0aICZW_wXgijp_",
+      "source": "vipoutlet.com",
+      "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAeFBMVEX___8ti_Avkfksh-ktiu0vj_Xr9P7u9PsogN0pg-MujfT4-_5Ck-_N4fisyO20ze9ZmuFjn-QLedu40_OCsOwggONFkeZKl-vH3PcZgultqO17s_Q2kPGEsOaIte0betiUu-tXoPTY6PuUvfNlo-2ixe9zqOdFkuB8SR4IAAAA_0lEQVQ4jb2S3XaDIBCExQX5MdqGBHVrm1gTk_d_wy7R5KTIIVfteoXzHZgZyLJ_HylfAPXbC-B9m9ZLa9PAzrpdEtg7t0_pRaN1WySADgGwSwAfDjj2CQCAM_YZ_pVfx6NSSmu46cYIYxjjAO5wr7X2hAdIFyKfAYT6yf3WLboROQ0ReP6Vphys84AxXqc9cCgDJ1WLnC8b5OZ7XCcoer5YEKaPltXNHuhjVbSEkz_jNniK6bKde2CcQxt7VyPFANxsEDhgxGN2cBoofHGmC3OxM-im9UThy0k73az1StlmMd81Vq1zDPbycCYvdgr18lo_L6dr2LQMfI8h8IfzA75GDP_C3qhbAAAAAElFTkSuQmCC.png",
+      "price": "$117.00",
+      "extracted_price": 117,
+      "rating": 4.5,
+      "reviews": 11,
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSXnxm-mVsS-yiYshB8go3fzxpYlleq1I2G2zpD2kpGgy9XH59CQxIk-c4JeiwE6WTZuKkqlvc_zUztL9xxdLP1g3odyhjG9a_1gZ1_dOlSpfIvzzKxNeKrOw",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/gjuRxHicDclJDoIwAADAFwEpqLEkxrgFEQIaXMAL0bYUZCu0aumr_I6_0bnO95MLwbhtGKRB_cAEwZq4N0CnXNxEgXTU1gbPW8aKhs672f_sRYChg6K4kbVWn3mkDUXC8-WUtlamJEuqinTANR1TsbVZMocOMN6O4eog3VJDox0p3pvJ5Xh9emVXvVCqTkr4UErs7wG1WjzkDwfeUkCvIMVhFbHMfSnlyYB4ffj-ARapQOI",
+      "delivery": "Free delivery"
+    }
+  ],
+  "filters": [
+    {
+      "input_type": "link_with_icon",
+      "options": [
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MgwIAxIGTmVhcmJ5GAJYiKogYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Tab+S11+Ultra+256GB+Wi-Fi+Walmart+nearby&shoprs=CAEYAyowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MgwIAxIGTmVhcmJ5GAJYiKogYAI"
+        },
+        {
+          "text": "New",
+          "shoprs": "CAEYCiowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MgcIChIDTmV3WIiqIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=new+Samsung+Galaxy+Tab+S11+Ultra+256GB+Wi-Fi+Walmart&shoprs=CAEYCiowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MgcIChIDTmV3WIiqIGAC"
+        },
+        {
+          "text": "Used",
+          "shoprs": "CAEYCiowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MggIChIEVXNlZFiIqiBgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=used+Samsung+Galaxy+Tab+S11+Ultra+256GB+Wi-Fi+Walmart&shoprs=CAEYCiowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MggIChIEVXNlZFiIqiBgAg"
+        }
+      ]
+    },
+    {
+      "type": "Price",
+      "input_type": "price_range",
+      "options": [
+        {
+          "text": "Under $400",
+          "shoprs": "CAESDRILEQAAAACE17dBGAEYBSowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MiMIBRIKVW5kZXIgJDQwMBgCIg0SCxEAAAAAhNe3QRgBKgIYAViIqiBgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Tab+S11+Ultra+256GB+Wi-Fi+Walmart+under+%24400&shoprs=CAESDRILEQAAAACE17dBGAEYBSowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MiMIBRIKVW5kZXIgJDQwMBgCIg0SCxEAAAAAhNe3QRgBKgIYAViIqiBgAg"
+        },
+        {
+          "text": "Over $400",
+          "shoprs": "CAESDRILCQAAAACE17dBGAEYBSowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MiIIBRIJT3ZlciAkNDAwGAIiDRILCQAAAACE17dBGAEqAhgBWIiqIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Tab+S11+Ultra+256GB+Wi-Fi+Walmart+over+%24400&shoprs=CAESDRILCQAAAACE17dBGAEYBSowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MiIIBRIJT3ZlciAkNDAwGAIiDRILCQAAAACE17dBGAEqAhgBWIiqIGAC"
+        }
+      ]
+    },
+    {
+      "type": "Screen Size",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "11 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAOCj8DtAEQAAAOCj8DtAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI6CAESDDExIGluIHNjcmVlbiIaKhgImaY-EhIJAAAA4KPwO0ARAAAA4KPwO0AqAhgBOggImaY-EAAwBliIqiBgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=11+in+screen+samsung+galaxy+tab+s11+ultra+256gb+wi+fi+walmart&shoprs=CAESGioYCJmmPhISCQAAAOCj8DtAEQAAAOCj8DtAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI6CAESDDExIGluIHNjcmVlbiIaKhgImaY-EhIJAAAA4KPwO0ARAAAA4KPwO0AqAhgBOggImaY-EAAwBliIqiBgAg"
+        },
+        {
+          "text": "14.6 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAIDAikJAEQAAAIDAikJAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI8CAESDjE0LjYgaW4gc2NyZWVuIhoqGAiZpj4SEgkAAACAwIpCQBEAAACAwIpCQCoCGAE6CAiZpj4QADAGWIiqIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=14.6+in+screen+samsung+galaxy+tab+s11+ultra+256gb+wi+fi+walmart&shoprs=CAESGioYCJmmPhISCQAAAIDAikJAEQAAAIDAikJAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI8CAESDjE0LjYgaW4gc2NyZWVuIhoqGAiZpj4SEgkAAACAwIpCQBEAAACAwIpCQCoCGAE6CAiZpj4QADAGWIiqIGAC"
+        }
+      ]
+    },
+    {
+      "type": "Product Rating",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "4 and up",
+          "shoprs": "CAESBWIDCJADGB4qMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDIVCB4SCDQgYW5kIHVwIgViAwiQA0AEYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Tab+S11+Ultra+256GB+Wi-Fi+Walmart&shoprs=CAESBWIDCJADGB4qMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDIVCB4SCDQgYW5kIHVwIgViAwiQA0AEYAI"
+        }
+      ]
+    },
+    {
+      "type": "Battery Capacity",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "8,400 mAh",
+          "shoprs": "CAESGioYCJ-wPhISCQAAAAAAaMBAEQAAAAAAaMBAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI3CAESCTgsNDAwIG1BaCIaKhgIn7A-EhIJAAAAAABowEARAAAAAABowEAqAhgBOggIn7A-EAAwBliIqiBgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=8%2C400+mah+samsung+galaxy+tab+s11+ultra+256gb+wi+fi+walmart&shoprs=CAESGioYCJ-wPhISCQAAAAAAaMBAEQAAAAAAaMBAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI3CAESCTgsNDAwIG1BaCIaKhgIn7A-EhIJAAAAAABowEARAAAAAABowEAqAhgBOggIn7A-EAAwBliIqiBgAg"
+        },
+        {
+          "text": "10,000 mAh",
+          "shoprs": "CAESGioYCJ-wPhISCQAAAAAAiMNAEQAAAAAAiMNAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI4CAESCjEwLDAwMCBtQWgiGioYCJ-wPhISCQAAAAAAiMNAEQAAAAAAiMNAKgIYAToICJ-wPhAAMAZYiKogYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=10%2C000+mah+samsung+galaxy+tab+s11+ultra+256gb+wi+fi+walmart&shoprs=CAESGioYCJ-wPhISCQAAAAAAiMNAEQAAAAAAiMNAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI4CAESCjEwLDAwMCBtQWgiGioYCJ-wPhISCQAAAAAAiMNAEQAAAAAAiMNAKgIYAToICJ-wPhAAMAZYiKogYAI"
+        }
+      ]
+    },
+    {
+      "type": "Carousel Filters",
+      "options": [
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MgwIAxIGTmVhcmJ5GAJYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Tab+S11+Ultra+256GB+Wi-Fi+Walmart+nearby&shoprs=CAEYAyowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MgwIAxIGTmVhcmJ5GAJYiKogYAE",
+          "input_type": "link_with_icon"
+        },
+        {
+          "text": "Under $400",
+          "shoprs": "CAESDRILEQAAAACE17dBGAEYBSowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MiMIBRIKVW5kZXIgJDQwMBgCIg0SCxEAAAAAhNe3QRgBKgIYAViIqiBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Tab+S11+Ultra+256GB+Wi-Fi+Walmart+under+%24400&shoprs=CAESDRILEQAAAACE17dBGAEYBSowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MiMIBRIKVW5kZXIgJDQwMBgCIg0SCxEAAAAAhNe3QRgBKgIYAViIqiBgAQ",
+          "input_type": "price_range"
+        },
+        {
+          "text": "New",
+          "shoprs": "CAEYCiowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MgcIChIDTmV3WIiqIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=new+Samsung+Galaxy+Tab+S11+Ultra+256GB+Wi-Fi+Walmart&shoprs=CAEYCiowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MgcIChIDTmV3WIiqIGAB",
+          "input_type": "link_with_icon"
+        },
+        {
+          "text": "Used",
+          "shoprs": "CAEYCiowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MggIChIEVXNlZFiIqiBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=used+Samsung+Galaxy+Tab+S11+Ultra+256GB+Wi-Fi+Walmart&shoprs=CAEYCiowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MggIChIEVXNlZFiIqiBgAQ",
+          "input_type": "link_with_icon"
+        },
+        {
+          "text": "11 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAOCj8DtAEQAAAOCj8DtAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI6CAESDDExIGluIHNjcmVlbiIaKhgImaY-EhIJAAAA4KPwO0ARAAAA4KPwO0AqAhgBOggImaY-EAAwBliIqiBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=11+in+screen+samsung+galaxy+tab+s11+ultra+256gb+wi+fi+walmart&shoprs=CAESGioYCJmmPhISCQAAAOCj8DtAEQAAAOCj8DtAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI6CAESDDExIGluIHNjcmVlbiIaKhgImaY-EhIJAAAA4KPwO0ARAAAA4KPwO0AqAhgBOggImaY-EAAwBliIqiBgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "14.6 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAIDAikJAEQAAAIDAikJAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI8CAESDjE0LjYgaW4gc2NyZWVuIhoqGAiZpj4SEgkAAACAwIpCQBEAAACAwIpCQCoCGAE6CAiZpj4QADAGWIiqIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=14.6+in+screen+samsung+galaxy+tab+s11+ultra+256gb+wi+fi+walmart&shoprs=CAESGioYCJmmPhISCQAAAIDAikJAEQAAAIDAikJAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI8CAESDjE0LjYgaW4gc2NyZWVuIhoqGAiZpj4SEgkAAACAwIpCQBEAAACAwIpCQCoCGAE6CAiZpj4QADAGWIiqIGAB",
+          "input_type": "link"
+        },
+        {
+          "text": "Tablets",
+          "shoprs": "CAEYCSowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MgsICRIHVGFibGV0c2AB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=tablets+samsung+galaxy+tab+s11+ultra+256gb+wi+fi+walmart&shoprs=CAEYCSowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MgsICRIHVGFibGV0c2AB",
+          "input_type": "link"
+        },
+        {
+          "text": "8,400 mAh",
+          "shoprs": "CAESGioYCJ-wPhISCQAAAAAAaMBAEQAAAAAAaMBAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI3CAESCTgsNDAwIG1BaCIaKhgIn7A-EhIJAAAAAABowEARAAAAAABowEAqAhgBOggIn7A-EAAwBliIqiBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=8%2C400+mah+samsung+galaxy+tab+s11+ultra+256gb+wi+fi+walmart&shoprs=CAESGioYCJ-wPhISCQAAAAAAaMBAEQAAAAAAaMBAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI3CAESCTgsNDAwIG1BaCIaKhgIn7A-EhIJAAAAAABowEARAAAAAABowEAqAhgBOggIn7A-EAAwBliIqiBgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "10,000 mAh",
+          "shoprs": "CAESGioYCJ-wPhISCQAAAAAAiMNAEQAAAAAAiMNAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI4CAESCjEwLDAwMCBtQWgiGioYCJ-wPhISCQAAAAAAiMNAEQAAAAAAiMNAKgIYAToICJ-wPhAAMAZYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=10%2C000+mah+samsung+galaxy+tab+s11+ultra+256gb+wi+fi+walmart&shoprs=CAESGioYCJ-wPhISCQAAAAAAiMNAEQAAAAAAiMNAGAEqMHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTEgdWx0cmEgMjU2Z2Igd2kgZmkgd2FsbWFydDI4CAESCjEwLDAwMCBtQWgiGioYCJ-wPhISCQAAAAAAiMNAEQAAAAAAiMNAKgIYAToICJ-wPhAAMAZYiKogYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "Galaxy Tab S",
+          "shoprs": "CAEYASowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MhwIARIMR2FsYXh5IFRhYiBTOgoIgfM6EPzyOjAEWIiqIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=galaxy+tab+s+samsung+s11+ultra+256gb+wi+fi+walmart&shoprs=CAEYASowc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSB1bHRyYSAyNTZnYiB3aSBmaSB3YWxtYXJ0MhwIARIMR2FsYXh5IFRhYiBTOgoIgfM6EPzyOjAEWIiqIGAB",
+          "input_type": "link"
+        }
+      ]
+    }
+  ]
+}

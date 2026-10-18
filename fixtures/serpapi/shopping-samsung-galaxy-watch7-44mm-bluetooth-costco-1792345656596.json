@@ -1,0 +1,84 @@
+{
+  "search_metadata": {
+    "id": "6ad50637f240d7c715ff3267",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/FfSRi-319CMmP9d_5SDKopU6sWaK3n---o_Ndpw8rzU/6ad50637f240d7c715ff3267.json",
+    "markdown_endpoint": "https://serpapi.com/searches/FfSRi-319CMmP9d_5SDKopU6sWaK3n---o_Ndpw8rzU/6ad50637f240d7c715ff3267.md",
+    "created_at": "2026-10-18 17:47:35 UTC",
+    "processed_at": "2026-10-18 17:47:35 UTC",
+    "google_shopping_url": "https://www.google.com/search?udm=28&q=Samsung+Galaxy+Watch7+44mm+Bluetooth+Costco&hl=en&gl=us",
+    "raw_html_file": "https://serpapi.com/searches/FfSRi-319CMmP9d_5SDKopU6sWaK3n---o_Ndpw8rzU/6ad50637f240d7c715ff3267.html",
+    "total_time_taken": 1.21
+  },
+  "search_parameters": {
+    "engine": "google_shopping",
+    "q": "Samsung Galaxy Watch7 44mm Bluetooth Costco",
+    "location_requested": "United States",
+    "location_used": "United States",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Watch7 44mm Bluetooth Costco",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Samsung Galaxy Watch7 Watch",
+      "product_id": "15105203343527937323",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=Samsung Galaxy Watch7 44mm Bluetooth Costco&prds=catalogid:15105203343527937323,productid:730428852388371923,headlineOfferDocid:16545537293221546003,imageDocid:17143675247803897606,rds:PC_13226298182065154838|PROD_PC_13226298182065154838,gpcid:13226298182065154838,mid:576462895416057386,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "fI-lUXicdVTJruPWEQ2SH8gn9P7hNXjv5SB2QwsOlxQpkZQ4kxuBk0RxlkiKA_w1r20DztIw4E1-pL3It0QJvEwWBRRQwzlVqFP_-svfP7Lb7wYXu1FrQD59yI8RHx8GtMZT-0v3aNMxGW7prwwiSLjZUBBtNogBLES_JNEQVe31lv4GKEBQkECIRBRkWMQgiH7Nsyitbk1mXC7ZQ2yT_-TRFElRiIEsghBQJE0Q6B-3Orpmf8YZQCKaoSDJbAi0YRmaoL890v47eRTO4FVDQ3YDNpCgqVf1Bm1-OJqGeP4_wZ_uY_ZYvr9ZUd2PzfVNjqpoXt68aEhy5o0k6_qNr8ZsaNshfxPafkjan67df3n8j27f6tcWKIYmabhhKRLQBMWgDf2tew4f-fXHcayyf05vAqecFEHRXY_qUtktFUknAt-skunjWn2M_UdefWTNz23UPS_JH3-F-K6IwqgIJ6frXNEk7F2whCXL25I6p5gaQsg2Ie7yeCeRMcHiwA4Fs6hMrTDnRAyRi93ctHMjqyRLW_OTVUl1VJ_IUFYmp6j0rNEWq2Kj1DUXjVDnzE3X0K7ol9-FcC611dTNuoo0oB9jZ3AMN5nsnTobWDcDb4OiHd_FpfpwnHSyoRRGa6WfSvPp1sBMG52OJfNpOyfCAvwhJYZb8sJP_BcnGO7DRip1uVxTnF9iTKHIkUgXmmNSmNbBI0m9rCpjp0snqIav3rqJJT4RMfAk9aHL5lMrVDvGOT541Wx61MWHJkxkVdDKVHTwvLjeYIQlMWgw1DQ8AK1ysUlIa7bjxxDxfIBMQcfhIayBGhJulRU8lUAK6j5H-kCbbBnPceFCDVdlVqWN7c1-sFaBV3BTTLh9TARIk9vVKuc28TXCgupgebrvSukudCvo2ryhARWZntqaOzf3kQscJ9zbXien5Qunrnicp8eTp3qBxx61Ui2TMl1Sxz0l5WZxkGvGc3s7OeaaFFXtEDppy2HtFGljOJ2uQ7d2BAI4sl4mlZknvmmeTj_O_ePyneAkarAM-v1EcpdzS47RRBL3i9o69JP3wX7XXr8A5qVSkqKp1ymDn5O2LW_ZH3_bWoZgbV93-vWThTlT2J0tTsOWYuOtcD0pt73Cf_3EYWHLRRGL1QezAi_129TujIUPCo_ZD2O_18_DPkfBWe1osVmtxg86RUQOksIH5L5-kg1DPuAzxzsWPmMfa0dbMfStIm4pmiFev-QCNjTFUBH8YmvbP4m-dPZF2D6-KMctINBnAIjPgKQ-Q4J9_2Jt4QGd-SUtY1blskG9AamFpPHCOp-tLBkf2btlm8ctx-s5RxfL0xrEnS6sdYHiRCytKg-ZSEDPcuZuXrdEyRmqqqcf4v44dnR-NXsBK_RDH5o2A_eAV2umJBa_Wtis3K-wg7z-CIONP16_ftJfcwj3VhA4bCEO88Ysi9bB6QQ6FCfKv-8TLcfl7eJ45u2GGz7oN0VsiWlX8tegPAST5iMvsq2ZyxlWJsC7CzeufXcMnmiD5nJu_BGgI-lzYDKKrlLUZ1pQ4HisZcJqBxe3h5B6bydEhFmz6xu6vbrnS9jr6v4grlDcBcju0r1VvF_3EhsPBlbtcZUn4uA5jNVU-S2ln2S6HlrpPS5sXr8aeH7uwzW3kFpfbzJ9F-7Beo7J9XmpGWF5d_PW1D22y6Nl2GCeDx8mI_UBqlsICPgEvWi8h5mExFOc9GN5fyrSZmxDM5_2jmN7akId9hxezNPOenCX40EqRXC_TkvC-k9EF5qm3OxesfghuVauPXlkmhwUQLNtJgJbrDq1VhTYBOeOSfijyUR3eFV4Metvy0w52jAcvVk4ff3kOAe8Ld68FfearbwsobRCI3Q7ALqNScPmJk2Yx9Sb-4PUr_rKUZqoEJrI9Qe7BPqKF0MsZ00i-rh56V-YBs0ip4NMgVieer0itv8GMQpZMA",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=fI-lUXicdVTJruPWEQ2SH8gn9P7hNXjv5SB2QwsOlxQpkZQ4kxuBk0RxlkiKA_w1r20DztIw4E1-pL3It0QJvEwWBRRQwzlVqFP_-svfP7Lb7wYXu1FrQD59yI8RHx8GtMZT-0v3aNMxGW7prwwiSLjZUBBtNogBLES_JNEQVe31lv4GKEBQkECIRBRkWMQgiH7Nsyitbk1mXC7ZQ2yT_-TRFElRiIEsghBQJE0Q6B-3Orpmf8YZQCKaoSDJbAi0YRmaoL890v47eRTO4FVDQ3YDNpCgqVf1Bm1-OJqGeP4_wZ_uY_ZYvr9ZUd2PzfVNjqpoXt68aEhy5o0k6_qNr8ZsaNshfxPafkjan67df3n8j27f6tcWKIYmabhhKRLQBMWgDf2tew4f-fXHcayyf05vAqecFEHRXY_qUtktFUknAt-skunjWn2M_UdefWTNz23UPS_JH3-F-K6IwqgIJ6frXNEk7F2whCXL25I6p5gaQsg2Ie7yeCeRMcHiwA4Fs6hMrTDnRAyRi93ctHMjqyRLW_OTVUl1VJ_IUFYmp6j0rNEWq2Kj1DUXjVDnzE3X0K7ol9-FcC611dTNuoo0oB9jZ3AMN5nsnTobWDcDb4OiHd_FpfpwnHSyoRRGa6WfSvPp1sBMG52OJfNpOyfCAvwhJYZb8sJP_BcnGO7DRip1uVxTnF9iTKHIkUgXmmNSmNbBI0m9rCpjp0snqIav3rqJJT4RMfAk9aHL5lMrVDvGOT541Wx61MWHJkxkVdDKVHTwvLjeYIQlMWgw1DQ8AK1ysUlIa7bjxxDxfIBMQcfhIayBGhJulRU8lUAK6j5H-kCbbBnPceFCDVdlVqWN7c1-sFaBV3BTTLh9TARIk9vVKuc28TXCgupgebrvSukudCvo2ryhARWZntqaOzf3kQscJ9zbXien5Qunrnicp8eTp3qBxx61Ui2TMl1Sxz0l5WZxkGvGc3s7OeaaFFXtEDppy2HtFGljOJ2uQ7d2BAI4sl4mlZknvmmeTj_O_ePyneAkarAM-v1EcpdzS47RRBL3i9o69JP3wX7XXr8A5qVSkqKp1ymDn5O2LW_ZH3_bWoZgbV93-vWThTlT2J0tTsOWYuOtcD0pt73Cf_3EYWHLRRGL1QezAi_129TujIUPCo_ZD2O_18_DPkfBWe1osVmtxg86RUQOksIH5L5-kg1DPuAzxzsWPmMfa0dbMfStIm4pmiFev-QCNjTFUBH8YmvbP4m-dPZF2D6-KMctINBnAIjPgKQ-Q4J9_2Jt4QGd-SUtY1blskG9AamFpPHCOp-tLBkf2btlm8ctx-s5RxfL0xrEnS6sdYHiRCytKg-ZSEDPcuZuXrdEyRmqqqcf4v44dnR-NXsBK_RDH5o2A_eAV2umJBa_Wtis3K-wg7z-CIONP16_ftJfcwj3VhA4bCEO88Ysi9bB6QQ6FCfKv-8TLcfl7eJ45u2GGz7oN0VsiWlX8tegPAST5iMvsq2ZyxlWJsC7CzeufXcMnmiD5nJu_BGgI-lzYDKKrlLUZ1pQ4HisZcJqBxe3h5B6bydEhFmz6xu6vbrnS9jr6v4grlDcBcju0r1VvF_3EhsPBlbtcZUn4uA5jNVU-S2ln2S6HlrpPS5sXr8aeH7uwzW3kFpfbzJ9F-7Beo7J9XmpGWF5d_PW1D22y6Nl2GCeDx8mI_UBqlsICPgEvWi8h5mExFOc9GN5fyrSZmxDM5_2jmN7akId9hxezNPOenCX40EqRXC_TkvC-k9EF5qm3OxesfghuVauPXlkmhwUQLNtJgJbrDq1VhTYBOeOSfijyUR3eFV4Metvy0w52jAcvVk4ff3kOAe8Ld68FfearbwsobRCI3Q7ALqNScPmJk2Yx9Sb-4PUr_rKUZqoEJrI9Qe7BPqKF0MsZ00i-rh56V-YBs0ip4NMgVieer0itv8GMQpZMA",
+      "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&page_token=fI-lUXicdVTJruPWEQ2SH8gn9P7hNXjv5SB2QwsOlxQpkZQ4kxuBk0RxlkiKA_w1r20DztIw4E1-pL3It0QJvEwWBRRQwzlVqFP_-svfP7Lb7wYXu1FrQD59yI8RHx8GtMZT-0v3aNMxGW7prwwiSLjZUBBtNogBLES_JNEQVe31lv4GKEBQkECIRBRkWMQgiH7Nsyitbk1mXC7ZQ2yT_-TRFElRiIEsghBQJE0Q6B-3Orpmf8YZQCKaoSDJbAi0YRmaoL890v47eRTO4FVDQ3YDNpCgqVf1Bm1-OJqGeP4_wZ_uY_ZYvr9ZUd2PzfVNjqpoXt68aEhy5o0k6_qNr8ZsaNshfxPafkjan67df3n8j27f6tcWKIYmabhhKRLQBMWgDf2tew4f-fXHcayyf05vAqecFEHRXY_qUtktFUknAt-skunjWn2M_UdefWTNz23UPS_JH3-F-K6IwqgIJ6frXNEk7F2whCXL25I6p5gaQsg2Ie7yeCeRMcHiwA4Fs6hMrTDnRAyRi93ctHMjqyRLW_OTVUl1VJ_IUFYmp6j0rNEWq2Kj1DUXjVDnzE3X0K7ol9-FcC611dTNuoo0oB9jZ3AMN5nsnTobWDcDb4OiHd_FpfpwnHSyoRRGa6WfSvPp1sBMG52OJfNpOyfCAvwhJYZb8sJP_BcnGO7DRip1uVxTnF9iTKHIkUgXmmNSmNbBI0m9rCpjp0snqIav3rqJJT4RMfAk9aHL5lMrVDvGOT541Wx61MWHJkxkVdDKVHTwvLjeYIQlMWgw1DQ8AK1ysUlIa7bjxxDxfIBMQcfhIayBGhJulRU8lUAK6j5H-kCbbBnPceFCDVdlVqWN7c1-sFaBV3BTTLh9TARIk9vVKuc28TXCgupgebrvSukudCvo2ryhARWZntqaOzf3kQscJ9zbXien5Qunrnicp8eTp3qBxx61Ui2TMl1Sxz0l5WZxkGvGc3s7OeaaFFXtEDppy2HtFGljOJ2uQ7d2BAI4sl4mlZknvmmeTj_O_ePyneAkarAM-v1EcpdzS47RRBL3i9o69JP3wX7XXr8A5qVSkqKp1ymDn5O2LW_ZH3_bWoZgbV93-vWThTlT2J0tTsOWYuOtcD0pt73Cf_3EYWHLRRGL1QezAi_129TujIUPCo_ZD2O_18_DPkfBWe1osVmtxg86RUQOksIH5L5-kg1DPuAzxzsWPmMfa0dbMfStIm4pmiFev-QCNjTFUBH8YmvbP4m-dPZF2D6-KMctINBnAIjPgKQ-Q4J9_2Jt4QGd-SUtY1blskG9AamFpPHCOp-tLBkf2btlm8ctx-s5RxfL0xrEnS6sdYHiRCytKg-ZSEDPcuZuXrdEyRmqqqcf4v44dnR-NXsBK_RDH5o2A_eAV2umJBa_Wtis3K-wg7z-CIONP16_ftJfcwj3VhA4bCEO88Ysi9bB6QQ6FCfKv-8TLcfl7eJ45u2GGz7oN0VsiWlX8tegPAST5iMvsq2ZyxlWJsC7CzeufXcMnmiD5nJu_BGgI-lzYDKKrlLUZ1pQ4HisZcJqBxe3h5B6bydEhFmz6xu6vbrnS9jr6v4grlDcBcju0r1VvF_3EhsPBlbtcZUn4uA5jNVU-S2ln2S6HlrpPS5sXr8aeH7uwzW3kFpfbzJ9F-7Beo7J9XmpGWF5d_PW1D22y6Nl2GCeDx8mI_UBqlsICPgEvWi8h5mExFOc9GN5fyrSZmxDM5_2jmN7akId9hxezNPOenCX40EqRXC_TkvC-k9EF5qm3OxesfghuVauPXlkmhwUQLNtJgJbrDq1VhTYBOeOSfijyUR3eFV4Metvy0w52jAcvVk4ff3kOAe8Ld68FfearbwsobRCI3Q7ALqNScPmJk2Yx9Sb-4PUr_rKUZqoEJrI9Qe7BPqKF0MsZ00i-rh56V-YBs0ip4NMgVieer0itv8GMQpZMA",
+      "source": "Connection",
+      "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAPFBMVEX___-ty-RqnsxHi8REhsJYlciGsdXm7_X-_vzY6PFjnMxto9Cjw9_E2uvJ3u6zz-fv9PmUvNzc6fD1-_zILzgkAAAAQ0lEQVQYlWNgoArgYGBgZGJmYWVjBzFBApxc3Dy8fPxsrDwQFZxsfBCGgCBYhJ1RAK6blxdICAkjmSckADEUyXz6AADnmgFzHTZl0gAAAABJRU5ErkJggg.png",
+      "multiple_sources": true,
+      "price": "$314.95",
+      "extracted_price": 314.95,
+      "rating": 4.7,
+      "reviews": 22000,
+      "snippet": "Easy to use (1,039 user reviews)",
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRm7qhXwYtni2AfurF3d7Zt6O6RK6T4i3keVZmkUqYSOU0LNqbKlcaNygROUcje7U4oVnFBkCyEgU6CBZDwh0RGPLSUDWDYfHN7B6EEc6221BLz5PX2xIr8sUU",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/AFofkHicDcnbEkJAAADQLwotrTLTNO41DIZWeGNdk3XbRvqrPqe_qfN6vp-a0mGWWLYgeFoHWuQbmhHAVDNNaYMZ3HfsXPfD0JDqNB7_J8lOfjCx34ljHS0xJQ2Qy-dk8LmYUOhC34JXoeHbIky6Fo1x4CLOdsbMeuDUWSvfRfheiEjoQ2IorbrqFYKqkmhLzfmmZwdIu2lxeXZEBeo6hgBsFfu98yLwukz7GaEf36U9vQ",
+      "delivery": "Free delivery"
+    }
+  ],
+  "filters": [
+    {
+      "input_type": "link_with_icon",
+      "options": [
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyorc2Ftc3VuZyBnYWxheHkgd2F0Y2g3IDQ0bW0gYmx1ZXRvb3RoIGNvc3RjbzIMCAMSBk5lYXJieRgCWKGqIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Watch7+44mm+Bluetooth+Costco+nearby&shoprs=CAEYAyorc2Ftc3VuZyBnYWxheHkgd2F0Y2g3IDQ0bW0gYmx1ZXRvb3RoIGNvc3RjbzIMCAMSBk5lYXJieRgCWKGqIGAC"
+        }
+      ]
+    },
+    {
+      "type": "Carousel Filters",
+      "options": [
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyorc2Ftc3VuZyBnYWxheHkgd2F0Y2g3IDQ0bW0gYmx1ZXRvb3RoIGNvc3RjbzIMCAMSBk5lYXJieRgCWKGqIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Watch7+44mm+Bluetooth+Costco+nearby&shoprs=CAEYAyorc2Ftc3VuZyBnYWxheHkgd2F0Y2g3IDQ0bW0gYmx1ZXRvb3RoIGNvc3RjbzIMCAMSBk5lYXJieRgCWKGqIGAB",
+          "input_type": "link_with_icon"
+        },
+        {
+          "text": "Fitness Trackers",
+          "shoprs": "CAEYCSorc2Ftc3VuZyBnYWxheHkgd2F0Y2g3IDQ0bW0gYmx1ZXRvb3RoIGNvc3RjbzIUCAkSEEZpdG5lc3MgVHJhY2tlcnNgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=fitness+trackers+samsung+galaxy+watch7+44mm+bluetooth+costco&shoprs=CAEYCSorc2Ftc3VuZyBnYWxheHkgd2F0Y2g3IDQ0bW0gYmx1ZXRvb3RoIGNvc3RjbzIUCAkSEEZpdG5lc3MgVHJhY2tlcnNgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "Unisex",
+          "shoprs": "CAEYASorc2Ftc3VuZyBnYWxheHkgd2F0Y2g3IDQ0bW0gYmx1ZXRvb3RoIGNvc3RjbzIWCAESBlVuaXNleDoKCICjPhCDoz4wBVihqiBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=unisex+samsung+galaxy+watch7+44mm+bluetooth+costco&shoprs=CAEYASorc2Ftc3VuZyBnYWxheHkgd2F0Y2g3IDQ0bW0gYmx1ZXRvb3RoIGNvc3RjbzIWCAESBlVuaXNleDoKCICjPhCDoz4wBVihqiBgAQ",
+          "input_type": "link"
+        }
+      ]
+    }
+  ]
+}

@@ -30,6 +30,7 @@ import {
   uniqueRetailerCount,
   type FilteredListing,
 } from "./prefilter";
+import { buildNearestVariant } from "./variant-fallback";
 import { normalizeWithGemini } from "./gemini-normalize";
 import { calculateOffers } from "./calculate";
 import { generateMockListings, buildFixtureShoppingPayload } from "./mock-data";
@@ -216,7 +217,7 @@ export async function runPriceComparison(
           }
         }
 
-        // Nearest Wi‑Fi tier for still-missing nationals
+        // Nearest tier for still-missing nationals (any category)
         const afterExact = prefilterListings(
           listings,
           product,
@@ -229,14 +230,13 @@ export async function runPriceComparison(
         ).slice(0, MAX_NEAREST_TARGETS);
 
         if (
-          cellular &&
           missingNearest.length &&
           serpCalls < MAX_SERP_CALLS + 8 + MAX_CARRIER_TARGETS + 8
         ) {
-          const nearestVariant = {
-            ...input.variant,
-            connectivity: "Wi-Fi",
-          };
+          const { variant: nearestVariant } = buildNearestVariant(
+            product,
+            input.variant,
+          );
           const nearestQuery = buildSearchQuery(product, nearestVariant);
           try {
             nearestRaw = await fetchRetailerTargetedOffers(
@@ -252,7 +252,7 @@ export async function runPriceComparison(
             if (nearestRaw.length) source = "live";
           } catch (e) {
             console.warn(
-              "[pricing] nearest Wi‑Fi fill failed:",
+              "[pricing] nearest variant fill failed:",
               e instanceof Error ? e.message : e,
             );
           }
@@ -360,20 +360,19 @@ export async function runPriceComparison(
     { mode: "exact", matchQuality: "carrier" },
   ).filter((l) => CARRIER_RETAILER_IDS.includes(l.retailerId));
 
-  const nearestVariant = {
-    ...input.variant,
-    connectivity: "Wi-Fi",
-  };
-  const nearestFiltered =
-    cellular && nearestRaw.length
-      ? prefilterListings(nearestRaw, product, nearestVariant, {
-          mode: "nearest",
-          matchQuality: "nearest",
-        }).filter((l) => {
-          if (!NATIONAL_RETAILER_IDS.includes(l.retailerId)) return false;
-          return !exactFiltered.some((e) => e.retailerId === l.retailerId);
-        })
-      : [];
+  const { variant: nearestVariant } = buildNearestVariant(
+    product,
+    input.variant,
+  );
+  const nearestFiltered = nearestRaw.length
+    ? prefilterListings(nearestRaw, product, nearestVariant, {
+        mode: "nearest",
+        matchQuality: "nearest",
+      }).filter((l) => {
+        if (!NATIONAL_RETAILER_IDS.includes(l.retailerId)) return false;
+        return !exactFiltered.some((e) => e.retailerId === l.retailerId);
+      })
+    : [];
 
   let filtered: FilteredListing[] = mergeFilteredByQuality(
     exactFiltered,

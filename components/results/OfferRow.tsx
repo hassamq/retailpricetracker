@@ -89,12 +89,19 @@ export function OfferRow({
               )}
               {offer.matchQuality === "nearest" && (
                 <Tag tone="muted">
-                  {(offer.matchedVariant?.connectivity ?? "Closest") +
-                    " · closest match"}
+                  {offer.matchedVariant?.connectivity
+                    ? `${offer.matchedVariant.connectivity} · closest match`
+                    : offer.matchedVariant?.size
+                      ? `${offer.matchedVariant.size} · closest match`
+                      : "Closest match"}
                 </Tag>
               )}
               {offer.matchQuality === "carrier" && (
-                <Tag tone="muted">Carrier 5G</Tag>
+                <Tag tone="muted">
+                  {offer.matchedVariant?.connectivity
+                    ? `Carrier · ${offer.matchedVariant.connectivity}`
+                    : "Carrier"}
+                </Tag>
               )}
             </div>
             <p className="mt-1 line-clamp-2 text-xs text-muted">{offer.title}</p>

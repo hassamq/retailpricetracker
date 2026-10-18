@@ -1,0 +1,145 @@
+{
+  "search_metadata": {
+    "id": "6ad506b731aafeaffa733310",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/ZxuS1YH0eymWRC5tM3fRZnm4sy3rRae6sLGRyaMxac4/6ad506b731aafeaffa733310.json",
+    "markdown_endpoint": "https://serpapi.com/searches/ZxuS1YH0eymWRC5tM3fRZnm4sy3rRae6sLGRyaMxac4/6ad506b731aafeaffa733310.md",
+    "created_at": "2026-10-18 17:49:43 UTC",
+    "processed_at": "2026-10-18 17:49:43 UTC",
+    "google_shopping_url": "https://www.google.com/search?udm=28&q=Samsung+Galaxy+Buds4+Pro+Amazon&hl=en&gl=us",
+    "raw_html_file": "https://serpapi.com/searches/ZxuS1YH0eymWRC5tM3fRZnm4sy3rRae6sLGRyaMxac4/6ad506b731aafeaffa733310.html",
+    "total_time_taken": 1.19
+  },
+  "search_parameters": {
+    "engine": "google_shopping",
+    "q": "Samsung Galaxy Buds4 Pro Amazon",
+    "location_requested": "United States",
+    "location_used": "United States",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Buds4 Pro Amazon",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Samsung Galaxy Buds4 Pro",
+      "product_id": "14899118198178162915",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=Samsung Galaxy Buds4 Pro Amazon&prds=catalogid:14899118198178162915,productid:6494354896445753816,headlineOfferDocid:18374283021270161933,imageDocid:11667391430345210241,rds:PC_2492441080056935489|PROD_PC_2492441080056935489,gpcid:2492441080056935489,mid:576462893550479554,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "jcdK03icbVPJrrPoEY2SF8giD_Dvr_yLj5l75QXTh8EMNh-T2SAmGwwGzGAwytPcv7ulzrI7UjaRss4jdC_yLHGGZS9KKp1TpTpVOvWv3_3xMy__Ns6JFz8cVb8nUj_JB7abIpJXf-z6NpvSscx-pkmOJCiS5WiSpBiKYAH9YxqPcd1eyuyv4EVwALCAYwHzonAOUD8VeZzVZZNb53PeS236nzqWYEicJTAc4AwGaMARxF_KW3zJ_88DmmYIDpAERpAUDjCcBN_6bPgFP4gRTnI4SQKMxTCK5v4r5s8H25Ki3-a-v095__wHim_D1FzelLiOl-ebMGUD-Xbo2zf-Fq9t8_2lew3--Tf6v93K7CeKoUkaZ18IhZEMR1Hkt-4xfhaX76apzv8-v4m8elRF1fR8qssUr1KhiZ0Cu07nz0v9OQ2fRf2ZNz-0cfc4p7_-_k9yO0viMItHt-s8ycYQIejeWlh-o109aIrJatrhKlSxcpltRzvEtaelNw7ZwKRtCImwNkj_WrhHBx78q2ckOKf7cq2jxt47MDNiDDxNon0aPoWZfgtMqOJeBaEB-TFWhgUpmo6q4uw7oWdezafhyJTpmaWBgHL0TWS5tugptZzgxRJiCxX7xRS6lOd7KZnstCCrtSYTQZHLtm02wt6rqOMJaDNyOTcjNCqvjMVtujbAFy8POuJIaDf7dhotCJ0Q8Gv-2vOIj1gqFXJaX8ZT7RG-UpDH2yjlyiha8ohQBYRToI4m8IiXLim9GUSIL1XigtYOBNdvQsnxVOy01nXiweroha6NQIncorZgLTuAxd1d7ZpyTSF3rHMYhqkDd7rL3ZKmHQ1Xg4Y7zGYNLcftFO_m6UiuZsvtdkYQtpmyjP7rTid_BscglF1oe0agKVnTYbaPIUjYxKkOi6y2NWcHS3unAdvjyXTnnU0ZakqpCfbOfFp-iGLggcSnBASzJXXD0ats_eRqja9wkq90rSvXzXfL0J9_wXhIjciiToNEGXzeuvbDMzBFZdNbqLN2dFKO74Dh8NdjMCzBUeCHtG2rMv_1D_-MFFsW-YMj7vgtxvH7QrTngmXuJK2fGUVHvT6QqbBJ57idrqcdutP0eBlTZrMALMDK7kI_H_iBi8rkCQO_R4m530FPeCo2t2b0WWpiJJAfX5Alou3L8K9M5m1xFyHekJHqyFvxclTLvSp8fOFlccvHMSdr9zwNyb4xIoynorw0hLOi0RvLq3mzLNcSa57yHgY8Lx_lu9R7EyjWy8cXxbIUXY54wUVyJAeycXBUy9yq0jYhUiphAIFhTJoxNPPuGNv_3YMEOHgXt_27engh5FdAs19xEvuKg8072tZdGvKyO6XXdkNqKIzl0cnhawnJ27LY3pKVyzUV3RMpBGvL7R_eXGVkx_PQbj--mK_B4r0VRV5GBC8L1qJISJR2kejeJay9aNbJifPHSig-1VL4vWgWVrkUsA1QcXzGu5R25xuciPPSafbo1uHu-NCgftKMA3cPC3UjMJsGDxVXxjRm8NOH5llGPtOBd-5OgrWnQHUlu8taOexUR6HdonS3KI5v8mrXX_cFe7xcmvszYO15RXJdT0YWEYnvAbG1ci6zEC2s9KlYtRO_15jHLsyS3jR49wgWBtCxpOZ7DC44eJZKq9BztPfq1R_gJrsqjgnv4WRd5kOA9IDWApE3ovuTtzruXl2ehdrE7PWZXB1byKfmTEUVrO7POqr2vPy0jzvU8-eDv-811rAWGfVIVK4kzBr0cMqgOAoajjChV9cbjA1-VYaDUD7tZTWPJ4JPQhymtsz3mHRf7354oAeGavcDbLXDQ3zZJIpQnk59vkGOfdjyglnwdHnrVqVxlkce6FFe9LTSk8bgN4-gPDm4vuHOwnFymc09H70rZYIEO8u3zNqY5ziz5GTjcCty9qIGzwem76JlwlqLaSpzLG4W2H98cV1d3l7f_FUeDEd9RUoZVwMznZQ0VmM2rvxsiMuU-cugw2E1V54yJBUzJH7QnQqYq_y0pGoxIDYkjTck4jwaiJx1hQKJMg9mjW3_DTySeDE",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=jcdK03icbVPJrrPoEY2SF8giD_Dvr_yLj5l75QXTh8EMNh-T2SAmGwwGzGAwytPcv7ulzrI7UjaRss4jdC_yLHGGZS9KKp1TpTpVOvWv3_3xMy__Ns6JFz8cVb8nUj_JB7abIpJXf-z6NpvSscx-pkmOJCiS5WiSpBiKYAH9YxqPcd1eyuyv4EVwALCAYwHzonAOUD8VeZzVZZNb53PeS236nzqWYEicJTAc4AwGaMARxF_KW3zJ_88DmmYIDpAERpAUDjCcBN_6bPgFP4gRTnI4SQKMxTCK5v4r5s8H25Ki3-a-v095__wHim_D1FzelLiOl-ebMGUD-Xbo2zf-Fq9t8_2lew3--Tf6v93K7CeKoUkaZ18IhZEMR1Hkt-4xfhaX76apzv8-v4m8elRF1fR8qssUr1KhiZ0Cu07nz0v9OQ2fRf2ZNz-0cfc4p7_-_k9yO0viMItHt-s8ycYQIejeWlh-o109aIrJatrhKlSxcpltRzvEtaelNw7ZwKRtCImwNkj_WrhHBx78q2ckOKf7cq2jxt47MDNiDDxNon0aPoWZfgtMqOJeBaEB-TFWhgUpmo6q4uw7oWdezafhyJTpmaWBgHL0TWS5tugptZzgxRJiCxX7xRS6lOd7KZnstCCrtSYTQZHLtm02wt6rqOMJaDNyOTcjNCqvjMVtujbAFy8POuJIaDf7dhotCJ0Q8Gv-2vOIj1gqFXJaX8ZT7RG-UpDH2yjlyiha8ohQBYRToI4m8IiXLim9GUSIL1XigtYOBNdvQsnxVOy01nXiweroha6NQIncorZgLTuAxd1d7ZpyTSF3rHMYhqkDd7rL3ZKmHQ1Xg4Y7zGYNLcftFO_m6UiuZsvtdkYQtpmyjP7rTid_BscglF1oe0agKVnTYbaPIUjYxKkOi6y2NWcHS3unAdvjyXTnnU0ZakqpCfbOfFp-iGLggcSnBASzJXXD0ats_eRqja9wkq90rSvXzXfL0J9_wXhIjciiToNEGXzeuvbDMzBFZdNbqLN2dFKO74Dh8NdjMCzBUeCHtG2rMv_1D_-MFFsW-YMj7vgtxvH7QrTngmXuJK2fGUVHvT6QqbBJ57idrqcdutP0eBlTZrMALMDK7kI_H_iBi8rkCQO_R4m530FPeCo2t2b0WWpiJJAfX5Alou3L8K9M5m1xFyHekJHqyFvxclTLvSp8fOFlccvHMSdr9zwNyb4xIoynorw0hLOi0RvLq3mzLNcSa57yHgY8Lx_lu9R7EyjWy8cXxbIUXY54wUVyJAeycXBUy9yq0jYhUiphAIFhTJoxNPPuGNv_3YMEOHgXt_27engh5FdAs19xEvuKg8072tZdGvKyO6XXdkNqKIzl0cnhawnJ27LY3pKVyzUV3RMpBGvL7R_eXGVkx_PQbj--mK_B4r0VRV5GBC8L1qJISJR2kejeJay9aNbJifPHSig-1VL4vWgWVrkUsA1QcXzGu5R25xuciPPSafbo1uHu-NCgftKMA3cPC3UjMJsGDxVXxjRm8NOH5llGPtOBd-5OgrWnQHUlu8taOexUR6HdonS3KI5v8mrXX_cFe7xcmvszYO15RXJdT0YWEYnvAbG1ci6zEC2s9KlYtRO_15jHLsyS3jR49wgWBtCxpOZ7DC44eJZKq9BztPfq1R_gJrsqjgnv4WRd5kOA9IDWApE3ovuTtzruXl2ehdrE7PWZXB1byKfmTEUVrO7POqr2vPy0jzvU8-eDv-811rAWGfVIVK4kzBr0cMqgOAoajjChV9cbjA1-VYaDUD7tZTWPJ4JPQhymtsz3mHRf7354oAeGavcDbLXDQ3zZJIpQnk59vkGOfdjyglnwdHnrVqVxlkce6FFe9LTSk8bgN4-gPDm4vuHOwnFymc09H70rZYIEO8u3zNqY5ziz5GTjcCty9qIGzwem76JlwlqLaSpzLG4W2H98cV1d3l7f_FUeDEd9RUoZVwMznZQ0VmM2rvxsiMuU-cugw2E1V54yJBUzJH7QnQqYq_y0pGoxIDYkjTck4jwaiJx1hQKJMg9mjW3_DTySeDE",
+      "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&page_token=jcdK03icbVPJrrPoEY2SF8giD_Dvr_yLj5l75QXTh8EMNh-T2SAmGwwGzGAwytPcv7ulzrI7UjaRss4jdC_yLHGGZS9KKp1TpTpVOvWv3_3xMy__Ns6JFz8cVb8nUj_JB7abIpJXf-z6NpvSscx-pkmOJCiS5WiSpBiKYAH9YxqPcd1eyuyv4EVwALCAYwHzonAOUD8VeZzVZZNb53PeS236nzqWYEicJTAc4AwGaMARxF_KW3zJ_88DmmYIDpAERpAUDjCcBN_6bPgFP4gRTnI4SQKMxTCK5v4r5s8H25Ki3-a-v095__wHim_D1FzelLiOl-ebMGUD-Xbo2zf-Fq9t8_2lew3--Tf6v93K7CeKoUkaZ18IhZEMR1Hkt-4xfhaX76apzv8-v4m8elRF1fR8qssUr1KhiZ0Cu07nz0v9OQ2fRf2ZNz-0cfc4p7_-_k9yO0viMItHt-s8ycYQIejeWlh-o109aIrJatrhKlSxcpltRzvEtaelNw7ZwKRtCImwNkj_WrhHBx78q2ckOKf7cq2jxt47MDNiDDxNon0aPoWZfgtMqOJeBaEB-TFWhgUpmo6q4uw7oWdezafhyJTpmaWBgHL0TWS5tugptZzgxRJiCxX7xRS6lOd7KZnstCCrtSYTQZHLtm02wt6rqOMJaDNyOTcjNCqvjMVtujbAFy8POuJIaDf7dhotCJ0Q8Gv-2vOIj1gqFXJaX8ZT7RG-UpDH2yjlyiha8ohQBYRToI4m8IiXLim9GUSIL1XigtYOBNdvQsnxVOy01nXiweroha6NQIncorZgLTuAxd1d7ZpyTSF3rHMYhqkDd7rL3ZKmHQ1Xg4Y7zGYNLcftFO_m6UiuZsvtdkYQtpmyjP7rTid_BscglF1oe0agKVnTYbaPIUjYxKkOi6y2NWcHS3unAdvjyXTnnU0ZakqpCfbOfFp-iGLggcSnBASzJXXD0ats_eRqja9wkq90rSvXzXfL0J9_wXhIjciiToNEGXzeuvbDMzBFZdNbqLN2dFKO74Dh8NdjMCzBUeCHtG2rMv_1D_-MFFsW-YMj7vgtxvH7QrTngmXuJK2fGUVHvT6QqbBJ57idrqcdutP0eBlTZrMALMDK7kI_H_iBi8rkCQO_R4m530FPeCo2t2b0WWpiJJAfX5Alou3L8K9M5m1xFyHekJHqyFvxclTLvSp8fOFlccvHMSdr9zwNyb4xIoynorw0hLOi0RvLq3mzLNcSa57yHgY8Lx_lu9R7EyjWy8cXxbIUXY54wUVyJAeycXBUy9yq0jYhUiphAIFhTJoxNPPuGNv_3YMEOHgXt_27engh5FdAs19xEvuKg8072tZdGvKyO6XXdkNqKIzl0cnhawnJ27LY3pKVyzUV3RMpBGvL7R_eXGVkx_PQbj--mK_B4r0VRV5GBC8L1qJISJR2kejeJay9aNbJifPHSig-1VL4vWgWVrkUsA1QcXzGu5R25xuciPPSafbo1uHu-NCgftKMA3cPC3UjMJsGDxVXxjRm8NOH5llGPtOBd-5OgrWnQHUlu8taOexUR6HdonS3KI5v8mrXX_cFe7xcmvszYO15RXJdT0YWEYnvAbG1ci6zEC2s9KlYtRO_15jHLsyS3jR49wgWBtCxpOZ7DC44eJZKq9BztPfq1R_gJrsqjgnv4WRd5kOA9IDWApE3ovuTtzruXl2ehdrE7PWZXB1byKfmTEUVrO7POqr2vPy0jzvU8-eDv-811rAWGfVIVK4kzBr0cMqgOAoajjChV9cbjA1-VYaDUD7tZTWPJ4JPQhymtsz3mHRf7354oAeGavcDbLXDQ3zZJIpQnk59vkGOfdjyglnwdHnrVqVxlkce6FFe9LTSk8bgN4-gPDm4vuHOwnFymc09H70rZYIEO8u3zNqY5ziz5GTjcCty9qIGzwem76JlwlqLaSpzLG4W2H98cV1d3l7f_FUeDEd9RUoZVwMznZQ0VmM2rvxsiMuU-cugw2E1V54yJBUzJH7QnQqYq_y0pGoxIDYkjTck4jwaiJx1hQKJMg9mjW3_DTySeDE",
+      "source": "Best Buy",
+      "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABa0lEQVRYhe2Wv0sCURzAP3deipVKGmJhUkgQ2BZELVFTUASNDc01tTf2FwQ1NUUt0W4NJU0u_cBJEokwBQv6MQSVHXfla7CEK2u7dwR-xvfgfT48vjweNGniMMpvG6IwsoZiBmy1a5X0jwAhVlRKyV3actOor622Brz2FzWrfKGFq2QS__kEiu62Vf5JPUDczLRylTkkkB0FQ5UhrweI0nQHRjmFPzsEb7LctQBxN95OpZzGl01AVaocQEO_P8KXS4CQLgdQUY2wU_JagMNYAp6eXWzsBMlkvdICLO_A6maI9e0g_vYq-dQlHrf9Q2m5gXjMACAaMfG45cyF5QbmZx8ZG67QHTaRNZja94VYtyFF_IUKLqnCBgEsYURuHQtQovk99J5l9Ni1IwEASt_ZFmZkET1eciQAQOk93Ud0zvEyUPjjo2RfAIASPTnmLTTFy-CFrIiGFlGc7EI8HOCq2FtR9b7ben6TJv-CD0kuZPBfOKP6AAAAAElFTkSuQmCC.png",
+      "multiple_sources": true,
+      "price": "$239.54",
+      "extracted_price": 239.54,
+      "rating": 4.6,
+      "reviews": 14000,
+      "snippet": "Good sound quality (4,544 user reviews)",
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRig4ZwBH2W2hX2UdaBj5ajrmQ9QG83ikFwT_R6IYLgBSAAXUWs2j1BB64JcEpYJxKieUX4_ZDIAHAj4tHQiAbB3bRk2ihVBAl_K-MnyqE",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/nU0MW3icDcnbCoIwAADQL1JxmqQQsZF5q0DLvLyITtHN1OkG5uf0Wf1Nndfz_XRCMG4pSjPiZWOiqSVRjarcclEKgmU8DQrvJsbI2B7nw_8seKtNB0ek1fMVuSABXQriukR0V9JlCM3Q2WukP6-PIjK87NKiO4RpnHBAVYQM3cc2y_x3QJo41Yv85EEXUl24IYEV0qqoB6R7IvgqAuk6brP9A7b8N-0",
+      "delivery": "Free delivery"
+    }
+  ],
+  "filters": [
+    {
+      "input_type": "link_with_icon",
+      "options": [
+        {
+          "text": "Small business",
+          "shoprs": "CAESAmoAGBYqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBhbWF6b24yHAgWEg5TbWFsbCBidXNpbmVzcyICagAqBBABGAFgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=samsung+galaxy+buds4+pro+amazon&shoprs=CAESAmoAGBYqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBhbWF6b24yHAgWEg5TbWFsbCBidXNpbmVzcyICagAqBBABGAFgAg"
+        }
+      ]
+    },
+    {
+      "type": "Category",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "Earbuds",
+          "shoprs": "CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGFtYXpvbjILCAkSB0VhcmJ1ZHNgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=earbuds+samsung+galaxy+buds4+pro+amazon&shoprs=CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGFtYXpvbjILCAkSB0VhcmJ1ZHNgAg"
+        },
+        {
+          "text": "Noise Canceling Headphones",
+          "shoprs": "CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGFtYXpvbjIeCAkSGk5vaXNlIENhbmNlbGluZyBIZWFkcGhvbmVzYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=noise+canceling+headphones+samsung+galaxy+buds4+pro+amazon&shoprs=CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGFtYXpvbjIeCAkSGk5vaXNlIENhbmNlbGluZyBIZWFkcGhvbmVzYAI"
+        },
+        {
+          "text": "Headphones",
+          "shoprs": "CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGFtYXpvbjIOCAkSCkhlYWRwaG9uZXNgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=headphones+samsung+galaxy+buds4+pro+amazon&shoprs=CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGFtYXpvbjIOCAkSCkhlYWRwaG9uZXNgAg"
+        }
+      ]
+    },
+    {
+      "type": "Height",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "1.1″ tall",
+          "shoprs": "CAESGioYCKbEPhISCQAAAKAcWgZAEQAAAKAcWgZAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBhbWF6b24yOQgBEgsxLjHigLMgdGFsbCIaKhgIpsQ-EhIJAAAAoBxaBkARAAAAoBxaBkAqAhgBOggIpsQ-EAAwBliD6CBgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=1.1%E2%80%B3+tall+samsung+galaxy+buds4+pro+amazon&shoprs=CAESGioYCKbEPhISCQAAAKAcWgZAEQAAAKAcWgZAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBhbWF6b24yOQgBEgsxLjHigLMgdGFsbCIaKhgIpsQ-EhIJAAAAoBxaBkARAAAAoBxaBkAqAhgBOggIpsQ-EAAwBliD6CBgAg"
+        },
+        {
+          "text": "2.01″ tall",
+          "shoprs": "CAESGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBhbWF6b24yOggBEgwyLjAx4oCzIHRhbGwiGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAKgIYAToICKbEPhAAMAZYg-ggYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=2.01%E2%80%B3+tall+samsung+galaxy+buds4+pro+amazon&shoprs=CAESGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBhbWF6b24yOggBEgwyLjAx4oCzIHRhbGwiGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAKgIYAToICKbEPhAAMAZYg-ggYAI"
+        }
+      ]
+    },
+    {
+      "type": "Carousel Filters",
+      "options": [
+        {
+          "text": "Earbuds",
+          "shoprs": "CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGFtYXpvbjILCAkSB0VhcmJ1ZHNgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=earbuds+samsung+galaxy+buds4+pro+amazon&shoprs=CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGFtYXpvbjILCAkSB0VhcmJ1ZHNgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "Galaxy Buds",
+          "shoprs": "CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGFtYXpvbjIdCAESC0dhbGF4eSBCdWRzOgwI-oWFAhD7hYUCMARYg-ggYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=galaxy+buds+samsung+buds4+pro+amazon&shoprs=CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGFtYXpvbjIdCAESC0dhbGF4eSBCdWRzOgwI-oWFAhD7hYUCMARYg-ggYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "Noise Canceling Headphones",
+          "shoprs": "CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGFtYXpvbjIeCAkSGk5vaXNlIENhbmNlbGluZyBIZWFkcGhvbmVzYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=noise+canceling+headphones+samsung+galaxy+buds4+pro+amazon&shoprs=CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGFtYXpvbjIeCAkSGk5vaXNlIENhbmNlbGluZyBIZWFkcGhvbmVzYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "Headphones",
+          "shoprs": "CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGFtYXpvbjIOCAkSCkhlYWRwaG9uZXNgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=headphones+samsung+galaxy+buds4+pro+amazon&shoprs=CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGFtYXpvbjIOCAkSCkhlYWRwaG9uZXNgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "Small business",
+          "shoprs": "CAESAmoAGBYqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBhbWF6b24yHAgWEg5TbWFsbCBidXNpbmVzcyICagAqBBABGAFgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=samsung+galaxy+buds4+pro+amazon&shoprs=CAESAmoAGBYqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBhbWF6b24yHAgWEg5TbWFsbCBidXNpbmVzcyICagAqBBABGAFgAQ",
+          "input_type": "link_with_icon"
+        },
+        {
+          "text": "2.01″ tall",
+          "shoprs": "CAESGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBhbWF6b24yOggBEgwyLjAx4oCzIHRhbGwiGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAKgIYAToICKbEPhAAMAZYg-ggYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=2.01%E2%80%B3+tall+samsung+galaxy+buds4+pro+amazon&shoprs=CAESGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBhbWF6b24yOggBEgwyLjAx4oCzIHRhbGwiGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAKgIYAToICKbEPhAAMAZYg-ggYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "1.1″ tall",
+          "shoprs": "CAESGioYCKbEPhISCQAAAKAcWgZAEQAAAKAcWgZAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBhbWF6b24yOQgBEgsxLjHigLMgdGFsbCIaKhgIpsQ-EhIJAAAAoBxaBkARAAAAoBxaBkAqAhgBOggIpsQ-EAAwBliD6CBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=1.1%E2%80%B3+tall+samsung+galaxy+buds4+pro+amazon&shoprs=CAESGioYCKbEPhISCQAAAKAcWgZAEQAAAKAcWgZAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBhbWF6b24yOQgBEgsxLjHigLMgdGFsbCIaKhgIpsQ-EhIJAAAAoBxaBkARAAAAoBxaBkAqAhgBOggIpsQ-EAAwBliD6CBgAQ",
+          "input_type": "link"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "search_metadata": {
+    "id": "6ad506afce771943daab342c",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/pUU_6GQOjCxBq2qWsgob4TM2EluKS4aU6-OpbPy3Caw/6ad506afce771943daab342c.json",
+    "markdown_endpoint": "https://serpapi.com/searches/pUU_6GQOjCxBq2qWsgob4TM2EluKS4aU6-OpbPy3Caw/6ad506afce771943daab342c.md",
+    "created_at": "2026-10-18 17:49:35 UTC",
+    "processed_at": "2026-10-18 17:49:35 UTC",
+    "google_shopping_url": "https://www.google.com/search?udm=28&q=Samsung+Galaxy+Buds4+Pro+Costco&hl=en&gl=us",
+    "raw_html_file": "https://serpapi.com/searches/pUU_6GQOjCxBq2qWsgob4TM2EluKS4aU6-OpbPy3Caw/6ad506afce771943daab342c.html",
+    "total_time_taken": 3.57
+  },
+  "search_parameters": {
+    "engine": "google_shopping",
+    "q": "Samsung Galaxy Buds4 Pro Costco",
+    "location_requested": "United States",
+    "location_used": "United States",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Buds4 Pro Costco",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Samsung Galaxy Buds4 Pro",
+      "product_id": "754473646502787210",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=Samsung Galaxy Buds4 Pro Costco&prds=catalogid:754473646502787210,productid:6268974528126126850,headlineOfferDocid:11727583608755471174,imageDocid:3433615712039049666,rds:PC_2492441080056935489|PROD_PC_2492441080056935489,gpcid:2492441080056935489,mid:576462893550479554,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "yNtpOnicbVXJruPGFQ2C7LLJIh_Q-wcZxVnshhYcitPjIHEUuRE4ifMgkhIH5Gte2wbspW0gmwD5DnuRbwmdbA1UoVB1cadzcG79509_-0iLf45M5IZ9xBpx8ST07pyNXlwx4Id-6JJnPBXJzyRKHmkKJ9AjgpL7OhLghzicwrrLiuQnisBxCiNxkgAodaRQBPyUp2FSF21q3O_pwHdxkfyCIBRKEUeMBEeKIHBqv-M_Fk2Ypf-z_4zhGEYiBIWgAKMBTpMk-XVIxl_RM3dDcRrFcQQcASBIGiPwI_2Ps2nwtz-2ffd4psP6bytsxmebvYlhHS7rG_tMRvztPHRvXDdOcfdd1v-e9w_8vzZ7VwS1d4Qe9xcC4BS9l_y1f00fefbt81mn_5rfOEa-yJysux7RJ6JbyYIO_KtZx_NHVn88x4-8_kjb77uwf93j3_78d9jNPDfO3MXpe5c3geVNTuK4dmizwXUL5gAkr6A2NcMOJt8VCrchbNuDeGBDxBCJUfPqhwtlNK5iLCqF0LkKSlQmkoOxocabrQcFN7Hdyi910RanIOHzMIGT6DX1bCJ1bXnuYO6hDN7HQlQ5B3Y9BpiDGrCHTlsX2rXffE-fzNo1HVTxo0ZwQjcvHVDvfdVt2gSNA5BSr_reR_WXu7lhKrp5hPUvC83WqO6LS9uTyWa2Kcw53d79HMFJpWyxEWULXRMxqx0jtC78NqhDGwK9VWwL6we9VEa3ccedscUqzYtfC4XpukRSuQ-vClbToevUc0MDmmZUspgLp8a5xmuC5FVs12QguIpdBoPG62evErjgGrz8Vnm3tuBsoVOf8jlilTkSoXCxvTpPG-Ic1TVu8OziSfXDrILJveqe5WiL57KmBXoYSmYRX83RrX1ir72wRdkSMJ316yCPRYWzUb3f8TYihG1jJClDAGexUFhT0lfDC5xYYvW4oWcdEYgImKULkEsoyJNWyagGpsvOX_vtMg73XwEjEJNlENkU2BNxWCCody7Usb8S1fTS3ZHMPiMUjWI4QVEUCujv466rivS3v_z1JpqQY842JzEnQDPvOWfOWa6w9wqa2p2P2VtyNfn4pk2m2TXwRUv8oTkmE0vPah6RLnZdbjWbBpkj6fKYEehoB0OBH3Oe1O1NYklXTZ0vnyxd5k-MYiDoFRa43IeXw_AihYm9phLWMx7xwCycVW2DdRpEG2mr8i0gO3OUqKgEOhHCxFRxh_c7i94QkuWde_VIev2ZkasLDiya4Vp0mfdEBmeddmV9-XS7WWn8HNKDZZvnE8PqOUMW0C5J3Oa4wXkirYkYJp746Xx5HwcG5BV2GaxDKOBqXFNulatDKekJnSb6OCSCH-ayxc5orSzJKJJN0qVqAgKFH4nKQZ-Zou3ZIWNy0s1iNGjJNjxx2UUu3mX2yycGcicmDGmoPIzHOgRAPIDy1piyelYVsZve-dkCHI4qDV1Ma2uM14AZsKpcKPMVj9mXT6JhiCq8MaxjwRu8Qu1sy4Z-2mElQyoi7hiBYTFCRQD9bGun_7ONHTHsM3caPsvnE0l8g9DINyjYTxI5fLZOKcOFS7iCY3bom6PpNzIBGnfH8HeuuEfMcQy00AtkjUXkLaZJFOX2uhlE_AQ-HCpAn4Xgpo-Hoe5Jqs7hwq3vPI9Gzl3Rt26RFo2Z0300UtkW13NPu4m3VeY16PVjzmSrhdnnA568rtYUl3AwE5cB8L6ph02RjMnFiHKfF_Pg9iAoNvnRjusir_RZlLhUt3BcQucO74yrfRA9RDDvFv7UlWHV1do4xH4vJaWne0DE3lf6lrbc3ALnzJQDeU3Yy_agOFl5H1U0a3gt4nzvQHo9I_FjJ93w4-ocXuG1EzKtYtEQi-XVHuOAIMmcKaW4napEFUehQHcxC7cSR94ZuJoXyRqY-3lUjRej07Qj41sbN_wxdInSeXDgANGcmuX1sQ3xGBfjUoMYKvUsuaGOc4h_bmoliMht_0P9CDDXaVekqqGYeHB45ssnx1HhqXzzNjhqtrzvmNBKDeh2jOn2ZdVKZta45Zl4y6gK46ZvDKHxMtB4ZlTtCtE3uBp8tWgCGKPWHSNunjQLn1WRQCJxHvUanP4LBomO3Q",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=yNtpOnicbVXJruPGFQ2C7LLJIh_Q-wcZxVnshhYcitPjIHEUuRE4ifMgkhIH5Gte2wbspW0gmwD5DnuRbwmdbA1UoVB1cadzcG79509_-0iLf45M5IZ9xBpx8ST07pyNXlwx4Id-6JJnPBXJzyRKHmkKJ9AjgpL7OhLghzicwrrLiuQnisBxCiNxkgAodaRQBPyUp2FSF21q3O_pwHdxkfyCIBRKEUeMBEeKIHBqv-M_Fk2Ypf-z_4zhGEYiBIWgAKMBTpMk-XVIxl_RM3dDcRrFcQQcASBIGiPwI_2Ps2nwtz-2ffd4psP6bytsxmebvYlhHS7rG_tMRvztPHRvXDdOcfdd1v-e9w_8vzZ7VwS1d4Qe9xcC4BS9l_y1f00fefbt81mn_5rfOEa-yJysux7RJ6JbyYIO_KtZx_NHVn88x4-8_kjb77uwf93j3_78d9jNPDfO3MXpe5c3geVNTuK4dmizwXUL5gAkr6A2NcMOJt8VCrchbNuDeGBDxBCJUfPqhwtlNK5iLCqF0LkKSlQmkoOxocabrQcFN7Hdyi910RanIOHzMIGT6DX1bCJ1bXnuYO6hDN7HQlQ5B3Y9BpiDGrCHTlsX2rXffE-fzNo1HVTxo0ZwQjcvHVDvfdVt2gSNA5BSr_reR_WXu7lhKrp5hPUvC83WqO6LS9uTyWa2Kcw53d79HMFJpWyxEWULXRMxqx0jtC78NqhDGwK9VWwL6we9VEa3ccedscUqzYtfC4XpukRSuQ-vClbToevUc0MDmmZUspgLp8a5xmuC5FVs12QguIpdBoPG62evErjgGrz8Vnm3tuBsoVOf8jlilTkSoXCxvTpPG-Ic1TVu8OziSfXDrILJveqe5WiL57KmBXoYSmYRX83RrX1ir72wRdkSMJ316yCPRYWzUb3f8TYihG1jJClDAGexUFhT0lfDC5xYYvW4oWcdEYgImKULkEsoyJNWyagGpsvOX_vtMg73XwEjEJNlENkU2BNxWCCody7Usb8S1fTS3ZHMPiMUjWI4QVEUCujv466rivS3v_z1JpqQY842JzEnQDPvOWfOWa6w9wqa2p2P2VtyNfn4pk2m2TXwRUv8oTkmE0vPah6RLnZdbjWbBpkj6fKYEehoB0OBH3Oe1O1NYklXTZ0vnyxd5k-MYiDoFRa43IeXw_AihYm9phLWMx7xwCycVW2DdRpEG2mr8i0gO3OUqKgEOhHCxFRxh_c7i94QkuWde_VIev2ZkasLDiya4Vp0mfdEBmeddmV9-XS7WWn8HNKDZZvnE8PqOUMW0C5J3Oa4wXkirYkYJp746Xx5HwcG5BV2GaxDKOBqXFNulatDKekJnSb6OCSCH-ayxc5orSzJKJJN0qVqAgKFH4nKQZ-Zou3ZIWNy0s1iNGjJNjxx2UUu3mX2yycGcicmDGmoPIzHOgRAPIDy1piyelYVsZve-dkCHI4qDV1Ma2uM14AZsKpcKPMVj9mXT6JhiCq8MaxjwRu8Qu1sy4Z-2mElQyoi7hiBYTFCRQD9bGun_7ONHTHsM3caPsvnE0l8g9DINyjYTxI5fLZOKcOFS7iCY3bom6PpNzIBGnfH8HeuuEfMcQy00AtkjUXkLaZJFOX2uhlE_AQ-HCpAn4Xgpo-Hoe5Jqs7hwq3vPI9Gzl3Rt26RFo2Z0300UtkW13NPu4m3VeY16PVjzmSrhdnnA568rtYUl3AwE5cB8L6ph02RjMnFiHKfF_Pg9iAoNvnRjusir_RZlLhUt3BcQucO74yrfRA9RDDvFv7UlWHV1do4xH4vJaWne0DE3lf6lrbc3ALnzJQDeU3Yy_agOFl5H1U0a3gt4nzvQHo9I_FjJ93w4-ocXuG1EzKtYtEQi-XVHuOAIMmcKaW4napEFUehQHcxC7cSR94ZuJoXyRqY-3lUjRej07Qj41sbN_wxdInSeXDgANGcmuX1sQ3xGBfjUoMYKvUsuaGOc4h_bmoliMht_0P9CDDXaVekqqGYeHB45ssnx1HhqXzzNjhqtrzvmNBKDeh2jOn2ZdVKZta45Zl4y6gK46ZvDKHxMtB4ZlTtCtE3uBp8tWgCGKPWHSNunjQLn1WRQCJxHvUanP4LBomO3Q",
+      "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&page_token=yNtpOnicbVXJruPGFQ2C7LLJIh_Q-wcZxVnshhYcitPjIHEUuRE4ifMgkhIH5Gte2wbspW0gmwD5DnuRbwmdbA1UoVB1cadzcG79509_-0iLf45M5IZ9xBpx8ST07pyNXlwx4Id-6JJnPBXJzyRKHmkKJ9AjgpL7OhLghzicwrrLiuQnisBxCiNxkgAodaRQBPyUp2FSF21q3O_pwHdxkfyCIBRKEUeMBEeKIHBqv-M_Fk2Ypf-z_4zhGEYiBIWgAKMBTpMk-XVIxl_RM3dDcRrFcQQcASBIGiPwI_2Ps2nwtz-2ffd4psP6bytsxmebvYlhHS7rG_tMRvztPHRvXDdOcfdd1v-e9w_8vzZ7VwS1d4Qe9xcC4BS9l_y1f00fefbt81mn_5rfOEa-yJysux7RJ6JbyYIO_KtZx_NHVn88x4-8_kjb77uwf93j3_78d9jNPDfO3MXpe5c3geVNTuK4dmizwXUL5gAkr6A2NcMOJt8VCrchbNuDeGBDxBCJUfPqhwtlNK5iLCqF0LkKSlQmkoOxocabrQcFN7Hdyi910RanIOHzMIGT6DX1bCJ1bXnuYO6hDN7HQlQ5B3Y9BpiDGrCHTlsX2rXffE-fzNo1HVTxo0ZwQjcvHVDvfdVt2gSNA5BSr_reR_WXu7lhKrp5hPUvC83WqO6LS9uTyWa2Kcw53d79HMFJpWyxEWULXRMxqx0jtC78NqhDGwK9VWwL6we9VEa3ccedscUqzYtfC4XpukRSuQ-vClbToevUc0MDmmZUspgLp8a5xmuC5FVs12QguIpdBoPG62evErjgGrz8Vnm3tuBsoVOf8jlilTkSoXCxvTpPG-Ic1TVu8OziSfXDrILJveqe5WiL57KmBXoYSmYRX83RrX1ir72wRdkSMJ316yCPRYWzUb3f8TYihG1jJClDAGexUFhT0lfDC5xYYvW4oWcdEYgImKULkEsoyJNWyagGpsvOX_vtMg73XwEjEJNlENkU2BNxWCCody7Usb8S1fTS3ZHMPiMUjWI4QVEUCujv466rivS3v_z1JpqQY842JzEnQDPvOWfOWa6w9wqa2p2P2VtyNfn4pk2m2TXwRUv8oTkmE0vPah6RLnZdbjWbBpkj6fKYEehoB0OBH3Oe1O1NYklXTZ0vnyxd5k-MYiDoFRa43IeXw_AihYm9phLWMx7xwCycVW2DdRpEG2mr8i0gO3OUqKgEOhHCxFRxh_c7i94QkuWde_VIev2ZkasLDiya4Vp0mfdEBmeddmV9-XS7WWn8HNKDZZvnE8PqOUMW0C5J3Oa4wXkirYkYJp746Xx5HwcG5BV2GaxDKOBqXFNulatDKekJnSb6OCSCH-ayxc5orSzJKJJN0qVqAgKFH4nKQZ-Zou3ZIWNy0s1iNGjJNjxx2UUu3mX2yycGcicmDGmoPIzHOgRAPIDy1piyelYVsZve-dkCHI4qDV1Ma2uM14AZsKpcKPMVj9mXT6JhiCq8MaxjwRu8Qu1sy4Z-2mElQyoi7hiBYTFCRQD9bGun_7ONHTHsM3caPsvnE0l8g9DINyjYTxI5fLZOKcOFS7iCY3bom6PpNzIBGnfH8HeuuEfMcQy00AtkjUXkLaZJFOX2uhlE_AQ-HCpAn4Xgpo-Hoe5Jqs7hwq3vPI9Gzl3Rt26RFo2Z0300UtkW13NPu4m3VeY16PVjzmSrhdnnA568rtYUl3AwE5cB8L6ph02RjMnFiHKfF_Pg9iAoNvnRjusir_RZlLhUt3BcQucO74yrfRA9RDDvFv7UlWHV1do4xH4vJaWne0DE3lf6lrbc3ALnzJQDeU3Yy_agOFl5H1U0a3gt4nzvQHo9I_FjJ93w4-ocXuG1EzKtYtEQi-XVHuOAIMmcKaW4napEFUehQHcxC7cSR94ZuJoXyRqY-3lUjRej07Qj41sbN_wxdInSeXDgANGcmuX1sQ3xGBfjUoMYKvUsuaGOc4h_bmoliMht_0P9CDDXaVekqqGYeHB45ssnx1HhqXzzNjhqtrzvmNBKDeh2jOn2ZdVKZta45Zl4y6gK46ZvDKHxMtB4ZlTtCtE3uBp8tWgCGKPWHSNunjQLn1WRQCJxHvUanP4LBomO3Q",
+      "source": "Newegg.com",
+      "source_icon": "https://serpapi.com/searches/6ad506afce771943daab342c/images/yl2BLG27o0q7T1184CTetIQGudZJDEdTKYk42GT46wo.png",
+      "multiple_sources": true,
+      "price": "$249.99",
+      "extracted_price": 249.99,
+      "rating": 4.6,
+      "reviews": 14000,
+      "snippet": "Good sound quality (4,544 user reviews)",
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSdA5zIIaJjNSABbuti7vmOQ0aB4CUQvikhaIiyuZm7z_lhRbPh4y5uYx-USWVIE7JoZyt7LfziTKfmYG-IsAFt-bWNHdW67kdCbpIdJKp9kKXAbXR_M9ny",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/-tIz2HicDclLDoIwFADAEwHGoA0mxlSiWFD8oKJsCKVgKwJVHsRyKO_jbXS28_1wANlMDCOr0peSkDENaDXUbw0kIFI9rUuj4bWUorrNntP_TbDPLCcNGB71hCTu3Q_wnLYgUFdu94NkbtqnfScKnhCh2qhEffzgB7rjphq117d2CsIzWSC3jhSgdd6Lo5eXV0cjDV6CRkN_xcIxKphNJWGuJ63Cu2B6OcQbq1I_VXk-iw",
+      "delivery": "Free delivery"
+    }
+  ],
+  "filters": [
+    {
+      "input_type": "link_with_icon",
+      "options": [
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIMCAMSBk5lYXJieRgCWIPoIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Buds4+Pro+Costco+nearby&shoprs=CAEYAyofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIMCAMSBk5lYXJieRgCWIPoIGAC"
+        },
+        {
+          "text": "Small business",
+          "shoprs": "CAESAmoAGBYqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBjb3N0Y28yHAgWEg5TbWFsbCBidXNpbmVzcyICagAqBBABGAFgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=samsung+galaxy+buds4+pro+costco&shoprs=CAESAmoAGBYqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBjb3N0Y28yHAgWEg5TbWFsbCBidXNpbmVzcyICagAqBBABGAFgAg"
+        }
+      ]
+    },
+    {
+      "type": "Category",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "Earbuds",
+          "shoprs": "CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzILCAkSB0VhcmJ1ZHNgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=earbuds+samsung+galaxy+buds4+pro+costco&shoprs=CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzILCAkSB0VhcmJ1ZHNgAg"
+        },
+        {
+          "text": "Noise Canceling Headphones",
+          "shoprs": "CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIeCAkSGk5vaXNlIENhbmNlbGluZyBIZWFkcGhvbmVzYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=noise+canceling+headphones+samsung+galaxy+buds4+pro+costco&shoprs=CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIeCAkSGk5vaXNlIENhbmNlbGluZyBIZWFkcGhvbmVzYAI"
+        },
+        {
+          "text": "Headphones",
+          "shoprs": "CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIOCAkSCkhlYWRwaG9uZXNgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=headphones+samsung+galaxy+buds4+pro+costco&shoprs=CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIOCAkSCkhlYWRwaG9uZXNgAg"
+        }
+      ]
+    },
+    {
+      "type": "Product Rating",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "4 and up",
+          "shoprs": "CAESBWIDCJADGB4qH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBjb3N0Y28yFQgeEgg0IGFuZCB1cCIFYgMIkANABGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Buds4+Pro+Costco&shoprs=CAESBWIDCJADGB4qH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBjb3N0Y28yFQgeEgg0IGFuZCB1cCIFYgMIkANABGAC"
+        }
+      ]
+    },
+    {
+      "type": "Features",
+      "input_type": "checkbox",
+      "options": [
+        {
+          "text": "With Microphone",
+          "shoprs": "CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIhCAESD1dpdGggTWljcm9waG9uZRgCOgoIsMI-ELHCPjADWIPoIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=samsung+galaxy+buds4+pro+costco+with+microphone&shoprs=CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIhCAESD1dpdGggTWljcm9waG9uZRgCOgoIsMI-ELHCPjADWIPoIGAC"
+        },
+        {
+          "text": "With Charging Case",
+          "shoprs": "CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIkCAESEldpdGggQ2hhcmdpbmcgQ2FzZRgCOgoIlKx9EJWsfTADWIPoIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=samsung+galaxy+buds4+pro+costco+with+charging+case&shoprs=CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIkCAESEldpdGggQ2hhcmdpbmcgQ2FzZRgCOgoIlKx9EJWsfTADWIPoIGAC"
+        },
+        {
+          "text": "With Adaptive EQ",
+          "shoprs": "CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIkCAESEFdpdGggQWRhcHRpdmUgRVEYAjoMCLDDsgIQscOyAjADWIPoIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=samsung+galaxy+buds4+pro+costco+with+adaptive+eq&shoprs=CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIkCAESEFdpdGggQWRhcHRpdmUgRVEYAjoMCLDDsgIQscOyAjADWIPoIGAC"
+        },
+        {
+          "text": "Water-resistant",
+          "shoprs": "CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIhCAESD1dhdGVyLXJlc2lzdGFudDoMCPTwnwQQ2_ifBDADWIPoIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=water-resistant+samsung+galaxy+buds4+pro+costco&shoprs=CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIhCAESD1dhdGVyLXJlc2lzdGFudDoMCPTwnwQQ2_ifBDADWIPoIGAC"
+        },
+        {
+          "text": "With Touch Controls",
+          "shoprs": "CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIlCAESE1dpdGggVG91Y2ggQ29udHJvbHMYAjoKCJesfRCYrH0wA1iD6CBgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=samsung+galaxy+buds4+pro+costco+with+touch+controls&shoprs=CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIlCAESE1dpdGggVG91Y2ggQ29udHJvbHMYAjoKCJesfRCYrH0wA1iD6CBgAg"
+        }
+      ]
+    },
+    {
+      "type": "Height",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "1.2″ tall",
+          "shoprs": "CAESGioYCKbEPhISCQAAAOBNYghAEQAAAOBNYghAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBjb3N0Y28yOQgBEgsxLjLigLMgdGFsbCIaKhgIpsQ-EhIJAAAA4E1iCEARAAAA4E1iCEAqAhgBOggIpsQ-EAAwBliD6CBgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=1.2%E2%80%B3+tall+samsung+galaxy+buds4+pro+costco&shoprs=CAESGioYCKbEPhISCQAAAOBNYghAEQAAAOBNYghAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBjb3N0Y28yOQgBEgsxLjLigLMgdGFsbCIaKhgIpsQ-EhIJAAAA4E1iCEARAAAA4E1iCEAqAhgBOggIpsQ-EAAwBliD6CBgAg"
+        },
+        {
+          "text": "2.01″ tall",
+          "shoprs": "CAESGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBjb3N0Y28yOggBEgwyLjAx4oCzIHRhbGwiGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAKgIYAToICKbEPhAAMAZYg-ggYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=2.01%E2%80%B3+tall+samsung+galaxy+buds4+pro+costco&shoprs=CAESGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBjb3N0Y28yOggBEgwyLjAx4oCzIHRhbGwiGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAKgIYAToICKbEPhAAMAZYg-ggYAI"
+        }
+      ]
+    },
+    {
+      "type": "Carousel Filters",
+      "options": [
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIMCAMSBk5lYXJieRgCWIPoIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Buds4+Pro+Costco+nearby&shoprs=CAEYAyofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIMCAMSBk5lYXJieRgCWIPoIGAB",
+          "input_type": "link_with_icon"
+        },
+        {
+          "text": "Earbuds",
+          "shoprs": "CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzILCAkSB0VhcmJ1ZHNgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=earbuds+samsung+galaxy+buds4+pro+costco&shoprs=CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzILCAkSB0VhcmJ1ZHNgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "Galaxy Buds",
+          "shoprs": "CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIdCAESC0dhbGF4eSBCdWRzOgwI-oWFAhD7hYUCMARYg-ggYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=galaxy+buds+samsung+buds4+pro+costco&shoprs=CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIdCAESC0dhbGF4eSBCdWRzOgwI-oWFAhD7hYUCMARYg-ggYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "Noise Canceling Headphones",
+          "shoprs": "CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIeCAkSGk5vaXNlIENhbmNlbGluZyBIZWFkcGhvbmVzYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=noise+canceling+headphones+samsung+galaxy+buds4+pro+costco&shoprs=CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIeCAkSGk5vaXNlIENhbmNlbGluZyBIZWFkcGhvbmVzYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "Headphones",
+          "shoprs": "CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIOCAkSCkhlYWRwaG9uZXNgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=headphones+samsung+galaxy+buds4+pro+costco&shoprs=CAEYCSofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIOCAkSCkhlYWRwaG9uZXNgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "With Microphone",
+          "shoprs": "CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIhCAESD1dpdGggTWljcm9waG9uZRgCOgoIsMI-ELHCPjADWIPoIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=samsung+galaxy+buds4+pro+costco+with+microphone&shoprs=CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIhCAESD1dpdGggTWljcm9waG9uZRgCOgoIsMI-ELHCPjADWIPoIGAB",
+          "input_type": "checkbox"
+        },
+        {
+          "text": "Small business",
+          "shoprs": "CAESAmoAGBYqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBjb3N0Y28yHAgWEg5TbWFsbCBidXNpbmVzcyICagAqBBABGAFgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=samsung+galaxy+buds4+pro+costco&shoprs=CAESAmoAGBYqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBjb3N0Y28yHAgWEg5TbWFsbCBidXNpbmVzcyICagAqBBABGAFgAQ",
+          "input_type": "link_with_icon"
+        },
+        {
+          "text": "With Charging Case",
+          "shoprs": "CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIkCAESEldpdGggQ2hhcmdpbmcgQ2FzZRgCOgoIlKx9EJWsfTADWIPoIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=samsung+galaxy+buds4+pro+costco+with+charging+case&shoprs=CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIkCAESEldpdGggQ2hhcmdpbmcgQ2FzZRgCOgoIlKx9EJWsfTADWIPoIGAB",
+          "input_type": "checkbox"
+        },
+        {
+          "text": "With Adaptive EQ",
+          "shoprs": "CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIkCAESEFdpdGggQWRhcHRpdmUgRVEYAjoMCLDDsgIQscOyAjADWIPoIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=samsung+galaxy+buds4+pro+costco+with+adaptive+eq&shoprs=CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIkCAESEFdpdGggQWRhcHRpdmUgRVEYAjoMCLDDsgIQscOyAjADWIPoIGAB",
+          "input_type": "checkbox"
+        },
+        {
+          "text": "Water-resistant",
+          "shoprs": "CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIhCAESD1dhdGVyLXJlc2lzdGFudDoMCPTwnwQQ2_ifBDADWIPoIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=water-resistant+samsung+galaxy+buds4+pro+costco&shoprs=CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIhCAESD1dhdGVyLXJlc2lzdGFudDoMCPTwnwQQ2_ifBDADWIPoIGAB",
+          "input_type": "checkbox"
+        },
+        {
+          "text": "With Touch Controls",
+          "shoprs": "CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIlCAESE1dpdGggVG91Y2ggQ29udHJvbHMYAjoKCJesfRCYrH0wA1iD6CBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=samsung+galaxy+buds4+pro+costco+with+touch+controls&shoprs=CAEYASofc2Ftc3VuZyBnYWxheHkgYnVkczQgcHJvIGNvc3RjbzIlCAESE1dpdGggVG91Y2ggQ29udHJvbHMYAjoKCJesfRCYrH0wA1iD6CBgAQ",
+          "input_type": "checkbox"
+        },
+        {
+          "text": "2.01″ tall",
+          "shoprs": "CAESGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBjb3N0Y28yOggBEgwyLjAx4oCzIHRhbGwiGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAKgIYAToICKbEPhAAMAZYg-ggYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=2.01%E2%80%B3+tall+samsung+galaxy+buds4+pro+costco&shoprs=CAESGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBjb3N0Y28yOggBEgwyLjAx4oCzIHRhbGwiGioYCKbEPhISCQAAAADuaxRAEQAAAADuaxRAKgIYAToICKbEPhAAMAZYg-ggYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "1.2″ tall",
+          "shoprs": "CAESGioYCKbEPhISCQAAAOBNYghAEQAAAOBNYghAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBjb3N0Y28yOQgBEgsxLjLigLMgdGFsbCIaKhgIpsQ-EhIJAAAA4E1iCEARAAAA4E1iCEAqAhgBOggIpsQ-EAAwBliD6CBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=1.2%E2%80%B3+tall+samsung+galaxy+buds4+pro+costco&shoprs=CAESGioYCKbEPhISCQAAAOBNYghAEQAAAOBNYghAGAEqH3NhbXN1bmcgZ2FsYXh5IGJ1ZHM0IHBybyBjb3N0Y28yOQgBEgsxLjLigLMgdGFsbCIaKhgIpsQ-EhIJAAAA4E1iCEARAAAA4E1iCEAqAhgBOggIpsQ-EAAwBliD6CBgAQ",
+          "input_type": "link"
+        }
+      ]
+    }
+  ]
+}

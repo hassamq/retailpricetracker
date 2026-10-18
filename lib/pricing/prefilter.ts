@@ -20,6 +20,7 @@ export type VariantFilter = {
   storage?: string;
   connectivity?: string;
   color?: string;
+  size?: string;
 };
 
 const OPEN_BOX_RE = /open[\s-]?box|display model|demo unit/i;
@@ -40,8 +41,9 @@ const STORAGE_TOKENS = [
 ] as const;
 
 /**
- * Reject listings that clearly advertise a different storage/connectivity
- * than the shopper selected. Nearest mode allows Wi‑Fi when 5G was requested.
+ * Reject listings that clearly advertise a different storage/connectivity/size
+ * than the shopper selected. Nearest mode keeps storage/size when stated but
+ * allows alternate connectivity (Wi‑Fi↔5G, Bluetooth↔LTE).
  */
 export function matchesVariant(
   title: string,
@@ -59,12 +61,23 @@ export function matchesVariant(
     if (mentionsOtherStorage && !blob.includes(wanted)) return false;
   }
 
-  const connectivity = variant.connectivity?.toLowerCase().trim();
+  if (variant.size) {
+    const wantedSize = normalizeSize(variant.size);
+    const mentioned = [...blob.matchAll(/(\d{2})\s?mm/g)].map((m) => m[1]);
+    if (
+      wantedSize &&
+      mentioned.length > 0 &&
+      !mentioned.some((mm) => mm === wantedSize)
+    ) {
+      return false;
+    }
+  }
+
   if (mode === "nearest") {
-    // Nearest: keep storage rules; allow alternate connectivity (Wi‑Fi ↔ 5G)
     return true;
   }
 
+  const connectivity = variant.connectivity?.toLowerCase().trim();
   if (connectivity === "5g") {
     const has5g = /\b5g\b/.test(blob);
     const hasWifi = /wi-?fi/.test(blob);
@@ -74,9 +87,14 @@ export function matchesVariant(
     const hasWifi = /wi-?fi/.test(blob);
     if (has5g && !hasWifi) return false;
   } else if (connectivity === "lte") {
+    const hasLte = /\blte\b|\bcellular\b|\b4g\b/.test(blob);
+    const bluetoothOnly =
+      /bluetooth/.test(blob) && !hasLte && !/\b5g\b/.test(blob);
+    if (bluetoothOnly) return false;
+  } else if (connectivity === "bluetooth") {
     const hasLte = /\blte\b/.test(blob);
-    const hasWifi = /wi-?fi/.test(blob);
-    if (hasWifi && !hasLte && !/\b5g\b/.test(blob)) return false;
+    const hasBt = /bluetooth|\bbt\b/.test(blob);
+    if (hasLte && !hasBt) return false;
   }
 
   return true;
@@ -104,8 +122,17 @@ export function inferMatchedVariant(
     matched.connectivity = "LTE";
   } else if (/wi-?fi/.test(blob)) {
     matched.connectivity = "Wi-Fi";
+  } else if (/bluetooth/.test(blob)) {
+    matched.connectivity = "Bluetooth";
   } else if (requested.connectivity) {
     matched.connectivity = requested.connectivity;
+  }
+
+  const sizeMm = blob.match(/(\d{2})\s?mm/);
+  if (sizeMm) {
+    matched.size = `${sizeMm[1]}mm`;
+  } else if (requested.size) {
+    matched.size = requested.size;
   }
 
   if (requested.color) {
@@ -114,6 +141,13 @@ export function inferMatchedVariant(
   }
 
   return matched;
+}
+
+function normalizeSize(size: string): string | null {
+  const m = size.toLowerCase().match(/(\d{2})\s?mm/);
+  if (m) return m[1];
+  if (/^\d{1,2}$/.test(size.trim())) return null; // ring sizes — don't use mm rule
+  return null;
 }
 
 export function prefilterListings(
@@ -126,7 +160,8 @@ export function prefilterListings(
   } = {},
 ): FilteredListing[] {
   const mode = opts.mode ?? "exact";
-  const matchQuality = opts.matchQuality ?? (mode === "nearest" ? "nearest" : "exact");
+  const matchQuality =
+    opts.matchQuality ?? (mode === "nearest" ? "nearest" : "exact");
   const min = product.msrp * 0.4;
   const max = product.msrp * 1.6;
 

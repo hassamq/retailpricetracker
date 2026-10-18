@@ -170,15 +170,26 @@ function scoreShoppingProduct(
     score += 5;
   }
   if (opts.connectivity?.toLowerCase() === "wi-fi") {
-    // Hard-reject cellular-only catalog rows for Wi-Fi shoppers
     if (/\b5g\b/i.test(title) && !/wi-?fi/i.test(title)) return null;
     if (/t-mobile|verizon|at&t|unlocked carrier/i.test(title)) score -= 4;
     if (/wi-?fi/i.test(title)) score += 3;
   }
   if (opts.connectivity?.toLowerCase() === "5g") {
-    // Hard-reject Wi-Fi-only catalog rows for 5G shoppers
     if (/wi-?fi/i.test(title) && !/\b5g\b/i.test(title)) return null;
     if (/5g/i.test(title)) score += 4;
+  }
+  if (opts.connectivity?.toLowerCase() === "bluetooth") {
+    if (/\blte\b/i.test(title) && !/bluetooth/i.test(title)) return null;
+    if (/bluetooth/i.test(title)) score += 3;
+  }
+  if (opts.connectivity?.toLowerCase() === "lte") {
+    if (
+      /bluetooth/i.test(title) &&
+      !/\blte\b|cellular|4g/i.test(title)
+    ) {
+      return null;
+    }
+    if (/\blte\b/i.test(title)) score += 4;
   }
   if (r.multiple_sources === true) score += 2;
   if (r.immersive_product_page_token || r.serpapi_immersive_product_api) {

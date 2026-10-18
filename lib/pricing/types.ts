@@ -9,6 +9,7 @@ export const MatchedVariantSchema = z.object({
   storage: z.string().optional(),
   connectivity: z.string().optional(),
   color: z.string().optional(),
+  size: z.string().optional(),
 });
 export type MatchedVariant = z.infer<typeof MatchedVariantSchema>;
 
