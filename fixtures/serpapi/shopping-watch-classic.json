@@ -1,0 +1,96 @@
+{
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Watch Classic {size} {connectivity}",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Galaxy Watch Classic  Bluetooth",
+      "source": "Best Buy",
+      "price": "$414.49",
+      "extracted_price": 414.49,
+      "old_price": "$449.99",
+      "extracted_old_price": 449.99,
+      "product_link": "https://example.com/bestbuy/galaxy-watch-classic",
+      "link": "https://example.com/bestbuy/galaxy-watch-classic",
+      "extensions": [
+        "Sale",
+        "In stock"
+      ],
+      "delivery": "Free shipping",
+      "immersive_product_page_token": "fixture-token-watch-classic"
+    },
+    {
+      "position": 2,
+      "title": "Galaxy Watch Classic  Bluetooth",
+      "source": "Costco",
+      "price": "$386.49",
+      "extracted_price": 386.49,
+      "product_link": "https://example.com/costco/galaxy-watch-classic",
+      "link": "https://example.com/costco/galaxy-watch-classic",
+      "extensions": [
+        "Membership price",
+        "In stock"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 3,
+      "title": "Galaxy Watch Classic  Bluetooth",
+      "source": "Target",
+      "price": "$420.49",
+      "extracted_price": 420.49,
+      "product_link": "https://example.com/target/galaxy-watch-classic",
+      "link": "https://example.com/target/galaxy-watch-classic",
+      "extensions": [
+        "Circle offer",
+        "Order pickup"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 4,
+      "title": "Galaxy Watch Classic  Bluetooth",
+      "source": "Walmart",
+      "price": "$396.99",
+      "extracted_price": 396.99,
+      "old_price": "$449.99",
+      "extracted_old_price": 449.99,
+      "product_link": "https://example.com/walmart/galaxy-watch-classic",
+      "link": "https://example.com/walmart/galaxy-watch-classic",
+      "extensions": [
+        "Rollback",
+        "Sold by Walmart"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 5,
+      "title": "Galaxy Watch Classic  Bluetooth",
+      "source": "Samsung",
+      "price": "$426.49",
+      "extracted_price": 426.49,
+      "product_link": "https://example.com/samsung/galaxy-watch-classic",
+      "link": "https://example.com/samsung/galaxy-watch-classic",
+      "extensions": [
+        "Trade-in available"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 6,
+      "title": "Galaxy Watch Classic  Bluetooth",
+      "source": "Amazon",
+      "price": "$401.99",
+      "extracted_price": 401.99,
+      "product_link": "https://example.com/amazon/galaxy-watch-classic",
+      "link": "https://example.com/amazon/galaxy-watch-classic",
+      "extensions": [
+        "Prime",
+        "Clip coupon"
+      ],
+      "delivery": "Free Prime delivery"
+    }
+  ]
+}

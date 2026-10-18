@@ -1,0 +1,96 @@
+{
+  "search_information": {
+    "query_displayed": "Samsung 45W Super Fast Charger USB-C",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "45W Super Fast Charger",
+      "source": "Best Buy",
+      "price": "$48.49",
+      "extracted_price": 48.49,
+      "old_price": "$49.99",
+      "extracted_old_price": 49.99,
+      "product_link": "https://example.com/bestbuy/45w-super-fast-charger",
+      "link": "https://example.com/bestbuy/45w-super-fast-charger",
+      "extensions": [
+        "Sale",
+        "In stock"
+      ],
+      "delivery": "Free shipping",
+      "immersive_product_page_token": "fixture-token-45w-charger"
+    },
+    {
+      "position": 2,
+      "title": "45W Super Fast Charger",
+      "source": "Costco",
+      "price": "$36.49",
+      "extracted_price": 36.49,
+      "product_link": "https://example.com/costco/45w-super-fast-charger",
+      "link": "https://example.com/costco/45w-super-fast-charger",
+      "extensions": [
+        "Membership price",
+        "In stock"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 3,
+      "title": "45W Super Fast Charger",
+      "source": "Target",
+      "price": "$46.49",
+      "extracted_price": 46.49,
+      "product_link": "https://example.com/target/45w-super-fast-charger",
+      "link": "https://example.com/target/45w-super-fast-charger",
+      "extensions": [
+        "Circle offer",
+        "Order pickup"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 4,
+      "title": "45W Super Fast Charger",
+      "source": "Walmart",
+      "price": "$51.99",
+      "extracted_price": 51.99,
+      "old_price": "$49.99",
+      "extracted_old_price": 49.99,
+      "product_link": "https://example.com/walmart/45w-super-fast-charger",
+      "link": "https://example.com/walmart/45w-super-fast-charger",
+      "extensions": [
+        "Rollback",
+        "Sold by Walmart"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 5,
+      "title": "45W Super Fast Charger",
+      "source": "Samsung",
+      "price": "$44.49",
+      "extracted_price": 44.49,
+      "product_link": "https://example.com/samsung/45w-super-fast-charger",
+      "link": "https://example.com/samsung/45w-super-fast-charger",
+      "extensions": [
+        "Trade-in available"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 6,
+      "title": "45W Super Fast Charger",
+      "source": "Amazon",
+      "price": "$47.99",
+      "extracted_price": 47.99,
+      "product_link": "https://example.com/amazon/45w-super-fast-charger",
+      "link": "https://example.com/amazon/45w-super-fast-charger",
+      "extensions": [
+        "Prime",
+        "Clip coupon"
+      ],
+      "delivery": "Free Prime delivery"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Watch7 {size} {connectivity}",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Galaxy Watch7  Bluetooth",
+      "source": "Best Buy",
+      "price": "$270.99",
+      "extracted_price": 270.99,
+      "old_price": "$299.99",
+      "extracted_old_price": 299.99,
+      "product_link": "https://example.com/bestbuy/galaxy-watch7",
+      "link": "https://example.com/bestbuy/galaxy-watch7",
+      "extensions": [
+        "Sale",
+        "In stock"
+      ],
+      "delivery": "Free shipping",
+      "immersive_product_page_token": "fixture-token-watch7"
+    },
+    {
+      "position": 2,
+      "title": "Galaxy Watch7  Bluetooth",
+      "source": "Costco",
+      "price": "$265.99",
+      "extracted_price": 265.99,
+      "product_link": "https://example.com/costco/galaxy-watch7",
+      "link": "https://example.com/costco/galaxy-watch7",
+      "extensions": [
+        "Membership price",
+        "In stock"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 3,
+      "title": "Galaxy Watch7  Bluetooth",
+      "source": "Target",
+      "price": "$273.99",
+      "extracted_price": 273.99,
+      "product_link": "https://example.com/target/galaxy-watch7",
+      "link": "https://example.com/target/galaxy-watch7",
+      "extensions": [
+        "Circle offer",
+        "Order pickup"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 4,
+      "title": "Galaxy Watch7  Bluetooth",
+      "source": "Walmart",
+      "price": "$271.99",
+      "extracted_price": 271.99,
+      "old_price": "$299.99",
+      "extracted_old_price": 299.99,
+      "product_link": "https://example.com/walmart/galaxy-watch7",
+      "link": "https://example.com/walmart/galaxy-watch7",
+      "extensions": [
+        "Rollback",
+        "Sold by Walmart"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 5,
+      "title": "Galaxy Watch7  Bluetooth",
+      "source": "Samsung",
+      "price": "$276.99",
+      "extracted_price": 276.99,
+      "product_link": "https://example.com/samsung/galaxy-watch7",
+      "link": "https://example.com/samsung/galaxy-watch7",
+      "extensions": [
+        "Trade-in available"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 6,
+      "title": "Galaxy Watch7  Bluetooth",
+      "source": "Amazon",
+      "price": "$262.99",
+      "extracted_price": 262.99,
+      "product_link": "https://example.com/amazon/galaxy-watch7",
+      "link": "https://example.com/amazon/galaxy-watch7",
+      "extensions": [
+        "Prime",
+        "Clip coupon"
+      ],
+      "delivery": "Free Prime delivery"
+    }
+  ]
+}

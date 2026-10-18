@@ -1,0 +1,96 @@
+{
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Watch Ultra {size} {connectivity}",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Galaxy Watch Ultra  Bluetooth",
+      "source": "Best Buy",
+      "price": "$599.49",
+      "extracted_price": 599.49,
+      "old_price": "$649.99",
+      "extracted_old_price": 649.99,
+      "product_link": "https://example.com/bestbuy/galaxy-watch-ultra",
+      "link": "https://example.com/bestbuy/galaxy-watch-ultra",
+      "extensions": [
+        "Sale",
+        "In stock"
+      ],
+      "delivery": "Free shipping",
+      "immersive_product_page_token": "fixture-token-watch-ultra-2025"
+    },
+    {
+      "position": 2,
+      "title": "Galaxy Watch Ultra  Bluetooth",
+      "source": "Costco",
+      "price": "$563.49",
+      "extracted_price": 563.49,
+      "product_link": "https://example.com/costco/galaxy-watch-ultra",
+      "link": "https://example.com/costco/galaxy-watch-ultra",
+      "extensions": [
+        "Membership price",
+        "In stock"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 3,
+      "title": "Galaxy Watch Ultra  Bluetooth",
+      "source": "Target",
+      "price": "$609.49",
+      "extracted_price": 609.49,
+      "product_link": "https://example.com/target/galaxy-watch-ultra",
+      "link": "https://example.com/target/galaxy-watch-ultra",
+      "extensions": [
+        "Circle offer",
+        "Order pickup"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 4,
+      "title": "Galaxy Watch Ultra  Bluetooth",
+      "source": "Walmart",
+      "price": "$579.99",
+      "extracted_price": 579.99,
+      "old_price": "$649.99",
+      "extracted_old_price": 649.99,
+      "product_link": "https://example.com/walmart/galaxy-watch-ultra",
+      "link": "https://example.com/walmart/galaxy-watch-ultra",
+      "extensions": [
+        "Rollback",
+        "Sold by Walmart"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 5,
+      "title": "Galaxy Watch Ultra  Bluetooth",
+      "source": "Samsung",
+      "price": "$619.49",
+      "extracted_price": 619.49,
+      "product_link": "https://example.com/samsung/galaxy-watch-ultra",
+      "link": "https://example.com/samsung/galaxy-watch-ultra",
+      "extensions": [
+        "Trade-in available"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 6,
+      "title": "Galaxy Watch Ultra  Bluetooth",
+      "source": "Amazon",
+      "price": "$563.99",
+      "extracted_price": 563.99,
+      "product_link": "https://example.com/amazon/galaxy-watch-ultra",
+      "link": "https://example.com/amazon/galaxy-watch-ultra",
+      "extensions": [
+        "Prime",
+        "Clip coupon"
+      ],
+      "delivery": "Free Prime delivery"
+    }
+  ]
+}

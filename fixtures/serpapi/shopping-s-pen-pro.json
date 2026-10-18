@@ -1,0 +1,96 @@
+{
+  "search_information": {
+    "query_displayed": "Samsung S Pen Pro",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "S Pen Pro",
+      "source": "Best Buy",
+      "price": "$91.99",
+      "extracted_price": 91.99,
+      "old_price": "$99.99",
+      "extracted_old_price": 99.99,
+      "product_link": "https://example.com/bestbuy/s-pen-pro",
+      "link": "https://example.com/bestbuy/s-pen-pro",
+      "extensions": [
+        "Sale",
+        "In stock"
+      ],
+      "delivery": "Free shipping",
+      "immersive_product_page_token": "fixture-token-s-pen-pro"
+    },
+    {
+      "position": 2,
+      "title": "S Pen Pro",
+      "source": "Costco",
+      "price": "$94.99",
+      "extracted_price": 94.99,
+      "product_link": "https://example.com/costco/s-pen-pro",
+      "link": "https://example.com/costco/s-pen-pro",
+      "extensions": [
+        "Membership price",
+        "In stock"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 3,
+      "title": "S Pen Pro",
+      "source": "Target",
+      "price": "$90.99",
+      "extracted_price": 90.99,
+      "product_link": "https://example.com/target/s-pen-pro",
+      "link": "https://example.com/target/s-pen-pro",
+      "extensions": [
+        "Circle offer",
+        "Order pickup"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 4,
+      "title": "S Pen Pro",
+      "source": "Walmart",
+      "price": "$94.99",
+      "extracted_price": 94.99,
+      "old_price": "$99.99",
+      "extracted_old_price": 99.99,
+      "product_link": "https://example.com/walmart/s-pen-pro",
+      "link": "https://example.com/walmart/s-pen-pro",
+      "extensions": [
+        "Rollback",
+        "Sold by Walmart"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 5,
+      "title": "S Pen Pro",
+      "source": "Samsung",
+      "price": "$89.99",
+      "extracted_price": 89.99,
+      "product_link": "https://example.com/samsung/s-pen-pro",
+      "link": "https://example.com/samsung/s-pen-pro",
+      "extensions": [
+        "Trade-in available"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 6,
+      "title": "S Pen Pro",
+      "source": "Amazon",
+      "price": "$89.99",
+      "extracted_price": 89.99,
+      "product_link": "https://example.com/amazon/s-pen-pro",
+      "link": "https://example.com/amazon/s-pen-pro",
+      "extensions": [
+        "Prime",
+        "Clip coupon"
+      ],
+      "delivery": "Free Prime delivery"
+    }
+  ]
+}

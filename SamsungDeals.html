@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetailPriceTracker.com | Live Price Match & Employee Portal</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        samsung: {
+                            blue: '#1428a0',
+                            darkblue: '#0c1050',
+                            black: '#000000',
+                            lightgray: '#f4f4f4',
+                            gray: '#707070',
+                            accent: '#0070e0'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['SamsungOne', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @font-face {
+            font-family: 'SamsungOne';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105@1.1/SamsungOne-400.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'SamsungOne';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105@1.1/SamsungOne-700.woff') format('woff');
+            font-weight: 700;
+            font-style: normal;
+        }
+        body {
+            font-family: 'SamsungOne', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #f7f7f7;
+            color: #000;
+        }
+        .samsung-btn {
+            background-color: #000;
+            color: #fff;
+            transition: all 0.2s ease;
+            border-radius: 9999px;
+            font-weight: 700;
+        }
+        .samsung-btn:hover {
+            background-color: #363636;
+        }
+        .samsung-btn-blue {
+            background-color: #1428a0;
+            color: #fff;
+            transition: all 0.2s ease;
+            border-radius: 9999px;
+            font-weight: 700;
+        }
+        .samsung-btn-blue:hover {
+            background-color: #0c1050;
+        }
+        .samsung-card {
+            border: 2px solid transparent;
+            transition: all 0.2s ease;
+            border-radius: 1rem;
+        }
+        .samsung-card.selected {
+            border-color: #1428a0;
+            background-color: #f0f4ff;
+        }
+        .retailer-card {
+            border: 2px solid #e5e7eb;
+            transition: all 0.2s ease;
+            border-radius: 0.75rem;
+        }
+        .retailer-card.selected {
+            border-color: #1428a0;
+            background-color: #f0f4ff;
+        }
+        /* Loader Animation */
+        .spinner {
+            border: 4px solid rgba(20, 40, 160, 0.1);
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border-left-color: #1428a0;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+
+    <!-- Top Navigation Bar -->
+    <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-8">
+                <a href="#" class="flex items-center space-x-2">
+                    <span class="text-2xl font-black tracking-tighter text-black uppercase">Retail</span>
+                    <span class="text-xs px-2 py-0.5 bg-samsung-blue text-white rounded font-bold uppercase tracking-wider">PriceTracker</span>
+                </a>
+                <nav class="hidden md:flex space-x-6 text-sm font-bold text-gray-800">
+                    <a href="#products" class="hover:text-samsung-blue transition-colors">Mobile & Audio</a>
+                    <a href="#retailers" class="hover:text-samsung-blue transition-colors">Store Locator</a>
+                    <a href="#about" class="hover:text-samsung-blue transition-colors">Retail Price Check</a>
+                </nav>
+            </div>
+            <div class="flex items-center space-x-4 text-xs font-bold">
+                <span class="hidden sm:inline-block text-gray-500">Live Partner API: <span class="text-green-600 font-bold">● Active</span></span>
+                <a href="#subscribe" class="samsung-btn px-4 py-2 text-xs">Get Alerts</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-black text-white py-12 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <p class="text-samsung-blue text-xs font-bold tracking-widest uppercase mb-2">Internal & Retail Price Verification Portal</p>
+            <h1 class="text-3xl sm:text-5xl font-extrabold mb-4 tracking-tight">Retail Price Tracker</h1>
+            <p class="text-gray-300 text-sm sm:text-base max-w-2xl mx-auto">
+                Select your target product and your current store location to instantly scrape, rank, and compare prices across top retail channels from lowest to highest.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Workflow Area -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex-grow w-full">
+        
+        <!-- Step Indicator -->
+        <div class="flex justify-center mb-10">
+            <div class="flex items-center space-x-2 sm:space-x-4 text-xs sm:text-sm font-bold">
+                <div id="step-1-badge" class="flex items-center justify-center w-7 h-7 rounded-full bg-samsung-blue text-white">1</div>
+                <span class="text-black">Select Product</span>
+                <span class="text-gray-300">—</span>
+                <div id="step-2-badge" class="flex items-center justify-center w-7 h-7 rounded-full bg-gray-200 text-gray-600">2</div>
+                <span class="text-gray-500">Select Location</span>
+                <span class="text-gray-300">—</span>
+                <div id="step-3-badge" class="flex items-center justify-center w-7 h-7 rounded-full bg-gray-200 text-gray-600">3</div>
+                <span class="text-gray-500">Price Comparison</span>
+            </div>
+        </div>
+
+        <!-- Selection Form Block -->
+        <div id="selection-container" class="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 sm:p-8">
+            
+            <!-- SECTION 1: Product Selection -->
+            <div class="mb-10">
+                <div class="flex justify-between items-end mb-6 border-b pb-4">
+                    <div>
+                        <h2 class="text-xl font-bold text-gray-900">1. Select Samsung Product</h2>
+                        <p class="text-xs text-gray-500 mt-1">Choose a device to perform an automated cross-retailer price audit</p>
+                    </div>
+                    <span class="text-xs font-semibold text-samsung-blue" id="selected-product-label">None selected</span>
+                </div>
+
+                <!-- Product Grid -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4" id="product-grid">
+                    <!-- Dynamic Product Cards Injected Here -->
+                </div>
+            </div>
+
+            <!-- SECTION 2: Store/Employer Location -->
+            <div class="mb-8">
+                <div class="flex justify-between items-end mb-6 border-b pb-4">
+                    <div>
+                        <h2 class="text-xl font-bold text-gray-900">2. Select Your Store or Employer Location</h2>
+                        <p class="text-xs text-gray-500 mt-1">Select the retail environment you are currently working in or visiting</p>
+                    </div>
+                    <span class="text-xs font-semibold text-samsung-blue" id="selected-retailer-label">None selected</span>
+                </div>
+
+                <!-- Retailer Grid (AT&T and Verizon Removed) -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4" id="retailer-grid">
+                    <!-- Dynamic Retailer Cards Injected Here -->
+                </div>
+            </div>
+
+            <!-- Error Banner -->
+            <div id="error-message" class="hidden mb-6 p-4 bg-red-50 border border-red-200 rounded-lg text-red-600 text-xs font-semibold flex items-center space-x-2">
+                <i data-lucide="alert-circle" class="w-4 h-4"></i>
+                <span id="error-text">Please select both a product and your store location to continue.</span>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="flex justify-end pt-4 border-t border-gray-100">
+                <button id="submit-btn" onclick="runPriceCheck()" class="samsung-btn-blue w-full sm:w-auto px-8 py-3 text-sm flex items-center justify-center space-x-2 shadow-md">
+                    <span>Retrieve & Compare Prices</span>
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Loading Overlay -->
+        <div id="loading-state" class="hidden bg-white rounded-2xl shadow-sm border border-gray-200 p-12 text-center my-8">
+            <div class="flex flex-col items-center justify-center space-y-4">
+                <div class="spinner"></div>
+                <h3 class="text-lg font-bold text-gray-900">Scraping Retailer Live APIS...</h3>
+                <p class="text-xs text-gray-500 max-w-sm" id="loading-subtext">Connecting to Best Buy, Amazon, Target, Walmart, Costco, and Samsung Direct...</p>
+            </div>
+        </div>
+
+        <!-- SECTION 3: Results Dashboard (Hidden Initially) -->
+        <div id="results-container" class="hidden space-y-8 my-8">
+            
+            <!-- Result Summary Banner -->
+            <div class="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex items-center space-x-6">
+                    <img id="res-product-img" src="" alt="Product" class="w-24 h-24 object-contain bg-gray-50 rounded-lg p-2 border">
+                    <div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-xs bg-black text-white px-2 py-0.5 rounded font-bold uppercase" id="res-product-cat">Category</span>
+                            <span class="text-xs text-gray-500" id="res-timestamp">Updated Just Now</span>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-900 mt-1" id="res-product-title">Product Name</h2>
+                        <p class="text-xs text-gray-500 mt-0.5">Your Selected Location: <strong class="text-black" id="res-user-location">Store</strong></p>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col sm:flex-row items-center gap-3 w-full md:w-auto">
+                    <button onclick="resetSearch()" class="px-5 py-2.5 border border-gray-300 text-xs font-bold rounded-full hover:bg-gray-100 transition-colors w-full sm:w-auto">
+                        New Search
+                    </button>
+                    <a href="#subscribe" class="samsung-btn-blue px-6 py-2.5 text-xs font-bold w-full sm:w-auto text-center">
+                        Subscribe to Price Alerts
+                    </a>
+                </div>
+            </div>
+
+            <!-- Price Ranking List (Sorted Lowest to Highest) -->
+            <div class="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
+                <div class="flex justify-between items-center mb-6">
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900">Cross-Retailer Price Comparison</h3>
+                        <p class="text-xs text-gray-500">Sorted automatically from lowest price to highest price</p>
+                    </div>
+                    <span class="text-xs bg-green-100 text-green-800 font-bold px-3 py-1 rounded-full">
+                        Best Deal: <span id="lowest-price-tag">$0.00</span>
+                    </span>
+                </div>
+
+                <!-- Price List Table -->
+                <div class="space-y-3" id="price-results-list">
+                    <!-- Dynamic Price Row Components Injected Here -->
+                </div>
+            </div>
+
+            <!-- Subscription Section -->
+            <div id="subscribe" class="bg-samsung-darkblue text-white rounded-2xl p-8 shadow-lg">
+                <div class="max-w-2xl">
+                    <span class="text-xs uppercase tracking-widest text-samsung-accent font-bold">Automated Price Drop Tracker</span>
+                    <h3 class="text-2xl font-bold mt-1">Subscribe to Price Alert Updates</h3>
+                    <p class="text-xs text-gray-300 mt-2">
+                        Get instant SMS or email notifications whenever prices drop or a store-matched promotion is triggered for <strong id="subscribe-product-name" class="text-white">this product</strong>.
+                    </p>
+
+                    <form onsubmit="handleSubscribe(event)" class="mt-6 flex flex-col sm:flex-row gap-3">
+                        <input type="email" required placeholder="Enter your email or employee address" class="px-4 py-3 rounded-full text-black text-xs flex-grow focus:outline-none focus:ring-2 focus:ring-samsung-accent">
+                        <button type="submit" class="samsung-btn px-8 py-3 text-xs bg-white text-black hover:bg-gray-200 font-bold uppercase tracking-wider">
+                            Set Alert
+                        </button>
+                    </form>
+                    <p id="subscribe-success" class="hidden text-xs text-green-400 font-bold mt-3">✓ Subscription confirmed! You will receive live alerts for any price changes.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 py-6 text-center text-xs text-gray-500">
+        <div class="max-w-7xl mx-auto px-4">
+            <p>© 2026 RetailPriceTracker.com — Internal Retail Strategy & Price Matching Portal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Logic -->
+    <script>
+        // Products Database
+        const PRODUCTS = [
+            {
+                id: 'z-fold6',
+                name: 'Galaxy Z Fold6',
+                category: 'Foldable Phone',
+                msrp: 1899.99,
+                image: 'https://images.samsung.com/is/image/samsung/p6pim/us/2407/gallery/us-galaxy-z-fold6-f956-sm-f956uzkaxaa-thumb-542151651'
+            },
+            {
+                id: 'z-flip6',
+                name: 'Galaxy Z Flip6',
+                category: 'Foldable Phone',
+                msrp: 1099.99,
+                image: 'https://images.samsung.com/is/image/samsung/p6pim/us/2407/gallery/us-galaxy-z-flip6-f741-sm-f741uzbaxaa-thumb-542149581'
+            },
+            {
+                id: 's24-ultra',
+                name: 'Galaxy S24 Ultra',
+                category: 'Flagship Phone',
+                msrp: 1299.99,
+                image: 'https://images.samsung.com/is/image/samsung/p6pim/us/2401/gallery/us-galaxy-s24-s928-sm-s928uzkxueu-thumb-539428385'
+            },
+            {
+                id: 'galaxy-ring',
+                name: 'Galaxy Ring',
+                category: 'Smart Wearable',
+                msrp: 399.99,
+                image: 'https://images.samsung.com/is/image/samsung/p6pim/us/2407/gallery/us-galaxy-ring-sm-q500-sm-q500nzkaxar-thumb-542287903'
+            },
+            {
+                id: 'watch-ultra',
+                name: 'Galaxy Watch Ultra',
+                category: 'Smartwatch',
+                msrp: 649.99,
+                image: 'https://images.samsung.com/is/image/samsung/p6pim/us/2407/gallery/us-galaxy-watch-ultra-l705-sm-l705fdaaxaa-thumb-542232537'
+            },
+            {
+                id: 'buds3-pro',
+                name: 'Galaxy Buds3 Pro',
+                category: 'Wireless Audio',
+                msrp: 249.99,
+                image: 'https://images.samsung.com/is/image/samsung/p6pim/us/2407/gallery/us-galaxy-buds3-pro-r630-sm-r630nzaaxar-thumb-542152431'
+            }
+        ];
+
+        // Retailers Database (AT&T and Verizon strictly removed)
+        const RETAILERS = [
+            { id: 'bestbuy', name: 'Best Buy', logo: 'https://logo.clearbit.com/bestbuy.com' },
+            { id: 'amazon', name: 'Amazon', logo: 'https://logo.clearbit.com/amazon.com' },
+            { id: 'target', name: 'Target', logo: 'https://logo.clearbit.com/target.com' },
+            { id: 'walmart', name: 'Walmart', logo: 'https://logo.clearbit.com/walmart.com' },
+            { id: 'costco', name: 'Costco', logo: 'https://logo.clearbit.com/costco.com' },
+            { id: 'samsung', name: 'Samsung.com (Direct)', logo: 'https://logo.clearbit.com/samsung.com' }
+        ];
+
+        // Global State
+        let selectedProductId = null;
+        let selectedRetailerId = null;
+
+        // Render Initial UI
+        document.addEventListener('DOMContentLoaded', () => {
+            renderProducts();
+            renderRetailers();
+            lucide.createIcons();
+        });
+
+        function renderProducts() {
+            const grid = document.getElementById('product-grid');
+            grid.innerHTML = PRODUCTS.map(p => `
+                <div onclick="selectProduct('${p.id}')" id="prod-card-${p.id}" class="samsung-card bg-gray-50 border-2 border-gray-200 hover:border-gray-400 p-4 cursor-pointer text-center flex flex-col justify-between items-center group">
+                    <img src="${p.image}" alt="${p.name}" class="h-24 object-contain mb-3 group-hover:scale-105 transition-transform" onerror="this.src='https://via.placeholder.com/100?text=Samsung'">
+                    <div>
+                        <span class="text-[10px] text-gray-500 font-bold uppercase tracking-wider block">${p.category}</span>
+                        <h4 class="text-xs font-bold text-gray-900 mt-0.5">${p.name}</h4>
+                        <p class="text-xs font-extrabold text-samsung-blue mt-1">$${p.msrp.toFixed(2)}</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function renderRetailers() {
+            const grid = document.getElementById('retailer-grid');
+            grid.innerHTML = RETAILERS.map(r => `
+                <div onclick="selectRetailer('${r.id}')" id="ret-card-${r.id}" class="retailer-card bg-white p-4 cursor-pointer text-center flex flex-col items-center justify-center hover:border-gray-400">
+                    <div class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center font-bold text-xs mb-2 text-samsung-blue">
+                        ${r.name.substring(0, 2).toUpperCase()}
+                    </div>
+                    <span class="text-xs font-bold text-gray-800">${r.name}</span>
+                </div>
+            `).join('');
+        }
+
+        function selectProduct(id) {
+            selectedProductId = id;
+            document.querySelectorAll('.samsung-card').forEach(c => c.classList.remove('selected'));
+            document.getElementById(`prod-card-${id}`).classList.add('selected');
+            const prod = PRODUCTS.find(p => p.id === id);
+            document.getElementById('selected-product-label').innerText = prod.name;
+            document.getElementById('error-message').classList.add('hidden');
+        }
+
+        function selectRetailer(id) {
+            selectedRetailerId = id;
+            document.querySelectorAll('.retailer-card').forEach(c => c.classList.remove('selected'));
+            document.getElementById(`ret-card-${id}`).classList.add('selected');
+            const ret = RETAILERS.find(r => r.id === id);
+            document.getElementById('selected-retailer-label').innerText = ret.name;
+            document.getElementById('error-message').classList.add('hidden');
+        }
+
+        function runPriceCheck() {
+            if (!selectedProductId || !selectedRetailerId) {
+                document.getElementById('error-message').classList.remove('hidden');
+                return;
+            }
+
+            // UI State Transitions
+            document.getElementById('selection-container').classList.add('hidden');
+            document.getElementById('loading-state').classList.remove('hidden');
+
+            // Simulate scraping delay
+            setTimeout(() => {
+                document.getElementById('loading-state').classList.add('hidden');
+                document.getElementById('results-container').classList.remove('hidden');
+                displayResults();
+            }, 1200);
+        }
+
+        function displayResults() {
+            const product = PRODUCTS.find(p => p.id === selectedProductId);
+            const userRetailer = RETAILERS.find(r => r.id === selectedRetailerId);
+
+            // Populate Product Overview
+            document.getElementById('res-product-img').src = product.image;
+            document.getElementById('res-product-title').innerText = product.name;
+            document.getElementById('res-product-cat').innerText = product.category;
+            document.getElementById('res-user-location').innerText = userRetailer.name;
+            document.getElementById('subscribe-product-name').innerText = product.name;
+
+            // Generate Simulated Retailer Prices with dynamic variances
+            let priceList = RETAILERS.map(ret => {
+                let discount = 0;
+                // Generate randomized realistic discounts
+                if (ret.id === 'samsung') discount = 50;
+                else if (ret.id === 'amazon') discount = 70;
+                else if (ret.id === 'bestbuy') discount = 30;
+                else if (ret.id === 'costco') discount = 80;
+                else discount = Math.floor(Math.random() * 40);
+
+                const finalPrice = Math.max(product.msrp - discount, 50);
+                return {
+                    retailer: ret,
+                    price: finalPrice,
+                    savings: product.msrp - finalPrice,
+                    isUserLocation: ret.id === userRetailer.id
+                };
+            });
+
+            // CRITICAL REQUIREMENT: Sort prices from LOWEST to HIGHEST
+            priceList.sort((a, b) => a.price - b.price);
+
+            // Update Lowest Price Tag
+            document.getElementById('lowest-price-tag').innerText = `$${priceList[0].price.toFixed(2)}`;
+
+            // Render Results Rows
+            const listContainer = document.getElementById('price-results-list');
+            listContainer.innerHTML = priceList.map((item, index) => {
+                const isLowest = index === 0;
+                return `
+                    <div class="flex items-center justify-between p-4 rounded-xl border ${item.isUserLocation ? 'border-samsung-blue bg-blue-50/50' : 'border-gray-200 bg-white'} hover:shadow-sm transition-all">
+                        <div class="flex items-center space-x-4">
+                            <span class="text-xs font-bold w-6 h-6 rounded-full bg-gray-100 flex items-center justify-center text-gray-600">
+                                #${index + 1}
+                            </span>
+                            <div>
+                                <div class="flex items-center space-x-2">
+                                    <span class="font-bold text-sm text-gray-900">${item.retailer.name}</span>
+                                    ${item.isUserLocation ? '<span class="text-[10px] bg-samsung-blue text-white font-bold px-2 py-0.5 rounded-full">Your Current Store</span>' : ''}
+                                    ${isLowest ? '<span class="text-[10px] bg-green-600 text-white font-bold px-2 py-0.5 rounded-full">Lowest Price</span>' : ''}
+                                </div>
+                                <span class="text-xs text-gray-500">MSRP: $${product.msrp.toFixed(2)}</span>
+                            </div>
+                        </div>
+
+                        <div class="text-right">
+                            <div class="text-lg font-black ${isLowest ? 'text-green-700' : 'text-gray-900'}">
+                                $${item.price.toFixed(2)}
+                            </div>
+                            ${item.savings > 0 ? `<span class="text-[10px] text-green-600 font-bold">Save $${item.savings.toFixed(2)}</span>` : '<span class="text-[10px] text-gray-400">Regular Price</span>'}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function resetSearch() {
+            document.getElementById('results-container').classList.add('hidden');
+            document.getElementById('selection-container').classList.remove('hidden');
+        }
+
+        function handleSubscribe(e) {
+            e.preventDefault();
+            document.getElementById('subscribe-success').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>

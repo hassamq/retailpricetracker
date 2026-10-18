@@ -1,0 +1,96 @@
+{
+  "search_information": {
+    "query_displayed": "Samsung Clear Case Galaxy Tab S11",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Clear Case for Tab S11",
+      "source": "Best Buy",
+      "price": "$60.59",
+      "extracted_price": 60.59,
+      "old_price": "$59.99",
+      "extracted_old_price": 59.99,
+      "product_link": "https://example.com/bestbuy/clear-case-tab-s11",
+      "link": "https://example.com/bestbuy/clear-case-tab-s11",
+      "extensions": [
+        "Sale",
+        "In stock"
+      ],
+      "delivery": "Free shipping",
+      "immersive_product_page_token": "fixture-token-clear-case-tab"
+    },
+    {
+      "position": 2,
+      "title": "Clear Case for Tab S11",
+      "source": "Costco",
+      "price": "$48.19",
+      "extracted_price": 48.19,
+      "product_link": "https://example.com/costco/clear-case-tab-s11",
+      "link": "https://example.com/costco/clear-case-tab-s11",
+      "extensions": [
+        "Membership price",
+        "In stock"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 3,
+      "title": "Clear Case for Tab S11",
+      "source": "Target",
+      "price": "$58.79",
+      "extracted_price": 58.79,
+      "product_link": "https://example.com/target/clear-case-tab-s11",
+      "link": "https://example.com/target/clear-case-tab-s11",
+      "extensions": [
+        "Circle offer",
+        "Order pickup"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 4,
+      "title": "Clear Case for Tab S11",
+      "source": "Walmart",
+      "price": "$46.99",
+      "extracted_price": 46.99,
+      "old_price": "$59.99",
+      "extracted_old_price": 59.99,
+      "product_link": "https://example.com/walmart/clear-case-tab-s11",
+      "link": "https://example.com/walmart/clear-case-tab-s11",
+      "extensions": [
+        "Rollback",
+        "Sold by Walmart"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 5,
+      "title": "Clear Case for Tab S11",
+      "source": "Samsung",
+      "price": "$56.99",
+      "extracted_price": 56.99,
+      "product_link": "https://example.com/samsung/clear-case-tab-s11",
+      "link": "https://example.com/samsung/clear-case-tab-s11",
+      "extensions": [
+        "Trade-in available"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 6,
+      "title": "Clear Case for Tab S11",
+      "source": "Amazon",
+      "price": "$59.79",
+      "extracted_price": 59.79,
+      "product_link": "https://example.com/amazon/clear-case-tab-s11",
+      "link": "https://example.com/amazon/clear-case-tab-s11",
+      "extensions": [
+        "Prime",
+        "Clip coupon"
+      ],
+      "delivery": "Free Prime delivery"
+    }
+  ]
+}

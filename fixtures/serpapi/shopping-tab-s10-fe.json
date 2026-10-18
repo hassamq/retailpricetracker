@@ -1,0 +1,96 @@
+{
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Tab S10 FE {storage} {connectivity}",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Galaxy Tab S10 FE 128GB Wi-Fi",
+      "source": "Best Buy",
+      "price": "$456.99",
+      "extracted_price": 456.99,
+      "old_price": "$499.99",
+      "extracted_old_price": 499.99,
+      "product_link": "https://example.com/bestbuy/galaxy-tab-s10-fe",
+      "link": "https://example.com/bestbuy/galaxy-tab-s10-fe",
+      "extensions": [
+        "Sale",
+        "In stock"
+      ],
+      "delivery": "Free shipping",
+      "immersive_product_page_token": "fixture-token-tab-s10-fe"
+    },
+    {
+      "position": 2,
+      "title": "Galaxy Tab S10 FE 128GB Wi-Fi",
+      "source": "Costco",
+      "price": "$426.99",
+      "extracted_price": 426.99,
+      "product_link": "https://example.com/costco/galaxy-tab-s10-fe",
+      "link": "https://example.com/costco/galaxy-tab-s10-fe",
+      "extensions": [
+        "Membership price",
+        "In stock"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 3,
+      "title": "Galaxy Tab S10 FE 128GB Wi-Fi",
+      "source": "Target",
+      "price": "$463.99",
+      "extracted_price": 463.99,
+      "product_link": "https://example.com/target/galaxy-tab-s10-fe",
+      "link": "https://example.com/target/galaxy-tab-s10-fe",
+      "extensions": [
+        "Circle offer",
+        "Order pickup"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 4,
+      "title": "Galaxy Tab S10 FE 128GB Wi-Fi",
+      "source": "Walmart",
+      "price": "$455.99",
+      "extracted_price": 455.99,
+      "old_price": "$499.99",
+      "extracted_old_price": 499.99,
+      "product_link": "https://example.com/walmart/galaxy-tab-s10-fe",
+      "link": "https://example.com/walmart/galaxy-tab-s10-fe",
+      "extensions": [
+        "Rollback",
+        "Sold by Walmart"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 5,
+      "title": "Galaxy Tab S10 FE 128GB Wi-Fi",
+      "source": "Samsung",
+      "price": "$470.99",
+      "extracted_price": 470.99,
+      "product_link": "https://example.com/samsung/galaxy-tab-s10-fe",
+      "link": "https://example.com/samsung/galaxy-tab-s10-fe",
+      "extensions": [
+        "Trade-in available"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 6,
+      "title": "Galaxy Tab S10 FE 128GB Wi-Fi",
+      "source": "Amazon",
+      "price": "$442.99",
+      "extracted_price": 442.99,
+      "product_link": "https://example.com/amazon/galaxy-tab-s10-fe",
+      "link": "https://example.com/amazon/galaxy-tab-s10-fe",
+      "extensions": [
+        "Prime",
+        "Clip coupon"
+      ],
+      "delivery": "Free Prime delivery"
+    }
+  ]
+}

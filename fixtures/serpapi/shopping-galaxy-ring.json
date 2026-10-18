@@ -1,0 +1,96 @@
+{
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Ring size {size}",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Galaxy Ring",
+      "source": "Best Buy",
+      "price": "$366.99",
+      "extracted_price": 366.99,
+      "old_price": "$399.99",
+      "extracted_old_price": 399.99,
+      "product_link": "https://example.com/bestbuy/galaxy-ring",
+      "link": "https://example.com/bestbuy/galaxy-ring",
+      "extensions": [
+        "Sale",
+        "In stock"
+      ],
+      "delivery": "Free shipping",
+      "immersive_product_page_token": "fixture-token-galaxy-ring"
+    },
+    {
+      "position": 2,
+      "title": "Galaxy Ring",
+      "source": "Costco",
+      "price": "$340.99",
+      "extracted_price": 340.99,
+      "product_link": "https://example.com/costco/galaxy-ring",
+      "link": "https://example.com/costco/galaxy-ring",
+      "extensions": [
+        "Membership price",
+        "In stock"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 3,
+      "title": "Galaxy Ring",
+      "source": "Target",
+      "price": "$371.99",
+      "extracted_price": 371.99,
+      "product_link": "https://example.com/target/galaxy-ring",
+      "link": "https://example.com/target/galaxy-ring",
+      "extensions": [
+        "Circle offer",
+        "Order pickup"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 4,
+      "title": "Galaxy Ring",
+      "source": "Walmart",
+      "price": "$366.99",
+      "extracted_price": 366.99,
+      "old_price": "$399.99",
+      "extracted_old_price": 399.99,
+      "product_link": "https://example.com/walmart/galaxy-ring",
+      "link": "https://example.com/walmart/galaxy-ring",
+      "extensions": [
+        "Rollback",
+        "Sold by Walmart"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 5,
+      "title": "Galaxy Ring",
+      "source": "Samsung",
+      "price": "$376.99",
+      "extracted_price": 376.99,
+      "product_link": "https://example.com/samsung/galaxy-ring",
+      "link": "https://example.com/samsung/galaxy-ring",
+      "extensions": [
+        "Trade-in available"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 6,
+      "title": "Galaxy Ring",
+      "source": "Amazon",
+      "price": "$355.99",
+      "extracted_price": 355.99,
+      "product_link": "https://example.com/amazon/galaxy-ring",
+      "link": "https://example.com/amazon/galaxy-ring",
+      "extensions": [
+        "Prime",
+        "Clip coupon"
+      ],
+      "delivery": "Free Prime delivery"
+    }
+  ]
+}

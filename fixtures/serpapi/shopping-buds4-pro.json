@@ -1,0 +1,96 @@
+{
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Buds4 Pro",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Galaxy Buds4 Pro",
+      "source": "Best Buy",
+      "price": "$228.49",
+      "extracted_price": 228.49,
+      "old_price": "$249.99",
+      "extracted_old_price": 249.99,
+      "product_link": "https://example.com/bestbuy/galaxy-buds4-pro",
+      "link": "https://example.com/bestbuy/galaxy-buds4-pro",
+      "extensions": [
+        "Sale",
+        "In stock"
+      ],
+      "delivery": "Free shipping",
+      "immersive_product_page_token": "fixture-token-buds4-pro"
+    },
+    {
+      "position": 2,
+      "title": "Galaxy Buds4 Pro",
+      "source": "Costco",
+      "price": "$225.49",
+      "extracted_price": 225.49,
+      "product_link": "https://example.com/costco/galaxy-buds4-pro",
+      "link": "https://example.com/costco/galaxy-buds4-pro",
+      "extensions": [
+        "Membership price",
+        "In stock"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 3,
+      "title": "Galaxy Buds4 Pro",
+      "source": "Target",
+      "price": "$230.49",
+      "extracted_price": 230.49,
+      "product_link": "https://example.com/target/galaxy-buds4-pro",
+      "link": "https://example.com/target/galaxy-buds4-pro",
+      "extensions": [
+        "Circle offer",
+        "Order pickup"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 4,
+      "title": "Galaxy Buds4 Pro",
+      "source": "Walmart",
+      "price": "$229.99",
+      "extracted_price": 229.99,
+      "old_price": "$249.99",
+      "extracted_old_price": 249.99,
+      "product_link": "https://example.com/walmart/galaxy-buds4-pro",
+      "link": "https://example.com/walmart/galaxy-buds4-pro",
+      "extensions": [
+        "Rollback",
+        "Sold by Walmart"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 5,
+      "title": "Galaxy Buds4 Pro",
+      "source": "Samsung",
+      "price": "$232.49",
+      "extracted_price": 232.49,
+      "product_link": "https://example.com/samsung/galaxy-buds4-pro",
+      "link": "https://example.com/samsung/galaxy-buds4-pro",
+      "extensions": [
+        "Trade-in available"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 6,
+      "title": "Galaxy Buds4 Pro",
+      "source": "Amazon",
+      "price": "$221.99",
+      "extracted_price": 221.99,
+      "product_link": "https://example.com/amazon/galaxy-buds4-pro",
+      "link": "https://example.com/amazon/galaxy-buds4-pro",
+      "extensions": [
+        "Prime",
+        "Clip coupon"
+      ],
+      "delivery": "Free Prime delivery"
+    }
+  ]
+}

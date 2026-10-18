@@ -1,0 +1,96 @@
+{
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Tab S11+ {storage} {connectivity}",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Galaxy Tab S11+ 256GB Wi-Fi",
+      "source": "Best Buy",
+      "price": "$913.99",
+      "extracted_price": 913.99,
+      "old_price": "$999.99",
+      "extracted_old_price": 999.99,
+      "product_link": "https://example.com/bestbuy/galaxy-tab-s11-plus",
+      "link": "https://example.com/bestbuy/galaxy-tab-s11-plus",
+      "extensions": [
+        "Sale",
+        "In stock"
+      ],
+      "delivery": "Free shipping",
+      "immersive_product_page_token": "fixture-token-tab-s11-plus"
+    },
+    {
+      "position": 2,
+      "title": "Galaxy Tab S11+ 256GB Wi-Fi",
+      "source": "Costco",
+      "price": "$863.99",
+      "extracted_price": 863.99,
+      "product_link": "https://example.com/costco/galaxy-tab-s11-plus",
+      "link": "https://example.com/costco/galaxy-tab-s11-plus",
+      "extensions": [
+        "Membership price",
+        "In stock"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 3,
+      "title": "Galaxy Tab S11+ 256GB Wi-Fi",
+      "source": "Target",
+      "price": "$930.99",
+      "extracted_price": 930.99,
+      "product_link": "https://example.com/target/galaxy-tab-s11-plus",
+      "link": "https://example.com/target/galaxy-tab-s11-plus",
+      "extensions": [
+        "Circle offer",
+        "Order pickup"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 4,
+      "title": "Galaxy Tab S11+ 256GB Wi-Fi",
+      "source": "Walmart",
+      "price": "$907.99",
+      "extracted_price": 907.99,
+      "old_price": "$999.99",
+      "extracted_old_price": 999.99,
+      "product_link": "https://example.com/walmart/galaxy-tab-s11-plus",
+      "link": "https://example.com/walmart/galaxy-tab-s11-plus",
+      "extensions": [
+        "Rollback",
+        "Sold by Walmart"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 5,
+      "title": "Galaxy Tab S11+ 256GB Wi-Fi",
+      "source": "Samsung",
+      "price": "$947.99",
+      "extracted_price": 947.99,
+      "product_link": "https://example.com/samsung/galaxy-tab-s11-plus",
+      "link": "https://example.com/samsung/galaxy-tab-s11-plus",
+      "extensions": [
+        "Trade-in available"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 6,
+      "title": "Galaxy Tab S11+ 256GB Wi-Fi",
+      "source": "Amazon",
+      "price": "$884.99",
+      "extracted_price": 884.99,
+      "product_link": "https://example.com/amazon/galaxy-tab-s11-plus",
+      "link": "https://example.com/amazon/galaxy-tab-s11-plus",
+      "extensions": [
+        "Prime",
+        "Clip coupon"
+      ],
+      "delivery": "Free Prime delivery"
+    }
+  ]
+}

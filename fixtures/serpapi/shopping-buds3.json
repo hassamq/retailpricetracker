@@ -1,0 +1,96 @@
+{
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Buds3",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Galaxy Buds3",
+      "source": "Best Buy",
+      "price": "$160.79",
+      "extracted_price": 160.79,
+      "old_price": "$179.99",
+      "extracted_old_price": 179.99,
+      "product_link": "https://example.com/bestbuy/galaxy-buds3",
+      "link": "https://example.com/bestbuy/galaxy-buds3",
+      "extensions": [
+        "Sale",
+        "In stock"
+      ],
+      "delivery": "Free shipping",
+      "immersive_product_page_token": "fixture-token-buds3"
+    },
+    {
+      "position": 2,
+      "title": "Galaxy Buds3",
+      "source": "Costco",
+      "price": "$160.59",
+      "extracted_price": 160.59,
+      "product_link": "https://example.com/costco/galaxy-buds3",
+      "link": "https://example.com/costco/galaxy-buds3",
+      "extensions": [
+        "Membership price",
+        "In stock"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 3,
+      "title": "Galaxy Buds3",
+      "source": "Target",
+      "price": "$161.39",
+      "extracted_price": 161.39,
+      "product_link": "https://example.com/target/galaxy-buds3",
+      "link": "https://example.com/target/galaxy-buds3",
+      "extensions": [
+        "Circle offer",
+        "Order pickup"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 4,
+      "title": "Galaxy Buds3",
+      "source": "Walmart",
+      "price": "$162.99",
+      "extracted_price": 162.99,
+      "old_price": "$179.99",
+      "extracted_old_price": 179.99,
+      "product_link": "https://example.com/walmart/galaxy-buds3",
+      "link": "https://example.com/walmart/galaxy-buds3",
+      "extensions": [
+        "Rollback",
+        "Sold by Walmart"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 5,
+      "title": "Galaxy Buds3",
+      "source": "Samsung",
+      "price": "$178.99",
+      "extracted_price": 178.99,
+      "product_link": "https://example.com/samsung/galaxy-buds3",
+      "link": "https://example.com/samsung/galaxy-buds3",
+      "extensions": [
+        "Trade-in available"
+      ],
+      "delivery": "Free shipping"
+    },
+    {
+      "position": 6,
+      "title": "Galaxy Buds3",
+      "source": "Amazon",
+      "price": "$156.39",
+      "extracted_price": 156.39,
+      "product_link": "https://example.com/amazon/galaxy-buds3",
+      "link": "https://example.com/amazon/galaxy-buds3",
+      "extensions": [
+        "Prime",
+        "Clip coupon"
+      ],
+      "delivery": "Free Prime delivery"
+    }
+  ]
+}
