@@ -56,11 +56,18 @@ export function CompareWizard({ resultsSlot }: Props) {
   const canNext = useMemo(() => {
     if (step === 1) return Boolean(productId);
     if (step === 2) return variantReady;
-    if (step === 3) return Boolean(storeId);
+    if (step === 3) return true; // store is optional — Skip is allowed
     return false;
-  }, [step, productId, variantReady, storeId]);
+  }, [step, productId, variantReady]);
+
+  const skipStore = useWizardStore((s) => s.skipStore);
 
   const goNext = () => {
+    if (step === 3) {
+      if (storeId) setStep(4);
+      else skipStore();
+      return;
+    }
     if (step < 4 && canNext) setStep((step + 1) as WizardStep);
   };
 
@@ -124,7 +131,6 @@ export function CompareWizard({ resultsSlot }: Props) {
               <section>
                 <Header
                   title="Select your store"
-                  subtitle="Where you are shopping or working today"
                   meta={store?.displayName}
                 />
                 <StorePicker />
@@ -165,7 +171,7 @@ function Header({
   meta,
 }: {
   title: string;
-  subtitle: string;
+  subtitle?: string;
   meta?: string;
 }) {
   return (
@@ -174,7 +180,9 @@ function Header({
         <h2 className="text-2xl font-bold tracking-tight text-ink sm:text-3xl">
           {title}
         </h2>
-        <p className="mt-2 text-sm text-muted">{subtitle}</p>
+        {subtitle ? (
+          <p className="mt-2 text-sm text-muted">{subtitle}</p>
+        ) : null}
       </div>
       {meta && (
         <span className="shrink-0 text-sm font-semibold text-ink">{meta}</span>

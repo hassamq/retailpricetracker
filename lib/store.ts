@@ -36,6 +36,7 @@ type WizardState = {
   setVariant: (variant: Partial<VariantSelection>) => void;
   resetVariant: () => void;
   setStoreId: (storeId: RetailerId | null) => void;
+  skipStore: () => void;
   setIncludeGiftCards: (v: boolean) => void;
   setIncludeTradeIn: (v: boolean) => void;
   setHaveMemberships: (v: boolean) => void;
@@ -78,6 +79,7 @@ export const useWizardStore = create<WizardState>((set, get) => ({
     set({ variant: { ...get().variant, ...variant } }),
   resetVariant: () => set({ variant: {} }),
   setStoreId: (storeId) => set({ storeId, step: storeId ? 4 : 3 }),
+  skipStore: () => set({ storeId: null, step: 4 }),
   setIncludeGiftCards: (includeGiftCards) => set({ includeGiftCards }),
   setIncludeTradeIn: (includeTradeIn) => set({ includeTradeIn }),
   setHaveMemberships: (haveMemberships) => set({ haveMemberships }),
