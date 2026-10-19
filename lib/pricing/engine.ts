@@ -79,7 +79,9 @@ export async function runPriceComparison(
   let liveError: string | null = null;
   let serpCalls = 0;
   const serpApiKey = process.env.SERPAPI_KEY?.trim() ?? "";
-  const useMock = process.env.USE_MOCK_DATA === "true";
+  // Never force mock when a Serp key is configured (common Vercel misconfig).
+  const useMock =
+    process.env.USE_MOCK_DATA === "true" && serpApiKey.length === 0;
   const cellular = isCellularConnectivity(input.variant.connectivity);
 
   let carrierRaw: RawListing[] = [];

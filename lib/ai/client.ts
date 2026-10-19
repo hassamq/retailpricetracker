@@ -6,7 +6,13 @@ import { GoogleGenAI } from "@google/genai";
  * - Vertex AI with a Cloud project (OAuth / ADC — API keys alone are not enough)
  */
 export function isGenAIConfigured(): boolean {
-  if (process.env.USE_MOCK_DATA === "true") return false;
+  // Mock-only mode when explicitly requested and no live Serp key is set
+  if (
+    process.env.USE_MOCK_DATA === "true" &&
+    !(process.env.SERPAPI_KEY ?? "").trim()
+  ) {
+    return false;
+  }
   if (process.env.GOOGLE_API_KEY) return true;
   return Boolean(
     process.env.GOOGLE_CLOUD_PROJECT &&

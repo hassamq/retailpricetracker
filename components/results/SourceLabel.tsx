@@ -23,9 +23,16 @@ export function SourceLabel({ source, updatedAt }: Props) {
       </span>
     );
   }
+  if (source === "fixture") {
+    return (
+      <span className="text-xs font-semibold text-muted">
+        Sample data · live lookup returned no offers
+      </span>
+    );
+  }
   return (
     <span className="text-xs font-semibold text-muted">
-      Sample data · add SERPAPI_KEY for live retail prices
+      Sample data · set SERPAPI_KEY and USE_MOCK_DATA=false
     </span>
   );
 }
