@@ -47,19 +47,27 @@ export type Product = {
   glbPath?: string;
 };
 
+/**
+ * Accessory-only / condition excludes.
+ * Avoid bare words like "case" or "keyboard" — retailers often sell the tablet
+ * bundled with a keyboard cover, and those must still show as prices.
+ */
 const COMMON_EXCLUDES = [
-  "case",
+  "case only",
+  "keyboard only",
+  "cover only",
   "screen protector",
-  "cover",
+  "protective case",
   "renewed",
   "refurbished",
   "used",
   "for parts",
   "pre-owned",
-  "compatible",
-  "replacement",
-  "folio",
-  "keyboard",
+  "compatible with",
+  "replacement band",
+  "folio only",
+  "charger only",
+  "sizing kit",
 ];
 
 export const categoryLabels: Record<ProductCategory, string> = {

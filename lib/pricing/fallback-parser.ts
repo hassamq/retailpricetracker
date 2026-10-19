@@ -1,6 +1,7 @@
 import {
   isGoogleShoppingAggregatorUrl,
   isUsableListingUrl,
+  listingBelongsToRetailer,
 } from "@/data/retailers";
 import type { FilteredListing } from "./prefilter";
 import type { ExtractedOffer } from "./types";
@@ -24,7 +25,8 @@ export function fallbackParse(
     const inStock = detectStock(listing.extensions, listing.delivery);
     const url =
       isUsableListingUrl(listing.link) &&
-      !isGoogleShoppingAggregatorUrl(listing.link)
+      !isGoogleShoppingAggregatorUrl(listing.link) &&
+      listingBelongsToRetailer(listing.retailerId, listing.link)
         ? listing.link
         : "";
 

@@ -1,0 +1,220 @@
+{
+  "search_metadata": {
+    "id": "6ad606ee34d37e2052778e4a",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/eIeNKtlBFTF_23gVahWdH7sA8ez08YuyqyHm-rV0noY/6ad606ee34d37e2052778e4a.json",
+    "markdown_endpoint": "https://serpapi.com/searches/eIeNKtlBFTF_23gVahWdH7sA8ez08YuyqyHm-rV0noY/6ad606ee34d37e2052778e4a.md",
+    "created_at": "2026-10-19 12:02:54 UTC",
+    "processed_at": "2026-10-19 12:02:54 UTC",
+    "google_shopping_url": "https://www.google.com/search?udm=28&q=Samsung+Galaxy+Tab+S10+FE+128GB+5G+Costco&hl=en&gl=us",
+    "raw_html_file": "https://serpapi.com/searches/eIeNKtlBFTF_23gVahWdH7sA8ez08YuyqyHm-rV0noY/6ad606ee34d37e2052778e4a.html",
+    "total_time_taken": 0.76
+  },
+  "search_parameters": {
+    "engine": "google_shopping",
+    "q": "Samsung Galaxy Tab S10 FE 128GB 5G Costco",
+    "location_requested": "United States",
+    "location_used": "United States",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Tab S10 FE 128GB 5G Costco",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Samsung Galaxy Tab S10 FE",
+      "product_id": "2463062064430492918",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=Samsung Galaxy Tab S10 FE 128GB 5G Costco&prds=catalogid:2463062064430492918,productid:12938949554005311014,headlineOfferDocid:13344862329298157752,imageDocid:7115049007181025360,rds:PC_4647699200595738366|PROD_PC_4647699200595738366,gpcid:4647699200595738366,mid:576462512027964276,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "Bv5-33icbVTNrqtGEh7NvMAs5gHOdnTkq-6mweYeeQG4wdimMX-NzcYCgzEGA-bHYCtPc24SKbNMRprNvEiymGcZJ-ssavXV96NSVf3vL3__TLL_TIfID6vFSjbKU77Vtw8jyQUJ_1Q3Vdwfuyz-N0QiNxOxyPMYAJ6DEED80zHswqJKs_gXhAUOCAgIGHMAi0iEs5_PSRgXWZmYp1PSLKrj7yoch_FMQBx6tcwgP53y6F_ZNUyTP_BfphDyLzoAUziDAPGcAL41cfsr2ioHLOCpIIroZS_yU27GCcJ3W9tcHP4c--HWJ83j13864bXty_RdC4twfLy7YfTuQPCukneIZpr8zmvvStV2x-qHtP49wp9Ifbtm8c_8VMAC4iECaCoKGE2Fb_W9-zyn3_d9kfx3eFck3dIVnTKfr2ON5bpKwX5nF8fhMy0--_bzXHwm5Y9VWN9Px9_--g9SDQulHRTLq2u2sIEDYhQStjR9aAUeHjw3qCmjOCzVcp8HfXRZtRE8M4Pk2ELGk_oiH7usjzR6srngbsPzyvDh9gjtnubdLYLWC5dweAn0gKvlPas3NgxKtjAGe3neOlAkIeLpfqcCdmH3jQdlv4xBzERkLM-3ANqem4vr-Bnzcb5qWXm-RZx9tkCtBp6q2a48xITeDU3NA69mgR8_3Xxcs7IYHLdoY09kO8SXkQI7VsyA4VLuCI6Dn7OLgdTi6K9yt6BX32O-pwXYLwJEd9LokrENoQjYIn-8Mj12gCBanO_WpdgzhHmm2fukUFeOlj-pViOjkGuDeE-6jMfQPeux7_ERqXjGRJX5-GG_ZmEvmBrk4tUgcW9cAQgy2LgvdoDgw_JgHmurNmH10nMLz_L5m8sKaHl0jJfnVViwJvAszvE85KoyCrz46voEHrXKUZ8xty_icwTstZXDPrh2lsNk3vVZQ3MCtGwl20v6MP3AS_JxcFDBJ4SVEanX7rXIgiV9uoQW3i5-xP4ofz-2zelXIKl855g4TMHWGtxbhuBx3CyXeUrQeLUfeil9hVMRYQi5Kf-6ux-PVZVnyW9_Cx1TceavTfx4c4hkK8uDIxnE0V0yV1JLz0Jd_niTiDKXwlAkq-Yy6Va1NZOgOpqFndg4sxKKuZ0xZLyi9Yzjq0FLYVIAOpvYnC4NoP1400xT25CDJHsOOZAdMbaubtK5vpgDQZyBCEWIj2cYw-Sra8z_SApmr4_wVZk3X_XtHEHhC-LAFw5-wXjy1ZmnqrzaG_VS5gqjcxsajioXnsHH24LNJZxV5URcXy7GyVpfjV3gXtN1X7hqO1Ht6uONvnyVW6soEnE4i8jmqC0cU3tWB7QLWNSX4oEr1yDKs9Nq6PKdsknFQIzCaxQabZQRL9nvhG1dXBVtceGO21Q7WIeDkO_QflOqey_UQXkv1rR42Cog17HjyNiHXWUbrNe8m2-ezziLWW8zm06ns21XCO6pnnAxH4RDHjiGNQuhccgs5fTQLKfWng-q98r6bFbxxmyKKM5SP4RZeRdOeLpFzeYaHuweOMGFseujS5b9IhACdRIlYMdazw_bsj9Qf38f8lnJmiUI1quK4ju-I9OnuJHldVlOIChJBfXZ6DZpMvJD2uL7U8pe_5hKfPFIZSP3ZHAbls_JJkmmHZzi_D6YnrJLrQ51VuN0behqJTyttZbAIm9TAtxqtTv1A1dEr0Wv9ftCVtZasM3bLe_zcqBuWytbgCa9WrOPt8PBSY59k0wc197OJZmeJSEVHrPmqLbdPozL8HbLKmDxgaOpPNWzRwQsykgIgxU4781lYtELbtegkXrbLZ5TMVW73dLTyamawNQezAxivj14x_4Jmsj6ePO8DZlf3v0naQ1Xf9WRNy7WaLgGRxd7bFykwVDG_nVp7UZtn_Qp8cZCB8ZCajduDumTPMxFPhoqaKOStZEydIaDh43Gw0gbWlqA-f8Bqt1aKg",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=Bv5-33icbVTNrqtGEh7NvMAs5gHOdnTkq-6mweYeeQG4wdimMX-NzcYCgzEGA-bHYCtPc24SKbNMRprNvEiymGcZJ-ssavXV96NSVf3vL3__TLL_TIfID6vFSjbKU77Vtw8jyQUJ_1Q3Vdwfuyz-N0QiNxOxyPMYAJ6DEED80zHswqJKs_gXhAUOCAgIGHMAi0iEs5_PSRgXWZmYp1PSLKrj7yoch_FMQBx6tcwgP53y6F_ZNUyTP_BfphDyLzoAUziDAPGcAL41cfsr2ioHLOCpIIroZS_yU27GCcJ3W9tcHP4c--HWJ83j13864bXty_RdC4twfLy7YfTuQPCukneIZpr8zmvvStV2x-qHtP49wp9Ifbtm8c_8VMAC4iECaCoKGE2Fb_W9-zyn3_d9kfx3eFck3dIVnTKfr2ON5bpKwX5nF8fhMy0--_bzXHwm5Y9VWN9Px9_--g9SDQulHRTLq2u2sIEDYhQStjR9aAUeHjw3qCmjOCzVcp8HfXRZtRE8M4Pk2ELGk_oiH7usjzR6srngbsPzyvDh9gjtnubdLYLWC5dweAn0gKvlPas3NgxKtjAGe3neOlAkIeLpfqcCdmH3jQdlv4xBzERkLM-3ANqem4vr-Bnzcb5qWXm-RZx9tkCtBp6q2a48xITeDU3NA69mgR8_3Xxcs7IYHLdoY09kO8SXkQI7VsyA4VLuCI6Dn7OLgdTi6K9yt6BX32O-pwXYLwJEd9LokrENoQjYIn-8Mj12gCBanO_WpdgzhHmm2fukUFeOlj-pViOjkGuDeE-6jMfQPeux7_ERqXjGRJX5-GG_ZmEvmBrk4tUgcW9cAQgy2LgvdoDgw_JgHmurNmH10nMLz_L5m8sKaHl0jJfnVViwJvAszvE85KoyCrz46voEHrXKUZ8xty_icwTstZXDPrh2lsNk3vVZQ3MCtGwl20v6MP3AS_JxcFDBJ4SVEanX7rXIgiV9uoQW3i5-xP4ofz-2zelXIKl855g4TMHWGtxbhuBx3CyXeUrQeLUfeil9hVMRYQi5Kf-6ux-PVZVnyW9_Cx1TceavTfx4c4hkK8uDIxnE0V0yV1JLz0Jd_niTiDKXwlAkq-Yy6Va1NZOgOpqFndg4sxKKuZ0xZLyi9Yzjq0FLYVIAOpvYnC4NoP1400xT25CDJHsOOZAdMbaubtK5vpgDQZyBCEWIj2cYw-Sra8z_SApmr4_wVZk3X_XtHEHhC-LAFw5-wXjy1ZmnqrzaG_VS5gqjcxsajioXnsHH24LNJZxV5URcXy7GyVpfjV3gXtN1X7hqO1Ht6uONvnyVW6soEnE4i8jmqC0cU3tWB7QLWNSX4oEr1yDKs9Nq6PKdsknFQIzCaxQabZQRL9nvhG1dXBVtceGO21Q7WIeDkO_QflOqey_UQXkv1rR42Cog17HjyNiHXWUbrNe8m2-ezziLWW8zm06ns21XCO6pnnAxH4RDHjiGNQuhccgs5fTQLKfWng-q98r6bFbxxmyKKM5SP4RZeRdOeLpFzeYaHuweOMGFseujS5b9IhACdRIlYMdazw_bsj9Qf38f8lnJmiUI1quK4ju-I9OnuJHldVlOIChJBfXZ6DZpMvJD2uL7U8pe_5hKfPFIZSP3ZHAbls_JJkmmHZzi_D6YnrJLrQ51VuN0behqJTyttZbAIm9TAtxqtTv1A1dEr0Wv9ftCVtZasM3bLe_zcqBuWytbgCa9WrOPt8PBSY59k0wc197OJZmeJSEVHrPmqLbdPozL8HbLKmDxgaOpPNWzRwQsykgIgxU4781lYtELbtegkXrbLZ5TMVW73dLTyamawNQezAxivj14x_4Jmsj6ePO8DZlf3v0naQ1Xf9WRNy7WaLgGRxd7bFykwVDG_nVp7UZtn_Qp8cZCB8ZCajduDumTPMxFPhoqaKOStZEydIaDh43Gw0gbWlqA-f8Bqt1aKg",
+      "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&page_token=Bv5-33icbVTNrqtGEh7NvMAs5gHOdnTkq-6mweYeeQG4wdimMX-NzcYCgzEGA-bHYCtPc24SKbNMRprNvEiymGcZJ-ssavXV96NSVf3vL3__TLL_TIfID6vFSjbKU77Vtw8jyQUJ_1Q3Vdwfuyz-N0QiNxOxyPMYAJ6DEED80zHswqJKs_gXhAUOCAgIGHMAi0iEs5_PSRgXWZmYp1PSLKrj7yoch_FMQBx6tcwgP53y6F_ZNUyTP_BfphDyLzoAUziDAPGcAL41cfsr2ioHLOCpIIroZS_yU27GCcJ3W9tcHP4c--HWJ83j13864bXty_RdC4twfLy7YfTuQPCukneIZpr8zmvvStV2x-qHtP49wp9Ifbtm8c_8VMAC4iECaCoKGE2Fb_W9-zyn3_d9kfx3eFck3dIVnTKfr2ON5bpKwX5nF8fhMy0--_bzXHwm5Y9VWN9Px9_--g9SDQulHRTLq2u2sIEDYhQStjR9aAUeHjw3qCmjOCzVcp8HfXRZtRE8M4Pk2ELGk_oiH7usjzR6srngbsPzyvDh9gjtnubdLYLWC5dweAn0gKvlPas3NgxKtjAGe3neOlAkIeLpfqcCdmH3jQdlv4xBzERkLM-3ANqem4vr-Bnzcb5qWXm-RZx9tkCtBp6q2a48xITeDU3NA69mgR8_3Xxcs7IYHLdoY09kO8SXkQI7VsyA4VLuCI6Dn7OLgdTi6K9yt6BX32O-pwXYLwJEd9LokrENoQjYIn-8Mj12gCBanO_WpdgzhHmm2fukUFeOlj-pViOjkGuDeE-6jMfQPeux7_ERqXjGRJX5-GG_ZmEvmBrk4tUgcW9cAQgy2LgvdoDgw_JgHmurNmH10nMLz_L5m8sKaHl0jJfnVViwJvAszvE85KoyCrz46voEHrXKUZ8xty_icwTstZXDPrh2lsNk3vVZQ3MCtGwl20v6MP3AS_JxcFDBJ4SVEanX7rXIgiV9uoQW3i5-xP4ofz-2zelXIKl855g4TMHWGtxbhuBx3CyXeUrQeLUfeil9hVMRYQi5Kf-6ux-PVZVnyW9_Cx1TceavTfx4c4hkK8uDIxnE0V0yV1JLz0Jd_niTiDKXwlAkq-Yy6Va1NZOgOpqFndg4sxKKuZ0xZLyi9Yzjq0FLYVIAOpvYnC4NoP1400xT25CDJHsOOZAdMbaubtK5vpgDQZyBCEWIj2cYw-Sra8z_SApmr4_wVZk3X_XtHEHhC-LAFw5-wXjy1ZmnqrzaG_VS5gqjcxsajioXnsHH24LNJZxV5URcXy7GyVpfjV3gXtN1X7hqO1Ht6uONvnyVW6soEnE4i8jmqC0cU3tWB7QLWNSX4oEr1yDKs9Nq6PKdsknFQIzCaxQabZQRL9nvhG1dXBVtceGO21Q7WIeDkO_QflOqey_UQXkv1rR42Cog17HjyNiHXWUbrNe8m2-ezziLWW8zm06ns21XCO6pnnAxH4RDHjiGNQuhccgs5fTQLKfWng-q98r6bFbxxmyKKM5SP4RZeRdOeLpFzeYaHuweOMGFseujS5b9IhACdRIlYMdazw_bsj9Qf38f8lnJmiUI1quK4ju-I9OnuJHldVlOIChJBfXZ6DZpMvJD2uL7U8pe_5hKfPFIZSP3ZHAbls_JJkmmHZzi_D6YnrJLrQ51VuN0behqJTyttZbAIm9TAtxqtTv1A1dEr0Wv9ftCVtZasM3bLe_zcqBuWytbgCa9WrOPt8PBSY59k0wc197OJZmeJSEVHrPmqLbdPozL8HbLKmDxgaOpPNWzRwQsykgIgxU4781lYtELbtegkXrbLZ5TMVW73dLTyamawNQezAxivj14x_4Jmsj6ePO8DZlf3v0naQ1Xf9WRNy7WaLgGRxd7bFykwVDG_nVp7UZtn_Qp8cZCB8ZCajduDumTPMxFPhoqaKOStZEydIaDh43Gw0gbWlqA-f8Bqt1aKg",
+      "source": "bkstr.com",
+      "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAe1BMVEVHcEwEPl4DO1yv4fa75_kEPl4CLkwYQ1wDOVq_6fmv4fYDOVoEPl4DPV2x5PgEPl605fmv4vfH6fUEPl6v4fay5Pi86_kBJUuv4fYBKUKv4fav4fav4fav4fav4fYAAAAEPl6v4fav4fbE9v8EPl7m___D8_8DPl6v4fZ7zqieAAAAJ3RSTlMAxujNG9dQHIs07TcL-vNpT5Mn8Qb-YXKGJnL6wA7hMaXbsHm3P5YfMYB3AAABGklEQVQ4jX2T6bKCMAyFy1qWAoIoIorbvbbv_4TSJJ0BSskvwvkmnJ4GxpZVn9letTelDjv6PVBKDY1TTzOlK2sdetyUAKhgW09kEp6QeG_plZSyS4mobT2Xuh5nBJR1WBEBIPsPEallAMrvWY3AEC50fkRdTM9vJG5zve1AL3JoRiQWiXoAJNg0G2nAFwpO3dX2CQMiYdoAgMt6gm8msINlEz3Epg3h1jIrBs-095cGyhmAQcvKTBjWExglTS4u9jljBCJoUtyL6xwgm_KpHWCU5eo2EJjSDMftnSCfsmtwaUZrMysi4v_T1kJMt0g7IR8fyyHVHwIF_y7uwU7D566_S-BiHXOHzlhf6LS4U4dEPbGjT4d9rl78AHqmMRLkYGmZAAAAAElFTkSuQmCC.png",
+      "multiple_sources": true,
+      "price": "$539.99",
+      "extracted_price": 539.99,
+      "rating": 4.7,
+      "reviews": 5800,
+      "snippet": "Quality display (514 user reviews)",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ6PobATLugOj-HyoyiAhccmH1q2MyiRKdOB6s1dgO5-weAusUxu8enTY7BsT5Ft_xXk_OZsgIQ32r27GDfu3mKPs9KOZAxvg",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/rXUmRHicDcndCoIwGADQJ1JTUVOImEQaVtMwKG8ktzVX-PttpW_Sq_U2dW7P91NL2UNgGKwl49xLRjVZtQudg7xJQXTSNQbUXd-Llq-H1f8CdKR-RDI37SqU7xXHDy2eu1mgmpAmNgfrMItTQnHogkk5drQ3QwrOk1qyNr96IeTOVpbT5VniAvgus63R8qLNXdlNkoKf4AJNL_4DLO421Q"
+    },
+    {
+      "position": 2,
+      "title": "Samsung Galaxy Tab S10 FE+",
+      "product_id": "15197656049176103893",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=Samsung Galaxy Tab S10 FE 128GB 5G Costco&prds=catalogid:15197656049176103893,productid:5337624969527934697,headlineOfferDocid:9874788700310923911,imageDocid:3932628129293590740,rds:PC_16110940916588509485|PROD_PC_16110940916588509485,gpcid:16110940916588509485,mid:576462913276203751,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "yhtWTXicdVTLrqvYEY2SH8ggH3Cm0ZGv9uZluEceAN5gbG8wrw1mYvEyxjzNw2ArX3Nud0udYSdSJvmR24N8S9zJNBmUVNKqWrWqtFT_-t0fP9P8H8sp8sJmvZVwfS4O2uGB04ITmZ_brknGeMiTv7E0veQoRuAElloKNMMJy5_jcAjLJsuTv0MWCkuO5QAjwCUHAc0L9C-XNEzKvE6N8znt1k38YhH4JbPk-SUANAQCRQsQ_jWvwiz9L0wLNMVRPKQESqBZASwZ8K1L-u_MQT5BDr5aGCBAjuV59pXy7F8OlrE-_R_wx9uYdo_vf7bDqh_r7F0Ny3B-vDth9G5D8K6gd0jxqvTOqu9y0w9x82PWxr_t8j-4vlV58gu75BiOEiBNvS4B6CULv7X34fOS_TCOZfrP6V0WNVOTNZ14bJuopNAUHRx9q4ynz6z8HPvPS_mZ1j81YXs_x7_-_k-omdZyP8mm27ZkbQEHDW5ENZOrXLDzxA9cKqONEt_YtIMuw9mtg3vsJRamC2iWUm257YEUc-fT26ddWNh2IYqI4AZ0MTj0JUiIYBHnMqZewrgVBgEQKoIyGLjCLbQB0H39FiDC7h0dx7Wl7d3WjmsFxe40kHXZpl4PiCLNdnFkPTcJMQJUBNBsXq19rJRdAobeAYJGCAnSQgB4cxmJp3g6wo-gSma3gsi-isDzAho75O6geRcWQW_DbZ8Wg-48y8BwXUZfS86xloJYIQEuyoB4wd4rAmQQwpCrle89uLFI87A27VGvEtqsSal7wiHYHOcjuCjBU6rJU3zVJpVNrGPgDTDyW1V_oodT6XWiWJ2HhDnwj4NVuIzllZ2FlB2Glxw7l-GlQw-ryy2Byc3Y6KV9TRqTmr2gtqzQv2ywYtIBuBwIxdrHovWPpeCYLisHyLWVZ0Ify-QSAWtnFnAMqsG0icQ6Hun0AgE130rWRn8YXmAH7uUZV8HaB8R3lZJYDh5Cfwt1Ty90pdWTyqJ_mPvu_B2ICjvYBhNm4GBOzi2nYDzvN5siQ9RcWQ-tFr_CpUAxEL58SAPup7hpijz99Q-hbcj26uXEjzcbiZa8OdkiRrbmoJWcmVoeatLHm4jklRiGAtp218WwbU1ehMpslFZqMbmZ6gzt4ylnZXUkNNtMagbTEuj8wqI1cQL9x5tqGOoenUTJtdEJ-QgfHM3QV9p6BTiBBxEVUWzCMwxMvzp49R-lgBcg_1VedV-1w4qC3BeKBl9o-IVhFl_tVaZI2yNuNxJd4sHp9HBW6PACPt7WZCUyeVMvhN31is_mrsJ-4FTZbiwdpV8oVvPxpr_myrdelkVk0yaSjFld24b6bE6UH5BorIUTXe9AVOTn7TQUvrzPhECIwioKcR_lyE2PPndoy0pW11c6PmTqyTyduMKnjvtaObqhBup7udPLh6UAVM0DjeYxHBoLk1F1b55xuTB5QkaLWPpyyR-GknPO7YJO2CCcisDGJh9CfMpN-fxQTbtVnw9dG-XdxWiSvdGVUZJnXgjz-s6dmeWB6vZVeLJGYAdXQqrHkG7GdcAFyiJKgU961wv7ejzp3vE-FXxNug0IdttGZ-7MnTI8nekkaVfXCwhq1ECNn50uS2d2ynrm_hTz10fWRbZ8ZBIuXAncps1zsU_T5QCXTHGfDFf2M3OgBrOzhz501Bqed2qPYFn0GQJOs_XP40SX0cvorXZfS_JODQ5Ff2A9VgqUQ2_ma9Bllcl_vJ1OdhqPXbqwHeuwEiX9InIZ9-C7WOmHY5jU4e2WN8BkA1tVWF3LHxEwdYJCGGzB5WhsUlO_Mv0OdOJoOeVzKWTK4G9cDZ2bBcysycghw_YnNx6foIvMjzfX3aPV9d17oh472itiFl_NGTuY1tdHBl_FCcvzmHhzv1f6p_4UWbzWAF6L_d4p4G8fw1gXM1ZAH9Wkj-RpwDYz7VUWRurU6yVY_RtyZ11I",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=yhtWTXicdVTLrqvYEY2SH8ggH3Cm0ZGv9uZluEceAN5gbG8wrw1mYvEyxjzNw2ArX3Nud0udYSdSJvmR24N8S9zJNBmUVNKqWrWqtFT_-t0fP9P8H8sp8sJmvZVwfS4O2uGB04ITmZ_brknGeMiTv7E0veQoRuAElloKNMMJy5_jcAjLJsuTv0MWCkuO5QAjwCUHAc0L9C-XNEzKvE6N8znt1k38YhH4JbPk-SUANAQCRQsQ_jWvwiz9L0wLNMVRPKQESqBZASwZ8K1L-u_MQT5BDr5aGCBAjuV59pXy7F8OlrE-_R_wx9uYdo_vf7bDqh_r7F0Ny3B-vDth9G5D8K6gd0jxqvTOqu9y0w9x82PWxr_t8j-4vlV58gu75BiOEiBNvS4B6CULv7X34fOS_TCOZfrP6V0WNVOTNZ14bJuopNAUHRx9q4ynz6z8HPvPS_mZ1j81YXs_x7_-_k-omdZyP8mm27ZkbQEHDW5ENZOrXLDzxA9cKqONEt_YtIMuw9mtg3vsJRamC2iWUm257YEUc-fT26ddWNh2IYqI4AZ0MTj0JUiIYBHnMqZewrgVBgEQKoIyGLjCLbQB0H39FiDC7h0dx7Wl7d3WjmsFxe40kHXZpl4PiCLNdnFkPTcJMQJUBNBsXq19rJRdAobeAYJGCAnSQgB4cxmJp3g6wo-gSma3gsi-isDzAho75O6geRcWQW_DbZ8Wg-48y8BwXUZfS86xloJYIQEuyoB4wd4rAmQQwpCrle89uLFI87A27VGvEtqsSal7wiHYHOcjuCjBU6rJU3zVJpVNrGPgDTDyW1V_oodT6XWiWJ2HhDnwj4NVuIzllZ2FlB2Glxw7l-GlQw-ryy2Byc3Y6KV9TRqTmr2gtqzQv2ywYtIBuBwIxdrHovWPpeCYLisHyLWVZ0Ify-QSAWtnFnAMqsG0icQ6Hun0AgE130rWRn8YXmAH7uUZV8HaB8R3lZJYDh5Cfwt1Ty90pdWTyqJ_mPvu_B2ICjvYBhNm4GBOzi2nYDzvN5siQ9RcWQ-tFr_CpUAxEL58SAPup7hpijz99Q-hbcj26uXEjzcbiZa8OdkiRrbmoJWcmVoeatLHm4jklRiGAtp218WwbU1ehMpslFZqMbmZ6gzt4ylnZXUkNNtMagbTEuj8wqI1cQL9x5tqGOoenUTJtdEJ-QgfHM3QV9p6BTiBBxEVUWzCMwxMvzp49R-lgBcg_1VedV-1w4qC3BeKBl9o-IVhFl_tVaZI2yNuNxJd4sHp9HBW6PACPt7WZCUyeVMvhN31is_mrsJ-4FTZbiwdpV8oVvPxpr_myrdelkVk0yaSjFld24b6bE6UH5BorIUTXe9AVOTn7TQUvrzPhECIwioKcR_lyE2PPndoy0pW11c6PmTqyTyduMKnjvtaObqhBup7udPLh6UAVM0DjeYxHBoLk1F1b55xuTB5QkaLWPpyyR-GknPO7YJO2CCcisDGJh9CfMpN-fxQTbtVnw9dG-XdxWiSvdGVUZJnXgjz-s6dmeWB6vZVeLJGYAdXQqrHkG7GdcAFyiJKgU961wv7ejzp3vE-FXxNug0IdttGZ-7MnTI8nekkaVfXCwhq1ECNn50uS2d2ynrm_hTz10fWRbZ8ZBIuXAncps1zsU_T5QCXTHGfDFf2M3OgBrOzhz501Bqed2qPYFn0GQJOs_XP40SX0cvorXZfS_JODQ5Ff2A9VgqUQ2_ma9Bllcl_vJ1OdhqPXbqwHeuwEiX9InIZ9-C7WOmHY5jU4e2WN8BkA1tVWF3LHxEwdYJCGGzB5WhsUlO_Mv0OdOJoOeVzKWTK4G9cDZ2bBcysycghw_YnNx6foIvMjzfX3aPV9d17oh472itiFl_NGTuY1tdHBl_FCcvzmHhzv1f6p_4UWbzWAF6L_d4p4G8fw1gXM1ZAH9Wkj-RpwDYz7VUWRurU6yVY_RtyZ11I",
+      "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&page_token=yhtWTXicdVTLrqvYEY2SH8ggH3Cm0ZGv9uZluEceAN5gbG8wrw1mYvEyxjzNw2ArX3Nud0udYSdSJvmR24N8S9zJNBmUVNKqWrWqtFT_-t0fP9P8H8sp8sJmvZVwfS4O2uGB04ITmZ_brknGeMiTv7E0veQoRuAElloKNMMJy5_jcAjLJsuTv0MWCkuO5QAjwCUHAc0L9C-XNEzKvE6N8znt1k38YhH4JbPk-SUANAQCRQsQ_jWvwiz9L0wLNMVRPKQESqBZASwZ8K1L-u_MQT5BDr5aGCBAjuV59pXy7F8OlrE-_R_wx9uYdo_vf7bDqh_r7F0Ny3B-vDth9G5D8K6gd0jxqvTOqu9y0w9x82PWxr_t8j-4vlV58gu75BiOEiBNvS4B6CULv7X34fOS_TCOZfrP6V0WNVOTNZ14bJuopNAUHRx9q4ynz6z8HPvPS_mZ1j81YXs_x7_-_k-omdZyP8mm27ZkbQEHDW5ENZOrXLDzxA9cKqONEt_YtIMuw9mtg3vsJRamC2iWUm257YEUc-fT26ddWNh2IYqI4AZ0MTj0JUiIYBHnMqZewrgVBgEQKoIyGLjCLbQB0H39FiDC7h0dx7Wl7d3WjmsFxe40kHXZpl4PiCLNdnFkPTcJMQJUBNBsXq19rJRdAobeAYJGCAnSQgB4cxmJp3g6wo-gSma3gsi-isDzAho75O6geRcWQW_DbZ8Wg-48y8BwXUZfS86xloJYIQEuyoB4wd4rAmQQwpCrle89uLFI87A27VGvEtqsSal7wiHYHOcjuCjBU6rJU3zVJpVNrGPgDTDyW1V_oodT6XWiWJ2HhDnwj4NVuIzllZ2FlB2Glxw7l-GlQw-ryy2Byc3Y6KV9TRqTmr2gtqzQv2ywYtIBuBwIxdrHovWPpeCYLisHyLWVZ0Ify-QSAWtnFnAMqsG0icQ6Hun0AgE130rWRn8YXmAH7uUZV8HaB8R3lZJYDh5Cfwt1Ty90pdWTyqJ_mPvu_B2ICjvYBhNm4GBOzi2nYDzvN5siQ9RcWQ-tFr_CpUAxEL58SAPup7hpijz99Q-hbcj26uXEjzcbiZa8OdkiRrbmoJWcmVoeatLHm4jklRiGAtp218WwbU1ehMpslFZqMbmZ6gzt4ylnZXUkNNtMagbTEuj8wqI1cQL9x5tqGOoenUTJtdEJ-QgfHM3QV9p6BTiBBxEVUWzCMwxMvzp49R-lgBcg_1VedV-1w4qC3BeKBl9o-IVhFl_tVaZI2yNuNxJd4sHp9HBW6PACPt7WZCUyeVMvhN31is_mrsJ-4FTZbiwdpV8oVvPxpr_myrdelkVk0yaSjFld24b6bE6UH5BorIUTXe9AVOTn7TQUvrzPhECIwioKcR_lyE2PPndoy0pW11c6PmTqyTyduMKnjvtaObqhBup7udPLh6UAVM0DjeYxHBoLk1F1b55xuTB5QkaLWPpyyR-GknPO7YJO2CCcisDGJh9CfMpN-fxQTbtVnw9dG-XdxWiSvdGVUZJnXgjz-s6dmeWB6vZVeLJGYAdXQqrHkG7GdcAFyiJKgU961wv7ejzp3vE-FXxNug0IdttGZ-7MnTI8nekkaVfXCwhq1ECNn50uS2d2ynrm_hTz10fWRbZ8ZBIuXAncps1zsU_T5QCXTHGfDFf2M3OgBrOzhz501Bqed2qPYFn0GQJOs_XP40SX0cvorXZfS_JODQ5Ff2A9VgqUQ2_ma9Bllcl_vJ1OdhqPXbqwHeuwEiX9InIZ9-C7WOmHY5jU4e2WN8BkA1tVWF3LHxEwdYJCGGzB5WhsUlO_Mv0OdOJoOeVzKWTK4G9cDZ2bBcysycghw_YnNx6foIvMjzfX3aPV9d17oh472itiFl_NGTuY1tdHBl_FCcvzmHhzv1f6p_4UWbzWAF6L_d4p4G8fw1gXM1ZAH9Wkj-RpwDYz7VUWRurU6yVY_RtyZ11I",
+      "source": "colamco.com",
+      "source_icon": "https://serpapi.com/searches/6ad606ee34d37e2052778e4a/images/rrbu210nv2-EfET022v4HPq0zMQ-AsEebGTo6Ole7xs.png",
+      "multiple_sources": true,
+      "price": "$692.77",
+      "extracted_price": 692.77,
+      "rating": 4.8,
+      "reviews": 2800,
+      "snippet": "Quality display (289 user reviews)",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQa4bi2X32F2k239-BxtYwjNXnBYOdqb7Y1gLM9R0C-_LBwgs0a6ySUvsj23vDvyWYNufb0VTO5s121GvSzGcvXVWBsAloykw",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/eAjtP3icDcnbDoIgAADQL1IRu0y31qSWL6YrS-WpCRpeCjEIsy_p1_qbOq_n-6mVEtKzrIrTxyRUVRqKcGAyqQrVUJP2d0vWvRANZ-th9T_Pj0o3oIdiRhqYO3AHO-i4BnopPLZRzhGOy4Essc3CvXsEG-MSopFJUCym5KxlCx291VOGo-eVgPQUz6UN7UAn74DqPM2Q9G_91I0_vrw15w",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 3,
+      "title": "Galaxy Tab S10 FE+",
+      "product_id": "6628139468871239122",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=Samsung Galaxy Tab S10 FE 128GB 5G Costco&prds=catalogid:6628139468871239122,productid:3519280500866054895,headlineOfferDocid:12899475205027763302,imageDocid:5376743720439499375,rds:PC_2653337897188841490|PROD_PC_2653337897188841490,gpcid:2653337897188841490,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "GgsWpHicbZS5ruvWGYUT5AXyCKcNBF3szUnkOVDBWaREUpwpNsLmIIriKA4iReRhgnNtA04ZB3DjF7ku_Bwuo7h28VcfsP6vWFi__eXvn2n-82aKfNQIKqfVl-KoHJ9aWlAs8WPbNckYD3nyE05CBqMBCQBNUYAkaIb8MUYDKpvsRSkKoyHOEBRNbyCGMxDD_nNNUVLmdWpcLmknNHGe_BdiNMMQGxJ75WCbDYXjAPt3XqEs_YP_ROIbakPgGwwQrzCGwTfk1y7pv2FH_oxRJI7jG5rZQJqmCUgw4J9HyxDOf86-v49p9_z2DxtV_VhnKxmVaH6uHBStbAhWkrh6ycjcipRXfNMPcfN91v5f4U-ivlZ58q-v7WP4vGbfjWOZ_jKteFYxFV7RPZ9sE9krFEkHp8Aq4-kzKz_H_vNafqb1Dw1qH5f417_-Lj5inu9i3nTb1hMsYMMY96TQtXwpj1xxQI4OncJ6xLvy5JbJUaszoOG6gvBWD2Vl0JbTEgc6Fy2cnPDwFGPQ8-pwQIW6jwMWRNB8upglJL6KpWWiel5i6K5UIHnYx5J6sCrzaXqJGYqW4ktW65Zcc_JJ1wSMEvpt7lZS6fhkEe3U2b9ZfhKUwAYhGbvDPcGlIwquQwCuC_LLZyIphIarvQVUPBZDKi3Vh-FI7mkRMfvm3WPPxWIeFgic8CgwoVvrhemohF8wlX0rRxN7OVYWhXBuTHz94flSoMk9qVek6_uScsLC1sGlRasYJV6u5sGGQgTb0IXqbInhJZQZOQTlzqv6KRWyOVwULPTUUK9UcHB0Qpcs3pEtJSxCEAPz6ckAS9xQiW7h0RI8z5bdKd4VeCRdF68i_VBWDbvIJl8EtrQk-KlMrhGw9mYBx7AaTNvjSMf3Or0QgZyrnLXTn4YfOmEFtbhOTnHgzYnUUrp4vSciHPWFqwwnPDgBh383993lG2AlcrANAmXgaE7OPcdgPB92uyITsbmynkrNvsMNgxEQviqPA-qHuGmKPP31b8g2eHv7atvHmy2yFr8726wm2oojbvnMVHKkcB9vrMhvWYQYUe1u60FtTZqF0myUVmoRuZnqBB5oU07y8ujhZDPJGUxLoNNrC1fYCfQfb7JhyAfxzHKuLZ7FQNSOjmLoW0XYAoqhQYRFGJnQBAHTd0fb_mEKaAbS7_y2e1eOWwxSXzAcfMHhF4JYv9vbTOLUk9buOLzUBqfT0Szh6Ao-3gRvyxJ5U6-Z_e2mXcx9pQWhU2X7sXSkfi1Zzceb_vrL33ueZ0UbN0XOmGXBNuSlOWNB6EVjzZzxeg-iIr-o01AE_CFjQiZCVYS0PspFNz0F1LEtK14Wbnh8zOSzeT5TRYCdDrV0cpEC6ke518unJQGxmgdcnEc0NJbmjbJ7943rlcgTb7Q8S99s6ONQUs6lXeMJGaKpCG3NpBHUzrnJX56yabfy8tSVkd9fjSY5GF0ZJXnmI5jXD-pCbI5Yd6jQ2RqBHd48r3oO6W4UQiqU1lEKAq93fdTX41n3T4-poGuv24FwrzY68SAemOHrRMdx-7peQ1CLDVTo2emydCanrCceC5u_FlZnyfKZcVrhcuA-7Zb1IU03A9wQxWMyXD7IzAEbzM4eeuTINbzs5V6EZdFnInAaNbiME15Gr6K3ykPg-L0cHov-SPokF0rH3swF0GWVSX-8nc92Go9durYd67hlOf3KUhn1pLtY6ocTSmp0v-cNMMnQliVSV_JnBEzdExEMVXA9GbvU1G9EvwcdO1pOuWyYTBqCnauIl2YNM2syckiQ_dmNxwV0kfnx5roHcXtb-YvYa47yupjUbuasOa9tFE6EdmMnjZ9fKzL3B6lf9IUlNUEBmsD2B6eA-iI-DaGYNQn0Ue31ET8Nmk1MB5mEkTz1egm2_wOu7kyI",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=GgsWpHicbZS5ruvWGYUT5AXyCKcNBF3szUnkOVDBWaREUpwpNsLmIIriKA4iReRhgnNtA04ZB3DjF7ku_Bwuo7h28VcfsP6vWFi__eXvn2n-82aKfNQIKqfVl-KoHJ9aWlAs8WPbNckYD3nyE05CBqMBCQBNUYAkaIb8MUYDKpvsRSkKoyHOEBRNbyCGMxDD_nNNUVLmdWpcLmknNHGe_BdiNMMQGxJ75WCbDYXjAPt3XqEs_YP_ROIbakPgGwwQrzCGwTfk1y7pv2FH_oxRJI7jG5rZQJqmCUgw4J9HyxDOf86-v49p9_z2DxtV_VhnKxmVaH6uHBStbAhWkrh6ycjcipRXfNMPcfN91v5f4U-ivlZ58q-v7WP4vGbfjWOZ_jKteFYxFV7RPZ9sE9krFEkHp8Aq4-kzKz_H_vNafqb1Dw1qH5f417_-Lj5inu9i3nTb1hMsYMMY96TQtXwpj1xxQI4OncJ6xLvy5JbJUaszoOG6gvBWD2Vl0JbTEgc6Fy2cnPDwFGPQ8-pwQIW6jwMWRNB8upglJL6KpWWiel5i6K5UIHnYx5J6sCrzaXqJGYqW4ktW65Zcc_JJ1wSMEvpt7lZS6fhkEe3U2b9ZfhKUwAYhGbvDPcGlIwquQwCuC_LLZyIphIarvQVUPBZDKi3Vh-FI7mkRMfvm3WPPxWIeFgic8CgwoVvrhemohF8wlX0rRxN7OVYWhXBuTHz94flSoMk9qVek6_uScsLC1sGlRasYJV6u5sGGQgTb0IXqbInhJZQZOQTlzqv6KRWyOVwULPTUUK9UcHB0Qpcs3pEtJSxCEAPz6ckAS9xQiW7h0RI8z5bdKd4VeCRdF68i_VBWDbvIJl8EtrQk-KlMrhGw9mYBx7AaTNvjSMf3Or0QgZyrnLXTn4YfOmEFtbhOTnHgzYnUUrp4vSciHPWFqwwnPDgBh383993lG2AlcrANAmXgaE7OPcdgPB92uyITsbmynkrNvsMNgxEQviqPA-qHuGmKPP31b8g2eHv7atvHmy2yFr8726wm2oojbvnMVHKkcB9vrMhvWYQYUe1u60FtTZqF0myUVmoRuZnqBB5oU07y8ujhZDPJGUxLoNNrC1fYCfQfb7JhyAfxzHKuLZ7FQNSOjmLoW0XYAoqhQYRFGJnQBAHTd0fb_mEKaAbS7_y2e1eOWwxSXzAcfMHhF4JYv9vbTOLUk9buOLzUBqfT0Szh6Ao-3gRvyxJ5U6-Z_e2mXcx9pQWhU2X7sXSkfi1Zzceb_vrL33ueZ0UbN0XOmGXBNuSlOWNB6EVjzZzxeg-iIr-o01AE_CFjQiZCVYS0PspFNz0F1LEtK14Wbnh8zOSzeT5TRYCdDrV0cpEC6ke518unJQGxmgdcnEc0NJbmjbJ7943rlcgTb7Q8S99s6ONQUs6lXeMJGaKpCG3NpBHUzrnJX56yabfy8tSVkd9fjSY5GF0ZJXnmI5jXD-pCbI5Yd6jQ2RqBHd48r3oO6W4UQiqU1lEKAq93fdTX41n3T4-poGuv24FwrzY68SAemOHrRMdx-7peQ1CLDVTo2emydCanrCceC5u_FlZnyfKZcVrhcuA-7Zb1IU03A9wQxWMyXD7IzAEbzM4eeuTINbzs5V6EZdFnInAaNbiME15Gr6K3ykPg-L0cHov-SPokF0rH3swF0GWVSX-8nc92Go9durYd67hlOf3KUhn1pLtY6ocTSmp0v-cNMMnQliVSV_JnBEzdExEMVXA9GbvU1G9EvwcdO1pOuWyYTBqCnauIl2YNM2syckiQ_dmNxwV0kfnx5roHcXtb-YvYa47yupjUbuasOa9tFE6EdmMnjZ9fKzL3B6lf9IUlNUEBmsD2B6eA-iI-DaGYNQn0Ue31ET8Nmk1MB5mEkTz1egm2_wOu7kyI",
+      "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&page_token=GgsWpHicbZS5ruvWGYUT5AXyCKcNBF3szUnkOVDBWaREUpwpNsLmIIriKA4iReRhgnNtA04ZB3DjF7ku_Bwuo7h28VcfsP6vWFi__eXvn2n-82aKfNQIKqfVl-KoHJ9aWlAs8WPbNckYD3nyE05CBqMBCQBNUYAkaIb8MUYDKpvsRSkKoyHOEBRNbyCGMxDD_nNNUVLmdWpcLmknNHGe_BdiNMMQGxJ75WCbDYXjAPt3XqEs_YP_ROIbakPgGwwQrzCGwTfk1y7pv2FH_oxRJI7jG5rZQJqmCUgw4J9HyxDOf86-v49p9_z2DxtV_VhnKxmVaH6uHBStbAhWkrh6ycjcipRXfNMPcfN91v5f4U-ivlZ58q-v7WP4vGbfjWOZ_jKteFYxFV7RPZ9sE9krFEkHp8Aq4-kzKz_H_vNafqb1Dw1qH5f417_-Lj5inu9i3nTb1hMsYMMY96TQtXwpj1xxQI4OncJ6xLvy5JbJUaszoOG6gvBWD2Vl0JbTEgc6Fy2cnPDwFGPQ8-pwQIW6jwMWRNB8upglJL6KpWWiel5i6K5UIHnYx5J6sCrzaXqJGYqW4ktW65Zcc_JJ1wSMEvpt7lZS6fhkEe3U2b9ZfhKUwAYhGbvDPcGlIwquQwCuC_LLZyIphIarvQVUPBZDKi3Vh-FI7mkRMfvm3WPPxWIeFgic8CgwoVvrhemohF8wlX0rRxN7OVYWhXBuTHz94flSoMk9qVek6_uScsLC1sGlRasYJV6u5sGGQgTb0IXqbInhJZQZOQTlzqv6KRWyOVwULPTUUK9UcHB0Qpcs3pEtJSxCEAPz6ckAS9xQiW7h0RI8z5bdKd4VeCRdF68i_VBWDbvIJl8EtrQk-KlMrhGw9mYBx7AaTNvjSMf3Or0QgZyrnLXTn4YfOmEFtbhOTnHgzYnUUrp4vSciHPWFqwwnPDgBh383993lG2AlcrANAmXgaE7OPcdgPB92uyITsbmynkrNvsMNgxEQviqPA-qHuGmKPP31b8g2eHv7atvHmy2yFr8726wm2oojbvnMVHKkcB9vrMhvWYQYUe1u60FtTZqF0myUVmoRuZnqBB5oU07y8ujhZDPJGUxLoNNrC1fYCfQfb7JhyAfxzHKuLZ7FQNSOjmLoW0XYAoqhQYRFGJnQBAHTd0fb_mEKaAbS7_y2e1eOWwxSXzAcfMHhF4JYv9vbTOLUk9buOLzUBqfT0Szh6Ao-3gRvyxJ5U6-Z_e2mXcx9pQWhU2X7sXSkfi1Zzceb_vrL33ueZ0UbN0XOmGXBNuSlOWNB6EVjzZzxeg-iIr-o01AE_CFjQiZCVYS0PspFNz0F1LEtK14Wbnh8zOSzeT5TRYCdDrV0cpEC6ke518unJQGxmgdcnEc0NJbmjbJ7943rlcgTb7Q8S99s6ONQUs6lXeMJGaKpCG3NpBHUzrnJX56yabfy8tSVkd9fjSY5GF0ZJXnmI5jXD-pCbI5Yd6jQ2RqBHd48r3oO6W4UQiqU1lEKAq93fdTX41n3T4-poGuv24FwrzY68SAemOHrRMdx-7peQ1CLDVTo2emydCanrCceC5u_FlZnyfKZcVrhcuA-7Zb1IU03A9wQxWMyXD7IzAEbzM4eeuTINbzs5V6EZdFnInAaNbiME15Gr6K3ykPg-L0cHov-SPokF0rH3swF0GWVSX-8nc92Go9durYd67hlOf3KUhn1pLtY6ocTSmp0v-cNMMnQliVSV_JnBEzdExEMVXA9GbvU1G9EvwcdO1pOuWyYTBqCnauIl2YNM2syckiQ_dmNxwV0kfnx5roHcXtb-YvYa47yupjUbuasOa9tFE6EdmMnjZ9fKzL3B6lf9IUlNUEBmsD2B6eA-iI-DaGYNQn0Ue31ET8Nmk1MB5mEkTz1egm2_wOu7kyI",
+      "source": "bkstr.com",
+      "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAe1BMVEVHcEwEPl4DO1yv4fa75_kEPl4CLkwYQ1wDOVq_6fmv4fYDOVoEPl4DPV2x5PgEPl605fmv4vfH6fUEPl6v4fay5Pi86_kBJUuv4fYBKUKv4fav4fav4fav4fav4fYAAAAEPl6v4fav4fbE9v8EPl7m___D8_8DPl6v4fZ7zqieAAAAJ3RSTlMAxujNG9dQHIs07TcL-vNpT5Mn8Qb-YXKGJnL6wA7hMaXbsHm3P5YfMYB3AAABGklEQVQ4jX2T6bKCMAyFy1qWAoIoIorbvbbv_4TSJJ0BSskvwvkmnJ4GxpZVn9letTelDjv6PVBKDY1TTzOlK2sdetyUAKhgW09kEp6QeG_plZSyS4mobT2Xuh5nBJR1WBEBIPsPEallAMrvWY3AEC50fkRdTM9vJG5zve1AL3JoRiQWiXoAJNg0G2nAFwpO3dX2CQMiYdoAgMt6gm8msINlEz3Epg3h1jIrBs-095cGyhmAQcvKTBjWExglTS4u9jljBCJoUtyL6xwgm_KpHWCU5eo2EJjSDMftnSCfsmtwaUZrMysi4v_T1kJMt0g7IR8fyyHVHwIF_y7uwU7D566_S-BiHXOHzlhf6LS4U4dEPbGjT4d9rl78AHqmMRLkYGmZAAAAAElFTkSuQmCC.png",
+      "price": "$699.99",
+      "extracted_price": 699.99,
+      "rating": 4.8,
+      "reviews": 47,
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTEQ8ixiGEDMqsC8hrM4LVqyY1OBgPA36a1yxNWuj9bIyetcq8mOuNniutdQFQSZ0zMzHyL26GAyuUO92rE8YfsT3OtM92t",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/1G9RpXicDcndCoIwGADQJ0pTQzYhwsoscC7pD7vTabpA3dw3cD5I79bb1Lk9308LIFRg23XPRiOgrhZQ9p7VKCiAM4sNna3aQQjeNxu5_l8QphWO2TXKEJ94HO2JVDvUjmSV3KXJHbptzqHnF46Z0od-4_JkamASdVSnPddQZYfs8lzOZD6axPXj0Ogbxe4Yofylrh4Fgl34AbBXNd0"
+    }
+  ],
+  "filters": [
+    {
+      "input_type": "link_with_icon",
+      "options": [
+        {
+          "text": "On sale",
+          "shoprs": "CAESBEoCGAEYBiopc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiA1ZyBjb3N0Y28yEwgGEgdPbiBzYWxlGAIiBEoCGAFYiKogYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Tab+S10+FE+128GB+5G+Costco+sale&shoprs=CAESBEoCGAEYBiopc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiA1ZyBjb3N0Y28yEwgGEgdPbiBzYWxlGAIiBEoCGAFYiKogYAI"
+        },
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyopc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiA1ZyBjb3N0Y28yDAgDEgZOZWFyYnkYAliIqiBgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Tab+S10+FE+128GB+5G+Costco+nearby&shoprs=CAEYAyopc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiA1ZyBjb3N0Y28yDAgDEgZOZWFyYnkYAliIqiBgAg"
+        },
+        {
+          "text": "Small business",
+          "shoprs": "CAESAmoAGBYqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMhwIFhIOU21hbGwgYnVzaW5lc3MiAmoAKgQQARgBYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=samsung+galaxy+tab+s10+fe+128gb+5g+costco&shoprs=CAESAmoAGBYqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMhwIFhIOU21hbGwgYnVzaW5lc3MiAmoAKgQQARgBYAI"
+        }
+      ]
+    },
+    {
+      "type": "Product Rating",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "4 and up",
+          "shoprs": "CAESBWIDCJADGB4qKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMhUIHhIINCBhbmQgdXAiBWIDCJADQARgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Tab+S10+FE+128GB+5G+Costco&shoprs=CAESBWIDCJADGB4qKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMhUIHhIINCBhbmQgdXAiBWIDCJADQARgAg"
+        }
+      ]
+    },
+    {
+      "type": "Screen Size",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "10.9 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMjwIARIOMTAuOSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAKgIYAToICJmmPhAAMAZYiKogYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=10.9+in+screen+samsung+galaxy+tab+s10+fe+128gb+5g+costco&shoprs=CAESGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMjwIARIOMTAuOSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAKgIYAToICJmmPhAAMAZYiKogYAI"
+        },
+        {
+          "text": "13.1 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMjwIARIOMTMuMSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAKgIYAToICJmmPhAAMAZYiKogYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=13.1+in+screen+samsung+galaxy+tab+s10+fe+128gb+5g+costco&shoprs=CAESGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMjwIARIOMTMuMSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAKgIYAToICJmmPhAAMAZYiKogYAI"
+        }
+      ]
+    },
+    {
+      "type": "Weight",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "Under 17.6 oz",
+          "shoprs": "CAESESoPCJqmPhIJEQAAAMA5L39AGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMjIIARINVW5kZXIgMTcuNiBveiIRKg8ImqY-EgkRAAAAwDkvf0AqAhgBOggImqY-EAAwBliIqiBgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=under+17.6+oz+samsung+galaxy+tab+s10+fe+128gb+5g+costco&shoprs=CAESESoPCJqmPhIJEQAAAMA5L39AGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMjIIARINVW5kZXIgMTcuNiBveiIRKg8ImqY-EgkRAAAAwDkvf0AqAhgBOggImqY-EAAwBliIqiBgAg"
+        },
+        {
+          "text": "17.6 – 23.4 oz",
+          "shoprs": "CAESGioYCJqmPhISCQAAAMA5L39AEQAAAAAAwIRAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMlIIARIQMTcuNiDigJMgMjMuNCBveiIaKhgImqY-EhIJAAAAwDkvf0ARAAAAAADAhEAqFgoSMTcuNiBveiB0byAyMy40IG96GAE6CAiapj4QADAGWIiqIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=17.6+oz+to+23.4+oz+samsung+galaxy+tab+s10+fe+128gb+5g+costco&shoprs=CAESGioYCJqmPhISCQAAAMA5L39AEQAAAAAAwIRAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMlIIARIQMTcuNiDigJMgMjMuNCBveiIaKhgImqY-EhIJAAAAwDkvf0ARAAAAAADAhEAqFgoSMTcuNiBveiB0byAyMy40IG96GAE6CAiapj4QADAGWIiqIGAC"
+        },
+        {
+          "text": "23.4 – 37.7 oz",
+          "shoprs": "CAESGioYCJqmPhISCQAAAAAAwIRAEQAAAAAAuJBAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMlIIARIQMjMuNCDigJMgMzcuNyBveiIaKhgImqY-EhIJAAAAAADAhEARAAAAAAC4kEAqFgoSMjMuNCBveiB0byAzNy43IG96GAE6CAiapj4QADAGWIiqIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=23.4+oz+to+37.7+oz+samsung+galaxy+tab+s10+fe+128gb+5g+costco&shoprs=CAESGioYCJqmPhISCQAAAAAAwIRAEQAAAAAAuJBAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMlIIARIQMjMuNCDigJMgMzcuNyBveiIaKhgImqY-EhIJAAAAAADAhEARAAAAAAC4kEAqFgoSMjMuNCBveiB0byAzNy43IG96GAE6CAiapj4QADAGWIiqIGAC"
+        }
+      ]
+    },
+    {
+      "type": "Carousel Filters",
+      "options": [
+        {
+          "text": "On sale",
+          "shoprs": "CAESBEoCGAEYBiopc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiA1ZyBjb3N0Y28yEwgGEgdPbiBzYWxlGAIiBEoCGAFYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Tab+S10+FE+128GB+5G+Costco+sale&shoprs=CAESBEoCGAEYBiopc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiA1ZyBjb3N0Y28yEwgGEgdPbiBzYWxlGAIiBEoCGAFYiKogYAE",
+          "input_type": "link_with_icon"
+        },
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyopc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiA1ZyBjb3N0Y28yDAgDEgZOZWFyYnkYAliIqiBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Tab+S10+FE+128GB+5G+Costco+nearby&shoprs=CAEYAyopc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiA1ZyBjb3N0Y28yDAgDEgZOZWFyYnkYAliIqiBgAQ",
+          "input_type": "link_with_icon"
+        },
+        {
+          "text": "With Wi-Fi Only",
+          "shoprs": "CAEYASopc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiA1ZyBjb3N0Y28yIwgBEg9XaXRoIFdpLUZpIE9ubHkYAjoMCKf7jgIQqPuOAjADWIiqIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=samsung+galaxy+tab+s10+fe+128gb+5g+costco+with+wi-fi+only&shoprs=CAEYASopc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiA1ZyBjb3N0Y28yIwgBEg9XaXRoIFdpLUZpIE9ubHkYAjoMCKf7jgIQqPuOAjADWIiqIGAB",
+          "input_type": "link"
+        },
+        {
+          "text": "Tablets",
+          "shoprs": "CAEYCSopc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiA1ZyBjb3N0Y28yCwgJEgdUYWJsZXRzYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=tablets+samsung+galaxy+tab+s10+fe+128gb+5g+costco&shoprs=CAEYCSopc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiA1ZyBjb3N0Y28yCwgJEgdUYWJsZXRzYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "10.9 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMjwIARIOMTAuOSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAKgIYAToICJmmPhAAMAZYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=10.9+in+screen+samsung+galaxy+tab+s10+fe+128gb+5g+costco&shoprs=CAESGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMjwIARIOMTAuOSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAKgIYAToICJmmPhAAMAZYiKogYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "13.1 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMjwIARIOMTMuMSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAKgIYAToICJmmPhAAMAZYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=13.1+in+screen+samsung+galaxy+tab+s10+fe+128gb+5g+costco&shoprs=CAESGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMjwIARIOMTMuMSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAKgIYAToICJmmPhAAMAZYiKogYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "Small business",
+          "shoprs": "CAESAmoAGBYqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMhwIFhIOU21hbGwgYnVzaW5lc3MiAmoAKgQQARgBYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=samsung+galaxy+tab+s10+fe+128gb+5g+costco&shoprs=CAESAmoAGBYqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMhwIFhIOU21hbGwgYnVzaW5lc3MiAmoAKgQQARgBYAE",
+          "input_type": "link_with_icon"
+        },
+        {
+          "text": "17.6 – 23.4 oz",
+          "shoprs": "CAESGioYCJqmPhISCQAAAMA5L39AEQAAAAAAwIRAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMlIIARIQMTcuNiDigJMgMjMuNCBveiIaKhgImqY-EhIJAAAAwDkvf0ARAAAAAADAhEAqFgoSMTcuNiBveiB0byAyMy40IG96GAE6CAiapj4QADAGWIiqIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=17.6+oz+to+23.4+oz+samsung+galaxy+tab+s10+fe+128gb+5g+costco&shoprs=CAESGioYCJqmPhISCQAAAMA5L39AEQAAAAAAwIRAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMlIIARIQMTcuNiDigJMgMjMuNCBveiIaKhgImqY-EhIJAAAAwDkvf0ARAAAAAADAhEAqFgoSMTcuNiBveiB0byAyMy40IG96GAE6CAiapj4QADAGWIiqIGAB",
+          "input_type": "link"
+        },
+        {
+          "text": "Under 17.6 oz",
+          "shoprs": "CAESESoPCJqmPhIJEQAAAMA5L39AGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMjIIARINVW5kZXIgMTcuNiBveiIRKg8ImqY-EgkRAAAAwDkvf0AqAhgBOggImqY-EAAwBliIqiBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=under+17.6+oz+samsung+galaxy+tab+s10+fe+128gb+5g+costco&shoprs=CAESESoPCJqmPhIJEQAAAMA5L39AGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMjIIARINVW5kZXIgMTcuNiBveiIRKg8ImqY-EgkRAAAAwDkvf0AqAhgBOggImqY-EAAwBliIqiBgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "23.4 – 37.7 oz",
+          "shoprs": "CAESGioYCJqmPhISCQAAAAAAwIRAEQAAAAAAuJBAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMlIIARIQMjMuNCDigJMgMzcuNyBveiIaKhgImqY-EhIJAAAAAADAhEARAAAAAAC4kEAqFgoSMjMuNCBveiB0byAzNy43IG96GAE6CAiapj4QADAGWIiqIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=23.4+oz+to+37.7+oz+samsung+galaxy+tab+s10+fe+128gb+5g+costco&shoprs=CAESGioYCJqmPhISCQAAAAAAwIRAEQAAAAAAuJBAGAEqKXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2IgNWcgY29zdGNvMlIIARIQMjMuNCDigJMgMzcuNyBveiIaKhgImqY-EhIJAAAAAADAhEARAAAAAAC4kEAqFgoSMjMuNCBveiB0byAzNy43IG96GAE6CAiapj4QADAGWIiqIGAB",
+          "input_type": "link"
+        }
+      ]
+    }
+  ]
+}

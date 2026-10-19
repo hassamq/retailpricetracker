@@ -7,6 +7,7 @@ import {
   isCellularConnectivity,
   isGoogleShoppingAggregatorUrl,
   isUsableListingUrl,
+  listingBelongsToRetailer,
   matchRetailerId,
   NATIONAL_RETAILER_IDS,
   retailersForVariant,
@@ -93,6 +94,8 @@ export async function runPriceComparison(
         listings = shopping.listings;
         if (listings.length) source = "live";
 
+        // Limit catalog expansion — each call is slow and often empty;
+        // prefer keeping broad shopping rows for nearest fills.
         const catalogIds = pickShoppingProductIds(
           shopping.data,
           {
@@ -101,7 +104,7 @@ export async function runPriceComparison(
             storage: input.variant.storage,
             connectivity: input.variant.connectivity,
           },
-          2,
+          1,
         );
         for (const catalogId of catalogIds) {
           if (serpCalls >= MAX_SERP_CALLS) break;
@@ -164,20 +167,18 @@ export async function runPriceComparison(
         const haveExact = new Set(exactFiltered.map((l) => l.retailerId));
         const missingExact = NATIONAL_RETAILER_IDS.filter(
           (id) => !haveExact.has(id),
-        )
-          .slice(0, 4)
-          .map((id) => ({
-            retailerId: id,
-            searchName: getRetailer(id).displayName,
-          }));
-        if (missingExact.length && serpCalls < MAX_SERP_CALLS + 8) {
+        ).map((id) => ({
+          retailerId: id,
+          searchName: getRetailer(id).displayName,
+        }));
+        if (missingExact.length && serpCalls < MAX_SERP_CALLS + 12) {
           try {
             const targeted = await fetchRetailerTargetedOffers(
               query,
               missingExact,
               serpApiKey,
               input.variant,
-              { mode: "exact" },
+              { mode: "exact", expandStores: false },
             );
             if (targeted.length) {
               listings = [...listings, ...targeted];
@@ -206,7 +207,7 @@ export async function runPriceComparison(
               carrierQueries,
               serpApiKey,
               input.variant,
-              { mode: "exact", expandStores: true },
+              { mode: "exact", expandStores: false },
             );
             if (carrierRaw.length) source = "live";
           } catch (e) {
@@ -231,7 +232,7 @@ export async function runPriceComparison(
 
         if (
           missingNearest.length &&
-          serpCalls < MAX_SERP_CALLS + 8 + MAX_CARRIER_TARGETS + 8
+          serpCalls < MAX_SERP_CALLS + 12 + MAX_CARRIER_TARGETS + 12
         ) {
           const { variant: nearestVariant } = buildNearestVariant(
             product,
@@ -247,7 +248,7 @@ export async function runPriceComparison(
               })),
               serpApiKey,
               nearestVariant,
-              { mode: "nearest", expandStores: true },
+              { mode: "nearest", expandStores: false },
             );
             if (nearestRaw.length) source = "live";
           } catch (e) {
@@ -271,62 +272,64 @@ export async function runPriceComparison(
       liveError = "SERPAPI_KEY not set";
     }
 
-    // 2) Verified retailer pages — exact gaps only
-    if (
-      uniqueRetailerCount(
-        prefilterListings(listings, product, input.variant, {
-          mode: "exact",
-          matchQuality: "exact",
-        }),
-      ) < MIN_LIVE_RETAILERS
-    ) {
-      try {
-        const pageListings = await fetchRetailerLiveListings(product);
-        if (pageListings.length) {
-          listings = mergePreferringVerified(listings, pageListings);
-          source = "live";
-        }
-      } catch (e) {
-        console.warn(
-          "[pricing] retailer page fetch failed:",
-          e instanceof Error ? e.message : e,
-        );
+    // 2) Verified retailer pages — fill any remaining gaps
+    try {
+      const pageListings = await fetchRetailerLiveListings(product);
+      if (pageListings.length) {
+        listings = mergePreferringVerified(listings, pageListings);
+        source = "live";
       }
+    } catch (e) {
+      console.warn(
+        "[pricing] retailer page fetch failed:",
+        e instanceof Error ? e.message : e,
+      );
     }
 
-    // 3) Gemini grounding for remaining exact nationals
-    if (
-      uniqueRetailerCount(
-        prefilterListings(listings, product, input.variant, {
-          mode: "exact",
-          matchQuality: "exact",
-        }),
-      ) < MIN_LIVE_RETAILERS &&
-      isGenAIConfigured()
-    ) {
-      try {
-        const grounded = await groundingPriceSearch(product, query);
-        const have = new Set(
-          prefilterListings(listings, product, input.variant, {
+    // 3) Gemini grounding for still-missing nationals (exact + nearest query)
+    if (isGenAIConfigured()) {
+      const covered = new Set(
+        [
+          ...prefilterListings(listings, product, input.variant, {
             mode: "exact",
             matchQuality: "exact",
-          }).map((l) => l.retailerId),
-        );
-        const missing = grounded.filter((raw) => {
-          const id = matchRetailerId(raw.source);
-          return Boolean(id) && !have.has(id!);
-        });
-        if (missing.length) {
-          listings = [...listings, ...missing];
-          source = "live";
-        } else if (!listings.length && !liveError) {
-          liveError = "Grounding returned no usable retailer prices";
+          }),
+          ...prefilterListings(nearestRaw, product, buildNearestVariant(product, input.variant).variant, {
+            mode: "nearest",
+            matchQuality: "nearest",
+          }),
+        ].map((l) => l.retailerId),
+      );
+      const stillMissing = NATIONAL_RETAILER_IDS.filter((id) => !covered.has(id));
+      if (stillMissing.length) {
+        try {
+          const nearestQ = buildSearchQuery(
+            product,
+            buildNearestVariant(product, input.variant).variant,
+          );
+          const groundedExact = await groundingPriceSearch(product, query);
+          const groundedNearest =
+            nearestQ !== query
+              ? await groundingPriceSearch(product, nearestQ)
+              : [];
+          const grounded = [...groundedExact, ...groundedNearest].filter(
+            (raw) => {
+              const id = matchRetailerId(raw.source);
+              return Boolean(id) && stillMissing.includes(id!);
+            },
+          );
+          if (grounded.length) {
+            listings = [...listings, ...grounded];
+            source = "live";
+          } else if (!listings.length && !liveError) {
+            liveError = "Grounding returned no usable retailer prices";
+          }
+        } catch (e) {
+          const msg =
+            e instanceof Error ? e.message : "Gemini grounding request failed";
+          console.warn("[pricing] grounding failed:", msg);
+          if (!listings.length) liveError = msg;
         }
-      } catch (e) {
-        const msg =
-          e instanceof Error ? e.message : "Gemini grounding request failed";
-        console.warn("[pricing] grounding failed:", msg);
-        if (!listings.length) liveError = msg;
       }
     }
   }
@@ -364,15 +367,20 @@ export async function runPriceComparison(
     product,
     input.variant,
   );
-  const nearestFiltered = nearestRaw.length
-    ? prefilterListings(nearestRaw, product, nearestVariant, {
-        mode: "nearest",
-        matchQuality: "nearest",
-      }).filter((l) => {
-        if (!NATIONAL_RETAILER_IDS.includes(l.retailerId)) return false;
-        return !exactFiltered.some((e) => e.retailerId === l.retailerId);
-      })
-    : [];
+  // Prefer dedicated nearest Serp hits; also reuse main shopping rows as nearest
+  const nearestFiltered = mergeFilteredByQuality(
+    prefilterListings(nearestRaw, product, nearestVariant, {
+      mode: "nearest",
+      matchQuality: "nearest",
+    }),
+    prefilterListings(listings, product, nearestVariant, {
+      mode: "nearest",
+      matchQuality: "nearest",
+    }),
+  ).filter((l) => {
+    if (!NATIONAL_RETAILER_IDS.includes(l.retailerId)) return false;
+    return !exactFiltered.some((e) => e.retailerId === l.retailerId);
+  });
 
   let filtered: FilteredListing[] = mergeFilteredByQuality(
     exactFiltered,
@@ -427,12 +435,15 @@ export async function runPriceComparison(
   return result;
 }
 
-function sanitizeOfferUrls<T extends { url: string }>(offers: T[]): T[] {
+function sanitizeOfferUrls<
+  T extends { url: string; retailerId: string },
+>(offers: T[]): T[] {
   return offers.map((offer) => {
     const url = offer.url?.trim() ?? "";
     if (
       isUsableListingUrl(url) &&
-      !isGoogleShoppingAggregatorUrl(url)
+      !isGoogleShoppingAggregatorUrl(url) &&
+      listingBelongsToRetailer(offer.retailerId as RetailerId, url)
     ) {
       return offer;
     }

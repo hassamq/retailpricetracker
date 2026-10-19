@@ -1,0 +1,214 @@
+{
+  "search_metadata": {
+    "id": "6ad6131712481596b64d0ffa",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/pV9qV8e4obmIyxxaUAGVFJELHnv92IFKsIp2TkM4tFw/6ad6131712481596b64d0ffa.json",
+    "markdown_endpoint": "https://serpapi.com/searches/pV9qV8e4obmIyxxaUAGVFJELHnv92IFKsIp2TkM4tFw/6ad6131712481596b64d0ffa.md",
+    "created_at": "2026-10-19 12:54:47 UTC",
+    "processed_at": "2026-10-19 12:54:47 UTC",
+    "google_shopping_url": "https://www.google.com/search?udm=28&q=Samsung+Galaxy+Tab+S10+FE+128GB+Wi-Fi+Amazon&hl=en&gl=us",
+    "raw_html_file": "https://serpapi.com/searches/pV9qV8e4obmIyxxaUAGVFJELHnv92IFKsIp2TkM4tFw/6ad6131712481596b64d0ffa.html",
+    "total_time_taken": 0.32
+  },
+  "search_parameters": {
+    "engine": "google_shopping",
+    "q": "Samsung Galaxy Tab S10 FE 128GB Wi-Fi Amazon",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Tab S10 FE 128GB Wi-Fi Amazon",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Samsung Galaxy Tab S10 FE",
+      "product_id": "1073561200483391990",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=Samsung Galaxy Tab S10 FE 128GB Wi-Fi Amazon&prds=catalogid:1073561200483391990,productid:10610958948580862374,headlineOfferDocid:6838110205289484648,imageDocid:4788251411962770265,rds:PC_4647699200595738366|PROD_PC_4647699200595738366,gpcid:4647699200595738366,mid:576462512027964276,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "lQg6t3icbZRJruNGEoYNn8CLPkDtn2VkJudX0IKzyCeS4pQUuRE4ihRniZIook_zyjZgL20D3vY1you-SrfKXtpAArH4A39-kZER__3qm_e8-l2Zd0F88chNuA8ps98dSDcgefDTcO6zazpV2W8Q0BBwFMuRLMUClkYEQ_6UxlPc9Mcq-xUChqBoiAAgWYLgIMeBX8o8zpqqy62iyM9Snz7TaJZgIQQIUOiLE0mT7M9VGx_zv2SSYVlEQRJCjkYMAxBNfTpnl89oJx6euQzNcc8bKI5iCJag6X_vHEs6_LP2w3jNz4_P37pxe7l2xxc1buL58eLFyYsLwYsiv0DEqsJLUK2U6oVv46XvfjgOf1L83e1TW2W_UAxN0k88BBDD0SRi6E_DbXovj99fr03-n_dj8369vJfNe9792MfDrUj_-Ppfcn-XxMtdtP1hwJIDXJz1gQx9vy6vEQCzq2TQ2mSm32WxU5tS5E-e7zcjRmWcEqaEVRKlS3nK2rmK5bJ0AmgFkkMlsr5Ju_JhBxkR1dnDkgFK_JnGCr7aXlmZzRCHYC4DX7lYMkcYtXO2NsqEPX0M8BAYwNwbOCoTQpeeeufLUxR4JWXvs02Gyimr-zmpwGzibPGkZpt3zpRh--5hXKXBTGEwKyFoJKw4RlordaI6TfBkyLsUxoRgRp5em3VUB6qNUhnbiUy1GJnA9cN72EXFFoeECxTdR9RtjxrCVeGYtXqYtebe3Jih20aFXcMp9BzPrZ6xiRYbOye3be5bT6ENxM1OG5khiG6Z5Ci5lyKbKDd76MA8mGwsRXpSwzpeUiL0NTLfK9IewMFBEUxQY-FTaezRUJvYLPBeGL6wJIBb0jbDiaLvjBOGxuLsc-noKiAifSUrU2gDV2nCwMNWAoXCVJ6ssnxXK11wNubDCiLHBJyCFYUykDH5wRFmC6Z9dfBctTknMHv2tyG-ny_n4jPgFWpyLcrUaCsHap3tt-JogC4JAoaGNf_G2K-Q4RAJSZJ9DgPzY9r3dZX_8fX_XEt01yKvffxwOLh5ej3nK9dzdmteMEueriauotsx6TfkVbSkucvEStmRlraarCUJRG3e8Ugb6csbS0Tale4s0LJebepxytL7C-Lh0qQP_3YnhbejjRyjSZd8VwmdesAn8PGDK_OOuDm4vCG7mievxaOtVbEmfPzAy-Kaj2NO1nsnYwTdFXPAzG_auJy2tsBXj96HVrPRA8LLmbpM7pYdyZxO3UZpWJJnOaplqVv5wAu-Kx_kvWzsPM0y15q05lKa4SiqoNiChExGv3rG-q_XgSRFvYrr86u2WyNIfwcR8x2Ez4NWr-5awcdsGNuUG-Ji2W5snQjxnaw_fjCfpuJ4EUVedglbFqxZldwNeTSK8H7LGt_wqeshZ_lI42_e7pqFb4WVVLiPlDkhMs6_E9SFDTeoZQdZCY1tc5bK02mqueFenoUCsdBRT-bJUCAx5-NZpLiz3r8hU1_u88Dx_mreLquVetndpWO7s1jCyaGZ2KZXFmCetaDyEH7TKbO7TNRC3CLfUeVcRY1LWk6YlUG9JxX6yLRkMLBdUq5IE7TjeETiqWXltl2Z83Nahs1-fO6WC7EdXIutkCkeJUw_oLgkPJLPJyrkqIaQtc2k2A9mHurNZJgeVphD53F7Ap2oAS_PhqlU0VFDTLtHwah9AYz3zUI07HJqODIP5FA9wNtbvk2oyLmPhOTrMdtade2Mbi0kq7LdwdY3Li32Iq9aaRlUodSLVUm3SidMY3GVpEt5fXi7L19awmuZmYUeVfNka4kmNSMXp21xoR9NGvGK0_8fIQAs8A",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=lQg6t3icbZRJruNGEoYNn8CLPkDtn2VkJudX0IKzyCeS4pQUuRE4ihRniZIook_zyjZgL20D3vY1you-SrfKXtpAArH4A39-kZER__3qm_e8-l2Zd0F88chNuA8ps98dSDcgefDTcO6zazpV2W8Q0BBwFMuRLMUClkYEQ_6UxlPc9Mcq-xUChqBoiAAgWYLgIMeBX8o8zpqqy62iyM9Snz7TaJZgIQQIUOiLE0mT7M9VGx_zv2SSYVlEQRJCjkYMAxBNfTpnl89oJx6euQzNcc8bKI5iCJag6X_vHEs6_LP2w3jNz4_P37pxe7l2xxc1buL58eLFyYsLwYsiv0DEqsJLUK2U6oVv46XvfjgOf1L83e1TW2W_UAxN0k88BBDD0SRi6E_DbXovj99fr03-n_dj8369vJfNe9792MfDrUj_-Ppfcn-XxMtdtP1hwJIDXJz1gQx9vy6vEQCzq2TQ2mSm32WxU5tS5E-e7zcjRmWcEqaEVRKlS3nK2rmK5bJ0AmgFkkMlsr5Ju_JhBxkR1dnDkgFK_JnGCr7aXlmZzRCHYC4DX7lYMkcYtXO2NsqEPX0M8BAYwNwbOCoTQpeeeufLUxR4JWXvs02Gyimr-zmpwGzibPGkZpt3zpRh--5hXKXBTGEwKyFoJKw4RlordaI6TfBkyLsUxoRgRp5em3VUB6qNUhnbiUy1GJnA9cN72EXFFoeECxTdR9RtjxrCVeGYtXqYtebe3Jih20aFXcMp9BzPrZ6xiRYbOye3be5bT6ENxM1OG5khiG6Z5Ci5lyKbKDd76MA8mGwsRXpSwzpeUiL0NTLfK9IewMFBEUxQY-FTaezRUJvYLPBeGL6wJIBb0jbDiaLvjBOGxuLsc-noKiAifSUrU2gDV2nCwMNWAoXCVJ6ssnxXK11wNubDCiLHBJyCFYUykDH5wRFmC6Z9dfBctTknMHv2tyG-ny_n4jPgFWpyLcrUaCsHap3tt-JogC4JAoaGNf_G2K-Q4RAJSZJ9DgPzY9r3dZX_8fX_XEt01yKvffxwOLh5ej3nK9dzdmteMEueriauotsx6TfkVbSkucvEStmRlraarCUJRG3e8Ugb6csbS0Tale4s0LJebepxytL7C-Lh0qQP_3YnhbejjRyjSZd8VwmdesAn8PGDK_OOuDm4vCG7mievxaOtVbEmfPzAy-Kaj2NO1nsnYwTdFXPAzG_auJy2tsBXj96HVrPRA8LLmbpM7pYdyZxO3UZpWJJnOaplqVv5wAu-Kx_kvWzsPM0y15q05lKa4SiqoNiChExGv3rG-q_XgSRFvYrr86u2WyNIfwcR8x2Ez4NWr-5awcdsGNuUG-Ji2W5snQjxnaw_fjCfpuJ4EUVedglbFqxZldwNeTSK8H7LGt_wqeshZ_lI42_e7pqFb4WVVLiPlDkhMs6_E9SFDTeoZQdZCY1tc5bK02mqueFenoUCsdBRT-bJUCAx5-NZpLiz3r8hU1_u88Dx_mreLquVetndpWO7s1jCyaGZ2KZXFmCetaDyEH7TKbO7TNRC3CLfUeVcRY1LWk6YlUG9JxX6yLRkMLBdUq5IE7TjeETiqWXltl2Z83Nahs1-fO6WC7EdXIutkCkeJUw_oLgkPJLPJyrkqIaQtc2k2A9mHurNZJgeVphD53F7Ap2oAS_PhqlU0VFDTLtHwah9AYz3zUI07HJqODIP5FA9wNtbvk2oyLmPhOTrMdtade2Mbi0kq7LdwdY3Li32Iq9aaRlUodSLVUm3SidMY3GVpEt5fXi7L19awmuZmYUeVfNka4kmNSMXp21xoR9NGvGK0_8fIQAs8A",
+      "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&page_token=lQg6t3icbZRJruNGEoYNn8CLPkDtn2VkJudX0IKzyCeS4pQUuRE4ihRniZIook_zyjZgL20D3vY1you-SrfKXtpAArH4A39-kZER__3qm_e8-l2Zd0F88chNuA8ps98dSDcgefDTcO6zazpV2W8Q0BBwFMuRLMUClkYEQ_6UxlPc9Mcq-xUChqBoiAAgWYLgIMeBX8o8zpqqy62iyM9Snz7TaJZgIQQIUOiLE0mT7M9VGx_zv2SSYVlEQRJCjkYMAxBNfTpnl89oJx6euQzNcc8bKI5iCJag6X_vHEs6_LP2w3jNz4_P37pxe7l2xxc1buL58eLFyYsLwYsiv0DEqsJLUK2U6oVv46XvfjgOf1L83e1TW2W_UAxN0k88BBDD0SRi6E_DbXovj99fr03-n_dj8369vJfNe9792MfDrUj_-Ppfcn-XxMtdtP1hwJIDXJz1gQx9vy6vEQCzq2TQ2mSm32WxU5tS5E-e7zcjRmWcEqaEVRKlS3nK2rmK5bJ0AmgFkkMlsr5Ju_JhBxkR1dnDkgFK_JnGCr7aXlmZzRCHYC4DX7lYMkcYtXO2NsqEPX0M8BAYwNwbOCoTQpeeeufLUxR4JWXvs02Gyimr-zmpwGzibPGkZpt3zpRh--5hXKXBTGEwKyFoJKw4RlordaI6TfBkyLsUxoRgRp5em3VUB6qNUhnbiUy1GJnA9cN72EXFFoeECxTdR9RtjxrCVeGYtXqYtebe3Jih20aFXcMp9BzPrZ6xiRYbOye3be5bT6ENxM1OG5khiG6Z5Ci5lyKbKDd76MA8mGwsRXpSwzpeUiL0NTLfK9IewMFBEUxQY-FTaezRUJvYLPBeGL6wJIBb0jbDiaLvjBOGxuLsc-noKiAifSUrU2gDV2nCwMNWAoXCVJ6ssnxXK11wNubDCiLHBJyCFYUykDH5wRFmC6Z9dfBctTknMHv2tyG-ny_n4jPgFWpyLcrUaCsHap3tt-JogC4JAoaGNf_G2K-Q4RAJSZJ9DgPzY9r3dZX_8fX_XEt01yKvffxwOLh5ej3nK9dzdmteMEueriauotsx6TfkVbSkucvEStmRlraarCUJRG3e8Ugb6csbS0Tale4s0LJebepxytL7C-Lh0qQP_3YnhbejjRyjSZd8VwmdesAn8PGDK_OOuDm4vCG7mievxaOtVbEmfPzAy-Kaj2NO1nsnYwTdFXPAzG_auJy2tsBXj96HVrPRA8LLmbpM7pYdyZxO3UZpWJJnOaplqVv5wAu-Kx_kvWzsPM0y15q05lKa4SiqoNiChExGv3rG-q_XgSRFvYrr86u2WyNIfwcR8x2Ez4NWr-5awcdsGNuUG-Ji2W5snQjxnaw_fjCfpuJ4EUVedglbFqxZldwNeTSK8H7LGt_wqeshZ_lI42_e7pqFb4WVVLiPlDkhMs6_E9SFDTeoZQdZCY1tc5bK02mqueFenoUCsdBRT-bJUCAx5-NZpLiz3r8hU1_u88Dx_mreLquVetndpWO7s1jCyaGZ2KZXFmCetaDyEH7TKbO7TNRC3CLfUeVcRY1LWk6YlUG9JxX6yLRkMLBdUq5IE7TjeETiqWXltl2Z83Nahs1-fO6WC7EdXIutkCkeJUw_oLgkPJLPJyrkqIaQtc2k2A9mHurNZJgeVphD53F7Ap2oAS_PhqlU0VFDTLtHwah9AYz3zUI07HJqODIP5FA9wNtbvk2oyLmPhOTrMdtade2Mbi0kq7LdwdY3Li32Iq9aaRlUodSLVUm3SidMY3GVpEt5fXi7L19awmuZmYUeVfNka4kmNSMXp21xoR9NGvGK0_8fIQAs8A",
+      "source": "Samsung",
+      "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAATlBMVEVHcEwAiv8Aiv8Aiv8Aiv8Aiv8Aiv8Aiv8Aiv8Aiv8Aiv8Aiv8Aiv____8Ag_8Aif8Ahv8Af_97uv_Y6__p9v-Zyf8wmP_A3v9YqP-11__O93VUAAAADHRSTlMAL6xT6dhrkkN9wRdbsmPCAAABJElEQVQ4jZVT2ZKEIAwcT9SJhMvr_390IxLMjGxtbT9oFd2EThNer3-gasZRKTX2w7vAjh1I1MMnreCBthJ8--QJ_R88QPOoj4aAtyIJMq3BEXZreEVd_vP2bb6wm48S3J_1M2PlYwZxgtlPanGBvocWZ1QsWIjZrHX08yyYSNBIQbDahRA2FrTCozm3zn61BOajSxaAuQwecNNRkGPCNfWwWCwKwGAKwutyBUS7XlnkNqWHWBZjl_MsBb0M0msd84LkAkkwJIE-DXiLVgo6ErxlUHRP8WfTYi3uInd5Js4e4lDVSaAd8wE5iDjebAL0epDR4F0OqvsaSdTxIvK4QJr9Cn7BxFPdl_n2fhdNiZ9eEo-n1X29PWpGTcktdnVfer5l_AC-Qyazdl2GVgAAAABJRU5ErkJggg.png",
+      "multiple_sources": true,
+      "price": "$549.99",
+      "extracted_price": 549.99,
+      "rating": 4.7,
+      "reviews": 5800,
+      "snippet": "Quality display (514 user reviews)",
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQmSPAacBhhJMumRMmWyZl-WaotVjRoKV5tfZbOkSUZkTxVsA7MQwvPr9tzZq7jfht96DPpKThYoa3YghmPY9upFWuujKeLdcpyvvIqs61kVegdJt6gqwR8Og",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Cpr2DHicDcndCoIwGADQJ1KRSDOIMKIos_xL0TudtqnNbe5Ts6fqdXqbOrfn-yEAXK41repQP3OoSgWKTlexhBxqpCJGNUkY53WHt2Lzv7V9La0j8mno2TnaEXJ2Bxq4NJmzp5LkDOImYE68hEdW3NrwnrXRK5a26frT6PUWvDNhNg8ClrH3uBORlOWLFBPqpdbAD8kwNE51KRGfx_EkpKG3cYXLMxhYTMHqhn9FXUGI",
+      "delivery": "Free delivery"
+    },
+    {
+      "position": 2,
+      "title": "Samsung Galaxy Tab S10 FE+",
+      "product_id": "15197656049176103893",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=Samsung Galaxy Tab S10 FE 128GB Wi-Fi Amazon&prds=catalogid:15197656049176103893,productid:5337624969527934697,headlineOfferDocid:10529277792317838068,imageDocid:15332357236834500694,rds:PC_16110940916588509485|PROD_PC_16110940916588509485,gpcid:16110940916588509485,mid:576462913276203751,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "X1lNLnicdVNJruvWEQ28ggyygD9_kcF72b8PDdiLlNj3nAjsxL4TJZEispr3bQPO0DHgabbxPchWbDnJMAFqUEAVTlWdc-pff_rzR179Iq6GH88OdgiDENcG44zZPsYgP47XIbuntyr7B46iJAExmqBxSNIoRtDkj2l8i9uhqLKfAQ5oksAJBKMBSQAEpWj0pzKPs7bqc_1yya_8kP7Rh-CQhiRJ0hAFJIVSCEH9veriIv9v_TUGojgJUYJCMRxBCBr7cs3mr5jBnQEBAEJjCA0InKLwV0rhfzMsnT__n-L30z2_Pr_-1Y67-d4Xb1LcxuvzzYmTNxsgb6LwBiAlsW9-tROrN6aLt6H_vhj_vcj_gPvSVdlPOElgBKQBCl90ICiJgy_j4_ZRFt_d723-z4-i_bjPH2X7kfc_DPH4uKS_fvMXYVh4bl440x1Hj7cQe2NrT8JQs6GdvGmlEGmnCHqVGohD3LWEvVn3qMEbv80sWwi3xGMfebPcrM6rU1cb4ifyTL3RSDv8nonZmtXW5gQln3WA9Zqb7gvYorZK7Qfsw0bWMdm02u4ZzGwV2e_GxhEGkB3GJUSKJZJESZNuiHPIJNcfCc-jlrBmlbCjw8SxrlGdLp6riKErmlZtTc7B4tSuQD2IQ1soxQCInYpoB3XTektqttfOWAqXzfQXGKDllLlgSXllUqUM0XoVizbP9yTt5D0Bm7riEEFL0EVmNT3PcKQFiXpRDZ3omMJ2doI2iMQCPbkCdF2v0UWtM722tALNzg-sGgYF4npllIDy4m0Zn7RRmYhsozYK6kLqaUlaHdeaqLlrlAeRq3qa7XrUFgJrNv1sVlG2Dr3S8HlN0fm2skGBxI73iNxs1SDtan0kxE20JWJhi0iEuWJWpsBEbLENfcfTE8BeXuiBJgiLVCmsddCeuh_ZecvAuGb9vGa7pLld02atc5EOIiCuicM-fMFCv1vn6-Urwoj4zdZxTSb0HJGaLDhxk4r0ie-__qhhjqT5Dl7fggEMo0gSIX9Ih6Gp8l-_-c3WOXvPMfLnT-eznaf3a76zHcvYM6xWMkR1oyuim5LhgN05nV_7jKtEA9Pl3U3fEp-TV4OB8kTMRwqN5DvR60hHOY2mxClFBDNkwNamT_exYOyxMKGltumWGxXbS2evRj5_sgXG4g5nm1EFW3aEPVeYchXL7OdPjMDtmTimBWWwMpJVbC5HyPUoT1t9Mlmmeg4u0NuD4qNOTjZlsuhmJNAK_pj4cUte50i6Lp2EM8O6tnAWAkE1HFnX9jK_p1OCpHH8glMXDJAZ8e6o-_-wAzAcf-f213fZ2ENAfAsg-S0Ar4C7d3svekU2Tl1Kj_FlOx1MBQ29BWs-f9JeoNw0cxwj2KgpsPoq8fYBK9RLuDyy1lVd_H7OKSaSmYdj3LPweNGTyhuil45oRrsLis9UeIAdNQpiqJ7aK1_W9a2hx6W8shdIAUuqtVoVAbrm05XD6asyHKGmbMs60oy7W0_bbifNxsIXnaFTqJUDLTE1p7wg6yr7lQO9o4Jr_XzDN_TlS0sScgm2NqZbYVb6TYCJREF2mD9SfVLuMA3ppqmAXN1RQtfttNWz6vEQTJnmzuhptHWqghpX8B7xBNyWMFC41nhI4y0qyIebaD7JdWwON1VzPJE89w4doLDGR297CSbhlx4fY8IuWLVxWWRaDhvaUlvd0ljuC6F0Bo9jfkrwyFomlHeVmOr0prEmu2GTXdkZoHPVufOcyKl2cgYkwA9cVRKd2LO36XLn-bm8Px3jD0vz3l4gV3aA1Xoz5UTm24mO0-4yE882jRjRGn4HVRExxw",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=X1lNLnicdVNJruvWEQ28ggyygD9_kcF72b8PDdiLlNj3nAjsxL4TJZEispr3bQPO0DHgabbxPchWbDnJMAFqUEAVTlWdc-pff_rzR179Iq6GH88OdgiDENcG44zZPsYgP47XIbuntyr7B46iJAExmqBxSNIoRtDkj2l8i9uhqLKfAQ5oksAJBKMBSQAEpWj0pzKPs7bqc_1yya_8kP7Rh-CQhiRJ0hAFJIVSCEH9veriIv9v_TUGojgJUYJCMRxBCBr7cs3mr5jBnQEBAEJjCA0InKLwV0rhfzMsnT__n-L30z2_Pr_-1Y67-d4Xb1LcxuvzzYmTNxsgb6LwBiAlsW9-tROrN6aLt6H_vhj_vcj_gPvSVdlPOElgBKQBCl90ICiJgy_j4_ZRFt_d723-z4-i_bjPH2X7kfc_DPH4uKS_fvMXYVh4bl440x1Hj7cQe2NrT8JQs6GdvGmlEGmnCHqVGohD3LWEvVn3qMEbv80sWwi3xGMfebPcrM6rU1cb4ifyTL3RSDv8nonZmtXW5gQln3WA9Zqb7gvYorZK7Qfsw0bWMdm02u4ZzGwV2e_GxhEGkB3GJUSKJZJESZNuiHPIJNcfCc-jlrBmlbCjw8SxrlGdLp6riKErmlZtTc7B4tSuQD2IQ1soxQCInYpoB3XTektqttfOWAqXzfQXGKDllLlgSXllUqUM0XoVizbP9yTt5D0Bm7riEEFL0EVmNT3PcKQFiXpRDZ3omMJ2doI2iMQCPbkCdF2v0UWtM722tALNzg-sGgYF4npllIDy4m0Zn7RRmYhsozYK6kLqaUlaHdeaqLlrlAeRq3qa7XrUFgJrNv1sVlG2Dr3S8HlN0fm2skGBxI73iNxs1SDtan0kxE20JWJhi0iEuWJWpsBEbLENfcfTE8BeXuiBJgiLVCmsddCeuh_ZecvAuGb9vGa7pLld02atc5EOIiCuicM-fMFCv1vn6-Urwoj4zdZxTSb0HJGaLDhxk4r0ie-__qhhjqT5Dl7fggEMo0gSIX9Ih6Gp8l-_-c3WOXvPMfLnT-eznaf3a76zHcvYM6xWMkR1oyuim5LhgN05nV_7jKtEA9Pl3U3fEp-TV4OB8kTMRwqN5DvR60hHOY2mxClFBDNkwNamT_exYOyxMKGltumWGxXbS2evRj5_sgXG4g5nm1EFW3aEPVeYchXL7OdPjMDtmTimBWWwMpJVbC5HyPUoT1t9Mlmmeg4u0NuD4qNOTjZlsuhmJNAK_pj4cUte50i6Lp2EM8O6tnAWAkE1HFnX9jK_p1OCpHH8glMXDJAZ8e6o-_-wAzAcf-f213fZ2ENAfAsg-S0Ar4C7d3svekU2Tl1Kj_FlOx1MBQ29BWs-f9JeoNw0cxwj2KgpsPoq8fYBK9RLuDyy1lVd_H7OKSaSmYdj3LPweNGTyhuil45oRrsLis9UeIAdNQpiqJ7aK1_W9a2hx6W8shdIAUuqtVoVAbrm05XD6asyHKGmbMs60oy7W0_bbifNxsIXnaFTqJUDLTE1p7wg6yr7lQO9o4Jr_XzDN_TlS0sScgm2NqZbYVb6TYCJREF2mD9SfVLuMA3ppqmAXN1RQtfttNWz6vEQTJnmzuhptHWqghpX8B7xBNyWMFC41nhI4y0qyIebaD7JdWwON1VzPJE89w4doLDGR297CSbhlx4fY8IuWLVxWWRaDhvaUlvd0ljuC6F0Bo9jfkrwyFomlHeVmOr0prEmu2GTXdkZoHPVufOcyKl2cgYkwA9cVRKd2LO36XLn-bm8Px3jD0vz3l4gV3aA1Xoz5UTm24mO0-4yE882jRjRGn4HVRExxw",
+      "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&page_token=X1lNLnicdVNJruvWEQ28ggyygD9_kcF72b8PDdiLlNj3nAjsxL4TJZEispr3bQPO0DHgabbxPchWbDnJMAFqUEAVTlWdc-pff_rzR179Iq6GH88OdgiDENcG44zZPsYgP47XIbuntyr7B46iJAExmqBxSNIoRtDkj2l8i9uhqLKfAQ5oksAJBKMBSQAEpWj0pzKPs7bqc_1yya_8kP7Rh-CQhiRJ0hAFJIVSCEH9veriIv9v_TUGojgJUYJCMRxBCBr7cs3mr5jBnQEBAEJjCA0InKLwV0rhfzMsnT__n-L30z2_Pr_-1Y67-d4Xb1LcxuvzzYmTNxsgb6LwBiAlsW9-tROrN6aLt6H_vhj_vcj_gPvSVdlPOElgBKQBCl90ICiJgy_j4_ZRFt_d723-z4-i_bjPH2X7kfc_DPH4uKS_fvMXYVh4bl440x1Hj7cQe2NrT8JQs6GdvGmlEGmnCHqVGohD3LWEvVn3qMEbv80sWwi3xGMfebPcrM6rU1cb4ifyTL3RSDv8nonZmtXW5gQln3WA9Zqb7gvYorZK7Qfsw0bWMdm02u4ZzGwV2e_GxhEGkB3GJUSKJZJESZNuiHPIJNcfCc-jlrBmlbCjw8SxrlGdLp6riKErmlZtTc7B4tSuQD2IQ1soxQCInYpoB3XTektqttfOWAqXzfQXGKDllLlgSXllUqUM0XoVizbP9yTt5D0Bm7riEEFL0EVmNT3PcKQFiXpRDZ3omMJ2doI2iMQCPbkCdF2v0UWtM722tALNzg-sGgYF4npllIDy4m0Zn7RRmYhsozYK6kLqaUlaHdeaqLlrlAeRq3qa7XrUFgJrNv1sVlG2Dr3S8HlN0fm2skGBxI73iNxs1SDtan0kxE20JWJhi0iEuWJWpsBEbLENfcfTE8BeXuiBJgiLVCmsddCeuh_ZecvAuGb9vGa7pLld02atc5EOIiCuicM-fMFCv1vn6-Urwoj4zdZxTSb0HJGaLDhxk4r0ie-__qhhjqT5Dl7fggEMo0gSIX9Ih6Gp8l-_-c3WOXvPMfLnT-eznaf3a76zHcvYM6xWMkR1oyuim5LhgN05nV_7jKtEA9Pl3U3fEp-TV4OB8kTMRwqN5DvR60hHOY2mxClFBDNkwNamT_exYOyxMKGltumWGxXbS2evRj5_sgXG4g5nm1EFW3aEPVeYchXL7OdPjMDtmTimBWWwMpJVbC5HyPUoT1t9Mlmmeg4u0NuD4qNOTjZlsuhmJNAK_pj4cUte50i6Lp2EM8O6tnAWAkE1HFnX9jK_p1OCpHH8glMXDJAZ8e6o-_-wAzAcf-f213fZ2ENAfAsg-S0Ar4C7d3svekU2Tl1Kj_FlOx1MBQ29BWs-f9JeoNw0cxwj2KgpsPoq8fYBK9RLuDyy1lVd_H7OKSaSmYdj3LPweNGTyhuil45oRrsLis9UeIAdNQpiqJ7aK1_W9a2hx6W8shdIAUuqtVoVAbrm05XD6asyHKGmbMs60oy7W0_bbifNxsIXnaFTqJUDLTE1p7wg6yr7lQO9o4Jr_XzDN_TlS0sScgm2NqZbYVb6TYCJREF2mD9SfVLuMA3ppqmAXN1RQtfttNWz6vEQTJnmzuhptHWqghpX8B7xBNyWMFC41nhI4y0qyIebaD7JdWwON1VzPJE89w4doLDGR297CSbhlx4fY8IuWLVxWWRaDhvaUlvd0ljuC6F0Bo9jfkrwyFomlHeVmOr0prEmu2GTXdkZoHPVufOcyKl2cgYkwA9cVRKd2LO36XLn-bm8Px3jD0vz3l4gV3aA1Xoz5UTm24mO0-4yE882jRjRGn4HVRExxw",
+      "source": "eCommerce Business Prime",
+      "source_icon": "https://serpapi.com/searches/6ad6131712481596b64d0ffa/images/OyCg9MjbNM3cljVBlqD6kk_4P8wqsOlyVLQ9kfUY97w.png",
+      "multiple_sources": true,
+      "price": "$699.99",
+      "extracted_price": 699.99,
+      "rating": 4.8,
+      "reviews": 2800,
+      "snippet": "Quality display (289 user reviews)",
+      "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQyPitr-ckZX2pLo1XVmZXa3zH2Kgmk7qL8xKyFPgOZgHQdEgP6MHdkpFqVmNwVxFZ8Qh6IxQwiY-x-iV77OU1zxLWOz2WTQKTSXLhr02dIPf6mBxVsQ40r4g",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/E5pq3nicDclRDoIgAADQE5FJTcuttdoym6awCs0_gwLmUFS20FN1nW5T7_d9P8IYPQSO82xoP2rzZMA8Gjjjg6mMpDPaKmcQrday4dtu879gl7L1keIRSdMDWpcF1EnrFkSVRbWYIhhzVftdsrLxGCKelTzC7MCRd45YrcOOqPRNbFiusPBOFr_lHVggie9nN3eySZ5NML_i-HopEtHPITuhl6f2lgx4Oe-X_AfTKT6_",
+      "delivery": "Free delivery"
+    }
+  ],
+  "filters": [
+    {
+      "input_type": "link_with_icon",
+      "options": [
+        {
+          "text": "On sale",
+          "shoprs": "CAESBEoCGAEYBiosc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSBhbWF6b24yEwgGEgdPbiBzYWxlGAIiBEoCGAFYiKogYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Samsung+Galaxy+Tab+S10+FE+128GB+Wi-Fi+Amazon+sale&shoprs=CAESBEoCGAEYBiosc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSBhbWF6b24yEwgGEgdPbiBzYWxlGAIiBEoCGAFYiKogYAI"
+        },
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyosc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSBhbWF6b24yDAgDEgZOZWFyYnkYAliIqiBgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Samsung+Galaxy+Tab+S10+FE+128GB+Wi-Fi+Amazon+nearby&shoprs=CAEYAyosc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSBhbWF6b24yDAgDEgZOZWFyYnkYAliIqiBgAg"
+        }
+      ]
+    },
+    {
+      "type": "Product Rating",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "4 and up",
+          "shoprs": "CAESBWIDCJADGB4qLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMhUIHhIINCBhbmQgdXAiBWIDCJADQARgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Samsung+Galaxy+Tab+S10+FE+128GB+Wi-Fi+Amazon&shoprs=CAESBWIDCJADGB4qLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMhUIHhIINCBhbmQgdXAiBWIDCJADQARgAg"
+        }
+      ]
+    },
+    {
+      "type": "Screen Size",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "10.9 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMjwIARIOMTAuOSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAKgIYAToICJmmPhAAMAZYiKogYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=10.9+in+screen+samsung+galaxy+tab+s10+fe+128gb+wi+fi+amazon&shoprs=CAESGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMjwIARIOMTAuOSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAKgIYAToICJmmPhAAMAZYiKogYAI"
+        },
+        {
+          "text": "13.1 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMjwIARIOMTMuMSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAKgIYAToICJmmPhAAMAZYiKogYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=13.1+in+screen+samsung+galaxy+tab+s10+fe+128gb+wi+fi+amazon&shoprs=CAESGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMjwIARIOMTMuMSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAKgIYAToICJmmPhAAMAZYiKogYAI"
+        }
+      ]
+    },
+    {
+      "type": "Rear Camera Resolution",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "12 MP rear camera",
+          "shoprs": "CAESGioYCJymPhISCQAAAAAAAChAEQAAAAAAAChAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMj8IARIRMTIgTVAgcmVhciBjYW1lcmEiGioYCJymPhISCQAAAAAAAChAEQAAAAAAAChAKgIYAToICJymPhAAMAZYiKogYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=12+mp+rear+camera+samsung+galaxy+tab+s10+fe+128gb+wi+fi+amazon&shoprs=CAESGioYCJymPhISCQAAAAAAAChAEQAAAAAAAChAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMj8IARIRMTIgTVAgcmVhciBjYW1lcmEiGioYCJymPhISCQAAAAAAAChAEQAAAAAAAChAKgIYAToICJymPhAAMAZYiKogYAI"
+        },
+        {
+          "text": "13 MP rear camera",
+          "shoprs": "CAESGioYCJymPhISCQAAAAAAACpAEQAAAAAAACpAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMj8IARIRMTMgTVAgcmVhciBjYW1lcmEiGioYCJymPhISCQAAAAAAACpAEQAAAAAAACpAKgIYAToICJymPhAAMAZYiKogYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=13+mp+rear+camera+samsung+galaxy+tab+s10+fe+128gb+wi+fi+amazon&shoprs=CAESGioYCJymPhISCQAAAAAAACpAEQAAAAAAACpAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMj8IARIRMTMgTVAgcmVhciBjYW1lcmEiGioYCJymPhISCQAAAAAAACpAEQAAAAAAACpAKgIYAToICJymPhAAMAZYiKogYAI"
+        }
+      ]
+    },
+    {
+      "type": "Weight",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "10.9 – 17.6 oz",
+          "shoprs": "CAESGioYCJqmPhISCQAAAMAVR3NAEQAAAMA5L39AGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMlIIARIQMTAuOSDigJMgMTcuNiBveiIaKhgImqY-EhIJAAAAwBVHc0ARAAAAwDkvf0AqFgoSMTAuOSBveiB0byAxNy42IG96GAE6CAiapj4QADAGWIiqIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=10.9+oz+to+17.6+oz+samsung+galaxy+tab+s10+fe+128gb+wi+fi+amazon&shoprs=CAESGioYCJqmPhISCQAAAMAVR3NAEQAAAMA5L39AGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMlIIARIQMTAuOSDigJMgMTcuNiBveiIaKhgImqY-EhIJAAAAwBVHc0ARAAAAwDkvf0AqFgoSMTAuOSBveiB0byAxNy42IG96GAE6CAiapj4QADAGWIiqIGAC"
+        },
+        {
+          "text": "17.6 – 37.7 oz",
+          "shoprs": "CAESGioYCJqmPhISCQAAAMA5L39AEQAAAAAAuJBAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMlIIARIQMTcuNiDigJMgMzcuNyBveiIaKhgImqY-EhIJAAAAwDkvf0ARAAAAAAC4kEAqFgoSMTcuNiBveiB0byAzNy43IG96GAE6CAiapj4QADAGWIiqIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=17.6+oz+to+37.7+oz+samsung+galaxy+tab+s10+fe+128gb+wi+fi+amazon&shoprs=CAESGioYCJqmPhISCQAAAMA5L39AEQAAAAAAuJBAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMlIIARIQMTcuNiDigJMgMzcuNyBveiIaKhgImqY-EhIJAAAAwDkvf0ARAAAAAAC4kEAqFgoSMTcuNiBveiB0byAzNy43IG96GAE6CAiapj4QADAGWIiqIGAC"
+        }
+      ]
+    },
+    {
+      "type": "Carousel Filters",
+      "options": [
+        {
+          "text": "On sale",
+          "shoprs": "CAESBEoCGAEYBiosc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSBhbWF6b24yEwgGEgdPbiBzYWxlGAIiBEoCGAFYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Samsung+Galaxy+Tab+S10+FE+128GB+Wi-Fi+Amazon+sale&shoprs=CAESBEoCGAEYBiosc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSBhbWF6b24yEwgGEgdPbiBzYWxlGAIiBEoCGAFYiKogYAE",
+          "input_type": "link_with_icon"
+        },
+        {
+          "text": "Tablets",
+          "shoprs": "CAEYCSosc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSBhbWF6b24yCwgJEgdUYWJsZXRzYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=tablets+samsung+galaxy+tab+s10+fe+128gb+wi+fi+amazon&shoprs=CAEYCSosc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSBhbWF6b24yCwgJEgdUYWJsZXRzYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyosc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSBhbWF6b24yDAgDEgZOZWFyYnkYAliIqiBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Samsung+Galaxy+Tab+S10+FE+128GB+Wi-Fi+Amazon+nearby&shoprs=CAEYAyosc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSBhbWF6b24yDAgDEgZOZWFyYnkYAliIqiBgAQ",
+          "input_type": "link_with_icon"
+        },
+        {
+          "text": "10.9 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMjwIARIOMTAuOSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAKgIYAToICJmmPhAAMAZYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=10.9+in+screen+samsung+galaxy+tab+s10+fe+128gb+wi+fi+amazon&shoprs=CAESGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMjwIARIOMTAuOSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAKgIYAToICJmmPhAAMAZYiKogYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "5G",
+          "shoprs": "CAEYASosc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSBhbWF6b24yFAgBEgI1RzoMCKv7jgIQrvuOAjACWIiqIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=5g+samsung+galaxy+tab+s10+fe+128gb+wi+fi+amazon&shoprs=CAEYASosc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSBhbWF6b24yFAgBEgI1RzoMCKv7jgIQrvuOAjACWIiqIGAB",
+          "input_type": "link"
+        },
+        {
+          "text": "13.1 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMjwIARIOMTMuMSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAKgIYAToICJmmPhAAMAZYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=13.1+in+screen+samsung+galaxy+tab+s10+fe+128gb+wi+fi+amazon&shoprs=CAESGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMjwIARIOMTMuMSBpbiBzY3JlZW4iGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAKgIYAToICJmmPhAAMAZYiKogYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "13 MP rear camera",
+          "shoprs": "CAESGioYCJymPhISCQAAAAAAACpAEQAAAAAAACpAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMj8IARIRMTMgTVAgcmVhciBjYW1lcmEiGioYCJymPhISCQAAAAAAACpAEQAAAAAAACpAKgIYAToICJymPhAAMAZYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=13+mp+rear+camera+samsung+galaxy+tab+s10+fe+128gb+wi+fi+amazon&shoprs=CAESGioYCJymPhISCQAAAAAAACpAEQAAAAAAACpAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMj8IARIRMTMgTVAgcmVhciBjYW1lcmEiGioYCJymPhISCQAAAAAAACpAEQAAAAAAACpAKgIYAToICJymPhAAMAZYiKogYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "17.6 – 37.7 oz",
+          "shoprs": "CAESGioYCJqmPhISCQAAAMA5L39AEQAAAAAAuJBAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMlIIARIQMTcuNiDigJMgMzcuNyBveiIaKhgImqY-EhIJAAAAwDkvf0ARAAAAAAC4kEAqFgoSMTcuNiBveiB0byAzNy43IG96GAE6CAiapj4QADAGWIiqIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=17.6+oz+to+37.7+oz+samsung+galaxy+tab+s10+fe+128gb+wi+fi+amazon&shoprs=CAESGioYCJqmPhISCQAAAMA5L39AEQAAAAAAuJBAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMlIIARIQMTcuNiDigJMgMzcuNyBveiIaKhgImqY-EhIJAAAAwDkvf0ARAAAAAAC4kEAqFgoSMTcuNiBveiB0byAzNy43IG96GAE6CAiapj4QADAGWIiqIGAB",
+          "input_type": "link"
+        },
+        {
+          "text": "10.9 – 17.6 oz",
+          "shoprs": "CAESGioYCJqmPhISCQAAAMAVR3NAEQAAAMA5L39AGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMlIIARIQMTAuOSDigJMgMTcuNiBveiIaKhgImqY-EhIJAAAAwBVHc0ARAAAAwDkvf0AqFgoSMTAuOSBveiB0byAxNy42IG96GAE6CAiapj4QADAGWIiqIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=10.9+oz+to+17.6+oz+samsung+galaxy+tab+s10+fe+128gb+wi+fi+amazon&shoprs=CAESGioYCJqmPhISCQAAAMAVR3NAEQAAAMA5L39AGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMlIIARIQMTAuOSDigJMgMTcuNiBveiIaKhgImqY-EhIJAAAAwBVHc0ARAAAAwDkvf0AqFgoSMTAuOSBveiB0byAxNy42IG96GAE6CAiapj4QADAGWIiqIGAB",
+          "input_type": "link"
+        },
+        {
+          "text": "Gray",
+          "shoprs": "CAEYASosc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSBhbWF6b24yFggBEgRHcmF5OgwIzKtnEP6vhN4DMABYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=gray+samsung+galaxy+tab+s10+fe+128gb+wi+fi+amazon&shoprs=CAEYASosc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSBhbWF6b24yFggBEgRHcmF5OgwIzKtnEP6vhN4DMABYiKogYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "12 MP rear camera",
+          "shoprs": "CAESGioYCJymPhISCQAAAAAAAChAEQAAAAAAAChAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMj8IARIRMTIgTVAgcmVhciBjYW1lcmEiGioYCJymPhISCQAAAAAAAChAEQAAAAAAAChAKgIYAToICJymPhAAMAZYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=12+mp+rear+camera+samsung+galaxy+tab+s10+fe+128gb+wi+fi+amazon&shoprs=CAESGioYCJymPhISCQAAAAAAAChAEQAAAAAAAChAGAEqLHNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgYW1hem9uMj8IARIRMTIgTVAgcmVhciBjYW1lcmEiGioYCJymPhISCQAAAAAAAChAEQAAAAAAAChAKgIYAToICJymPhAAMAZYiKogYAE",
+          "input_type": "link"
+        }
+      ]
+    }
+  ]
+}

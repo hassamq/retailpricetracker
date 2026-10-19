@@ -1,0 +1,259 @@
+{
+  "search_metadata": {
+    "id": "6ad607fd1e760bc0b547c9e8",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/a_Gg5IUw-_N3S_0bRmQv1rSpfVbUSyxJ70B7kExdM94/6ad607fd1e760bc0b547c9e8.json",
+    "markdown_endpoint": "https://serpapi.com/searches/a_Gg5IUw-_N3S_0bRmQv1rSpfVbUSyxJ70B7kExdM94/6ad607fd1e760bc0b547c9e8.md",
+    "created_at": "2026-10-19 12:07:25 UTC",
+    "processed_at": "2026-10-19 12:07:25 UTC",
+    "google_shopping_url": "https://www.google.com/search?udm=28&q=Samsung+Galaxy+Tab+S10+FE+128GB+Wi-Fi+Walmart&hl=en&gl=us",
+    "raw_html_file": "https://serpapi.com/searches/a_Gg5IUw-_N3S_0bRmQv1rSpfVbUSyxJ70B7kExdM94/6ad607fd1e760bc0b547c9e8.html",
+    "total_time_taken": 18.44
+  },
+  "search_parameters": {
+    "engine": "google_shopping",
+    "q": "Samsung Galaxy Tab S10 FE 128GB Wi-Fi Walmart",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Tab S10 FE 128GB Wi-Fi Walmart",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Samsung Galaxy Tab S10 FE+",
+      "product_id": "4044083345615247922",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=Samsung Galaxy Tab S10 FE 128GB Wi-Fi Walmart&prds=catalogid:4044083345615247922,productid:6333395851795406094,headlineOfferDocid:9589186017274835748,imageDocid:7350368502131870644,rds:PC_5355455422799769387|PROD_PC_5355455422799769387,gpcid:16110940916588509485,mid:576462913276203751,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "xVqxgnicbVTLjqtIFhz1F8xiPqD2JV9l8uaWvOCNXTaYBBKKjQUJBgw22Ma81F9Tt7ulnmV3S7Od37i9mN-Y7SD1dlJHuThxUoo4isj__O3vn1n5L3U4B3FfFgbhqrZzDs9uGp_O_tf23qRP0pXp7xy9HJEVWMiLLAM4IDK_kriL6yZfUAYwDBBommE5yFIML1LUb0UWp3V5zezTKburDVnGlvciFDgAeYpnBJpdrn-WlzjP_oJ5mgU0J7CAgjQUeMAxzLd7-vhOHZQjS7MssxRF8aLIcyIt8D8ekK0e_z_28-2Z3afvKze-PJ7X_NWI63icXr04eXUheNW1V0gJhvwalCu9fA3i-hLfu5_zdqHxB-QgXOQBEXKssLARGYH9dinT31ieYzhKhDTFcxSgeRZ-a_vus8h_ej7r7N-fef35fHwW9Wd2_aWJ2_5E_vzhH1ozqMpjUBy_bbGKgGeInB1aMwF6Y2PZ9WvdIjB9uFBuCGwVhxpxCiCOILKji1hEpv6I5g0kADcxEKAHutjTNQqptZ_Q-eQBEWdm--FVabvX6ifytRFjuY9N9I5V-REFNSIVmoiOVXzpFM-Tq8TM6Zjed6kuF8iL9q5mXRIVxx8gBRG2LraqzR8eGT-8ukBAjyMKz04tjHujGjOvdp1zgcjVuvj-aGPdgq6O_DTYxi4mtG-Mzi7U8c7XjcSUORLWH4tLAKG6Q2RKM_akCRmWSai29TEyEU7Rx8VaOMLW9cWZlACkNCotsI190FmRjjV0rabER4VbYRjN8qKvMDKjHtAV9ZZXT2nVcm64DYOwGi06MiIY0QEuCjuwHBdvr-41WtYgBj50OmeOql2QzokRPaIKQE_fzu45-vAM1snCnCZnHCFze0pUiyU6endB4-oA0XGdFumlbhC1p2JaBj6WYWrWTLoswCi3MjKtyQ4iH4fbcu-nre-Lu8Cvh4RCh0zTu_gsQV-roxjo8k_j4376DiSd7Vyb2Z3EXiHM0Mpxi1NqZ-WAGnrnzJPh65I2ioGQ42iO5X4hTVOV2Z8__Ne1FXetSJu3F1eTkGIeXWmvuRtPWyu5synjjfz2ImnKWopjUdu2H89evncqNnvXDo7R--muVqKQyW4h3TP_tiMH0_tQwpv3nDyun904KZ23F8O2jZ12lGTf1Y5aqO0P3sa21ht1DflsCbWQkIScqCRhv3r79V9MASvAr8r6_nVzWDrCF4qlv9D0lyVSq6_uOuBknw835-bh9d0o3gTKPqwa8vZyPLoZed6zleuhw1qSrULiznfWNGR4tMPL6PfHxWj0yR6UVFq5em7tIyAEzEGSz0gZ7jpn6W3U7wv06Je8Ok017szQfGdKxzEt_eG-36JqH8ogSg8XsqLy4O1FxetKvFmLa-jhkGfDodDC_sbgrWYnx81RR83bi7WIVW6-okiaCwdNtkdDdeVkIrDWvFlIUy_XyuAdy2wzyI5RPOvoYlpWMY7SOGl9c9_YN_Ouw7KIkR9eZq1KH8hu7It51jg_tVYZ3eHV40JM0_GN5Q87b2o7AMfmSj2J3lFVj7mEdgfGfwBWVIvRSbhNf6IqqQk3zmC4zM2siZnXON9VunL2jjUOWNyPuMRH4eGbz0ninWwnamrBW9ZZ0MHZnkH3nOb-XT1sIF9svJQrlD5-oEZh3aRuojt9q-Y8nKeLhWmFMzpiDJ65jcVsb42FR93uzx3Lj8cK3e3IWGGinrZL8uYyl_eVL4PbYM7TIKLEyp6mvh-ZSLFIMO4247RND_HwOB_PNxBmLSVvU5veT-EkloWQ9k4ZF0V0wwdPTOS20wmpyGlzkk9CSaL8muf_A_V6NIQ",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=xVqxgnicbVTLjqtIFhz1F8xiPqD2JV9l8uaWvOCNXTaYBBKKjQUJBgw22Ma81F9Tt7ulnmV3S7Od37i9mN-Y7SD1dlJHuThxUoo4isj__O3vn1n5L3U4B3FfFgbhqrZzDs9uGp_O_tf23qRP0pXp7xy9HJEVWMiLLAM4IDK_kriL6yZfUAYwDBBommE5yFIML1LUb0UWp3V5zezTKburDVnGlvciFDgAeYpnBJpdrn-WlzjP_oJ5mgU0J7CAgjQUeMAxzLd7-vhOHZQjS7MssxRF8aLIcyIt8D8ekK0e_z_28-2Z3afvKze-PJ7X_NWI63icXr04eXUheNW1V0gJhvwalCu9fA3i-hLfu5_zdqHxB-QgXOQBEXKssLARGYH9dinT31ieYzhKhDTFcxSgeRZ-a_vus8h_ej7r7N-fef35fHwW9Wd2_aWJ2_5E_vzhH1ozqMpjUBy_bbGKgGeInB1aMwF6Y2PZ9WvdIjB9uFBuCGwVhxpxCiCOILKji1hEpv6I5g0kADcxEKAHutjTNQqptZ_Q-eQBEWdm--FVabvX6ifytRFjuY9N9I5V-REFNSIVmoiOVXzpFM-Tq8TM6Zjed6kuF8iL9q5mXRIVxx8gBRG2LraqzR8eGT-8ukBAjyMKz04tjHujGjOvdp1zgcjVuvj-aGPdgq6O_DTYxi4mtG-Mzi7U8c7XjcSUORLWH4tLAKG6Q2RKM_akCRmWSai29TEyEU7Rx8VaOMLW9cWZlACkNCotsI190FmRjjV0rabER4VbYRjN8qKvMDKjHtAV9ZZXT2nVcm64DYOwGi06MiIY0QEuCjuwHBdvr-41WtYgBj50OmeOql2QzokRPaIKQE_fzu45-vAM1snCnCZnHCFze0pUiyU6endB4-oA0XGdFumlbhC1p2JaBj6WYWrWTLoswCi3MjKtyQ4iH4fbcu-nre-Lu8Cvh4RCh0zTu_gsQV-roxjo8k_j4376DiSd7Vyb2Z3EXiHM0Mpxi1NqZ-WAGnrnzJPh65I2ioGQ42iO5X4hTVOV2Z8__Ne1FXetSJu3F1eTkGIeXWmvuRtPWyu5synjjfz2ImnKWopjUdu2H89evncqNnvXDo7R--muVqKQyW4h3TP_tiMH0_tQwpv3nDyun904KZ23F8O2jZ12lGTf1Y5aqO0P3sa21ht1DflsCbWQkIScqCRhv3r79V9MASvAr8r6_nVzWDrCF4qlv9D0lyVSq6_uOuBknw835-bh9d0o3gTKPqwa8vZyPLoZed6zleuhw1qSrULiznfWNGR4tMPL6PfHxWj0yR6UVFq5em7tIyAEzEGSz0gZ7jpn6W3U7wv06Je8Ok017szQfGdKxzEt_eG-36JqH8ogSg8XsqLy4O1FxetKvFmLa-jhkGfDodDC_sbgrWYnx81RR83bi7WIVW6-okiaCwdNtkdDdeVkIrDWvFlIUy_XyuAdy2wzyI5RPOvoYlpWMY7SOGl9c9_YN_Ouw7KIkR9eZq1KH8hu7It51jg_tVYZ3eHV40JM0_GN5Q87b2o7AMfmSj2J3lFVj7mEdgfGfwBWVIvRSbhNf6IqqQk3zmC4zM2siZnXON9VunL2jjUOWNyPuMRH4eGbz0ninWwnamrBW9ZZ0MHZnkH3nOb-XT1sIF9svJQrlD5-oEZh3aRuojt9q-Y8nKeLhWmFMzpiDJ65jcVsb42FR93uzx3Lj8cK3e3IWGGinrZL8uYyl_eVL4PbYM7TIKLEyp6mvh-ZSLFIMO4247RND_HwOB_PNxBmLSVvU5veT-EkloWQ9k4ZF0V0wwdPTOS20wmpyGlzkk9CSaL8muf_A_V6NIQ",
+      "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&page_token=xVqxgnicbVTLjqtIFhz1F8xiPqD2JV9l8uaWvOCNXTaYBBKKjQUJBgw22Ma81F9Tt7ulnmV3S7Od37i9mN-Y7SD1dlJHuThxUoo4isj__O3vn1n5L3U4B3FfFgbhqrZzDs9uGp_O_tf23qRP0pXp7xy9HJEVWMiLLAM4IDK_kriL6yZfUAYwDBBommE5yFIML1LUb0UWp3V5zezTKburDVnGlvciFDgAeYpnBJpdrn-WlzjP_oJ5mgU0J7CAgjQUeMAxzLd7-vhOHZQjS7MssxRF8aLIcyIt8D8ekK0e_z_28-2Z3afvKze-PJ7X_NWI63icXr04eXUheNW1V0gJhvwalCu9fA3i-hLfu5_zdqHxB-QgXOQBEXKssLARGYH9dinT31ieYzhKhDTFcxSgeRZ-a_vus8h_ej7r7N-fef35fHwW9Wd2_aWJ2_5E_vzhH1ozqMpjUBy_bbGKgGeInB1aMwF6Y2PZ9WvdIjB9uFBuCGwVhxpxCiCOILKji1hEpv6I5g0kADcxEKAHutjTNQqptZ_Q-eQBEWdm--FVabvX6ifytRFjuY9N9I5V-REFNSIVmoiOVXzpFM-Tq8TM6Zjed6kuF8iL9q5mXRIVxx8gBRG2LraqzR8eGT-8ukBAjyMKz04tjHujGjOvdp1zgcjVuvj-aGPdgq6O_DTYxi4mtG-Mzi7U8c7XjcSUORLWH4tLAKG6Q2RKM_akCRmWSai29TEyEU7Rx8VaOMLW9cWZlACkNCotsI190FmRjjV0rabER4VbYRjN8qKvMDKjHtAV9ZZXT2nVcm64DYOwGi06MiIY0QEuCjuwHBdvr-41WtYgBj50OmeOql2QzokRPaIKQE_fzu45-vAM1snCnCZnHCFze0pUiyU6endB4-oA0XGdFumlbhC1p2JaBj6WYWrWTLoswCi3MjKtyQ4iH4fbcu-nre-Lu8Cvh4RCh0zTu_gsQV-roxjo8k_j4376DiSd7Vyb2Z3EXiHM0Mpxi1NqZ-WAGnrnzJPh65I2ioGQ42iO5X4hTVOV2Z8__Ne1FXetSJu3F1eTkGIeXWmvuRtPWyu5synjjfz2ImnKWopjUdu2H89evncqNnvXDo7R--muVqKQyW4h3TP_tiMH0_tQwpv3nDyun904KZ23F8O2jZ12lGTf1Y5aqO0P3sa21ht1DflsCbWQkIScqCRhv3r79V9MASvAr8r6_nVzWDrCF4qlv9D0lyVSq6_uOuBknw835-bh9d0o3gTKPqwa8vZyPLoZed6zleuhw1qSrULiznfWNGR4tMPL6PfHxWj0yR6UVFq5em7tIyAEzEGSz0gZ7jpn6W3U7wv06Je8Ok017szQfGdKxzEt_eG-36JqH8ogSg8XsqLy4O1FxetKvFmLa-jhkGfDodDC_sbgrWYnx81RR83bi7WIVW6-okiaCwdNtkdDdeVkIrDWvFlIUy_XyuAdy2wzyI5RPOvoYlpWMY7SOGl9c9_YN_Ouw7KIkR9eZq1KH8hu7It51jg_tVYZ3eHV40JM0_GN5Q87b2o7AMfmSj2J3lFVj7mEdgfGfwBWVIvRSbhNf6IqqQk3zmC4zM2siZnXON9VunL2jjUOWNyPuMRH4eGbz0ninWwnamrBW9ZZ0MHZnkH3nOb-XT1sIF9svJQrlD5-oEZh3aRuojt9q-Y8nKeLhWmFMzpiDJ65jcVsb42FR93uzx3Lj8cK3e3IWGGinrZL8uYyl_eVL4PbYM7TIKLEyp6mvh-ZSLFIMO4247RND_HwOB_PNxBmLSVvU5veT-EkloWQ9k4ZF0V0wwdPTOS20wmpyGlzkk9CSaL8muf_A_V6NIQ",
+      "source": "Challenge Innovation Technology",
+      "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAn1BMVEVHcEwSV7FoD700LaIjR7tDJcEIFyhSFa4fJYVTItBEI6IcP6QRUqYuEXsjNqcuN7oeRrFVGr9sEMt_Cdc1McBeGMtxDskKW6EXRZ9DJr5lFtCACdkJYqgHY6YrOLcVUax3DM8qOrUxNb04Lr91DdE-LMUVUa4JX6EIYKKHNMFEK8yHBt46NMctPsF8DNsGaawJZaxwEtkaULZhG9UNXq8IWVazAAAAKXRSTlMA_ksr_qAFOBX-IVt5DEmxw2CK5NO7cmc5e-X75sqYraWK4cfA6tuKhnXBbRAAAAGmSURBVDiNrZPZdoIwEIYDKFtQtqIC7lt7CIQEeP9n62AG0VpvepqrYeY7s_wzEPKvb-7tAt9Prd-j9q7TmmZSVWVZTGev8U8hbsCkBxwn_RE2N7UQa88wwTTSi-O0yTOwrmtBx8_QaWVGiLVYoGNT1-unsrNMyr0eRVwRS4irwLY62qpmJrlOSB7dvkRdK_cchvAV4Eqek5C5mOCL3IETVok4t9h-6MBEb1BVq2EwrsexskS9GeV6UC7OVeMrIZbo2h4O2znG3TzXFbAUAtPaPsg4VbbFY4uprXhCuEPajwFY8NhmTFdA170AiTwTg2EG2nWrESgAcDMJAulMqUCMrvOegEXb9rkjxtCracEdKIpT0ma3YWMWo3enNfYIOI7S32UMd2lSrdkhcAHAUOaZMVxwQK7NpJfHPJRFUaAO0OJeWUuPGHBpxN1W5fEyADBjjgvSICWlFNZ0pOSEgM4HEQC4eocAbtXvqyhgtuech8NkXgO3HFDql6UfWpZlhImUnOtkfHZfbHUs-xbhnlsp5flh7fc3PyHQJm_-LdhxmKbh2-gf3zepHCzQK7R15AAAAABJRU5ErkJggg.png",
+      "multiple_sources": true,
+      "price": "$699.99",
+      "extracted_price": 699.99,
+      "rating": 4.8,
+      "reviews": 226,
+      "snippet": "Fast (21 user reviews)",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTON1SMdZHHAd1T0TFgmQH8noxLfb0ai82d9ULtjAuO1_O3fTgYs4_vKa3m1cJW3evCZLLWBjdC_fAciKQMq1hBo7OIF5kp1w",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Xfk0JXicDcltCoIwAADQE6Uui1SImIJZfoxoIflHdNM5wznbsrpJV-s29f6-76fTWirPNBtB7m-pG7rQtbAMpnSlOTHIOJiqG6Xkgu2m7f88mFF3TzDKwDmlRRRBCrCFQzacIkeMr6StrYo7S-peEt3DBwIlslvMrmpVznFlD4Acc7uZgyJJcr-nQdlCwuNTOoHOHzfoEK5vEjx_0QQ1Xg"
+    },
+    {
+      "position": 2,
+      "title": "Samsung Galaxy Tab S10 FE",
+      "product_id": "4062619294779676405",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=Samsung Galaxy Tab S10 FE 128GB Wi-Fi Walmart&prds=productid:4062619294779676405,headlineOfferDocid:4062619294779676405,imageDocid:10459184701132955503,rds:PC_4647699200595738366|PROD_PC_4647699200595738366,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "1AGoDXicbZTLjrPYFYU7_QR5hJqX_Iu7TZU8MHC42OZgbgfMBMEBAwYMxlytPEyr-iJ1D7tbyjSv8beivEamqSTTnuzBWlrSt7e017---etHWvxdmq5eNBa5grmy7c3T0C_zYOo_t12TDLgvkt8YgqM4kqd4Zr3muTXHEOzPOOqjqsmK5Ltf8zRKquKWGpdL2kkN_vPEL0UdZen_7N9JgmF5csOsCZKkKZ5lWYL-vkseX6mTGDIcs-Z4niIIlmfX9IbmuL-dLEMK_9z78T6k3fJ1ZUf1Y7hlr0pURfPy6kTxq00SrzJ4JamNIrx6xUouXr2oqqOu_zFrPzm--77-72jH_iPPfhiGKv3HR1Z9DI-PvPpIbz81UTte8B9_-ScYNFG8a6Lpti2SLML2kXZGuZmiVrLqzWQA5Hxeg43rNve8fQfJKnDqXtJBCwOQFK6HRucpMOe6sjHg3QQwVOAERapCVb9ZY-qf2bOTe46EF-yR1wTtfUNt9UBGR0S1SqL0Hgb940w37GfmCYmciYm9o9-gG5Xlovt7LZBlORFJU68Z0qLRELt7zicSxXMtQ6_7MpYr6uhWjOvmF0fZMIioJEzsS2STQVDxTVzmelDLwKIrOwJzq5ft1ZJbGhM5iavKSEsrSG6J71wtI1ah5pUB7Tn5kpZzaQGTdei2T-vqGKugh0iWLZBT7q19Jr4wOL7gIg8JEWh9T00YTAo1doNjeoOHgK4cm97TZh0cdRcdUCnPFgkPjluB4GmxkArOLuLzCMAm8LEtExYdVUme1FVjUToV0QLhIoFM1IpJkAyVYi9YKlwML7DORH_QAYwSlNcByQ_wKd_Sao9MH3I-CW-uFFg_zI_u8pXYyWxvG8zxwo8iZqZWiFqUUEeYEdQ0mtc1nt7INU8xJMlxNMdyP-GmKYv0j2__bRuivRV32vuLDXaWqIb2Tge25oCtmJlaEWnC-8sOiNtdFPFg356HUeh6CamjbXhhcLh0UslvUsHOd13q3o_4pDpn0b87w-Jw49OO4sJ8f1EMQzmCcCe4NgiBD_SToxlwq0lbcp1-_t0mxjG-UHHMvjn69v-kBLsh38Rt96adPpXNF4qlv9D0F5IjV2_21uMEd-1r1-bhjP3M3zeUcVo1-P0lDO0UD126sh3rtN0JMN9x145VFYEMDb-e3TE0kExfjElMditbzqAeEBuPOe2EqyVOncxBuQ1GPbceI8EzZlPOR9VXD0xhmiqUH_bhHpS6LxBBcqrxisq89xcJbUv-Dve-R0-nLJ1OOfDHO4P2wIhDLZSt5v0Ffi4r3l1R3AGbnIBgzIpkC_GCyQo4z02SOBkovAMS2GYSTCUfqqBWIczneTcvYGw6zbirnUwWeWS5fv0EZfKwjMao1Svg3ASuUrpHq0eNVdV0FYZlr1pleETY3KgByz1VjoiLaXti3Mdn-0j5bMacNl6octf4mjkpNnNXK6xmFcqOpSxenbBCHovGGRUo3DxcdVh2azM98kDK1xBeNzJxNZ5EPyzP8SCdNHKda07C5eIYPaxGZO24aoKOvpfPzH8uNUS0yCk9ViZH3Ud8qsM5d6h7NxzZ9RyWVmcEygph6bL3_PJZZIJeugJxn9TnMvFWDNNBlfWZCUSIvfmozcs-OUXT4xpe74SftpSwTwxaX_yFL_JNMppFlOfBHZ0cPhbaXsa4xBftIlw2BQ6yW5b9B9K3Ftk",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=1AGoDXicbZTLjrPYFYU7_QR5hJqX_Iu7TZU8MHC42OZgbgfMBMEBAwYMxlytPEyr-iJ1D7tbyjSv8beivEamqSTTnuzBWlrSt7e017---etHWvxdmq5eNBa5grmy7c3T0C_zYOo_t12TDLgvkt8YgqM4kqd4Zr3muTXHEOzPOOqjqsmK5Ltf8zRKquKWGpdL2kkN_vPEL0UdZen_7N9JgmF5csOsCZKkKZ5lWYL-vkseX6mTGDIcs-Z4niIIlmfX9IbmuL-dLEMK_9z78T6k3fJ1ZUf1Y7hlr0pURfPy6kTxq00SrzJ4JamNIrx6xUouXr2oqqOu_zFrPzm--77-72jH_iPPfhiGKv3HR1Z9DI-PvPpIbz81UTte8B9_-ScYNFG8a6Lpti2SLML2kXZGuZmiVrLqzWQA5Hxeg43rNve8fQfJKnDqXtJBCwOQFK6HRucpMOe6sjHg3QQwVOAERapCVb9ZY-qf2bOTe46EF-yR1wTtfUNt9UBGR0S1SqL0Hgb940w37GfmCYmciYm9o9-gG5Xlovt7LZBlORFJU68Z0qLRELt7zicSxXMtQ6_7MpYr6uhWjOvmF0fZMIioJEzsS2STQVDxTVzmelDLwKIrOwJzq5ft1ZJbGhM5iavKSEsrSG6J71wtI1ah5pUB7Tn5kpZzaQGTdei2T-vqGKugh0iWLZBT7q19Jr4wOL7gIg8JEWh9T00YTAo1doNjeoOHgK4cm97TZh0cdRcdUCnPFgkPjluB4GmxkArOLuLzCMAm8LEtExYdVUme1FVjUToV0QLhIoFM1IpJkAyVYi9YKlwML7DORH_QAYwSlNcByQ_wKd_Sao9MH3I-CW-uFFg_zI_u8pXYyWxvG8zxwo8iZqZWiFqUUEeYEdQ0mtc1nt7INU8xJMlxNMdyP-GmKYv0j2__bRuivRV32vuLDXaWqIb2Tge25oCtmJlaEWnC-8sOiNtdFPFg356HUeh6CamjbXhhcLh0UslvUsHOd13q3o_4pDpn0b87w-Jw49OO4sJ8f1EMQzmCcCe4NgiBD_SToxlwq0lbcp1-_t0mxjG-UHHMvjn69v-kBLsh38Rt96adPpXNF4qlv9D0F5IjV2_21uMEd-1r1-bhjP3M3zeUcVo1-P0lDO0UD126sh3rtN0JMN9x145VFYEMDb-e3TE0kExfjElMditbzqAeEBuPOe2EqyVOncxBuQ1GPbceI8EzZlPOR9VXD0xhmiqUH_bhHpS6LxBBcqrxisq89xcJbUv-Dve-R0-nLJ1OOfDHO4P2wIhDLZSt5v0Ffi4r3l1R3AGbnIBgzIpkC_GCyQo4z02SOBkovAMS2GYSTCUfqqBWIczneTcvYGw6zbirnUwWeWS5fv0EZfKwjMao1Svg3ASuUrpHq0eNVdV0FYZlr1pleETY3KgByz1VjoiLaXti3Mdn-0j5bMacNl6octf4mjkpNnNXK6xmFcqOpSxenbBCHovGGRUo3DxcdVh2azM98kDK1xBeNzJxNZ5EPyzP8SCdNHKda07C5eIYPaxGZO24aoKOvpfPzH8uNUS0yCk9ViZH3Ud8qsM5d6h7NxzZ9RyWVmcEygph6bL3_PJZZIJeugJxn9TnMvFWDNNBlfWZCUSIvfmozcs-OUXT4xpe74SftpSwTwxaX_yFL_JNMppFlOfBHZ0cPhbaXsa4xBftIlw2BQ6yW5b9B9K3Ftk",
+      "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&page_token=1AGoDXicbZTLjrPYFYU7_QR5hJqX_Iu7TZU8MHC42OZgbgfMBMEBAwYMxlytPEyr-iJ1D7tbyjSv8beivEamqSTTnuzBWlrSt7e017---etHWvxdmq5eNBa5grmy7c3T0C_zYOo_t12TDLgvkt8YgqM4kqd4Zr3muTXHEOzPOOqjqsmK5Ltf8zRKquKWGpdL2kkN_vPEL0UdZen_7N9JgmF5csOsCZKkKZ5lWYL-vkseX6mTGDIcs-Z4niIIlmfX9IbmuL-dLEMK_9z78T6k3fJ1ZUf1Y7hlr0pURfPy6kTxq00SrzJ4JamNIrx6xUouXr2oqqOu_zFrPzm--77-72jH_iPPfhiGKv3HR1Z9DI-PvPpIbz81UTte8B9_-ScYNFG8a6Lpti2SLML2kXZGuZmiVrLqzWQA5Hxeg43rNve8fQfJKnDqXtJBCwOQFK6HRucpMOe6sjHg3QQwVOAERapCVb9ZY-qf2bOTe46EF-yR1wTtfUNt9UBGR0S1SqL0Hgb940w37GfmCYmciYm9o9-gG5Xlovt7LZBlORFJU68Z0qLRELt7zicSxXMtQ6_7MpYr6uhWjOvmF0fZMIioJEzsS2STQVDxTVzmelDLwKIrOwJzq5ft1ZJbGhM5iavKSEsrSG6J71wtI1ah5pUB7Tn5kpZzaQGTdei2T-vqGKugh0iWLZBT7q19Jr4wOL7gIg8JEWh9T00YTAo1doNjeoOHgK4cm97TZh0cdRcdUCnPFgkPjluB4GmxkArOLuLzCMAm8LEtExYdVUme1FVjUToV0QLhIoFM1IpJkAyVYi9YKlwML7DORH_QAYwSlNcByQ_wKd_Sao9MH3I-CW-uFFg_zI_u8pXYyWxvG8zxwo8iZqZWiFqUUEeYEdQ0mtc1nt7INU8xJMlxNMdyP-GmKYv0j2__bRuivRV32vuLDXaWqIb2Tge25oCtmJlaEWnC-8sOiNtdFPFg356HUeh6CamjbXhhcLh0UslvUsHOd13q3o_4pDpn0b87w-Jw49OO4sJ8f1EMQzmCcCe4NgiBD_SToxlwq0lbcp1-_t0mxjG-UHHMvjn69v-kBLsh38Rt96adPpXNF4qlv9D0F5IjV2_21uMEd-1r1-bhjP3M3zeUcVo1-P0lDO0UD126sh3rtN0JMN9x145VFYEMDb-e3TE0kExfjElMditbzqAeEBuPOe2EqyVOncxBuQ1GPbceI8EzZlPOR9VXD0xhmiqUH_bhHpS6LxBBcqrxisq89xcJbUv-Dve-R0-nLJ1OOfDHO4P2wIhDLZSt5v0Ffi4r3l1R3AGbnIBgzIpkC_GCyQo4z02SOBkovAMS2GYSTCUfqqBWIczneTcvYGw6zbirnUwWeWS5fv0EZfKwjMao1Svg3ASuUrpHq0eNVdV0FYZlr1pleETY3KgByz1VjoiLaXti3Mdn-0j5bMacNl6octf4mjkpNnNXK6xmFcqOpSxenbBCHovGGRUo3DxcdVh2azM98kDK1xBeNzJxNZ5EPyzP8SCdNHKda07C5eIYPaxGZO24aoKOvpfPzH8uNUS0yCk9ViZH3Ud8qsM5d6h7NxzZ9RyWVmcEygph6bL3_PJZZIJeugJxn9TnMvFWDNNBlfWZCUSIvfmozcs-OUXT4xpe74SftpSwTwxaX_yFL_JNMppFlOfBHZ0cPhbaXsa4xBftIlw2BQ6yW5b9B9K3Ftk",
+      "source": "SHI International",
+      "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAjVBMVEUkN0YfNUUgM0MaL0ElN0b___8SKz5HcEwlN0YlN0ZDUFyXnKFocnoAHTL8_P3LztDr7Ozi4-TT1dcMNkRweIC-wcSBiI60t7swPEpbZW_x8vOgpanIixW_TDPJswb2RFaIjpR5gYgAAiFvXi-xJnFcMk36JIaLkZc1RUgADCj-ewt3SjWJbCORmhUpRFakQbo9AAAAL3RSTlO0________AKpO________________________________________________tMpUgu8AAAEzSURBVDiNtZNZj4MgFIXZUdDaqtS1Lt3UtvP__95crA9mGvWlcxIIgY_DgXCRlK6DFuS4UiLpsBU5Erlr64y5aNUALBBaB9B3ABxFeA3A6fV6WyIAwLf7va5PCwQA0fV-i06PJ2aECisqKKwQQTEM7BH1CSKULyJUo0FFrBvKiCraXnejA9iLS3UR7Y5bhTE_-IzGPFQ8JzbD81GWVZWyHQ-NMUnvjYDHA7Xbk_EWl7L66amC-fPgCwHAWfgzgGEIhnHKuUmS1oe9eZKYZAYAAk10Y4Q98aYkc2AUzYqi2HOd8Vxr5n0AWPjDcNbcZDYD_QAIMyEotw5_bvHenwZjBH4Q3vQOwfQOk0HWHa1in6gmpgyrxkuPLZ4dQd8CM9vZ3g6-9KP-G9gsnM3S2yzerfL_BSWzHJcPqxx8AAAAAElFTkSuQmCC.png",
+      "price": "$628.67",
+      "extracted_price": 628.67,
+      "rating": 4.7,
+      "reviews": 5800,
+      "snippet": "Quality display (514 user reviews)",
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR0oWko8aZYX4fPZLO4I5aa2Rb2e-cvSQt3mSVVc523v5wF_V0YAO5RjVAWZOjgKHHN86uyxo5b3LSDh_gJO8QMQokH8Ogy",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/eYtdcHicDcnbCoIwAADQL_KCc7GECCHKylwqzPRF5rR5QbdyWf5I_9bf5Hk9v2-tlBwdw6gG9pylqkpNFQPQ-aioapjORG-MtZCyGfj2sVnOcYNyfWCRKZJOIJqlN_t-zXxsHyGlVlRYlcamOFSgjwlh0AITfO9zYqYuhlFL3CTDLT97XoBWr_kjYAH8eFfn_IRReAlF5yHM5z9dWzR-",
+      "delivery": "Free delivery by Thu"
+    },
+    {
+      "position": 3,
+      "title": "Samsung Galaxy Tab S10 FE SM-X520 Tablet 10.9\" WUXGA+",
+      "product_id": "8842239898141861772",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=Samsung Galaxy Tab S10 FE 128GB Wi-Fi Walmart&prds=catalogid:8842239898141861772,productid:7998103923226963871,headlineOfferDocid:48961557351690264,imageDocid:17865703434147825793,rds:PC_11089916682927526473|PROD_PC_11089916682927526473,gpcid:12767822851368142738,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "Zcgo-XicdZPJjuvWEYaTPIEfofcNXfBwZje0EGeqJVIczqHEjUAeUpxFkeIo5GGCvrYBe2cnQLZ5jetFXiNZRnHW2dZfVfi_H1X__MN3n0n-d3kq_HDMMw2z5a23D0O_zIO9_-nWNfGA-zz-KycIPCAogaRIkhVYiufATzjsw6pJnyrP0yRJCfyzhwY8CziO_DVLwrjKr4l1uSSd3OA8_oXmBRYwDEcxgBUIkqV_zuswTX4X_wY4nmU4gqIpGtAcTzKcQH3t4vs3-iCdASB4QQAsy5MCyTHPUY7688Gx5PP_EX9oh6Rbvq3csL4P1_RVC6twXl69MHp1AfGqKq-A5DXx1c9Xav7qh1Uddv0P6e13JyTHPg2QPAMo9klEchT_tc7jv3y9jf1nln4_DFXyj8-0-hzun1n1mVx_bMLbeMG__fHfyoglqcOSDW83JDuEp_S2STmtqWf1Ds4Z1lB2QuniF1l_Iks6esSlfXVm7KOTWQddDCrf900TE32XXPHs64EeAMeGZa9BT6xOJaJPNQI2ZJwThSxPF5cjCKBbohb6mY0VmnKQzcAqK5wH8uzSdLCK7qYcUCYBPFyos-ftF4QceeeZXqgopEsECgbBBaJgigqztUljQY-ACOX4FCrp4lKBd6q2BiZnGhbO8GSqoPbc6Ae1Xap2oglB6KlkUAuXCGXqkcwcTG1B4PMk1JG989TAV2LLRdU-QE5jwWpE2u0Bva0c-4CKZHR3NXN4ch-9OjZdxVShV30gompcP9v6Kpyiq0MHeqzZFJwdOTvEyjxbvtM6mkJEBVwiSlVOjwpYUPUS9fY4-bfmdEWTRwiaX9006AcP08tqk3D8PVRclXCosIqzuK4ah9yTISUSEIkg1is6Rqqp5VvR0c3F8oP_ZliayhzABYw2dK47GJ8iyBjP3BofziDyGer7-d5dvhEbleldi95dhFHC9HQTwxuKyZ2ZEuQ02gWHpzfACSQNntdKsQz7I26aMk9--9O_XEty19LGeH9xlY0j6Wd3s1dcw1PWUmobeWiI7y8bRVpvwlBQtrfTMIpdLyN9dC3_HHxcOrkU-ER0s02XwHaHD7p3ko6tNyweOz7cMMrt9xfNsrSdct6I0FXOylHZHzzDMteGvAZc8vxTPsIRvpBRxLx5-_X_nBIMD96kdfdmHJ4V_gvJUF8o6gtgwerNXfusCLmjUTR3b-xnoeVJ67Bq8PvL-ewmeOiSles5h_VGNLMNW3SMrongbB3rGY5nC6nUxZqkeLNy1dTcBwTv04eNWDjS1Kmsqd6CcZ8595EQaLsp551-1D_o3LZ1U727H21Q7o8iEcSHGq_I1H9_kdG6FFpze_Sp6ZAm0yFTjmNLo61iRWfjrDrN-4v5hJVaKEkbxQWTIlqzJrtitGBQKd6Dj2MvVXL_A4lMM4m2lg1VUOummc3zZl6UsekMq9U7FeRZ6MBj_VDK-O5YjVXrhcLC2FwlVI9W9xrrug01mmEKo7J84txcyQGrPVmOiI0od6LhnWAEOZvtiDXGC1lumqNhT5pLt3qF9bRC6a5UpcI7V8hn0DijHJ35O9SHZcPZyU5Q5IwzzYJXicJ6EP2wPMYP-WAALjO8mM2kMbw7jcS4UdUEHdWWj_T4WGoTURKr9VibPH0bCsnenDOPbLthx3DzuXQ6K9BWCMuXrX8sH3kq7ksoEu2kP5ZJcCIzGXR1P9OBZGJ_3hnzso0P4XQvzkVLHJMbKW5ji9ovx0XIMz4e7TzMsqBFB0-IxFuvYlzii3ERL3yOg_Sapv8BDqYpbw",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=Zcgo-XicdZPJjuvWEYaTPIEfofcNXfBwZje0EGeqJVIczqHEjUAeUpxFkeIo5GGCvrYBe2cnQLZ5jetFXiNZRnHW2dZfVfi_H1X__MN3n0n-d3kq_HDMMw2z5a23D0O_zIO9_-nWNfGA-zz-KycIPCAogaRIkhVYiufATzjsw6pJnyrP0yRJCfyzhwY8CziO_DVLwrjKr4l1uSSd3OA8_oXmBRYwDEcxgBUIkqV_zuswTX4X_wY4nmU4gqIpGtAcTzKcQH3t4vs3-iCdASB4QQAsy5MCyTHPUY7688Gx5PP_EX9oh6Rbvq3csL4P1_RVC6twXl69MHp1AfGqKq-A5DXx1c9Xav7qh1Uddv0P6e13JyTHPg2QPAMo9klEchT_tc7jv3y9jf1nln4_DFXyj8-0-hzun1n1mVx_bMLbeMG__fHfyoglqcOSDW83JDuEp_S2STmtqWf1Ds4Z1lB2QuniF1l_Iks6esSlfXVm7KOTWQddDCrf900TE32XXPHs64EeAMeGZa9BT6xOJaJPNQI2ZJwThSxPF5cjCKBbohb6mY0VmnKQzcAqK5wH8uzSdLCK7qYcUCYBPFyos-ftF4QceeeZXqgopEsECgbBBaJgigqztUljQY-ACOX4FCrp4lKBd6q2BiZnGhbO8GSqoPbc6Ae1Xap2oglB6KlkUAuXCGXqkcwcTG1B4PMk1JG989TAV2LLRdU-QE5jwWpE2u0Bva0c-4CKZHR3NXN4ch-9OjZdxVShV30gompcP9v6Kpyiq0MHeqzZFJwdOTvEyjxbvtM6mkJEBVwiSlVOjwpYUPUS9fY4-bfmdEWTRwiaX9006AcP08tqk3D8PVRclXCosIqzuK4ah9yTISUSEIkg1is6Rqqp5VvR0c3F8oP_ZliayhzABYw2dK47GJ8iyBjP3BofziDyGer7-d5dvhEbleldi95dhFHC9HQTwxuKyZ2ZEuQ02gWHpzfACSQNntdKsQz7I26aMk9--9O_XEty19LGeH9xlY0j6Wd3s1dcw1PWUmobeWiI7y8bRVpvwlBQtrfTMIpdLyN9dC3_HHxcOrkU-ER0s02XwHaHD7p3ko6tNyweOz7cMMrt9xfNsrSdct6I0FXOylHZHzzDMteGvAZc8vxTPsIRvpBRxLx5-_X_nBIMD96kdfdmHJ4V_gvJUF8o6gtgwerNXfusCLmjUTR3b-xnoeVJ67Bq8PvL-ewmeOiSles5h_VGNLMNW3SMrongbB3rGY5nC6nUxZqkeLNy1dTcBwTv04eNWDjS1Kmsqd6CcZ8595EQaLsp551-1D_o3LZ1U727H21Q7o8iEcSHGq_I1H9_kdG6FFpze_Sp6ZAm0yFTjmNLo61iRWfjrDrN-4v5hJVaKEkbxQWTIlqzJrtitGBQKd6Dj2MvVXL_A4lMM4m2lg1VUOummc3zZl6UsekMq9U7FeRZ6MBj_VDK-O5YjVXrhcLC2FwlVI9W9xrrug01mmEKo7J84txcyQGrPVmOiI0od6LhnWAEOZvtiDXGC1lumqNhT5pLt3qF9bRC6a5UpcI7V8hn0DijHJ35O9SHZcPZyU5Q5IwzzYJXicJ6EP2wPMYP-WAALjO8mM2kMbw7jcS4UdUEHdWWj_T4WGoTURKr9VibPH0bCsnenDOPbLthx3DzuXQ6K9BWCMuXrX8sH3kq7ksoEu2kP5ZJcCIzGXR1P9OBZGJ_3hnzso0P4XQvzkVLHJMbKW5ji9ovx0XIMz4e7TzMsqBFB0-IxFuvYlzii3ERL3yOg_Sapv8BDqYpbw",
+      "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&page_token=Zcgo-XicdZPJjuvWEYaTPIEfofcNXfBwZje0EGeqJVIczqHEjUAeUpxFkeIo5GGCvrYBe2cnQLZ5jetFXiNZRnHW2dZfVfi_H1X__MN3n0n-d3kq_HDMMw2z5a23D0O_zIO9_-nWNfGA-zz-KycIPCAogaRIkhVYiufATzjsw6pJnyrP0yRJCfyzhwY8CziO_DVLwrjKr4l1uSSd3OA8_oXmBRYwDEcxgBUIkqV_zuswTX4X_wY4nmU4gqIpGtAcTzKcQH3t4vs3-iCdASB4QQAsy5MCyTHPUY7688Gx5PP_EX9oh6Rbvq3csL4P1_RVC6twXl69MHp1AfGqKq-A5DXx1c9Xav7qh1Uddv0P6e13JyTHPg2QPAMo9klEchT_tc7jv3y9jf1nln4_DFXyj8-0-hzun1n1mVx_bMLbeMG__fHfyoglqcOSDW83JDuEp_S2STmtqWf1Ds4Z1lB2QuniF1l_Iks6esSlfXVm7KOTWQddDCrf900TE32XXPHs64EeAMeGZa9BT6xOJaJPNQI2ZJwThSxPF5cjCKBbohb6mY0VmnKQzcAqK5wH8uzSdLCK7qYcUCYBPFyos-ftF4QceeeZXqgopEsECgbBBaJgigqztUljQY-ACOX4FCrp4lKBd6q2BiZnGhbO8GSqoPbc6Ae1Xap2oglB6KlkUAuXCGXqkcwcTG1B4PMk1JG989TAV2LLRdU-QE5jwWpE2u0Bva0c-4CKZHR3NXN4ch-9OjZdxVShV30gompcP9v6Kpyiq0MHeqzZFJwdOTvEyjxbvtM6mkJEBVwiSlVOjwpYUPUS9fY4-bfmdEWTRwiaX9006AcP08tqk3D8PVRclXCosIqzuK4ah9yTISUSEIkg1is6Rqqp5VvR0c3F8oP_ZliayhzABYw2dK47GJ8iyBjP3BofziDyGer7-d5dvhEbleldi95dhFHC9HQTwxuKyZ2ZEuQ02gWHpzfACSQNntdKsQz7I26aMk9--9O_XEty19LGeH9xlY0j6Wd3s1dcw1PWUmobeWiI7y8bRVpvwlBQtrfTMIpdLyN9dC3_HHxcOrkU-ER0s02XwHaHD7p3ko6tNyweOz7cMMrt9xfNsrSdct6I0FXOylHZHzzDMteGvAZc8vxTPsIRvpBRxLx5-_X_nBIMD96kdfdmHJ4V_gvJUF8o6gtgwerNXfusCLmjUTR3b-xnoeVJ67Bq8PvL-ewmeOiSles5h_VGNLMNW3SMrongbB3rGY5nC6nUxZqkeLNy1dTcBwTv04eNWDjS1Kmsqd6CcZ8595EQaLsp551-1D_o3LZ1U727H21Q7o8iEcSHGq_I1H9_kdG6FFpze_Sp6ZAm0yFTjmNLo61iRWfjrDrN-4v5hJVaKEkbxQWTIlqzJrtitGBQKd6Dj2MvVXL_A4lMM4m2lg1VUOummc3zZl6UsekMq9U7FeRZ6MBj_VDK-O5YjVXrhcLC2FwlVI9W9xrrug01mmEKo7J84txcyQGrPVmOiI0od6LhnWAEOZvtiDXGC1lumqNhT5pLt3qF9bRC6a5UpcI7V8hn0DijHJ35O9SHZcPZyU5Q5IwzzYJXicJ6EP2wPMYP-WAALjO8mM2kMbw7jcS4UdUEHdWWj_T4WGoTURKr9VibPH0bCsnenDOPbLthx3DzuXQ6K9BWCMuXrX8sH3kq7ksoEu2kP5ZJcCIzGXR1P9OBZGJ_3hnzso0P4XQvzkVLHJMbKW5ji9ovx0XIMz4e7TzMsqBFB0-IxFuvYlzii3ERL3yOg_Sapv8BDqYpbw",
+      "source": "Connection",
+      "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAPFBMVEX___-ty-RqnsxHi8REhsJYlciGsdXm7_X-_vzY6PFjnMxto9Cjw9_E2uvJ3u6zz-fv9PmUvNzc6fD1-_zILzgkAAAAQ0lEQVQYlWNgoArgYGBgZGJmYWVjBzFBApxc3Dy8fPxsrDwQFZxsfBCGgCBYhJ1RAK6blxdICAkjmSckADEUyXz6AADnmgFzHTZl0gAAAABJRU5ErkJggg.png",
+      "multiple_sources": true,
+      "price": "$666.23",
+      "extracted_price": 666.23,
+      "rating": 4.8,
+      "reviews": 2000,
+      "snippet": "Long battery life (318 user reviews)",
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS9Fk2WnEwGkqiAMlVOKaCuyUTNLwpAZosyFrOlu_70yK97E30NXGe6YVTRlUMWnqXNR0r60hZMGIx1FWdQqtuVC3vSR9_zH81z1vNecBFaEsNCS_f8qNJn",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/OUFQxXicDcn_DkJAAADgJ8qP2kJbazKnkrMQ5R_TEUbnzh3ioXqf3qa-f7_vp-ScsI0o5hh1E-F5tuAPLAsF4ymvkIDal8jKlpAKFzu6_d9Gh5lmIV8D9TLC5mjVtNKdJnTt1OinawDPI9Hjlk2gc5s-UaTJ1hRzJcGbla_vYeA1VyfC9AY9qVtLZexYx7cMouxCeR8aq8H3tGQ-qPIsDzBHe5CaDBp-8lQpPOEfJ_49tg"
+    }
+  ],
+  "filters": [
+    {
+      "input_type": "link_with_icon",
+      "options": [
+        {
+          "text": "On sale",
+          "shoprs": "CAESBEoCGAEYBiotc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSB3YWxtYXJ0MhMIBhIHT24gc2FsZRgCIgRKAhgBWIiqIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Samsung+Galaxy+Tab+S10+FE+128GB+Wi-Fi+Walmart+sale&shoprs=CAESBEoCGAEYBiotc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSB3YWxtYXJ0MhMIBhIHT24gc2FsZRgCIgRKAhgBWIiqIGAC"
+        },
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyotc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSB3YWxtYXJ0MgwIAxIGTmVhcmJ5GAJYiKogYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Samsung+Galaxy+Tab+S10+FE+128GB+Wi-Fi+Walmart+nearby&shoprs=CAEYAyotc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSB3YWxtYXJ0MgwIAxIGTmVhcmJ5GAJYiKogYAI"
+        }
+      ]
+    },
+    {
+      "type": "Product Rating",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "4 and up",
+          "shoprs": "CAESBWIDCJADGB4qLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDIVCB4SCDQgYW5kIHVwIgViAwiQA0AEYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Samsung+Galaxy+Tab+S10+FE+128GB+Wi-Fi+Walmart&shoprs=CAESBWIDCJADGB4qLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDIVCB4SCDQgYW5kIHVwIgViAwiQA0AEYAI"
+        }
+      ]
+    },
+    {
+      "type": "Screen Size",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "10.9 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI8CAESDjEwLjkgaW4gc2NyZWVuIhoqGAiZpj4SEgkAAADAna87QBEAAADAna87QCoCGAE6CAiZpj4QADAGWIiqIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=10.9+in+screen+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI8CAESDjEwLjkgaW4gc2NyZWVuIhoqGAiZpj4SEgkAAADAna87QBEAAADAna87QCoCGAE6CAiZpj4QADAGWIiqIGAC"
+        },
+        {
+          "text": "13.1 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI8CAESDjEzLjEgaW4gc2NyZWVuIhoqGAiZpj4SEgkAAABgEqNAQBEAAABgEqNAQCoCGAE6CAiZpj4QADAGWIiqIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=13.1+in+screen+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI8CAESDjEzLjEgaW4gc2NyZWVuIhoqGAiZpj4SEgkAAABgEqNAQBEAAABgEqNAQCoCGAE6CAiZpj4QADAGWIiqIGAC"
+        }
+      ]
+    },
+    {
+      "type": "Rear Camera Resolution",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "8 MP rear camera",
+          "shoprs": "CAESGioYCJymPhISCQAAAAAAACBAEQAAAAAAACBAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI-CAESEDggTVAgcmVhciBjYW1lcmEiGioYCJymPhISCQAAAAAAACBAEQAAAAAAACBAKgIYAToICJymPhAAMAZYiKogYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=8+mp+rear+camera+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJymPhISCQAAAAAAACBAEQAAAAAAACBAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI-CAESEDggTVAgcmVhciBjYW1lcmEiGioYCJymPhISCQAAAAAAACBAEQAAAAAAACBAKgIYAToICJymPhAAMAZYiKogYAI"
+        },
+        {
+          "text": "13 MP rear camera",
+          "shoprs": "CAESGioYCJymPhISCQAAAAAAACpAEQAAAAAAACpAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI_CAESETEzIE1QIHJlYXIgY2FtZXJhIhoqGAicpj4SEgkAAAAAAAAqQBEAAAAAAAAqQCoCGAE6CAicpj4QADAGWIiqIGAC",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=13+mp+rear+camera+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJymPhISCQAAAAAAACpAEQAAAAAAACpAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI_CAESETEzIE1QIHJlYXIgY2FtZXJhIhoqGAicpj4SEgkAAAAAAAAqQBEAAAAAAAAqQCoCGAE6CAicpj4QADAGWIiqIGAC"
+        }
+      ]
+    },
+    {
+      "type": "RAM",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "RAM: 6 GB",
+          "shoprs": "CAESGioYCJiwPhISCQAAAAAAABhAEQAAAAAAABhAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI3CAESCVJBTTogNiBHQiIaKhgImLA-EhIJAAAAAAAAGEARAAAAAAAAGEAqAhgBOggImLA-EAAwBliIqiBgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=ram%3A+6+gb+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJiwPhISCQAAAAAAABhAEQAAAAAAABhAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI3CAESCVJBTTogNiBHQiIaKhgImLA-EhIJAAAAAAAAGEARAAAAAAAAGEAqAhgBOggImLA-EAAwBliIqiBgAg"
+        },
+        {
+          "text": "RAM: 8 GB",
+          "shoprs": "CAESGioYCJiwPhISCQAAAAAAACBAEQAAAAAAACBAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI3CAESCVJBTTogOCBHQiIaKhgImLA-EhIJAAAAAAAAIEARAAAAAAAAIEAqAhgBOggImLA-EAAwBliIqiBgAg",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=ram%3A+8+gb+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJiwPhISCQAAAAAAACBAEQAAAAAAACBAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI3CAESCVJBTTogOCBHQiIaKhgImLA-EhIJAAAAAAAAIEARAAAAAAAAIEAqAhgBOggImLA-EAAwBliIqiBgAg"
+        }
+      ]
+    },
+    {
+      "type": "Battery Life",
+      "input_type": "link",
+      "options": [
+        {
+          "text": "18 – 20 hours battery",
+          "shoprs": "CAESGioYCJumPhISCQAAAAAAADJAEQAAAAAAADRAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDJrCAESFzE4IOKAkyAyMCBob3VycyBiYXR0ZXJ5IhoqGAibpj4SEgkAAAAAAAAyQBEAAAAAAAA0QCooCiQxOCBob3VycyBiYXR0ZXJ5IHRvIDIwIGhvdXJzIGJhdHRlcnkYAToICJumPhAAMAZYiKogYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=18+hours+battery+to+20+hours+battery+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJumPhISCQAAAAAAADJAEQAAAAAAADRAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDJrCAESFzE4IOKAkyAyMCBob3VycyBiYXR0ZXJ5IhoqGAibpj4SEgkAAAAAAAAyQBEAAAAAAAA0QCooCiQxOCBob3VycyBiYXR0ZXJ5IHRvIDIwIGhvdXJzIGJhdHRlcnkYAToICJumPhAAMAZYiKogYAI"
+        },
+        {
+          "text": "20 – 21 hours battery",
+          "shoprs": "CAESGioYCJumPhISCQAAAAAAADRAEQAAAAAAADVAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDJrCAESFzIwIOKAkyAyMSBob3VycyBiYXR0ZXJ5IhoqGAibpj4SEgkAAAAAAAA0QBEAAAAAAAA1QCooCiQyMCBob3VycyBiYXR0ZXJ5IHRvIDIxIGhvdXJzIGJhdHRlcnkYAToICJumPhAAMAZYiKogYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=20+hours+battery+to+21+hours+battery+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJumPhISCQAAAAAAADRAEQAAAAAAADVAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDJrCAESFzIwIOKAkyAyMSBob3VycyBiYXR0ZXJ5IhoqGAibpj4SEgkAAAAAAAA0QBEAAAAAAAA1QCooCiQyMCBob3VycyBiYXR0ZXJ5IHRvIDIxIGhvdXJzIGJhdHRlcnkYAToICJumPhAAMAZYiKogYAI"
+        }
+      ]
+    },
+    {
+      "type": "Carousel Filters",
+      "options": [
+        {
+          "text": "On sale",
+          "shoprs": "CAESBEoCGAEYBiotc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSB3YWxtYXJ0MhMIBhIHT24gc2FsZRgCIgRKAhgBWIiqIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Samsung+Galaxy+Tab+S10+FE+128GB+Wi-Fi+Walmart+sale&shoprs=CAESBEoCGAEYBiotc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSB3YWxtYXJ0MhMIBhIHT24gc2FsZRgCIgRKAhgBWIiqIGAB",
+          "input_type": "link_with_icon"
+        },
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyotc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSB3YWxtYXJ0MgwIAxIGTmVhcmJ5GAJYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=Samsung+Galaxy+Tab+S10+FE+128GB+Wi-Fi+Walmart+nearby&shoprs=CAEYAyotc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSB3YWxtYXJ0MgwIAxIGTmVhcmJ5GAJYiKogYAE",
+          "input_type": "link_with_icon"
+        },
+        {
+          "text": "5G",
+          "shoprs": "CAEYASotc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSB3YWxtYXJ0MhQIARICNUc6DAir-44CEK77jgIwAliIqiBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=5g+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAEYASotc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSB3YWxtYXJ0MhQIARICNUc6DAir-44CEK77jgIwAliIqiBgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "English",
+          "shoprs": "CAEYASotc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSB3YWxtYXJ0MhkIARIHRW5nbGlzaDoMCJ2ynAEQorKcATAAWIiqIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=english+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAEYASotc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSB3YWxtYXJ0MhkIARIHRW5nbGlzaDoMCJ2ynAEQorKcATAAWIiqIGAB",
+          "input_type": "link"
+        },
+        {
+          "text": "10.9 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI8CAESDjEwLjkgaW4gc2NyZWVuIhoqGAiZpj4SEgkAAADAna87QBEAAADAna87QCoCGAE6CAiZpj4QADAGWIiqIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=10.9+in+screen+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJmmPhISCQAAAMCdrztAEQAAAMCdrztAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI8CAESDjEwLjkgaW4gc2NyZWVuIhoqGAiZpj4SEgkAAADAna87QBEAAADAna87QCoCGAE6CAiZpj4QADAGWIiqIGAB",
+          "input_type": "link"
+        },
+        {
+          "text": "Tablets",
+          "shoprs": "CAEYCSotc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSB3YWxtYXJ0MgsICRIHVGFibGV0c2AB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=tablets+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAEYCSotc2Ftc3VuZyBnYWxheHkgdGFiIHMxMCBmZSAxMjhnYiB3aSBmaSB3YWxtYXJ0MgsICRIHVGFibGV0c2AB",
+          "input_type": "link"
+        },
+        {
+          "text": "13.1 in screen",
+          "shoprs": "CAESGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI8CAESDjEzLjEgaW4gc2NyZWVuIhoqGAiZpj4SEgkAAABgEqNAQBEAAABgEqNAQCoCGAE6CAiZpj4QADAGWIiqIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=13.1+in+screen+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJmmPhISCQAAAGASo0BAEQAAAGASo0BAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI8CAESDjEzLjEgaW4gc2NyZWVuIhoqGAiZpj4SEgkAAABgEqNAQBEAAABgEqNAQCoCGAE6CAiZpj4QADAGWIiqIGAB",
+          "input_type": "link"
+        },
+        {
+          "text": "13 MP rear camera",
+          "shoprs": "CAESGioYCJymPhISCQAAAAAAACpAEQAAAAAAACpAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI_CAESETEzIE1QIHJlYXIgY2FtZXJhIhoqGAicpj4SEgkAAAAAAAAqQBEAAAAAAAAqQCoCGAE6CAicpj4QADAGWIiqIGAB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=13+mp+rear+camera+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJymPhISCQAAAAAAACpAEQAAAAAAACpAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI_CAESETEzIE1QIHJlYXIgY2FtZXJhIhoqGAicpj4SEgkAAAAAAAAqQBEAAAAAAAAqQCoCGAE6CAicpj4QADAGWIiqIGAB",
+          "input_type": "link"
+        },
+        {
+          "text": "RAM: 8 GB",
+          "shoprs": "CAESGioYCJiwPhISCQAAAAAAACBAEQAAAAAAACBAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI3CAESCVJBTTogOCBHQiIaKhgImLA-EhIJAAAAAAAAIEARAAAAAAAAIEAqAhgBOggImLA-EAAwBliIqiBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=ram%3A+8+gb+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJiwPhISCQAAAAAAACBAEQAAAAAAACBAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI3CAESCVJBTTogOCBHQiIaKhgImLA-EhIJAAAAAAAAIEARAAAAAAAAIEAqAhgBOggImLA-EAAwBliIqiBgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "20 – 21 hours battery",
+          "shoprs": "CAESGioYCJumPhISCQAAAAAAADRAEQAAAAAAADVAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDJrCAESFzIwIOKAkyAyMSBob3VycyBiYXR0ZXJ5IhoqGAibpj4SEgkAAAAAAAA0QBEAAAAAAAA1QCooCiQyMCBob3VycyBiYXR0ZXJ5IHRvIDIxIGhvdXJzIGJhdHRlcnkYAToICJumPhAAMAZYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=20+hours+battery+to+21+hours+battery+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJumPhISCQAAAAAAADRAEQAAAAAAADVAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDJrCAESFzIwIOKAkyAyMSBob3VycyBiYXR0ZXJ5IhoqGAibpj4SEgkAAAAAAAA0QBEAAAAAAAA1QCooCiQyMCBob3VycyBiYXR0ZXJ5IHRvIDIxIGhvdXJzIGJhdHRlcnkYAToICJumPhAAMAZYiKogYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "8 MP rear camera",
+          "shoprs": "CAESGioYCJymPhISCQAAAAAAACBAEQAAAAAAACBAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI-CAESEDggTVAgcmVhciBjYW1lcmEiGioYCJymPhISCQAAAAAAACBAEQAAAAAAACBAKgIYAToICJymPhAAMAZYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=8+mp+rear+camera+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJymPhISCQAAAAAAACBAEQAAAAAAACBAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI-CAESEDggTVAgcmVhciBjYW1lcmEiGioYCJymPhISCQAAAAAAACBAEQAAAAAAACBAKgIYAToICJymPhAAMAZYiKogYAE",
+          "input_type": "link"
+        },
+        {
+          "text": "RAM: 6 GB",
+          "shoprs": "CAESGioYCJiwPhISCQAAAAAAABhAEQAAAAAAABhAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI3CAESCVJBTTogNiBHQiIaKhgImLA-EhIJAAAAAAAAGEARAAAAAAAAGEAqAhgBOggImLA-EAAwBliIqiBgAQ",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=ram%3A+6+gb+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJiwPhISCQAAAAAAABhAEQAAAAAAABhAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDI3CAESCVJBTTogNiBHQiIaKhgImLA-EhIJAAAAAAAAGEARAAAAAAAAGEAqAhgBOggImLA-EAAwBliIqiBgAQ",
+          "input_type": "link"
+        },
+        {
+          "text": "18 – 20 hours battery",
+          "shoprs": "CAESGioYCJumPhISCQAAAAAAADJAEQAAAAAAADRAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDJrCAESFzE4IOKAkyAyMCBob3VycyBiYXR0ZXJ5IhoqGAibpj4SEgkAAAAAAAAyQBEAAAAAAAA0QCooCiQxOCBob3VycyBiYXR0ZXJ5IHRvIDIwIGhvdXJzIGJhdHRlcnkYAToICJumPhAAMAZYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&q=18+hours+battery+to+20+hours+battery+samsung+galaxy+tab+s10+fe+128gb+wi+fi+walmart&shoprs=CAESGioYCJumPhISCQAAAAAAADJAEQAAAAAAADRAGAEqLXNhbXN1bmcgZ2FsYXh5IHRhYiBzMTAgZmUgMTI4Z2Igd2kgZmkgd2FsbWFydDJrCAESFzE4IOKAkyAyMCBob3VycyBiYXR0ZXJ5IhoqGAibpj4SEgkAAAAAAAAyQBEAAAAAAAA0QCooCiQxOCBob3VycyBiYXR0ZXJ5IHRvIDIwIGhvdXJzIGJhdHRlcnkYAToICJumPhAAMAZYiKogYAE",
+          "input_type": "link"
+        }
+      ]
+    }
+  ]
+}

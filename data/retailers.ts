@@ -216,6 +216,34 @@ export function getRetailer(id: RetailerId): Retailer {
   return found;
 }
 
+const RETAILER_HOSTS: Record<RetailerId, string[]> = {
+  bestbuy: ["bestbuy.com"],
+  costco: ["costco.com", "sameday.costco.com"],
+  target: ["target.com"],
+  walmart: ["walmart.com"],
+  samsung: ["samsung.com"],
+  amazon: ["amazon.com", "amzn.to", "a.co"],
+  att: ["att.com"],
+  tmobile: ["t-mobile.com", "tmobile.com"],
+  verizon: ["verizon.com", "verizonwireless.com"],
+};
+
+/** True when URL host belongs to the claimed retailer (not DoorDash / affiliates). */
+export function listingBelongsToRetailer(
+  retailerId: RetailerId,
+  url: string | null | undefined,
+): boolean {
+  if (!url) return false;
+  try {
+    const host = new URL(url).hostname.toLowerCase();
+    return RETAILER_HOSTS[retailerId].some(
+      (allowed) => host === allowed || host.endsWith(`.${allowed}`),
+    );
+  } catch {
+    return false;
+  }
+}
+
 /** True when a listing URL is a real product page (not empty / homepage / placeholder). */
 export function isUsableListingUrl(url: string | null | undefined): boolean {
   if (!url || url === "#" || url === "/") return false;
@@ -225,6 +253,15 @@ export function isUsableListingUrl(url: string | null | undefined): boolean {
     const host = parsed.hostname.toLowerCase();
     if (host === "example.com" || host.endsWith(".example.com")) return false;
     if (host === "localhost" || host === "127.0.0.1") return false;
+    // Aggregators / delivery apps are not retailer PDPs
+    if (
+      host.includes("google.") ||
+      host.includes("doordash.") ||
+      host.includes("instacart.") ||
+      host.includes("shopify.")
+    ) {
+      return false;
+    }
     // Bare retailer homepages are not product links
     const path = parsed.pathname.replace(/\/+$/, "");
     if (!path || path === "") return false;
@@ -293,7 +330,8 @@ export function resolveOfferUrl(
 ): string {
   if (
     isUsableListingUrl(listingUrl) &&
-    !isGoogleShoppingAggregatorUrl(listingUrl)
+    !isGoogleShoppingAggregatorUrl(listingUrl) &&
+    listingBelongsToRetailer(retailerId, listingUrl)
   ) {
     return listingUrl as string;
   }

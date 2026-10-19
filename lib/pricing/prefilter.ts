@@ -2,6 +2,7 @@ import type { Product } from "@/data/products";
 import {
   isGoogleShoppingAggregatorUrl,
   isUsableListingUrl,
+  listingBelongsToRetailer,
   matchRetailerId,
   type RetailerId,
 } from "@/data/retailers";
@@ -219,8 +220,18 @@ export function prefilterListings(
       variant,
     );
 
+    // Drop affiliate / wrong-host links (e.g. DoorDash labeled as Best Buy)
+    const link =
+      listing.link &&
+      isUsableListingUrl(listing.link) &&
+      !isGoogleShoppingAggregatorUrl(listing.link) &&
+      listingBelongsToRetailer(retailerId, listing.link)
+        ? listing.link
+        : "";
+
     out.push({
       ...listing,
+      link,
       retailerId,
       condition,
       matchQuality,

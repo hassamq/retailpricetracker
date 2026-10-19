@@ -3,6 +3,8 @@ import path from "path";
 import {
   isGoogleShoppingAggregatorUrl as isAggregatorUrl,
   isUsableListingUrl,
+  listingBelongsToRetailer,
+  type RetailerId,
 } from "@/data/retailers";
 import {
   matchesVariant,
@@ -12,7 +14,8 @@ import {
 import type { RawListing } from "./types";
 
 const SERPAPI_BASE = "https://serpapi.com/search.json";
-const TIMEOUT_MS = 12_000;
+const TIMEOUT_MS = 18_000;
+const TARGETED_CONCURRENCY = 3;
 const FIXTURE_DIR = path.join(process.cwd(), "fixtures", "serpapi");
 
 export type SerpShoppingResponse = {
@@ -116,9 +119,10 @@ export function parseShoppingResults(
     const extensions = Array.isArray(r.extensions)
       ? (r.extensions as string[])
       : [];
+    const source = String(r.source ?? r.merchant ?? "").trim();
     return {
       title: String(r.title ?? ""),
-      source: String(r.source ?? ""),
+      source,
       price:
         typeof r.extracted_price === "number"
           ? r.extracted_price
@@ -273,12 +277,13 @@ export async function fetchGoogleShopping(
   query: string,
   apiKey: string,
 ): Promise<{ data: SerpShoppingResponse; listings: RawListing[] }> {
+  // Omit `location` — with it, Serp often returns cluster cards with empty
+  // `source`, which makes national retailers (Costco, Target, …) disappear.
   const params = new URLSearchParams({
     engine: "google_shopping",
     q: query,
     gl: "us",
     hl: "en",
-    location: "United States",
     api_key: apiKey,
   });
   const res = await fetchWithTimeout(`${SERPAPI_BASE}?${params}`);
@@ -372,90 +377,173 @@ export async function fetchRetailerTargetedOffers(
   variant: VariantFilter = {},
   opts: {
     mode?: VariantMatchMode;
-    /** When false, skip google_product expansion (saves Serp calls). */
+    /**
+     * Expand google_product stores for PDP links.
+     * Default false — listing the price matters more than waiting on PDPs.
+     */
     expandStores?: boolean;
   } = {},
 ): Promise<RawListing[]> {
   const mode = opts.mode ?? "exact";
-  const expandStores = opts.expandStores !== false;
+  const expandStores = opts.expandStores === true;
   const out: RawListing[] = [];
 
-  for (const { retailerId, searchName } of retailerQueries) {
-    try {
-      const shopping = await fetchGoogleShopping(
-        `${query} ${searchName}`,
-        apiKey,
-      );
-      const match = (shopping.data.shopping_results ?? []).find((r) => {
-        const source = String(r.source ?? "").toLowerCase();
-        const title = String(r.title ?? "");
-        const link = pickMerchantLink(r);
-        if (!sourceMatchesRetailer(source, retailerId)) return false;
-        return matchesVariant(title, link, variant, mode);
-      });
-
-      if (!match) continue;
-
-      const productId = match.product_id ? String(match.product_id) : "";
-      if (expandStores && productId) {
-        const stores = await fetchProductStoreOffers(productId, apiKey);
-        const fromStores = stores.listings.find((l) => {
-          if (!sourceMatchesRetailer(l.source.toLowerCase(), retailerId)) {
-            return false;
-          }
-          return matchesVariant(
-            l.title || String(match.title ?? query),
-            l.link,
-            variant,
-            mode,
-          );
+  // Parallelize with a small concurrency cap so we don't abort on timeouts
+  for (let i = 0; i < retailerQueries.length; i += TARGETED_CONCURRENCY) {
+    const batch = retailerQueries.slice(i, i + TARGETED_CONCURRENCY);
+    const settled = await Promise.allSettled(
+      batch.map(async ({ retailerId, searchName }) => {
+        const listing = await findTargetedRetailerListing({
+          query,
+          searchName,
+          retailerId,
+          apiKey,
+          variant,
+          mode,
+          expandStores,
         });
-        if (fromStores && isUsableListingUrl(fromStores.link)) {
-          out.push({
-            ...fromStores,
-            title: fromStores.title || String(match.title ?? query),
-          });
-          continue;
-        }
-      }
+        if (listing) return listing;
 
-      const link = pickMerchantLink(match);
-      const price =
-        typeof match.extracted_price === "number"
-          ? match.extracted_price
-          : parsePrice(match.price);
-      if (price == null || !isUsableListingUrl(link)) continue;
-      if (isAggregatorUrl(link)) continue;
-      if (!matchesVariant(String(match.title ?? query), link, variant, mode)) {
-        continue;
-      }
+        const siteHint = siteHintForRetailer(retailerId);
+        if (!siteHint) return null;
+        return findTargetedRetailerListing({
+          query: `${query} ${siteHint}`,
+          searchName,
+          retailerId,
+          apiKey,
+          variant,
+          mode,
+          expandStores: false,
+        });
+      }),
+    );
 
-      out.push({
-        title: String(match.title ?? query),
-        source: String(match.source ?? searchName),
-        price,
-        oldPrice:
-          typeof match.extracted_old_price === "number"
-            ? match.extracted_old_price
-            : parsePrice(match.old_price),
-        link,
-        extensions: Array.isArray(match.extensions)
-          ? (match.extensions as string[])
-          : [],
-        delivery: match.delivery ? String(match.delivery) : null,
-        thumbnail: null,
-        productToken: null,
-        secondHandCondition: null,
-      });
-    } catch (e) {
-      console.warn(
-        `[pricing] targeted search failed for ${retailerId}:`,
-        e instanceof Error ? e.message : e,
-      );
+    for (const result of settled) {
+      if (result.status === "fulfilled" && result.value) {
+        out.push(result.value);
+      } else if (result.status === "rejected") {
+        console.warn(
+          "[pricing] targeted search failed:",
+          result.reason instanceof Error
+            ? result.reason.message
+            : result.reason,
+        );
+      }
     }
   }
 
   return out;
+}
+
+async function findTargetedRetailerListing(opts: {
+  query: string;
+  searchName: string;
+  retailerId: string;
+  apiKey: string;
+  variant: VariantFilter;
+  mode: VariantMatchMode;
+  expandStores: boolean;
+}): Promise<RawListing | null> {
+  const { query, searchName, retailerId, apiKey, variant, mode, expandStores } =
+    opts;
+  let shopping;
+  try {
+    shopping = await fetchGoogleShopping(`${query} ${searchName}`, apiKey);
+  } catch (e) {
+    // Empty Google results / timeouts are common for site: queries — skip quietly
+    console.warn(
+      `[pricing] shopping miss for ${retailerId}:`,
+      e instanceof Error ? e.message : e,
+    );
+    return null;
+  }
+  const match = (shopping.data.shopping_results ?? []).find((r) => {
+    const source = String(r.source ?? "").toLowerCase();
+    const title = String(r.title ?? "");
+    const link = pickMerchantLink(r);
+    if (!sourceMatchesRetailer(source, retailerId)) return false;
+    return matchesVariant(title, link, variant, mode);
+  });
+  if (!match) return null;
+
+  const price =
+    typeof match.extracted_price === "number"
+      ? match.extracted_price
+      : parsePrice(match.price);
+  if (price == null) return null;
+
+  const title = String(match.title ?? query);
+  const productId = match.product_id ? String(match.product_id) : "";
+
+  if (expandStores && productId) {
+    try {
+      const stores = await fetchProductStoreOffers(productId, apiKey);
+      const fromStores = stores.listings.find((l) => {
+        if (!sourceMatchesRetailer(l.source.toLowerCase(), retailerId)) {
+          return false;
+        }
+        return matchesVariant(l.title || title, l.link, variant, mode);
+      });
+      if (fromStores?.price != null) {
+        return {
+          ...fromStores,
+          title: fromStores.title || title,
+          link: sanitizeRetailerLink(retailerId, fromStores.link),
+        };
+      }
+    } catch {
+      // fall through to shopping row
+    }
+  }
+
+  if (!matchesVariant(title, pickMerchantLink(match), variant, mode)) {
+    return null;
+  }
+
+  return {
+    title,
+    source: String(match.source ?? searchName),
+    price,
+    oldPrice:
+      typeof match.extracted_old_price === "number"
+        ? match.extracted_old_price
+        : parsePrice(match.old_price),
+    // Keep the price even when Serp only gives a Google Shopping URL —
+    // View falls back to the retailer's search page.
+    link: sanitizeRetailerLink(retailerId, pickMerchantLink(match)),
+    extensions: Array.isArray(match.extensions)
+      ? (match.extensions as string[])
+      : [],
+    delivery: match.delivery ? String(match.delivery) : null,
+    thumbnail: null,
+    productToken: null,
+    secondHandCondition: null,
+  };
+}
+
+function sanitizeRetailerLink(retailerId: string, link: string): string {
+  if (!link) return "";
+  if (isAggregatorUrl(link)) return "";
+  if (!isUsableListingUrl(link)) return "";
+  if (!listingBelongsToRetailer(retailerId as RetailerId, link)) return "";
+  return link;
+}
+
+function siteHintForRetailer(retailerId: string): string | null {
+  switch (retailerId) {
+    case "amazon":
+      return "site:amazon.com";
+    case "target":
+      return "site:target.com";
+    case "walmart":
+      return "site:walmart.com";
+    case "bestbuy":
+      return "site:bestbuy.com";
+    case "costco":
+      return "site:costco.com";
+    default:
+      return null;
+  }
 }
 
 function sourceMatchesRetailer(source: string, retailerId: string): boolean {
@@ -463,16 +551,30 @@ function sourceMatchesRetailer(source: string, retailerId: string): boolean {
     return source.includes("best buy") || source.includes("bestbuy");
   }
   if (retailerId === "amazon") {
-    return source === "amazon" || source.startsWith("amazon.com");
+    return (
+      source === "amazon" ||
+      source.startsWith("amazon.com") ||
+      source.includes("amazon.com")
+    );
   }
   if (retailerId === "walmart") {
-    return source === "walmart" || source === "walmart.com";
+    return (
+      source === "walmart" ||
+      source === "walmart.com" ||
+      source.startsWith("walmart ")
+    );
   }
   if (retailerId === "target") return source.includes("target");
-  if (retailerId === "costco") return source.includes("costco");
+  if (retailerId === "costco") {
+    return source.includes("costco");
+  }
   if (retailerId === "samsung") return source.includes("samsung");
   if (retailerId === "att") {
-    return source.includes("at&t") || source.includes("att.com");
+    return (
+      source.includes("at&t") ||
+      source.includes("att.com") ||
+      source === "att"
+    );
   }
   if (retailerId === "tmobile") {
     return source.includes("t-mobile") || source.includes("tmobile");
