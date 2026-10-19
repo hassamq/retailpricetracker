@@ -1,0 +1,77 @@
+{
+  "search_metadata": {
+    "id": "6ad5073c739fd73b121b8fce",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/yYM2mJRu0oq54WkWBIVRc5xa-0iVwr7zfGqKejXNDOc/6ad5073c739fd73b121b8fce.json",
+    "markdown_endpoint": "https://serpapi.com/searches/yYM2mJRu0oq54WkWBIVRc5xa-0iVwr7zfGqKejXNDOc/6ad5073c739fd73b121b8fce.md",
+    "created_at": "2026-10-18 17:51:56 UTC",
+    "processed_at": "2026-10-18 17:51:56 UTC",
+    "google_shopping_url": "https://www.google.com/search?udm=28&q=Samsung+Galaxy+Tab+S11%2B+256GB+5G+Costco&hl=en&gl=us",
+    "raw_html_file": "https://serpapi.com/searches/yYM2mJRu0oq54WkWBIVRc5xa-0iVwr7zfGqKejXNDOc/6ad5073c739fd73b121b8fce.html",
+    "total_time_taken": 0.56
+  },
+  "search_parameters": {
+    "engine": "google_shopping",
+    "q": "Samsung Galaxy Tab S11+ 256GB 5G Costco",
+    "location_requested": "United States",
+    "location_used": "United States",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Samsung Galaxy Tab S11+ 256GB 5G Costco",
+    "shopping_results_state": "Results for exact spelling"
+  },
+  "shopping_results": [
+    {
+      "position": 1,
+      "title": "Samsung Galaxy Tab S11 Ultra",
+      "product_id": "12909756635898382289",
+      "product_link": "https://www.google.com/search?ibp=oshop&q=Samsung Galaxy Tab S11+ 256GB 5G Costco&prds=catalogid:12909756635898382289,productid:14128641927550319458,headlineOfferDocid:3775438443877514862,imageDocid:16534690347567475696,rds:PC_16975764428562417545|PROD_PC_16975764428562417545,gpcid:16975764428562417545,mid:576462842585570113,pvt:hg&hl=en&gl=us&udm=28",
+      "immersive_product_page_token": "6T3zsXicdVXJruvGEQ2SH8gn3E0WwYUe2JxEvgstOIu64tAcmhI3BCeR4iwOEkn4a-6zDThL24A3-ZHnRb4lek52QRZVKNRBn6quqq7-15_--pFefzO5CwqnPfceLtRtHMwlwJ0Fkj91fZtM8XhNfgUkwBmaBCy-pSiMACxJMT_F4RhWbfYNxlmM3VI0TVAMyxAMjjPsz3kaJtW1SY3LJe3FNr4mvxDbLUUSDPmUpwVIhsb_ca3DLP0D_hXQFEHSLEaQT67tN8XSX_pk-EqaQgDoZ4QtTZI4Q9E4CZ5M1HemZYjB_wF_uE1pv3z9ux3Ww9Rkr0pYhfPy6oTRqw3A33D-FadohX-llFehHca4_SHr_pPF_3J9qa_Jz9-cNM6QOMVQ1BYDgPjS3cePPPt-mqr0n49XgVOhKqg68qguUVCpyjp2PllV_PjIqo9p-Mirj7T5sQ27-yX-_c-4dFNFYVIF6HYdEi3MkZEdehYd1QhEBEeiJunjyofRmvRIkkmnOfChBESnZNHRw0i7lvdOUS3QrRSbUKlwRa7hkgDV2ZqeMso_yb1fwMWQudWqRz92R9uQNOAgjopE_n52qlrzuvbc-I9Ykfcx5g-wPBzCoiQd2cott4Maps5eXXXGHvE-yluEHc7-PsMRQJh70htYJJ0hV5cItPMZIGg3iLZEi0qKwxDWFeU0lghX6WGVow6L8uEDeYFIX45I9nzikIegEiNCxcMiHxNJIiAGH0nhLl6pL8lalRZgNZ_g9zbhgzNqcQeTLbfhsCOyiLCWRRfEhNfI89HJMMP5owan9MTfE3ToYN29IwcJKfL906rTqDjoIbKe90BIU2boF4fFRz6eAP3uYmOueYg_1-iqY_LjjB_uvmI9LFxH6b5DvnNYYnQmkTtPcQ3J-NkHD7GOK-pzhLNWfMpHF-9ciIPSr310xqhGyhMIPd87n5AK3TFPHTQnex2miFnQvrJ0vr1C11rjoqpdtyWfZ8Kollvfw-bQQU1aJblTo8WqqsJFLgbh9_PQX75inEw9O0lLynu7bULn5B0BF1hqWPKJl9-u6P74DLYsTpAU-5xmAvsxbtvymv7-l8A2BHv3nNO3F1viLGEf2Jwm2aoj7YQMqtd3lX974SRhx4UhKx1uOUtIWyP2zai_HrQLyPByGxGuj6KrcbaItm67JKZRP3b2NJhjf2xF5u1FMQzlKAUc79pSIJ0kzXRUQ9-p4o7Eky0ASUJHbMgkTPzZ0Xb_zRTb4p-FXf9ZNXeA3n56LodPgMY_EeTms72rLX6L7zVRBsG7NYzv3HCgj4L09iKinbZgfn7UbdgP9kMsT2pppkIaMswp5mWrfXvRn4GFWykInGTjD4k3ZkW0j2lin-6Pjj3Enq6gRKL2yWNjOVe8KVxjAS48DmIW8VaUkbndRxZl0ziOeWTMD8w1kKtuNHGHDXF5ZEVAriZXEpuOCrpIvzRXfhvCxjBXZR8KZXbHyTCzM67np-F2g5m7xSZaGSlFnYjI4t5Fwq9UaG78egOzJjyHQzvZoiLyspfGfbDi0-nQoVPzDpuCz-P7kgp4KdR6ElF3FHbuDGrIXeb9tQYONkBwj1r6zN8vauI-jNlAPJ0BfjifiHbzfDKtE5IHoCm3aZTLqswXK4yIRpgLrG65bcAbpnxuOecgc8n7wDObgNWsgiRFGAtTQLj0Kiwww1TpGPDdKQsek9va0rsa2UvCTFMxLH0zaPbJ8xt3ik2MMqd9fnVoHlOPMLUyAVaEtn97CQI7jac-3diOZe44Xs85-rrtN0UzbwhPNdlrf-uNBbabutPnnlZNgNLQXU0-YVYWu-tNoBzPk_z8AaSUXtaE4C5w5RV_uONTe3QtTUIX5papFRr8WufeXlz3KO2KV2-VBs1RnxJTWqFhulPOegFJTeQemjBPiTcPR3lY9ZWjNFHFnv7h6JRAX6XFEMtZk7EhatAQCY9Rs8nHUaFApDwGvcJ2_wYEgGWJ",
+      "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=6T3zsXicdVXJruvGEQ2SH8gn3E0WwYUe2JxEvgstOIu64tAcmhI3BCeR4iwOEkn4a-6zDThL24A3-ZHnRb4lek52QRZVKNRBn6quqq7-15_--pFefzO5CwqnPfceLtRtHMwlwJ0Fkj91fZtM8XhNfgUkwBmaBCy-pSiMACxJMT_F4RhWbfYNxlmM3VI0TVAMyxAMjjPsz3kaJtW1SY3LJe3FNr4mvxDbLUUSDPmUpwVIhsb_ca3DLP0D_hXQFEHSLEaQT67tN8XSX_pk-EqaQgDoZ4QtTZI4Q9E4CZ5M1HemZYjB_wF_uE1pv3z9ux3Ww9Rkr0pYhfPy6oTRqw3A33D-FadohX-llFehHca4_SHr_pPF_3J9qa_Jz9-cNM6QOMVQ1BYDgPjS3cePPPt-mqr0n49XgVOhKqg68qguUVCpyjp2PllV_PjIqo9p-Mirj7T5sQ27-yX-_c-4dFNFYVIF6HYdEi3MkZEdehYd1QhEBEeiJunjyofRmvRIkkmnOfChBESnZNHRw0i7lvdOUS3QrRSbUKlwRa7hkgDV2ZqeMso_yb1fwMWQudWqRz92R9uQNOAgjopE_n52qlrzuvbc-I9Ykfcx5g-wPBzCoiQd2cott4Maps5eXXXGHvE-yluEHc7-PsMRQJh70htYJJ0hV5cItPMZIGg3iLZEi0qKwxDWFeU0lghX6WGVow6L8uEDeYFIX45I9nzikIegEiNCxcMiHxNJIiAGH0nhLl6pL8lalRZgNZ_g9zbhgzNqcQeTLbfhsCOyiLCWRRfEhNfI89HJMMP5owan9MTfE3ToYN29IwcJKfL906rTqDjoIbKe90BIU2boF4fFRz6eAP3uYmOueYg_1-iqY_LjjB_uvmI9LFxH6b5DvnNYYnQmkTtPcQ3J-NkHD7GOK-pzhLNWfMpHF-9ciIPSr310xqhGyhMIPd87n5AK3TFPHTQnex2miFnQvrJ0vr1C11rjoqpdtyWfZ8Kollvfw-bQQU1aJblTo8WqqsJFLgbh9_PQX75inEw9O0lLynu7bULn5B0BF1hqWPKJl9-u6P74DLYsTpAU-5xmAvsxbtvymv7-l8A2BHv3nNO3F1viLGEf2Jwm2aoj7YQMqtd3lX974SRhx4UhKx1uOUtIWyP2zai_HrQLyPByGxGuj6KrcbaItm67JKZRP3b2NJhjf2xF5u1FMQzlKAUc79pSIJ0kzXRUQ9-p4o7Eky0ASUJHbMgkTPzZ0Xb_zRTb4p-FXf9ZNXeA3n56LodPgMY_EeTms72rLX6L7zVRBsG7NYzv3HCgj4L09iKinbZgfn7UbdgP9kMsT2pppkIaMswp5mWrfXvRn4GFWykInGTjD4k3ZkW0j2lin-6Pjj3Enq6gRKL2yWNjOVe8KVxjAS48DmIW8VaUkbndRxZl0ziOeWTMD8w1kKtuNHGHDXF5ZEVAriZXEpuOCrpIvzRXfhvCxjBXZR8KZXbHyTCzM67np-F2g5m7xSZaGSlFnYjI4t5Fwq9UaG78egOzJjyHQzvZoiLyspfGfbDi0-nQoVPzDpuCz-P7kgp4KdR6ElF3FHbuDGrIXeb9tQYONkBwj1r6zN8vauI-jNlAPJ0BfjifiHbzfDKtE5IHoCm3aZTLqswXK4yIRpgLrG65bcAbpnxuOecgc8n7wDObgNWsgiRFGAtTQLj0Kiwww1TpGPDdKQsek9va0rsa2UvCTFMxLH0zaPbJ8xt3ik2MMqd9fnVoHlOPMLUyAVaEtn97CQI7jac-3diOZe44Xs85-rrtN0UzbwhPNdlrf-uNBbabutPnnlZNgNLQXU0-YVYWu-tNoBzPk_z8AaSUXtaE4C5w5RV_uONTe3QtTUIX5papFRr8WufeXlz3KO2KV2-VBs1RnxJTWqFhulPOegFJTeQemjBPiTcPR3lY9ZWjNFHFnv7h6JRAX6XFEMtZk7EhatAQCY9Rs8nHUaFApDwGvcJ2_wYEgGWJ",
+      "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&page_token=6T3zsXicdVXJruvGEQ2SH8gn3E0WwYUe2JxEvgstOIu64tAcmhI3BCeR4iwOEkn4a-6zDThL24A3-ZHnRb4lek52QRZVKNRBn6quqq7-15_--pFefzO5CwqnPfceLtRtHMwlwJ0Fkj91fZtM8XhNfgUkwBmaBCy-pSiMACxJMT_F4RhWbfYNxlmM3VI0TVAMyxAMjjPsz3kaJtW1SY3LJe3FNr4mvxDbLUUSDPmUpwVIhsb_ca3DLP0D_hXQFEHSLEaQT67tN8XSX_pk-EqaQgDoZ4QtTZI4Q9E4CZ5M1HemZYjB_wF_uE1pv3z9ux3Ww9Rkr0pYhfPy6oTRqw3A33D-FadohX-llFehHca4_SHr_pPF_3J9qa_Jz9-cNM6QOMVQ1BYDgPjS3cePPPt-mqr0n49XgVOhKqg68qguUVCpyjp2PllV_PjIqo9p-Mirj7T5sQ27-yX-_c-4dFNFYVIF6HYdEi3MkZEdehYd1QhEBEeiJunjyofRmvRIkkmnOfChBESnZNHRw0i7lvdOUS3QrRSbUKlwRa7hkgDV2ZqeMso_yb1fwMWQudWqRz92R9uQNOAgjopE_n52qlrzuvbc-I9Ykfcx5g-wPBzCoiQd2cott4Maps5eXXXGHvE-yluEHc7-PsMRQJh70htYJJ0hV5cItPMZIGg3iLZEi0qKwxDWFeU0lghX6WGVow6L8uEDeYFIX45I9nzikIegEiNCxcMiHxNJIiAGH0nhLl6pL8lalRZgNZ_g9zbhgzNqcQeTLbfhsCOyiLCWRRfEhNfI89HJMMP5owan9MTfE3ToYN29IwcJKfL906rTqDjoIbKe90BIU2boF4fFRz6eAP3uYmOueYg_1-iqY_LjjB_uvmI9LFxH6b5DvnNYYnQmkTtPcQ3J-NkHD7GOK-pzhLNWfMpHF-9ciIPSr310xqhGyhMIPd87n5AK3TFPHTQnex2miFnQvrJ0vr1C11rjoqpdtyWfZ8Kollvfw-bQQU1aJblTo8WqqsJFLgbh9_PQX75inEw9O0lLynu7bULn5B0BF1hqWPKJl9-u6P74DLYsTpAU-5xmAvsxbtvymv7-l8A2BHv3nNO3F1viLGEf2Jwm2aoj7YQMqtd3lX974SRhx4UhKx1uOUtIWyP2zai_HrQLyPByGxGuj6KrcbaItm67JKZRP3b2NJhjf2xF5u1FMQzlKAUc79pSIJ0kzXRUQ9-p4o7Eky0ASUJHbMgkTPzZ0Xb_zRTb4p-FXf9ZNXeA3n56LodPgMY_EeTms72rLX6L7zVRBsG7NYzv3HCgj4L09iKinbZgfn7UbdgP9kMsT2pppkIaMswp5mWrfXvRn4GFWykInGTjD4k3ZkW0j2lin-6Pjj3Enq6gRKL2yWNjOVe8KVxjAS48DmIW8VaUkbndRxZl0ziOeWTMD8w1kKtuNHGHDXF5ZEVAriZXEpuOCrpIvzRXfhvCxjBXZR8KZXbHyTCzM67np-F2g5m7xSZaGSlFnYjI4t5Fwq9UaG78egOzJjyHQzvZoiLyspfGfbDi0-nQoVPzDpuCz-P7kgp4KdR6ElF3FHbuDGrIXeb9tQYONkBwj1r6zN8vauI-jNlAPJ0BfjifiHbzfDKtE5IHoCm3aZTLqswXK4yIRpgLrG65bcAbpnxuOecgc8n7wDObgNWsgiRFGAtTQLj0Kiwww1TpGPDdKQsek9va0rsa2UvCTFMxLH0zaPbJ8xt3ik2MMqd9fnVoHlOPMLUyAVaEtn97CQI7jac-3diOZe44Xs85-rrtN0UzbwhPNdlrf-uNBbabutPnnlZNgNLQXU0-YVYWu-tNoBzPk_z8AaSUXtaE4C5w5RV_uONTe3QtTUIX5papFRr8WufeXlz3KO2KV2-VBs1RnxJTWqFhulPOegFJTeQemjBPiTcPR3lY9ZWjNFHFnv7h6JRAX6XFEMtZk7EhatAQCY9Rs8nHUaFApDwGvcJ2_wYEgGWJ",
+      "source": "eBay - with_us",
+      "source_icon": "https://encrypted-tbn3.gstatic.com/favicon-tbn?q=tbn%3AANd9GcQCSoeiwwKkumV2aNvhjSlaa0ZcuAjm4JjDQLWyS_eDqznJjKil6DM7NxnTU4M5jkB0dGlwhR2voLnxXgQ6vVdpDpU-flw",
+      "multiple_sources": true,
+      "price": "$1,622.32",
+      "extracted_price": 1622.32,
+      "rating": 2.9,
+      "reviews": 3200,
+      "snippet": "Quality display (425 user reviews)",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ5U4VtMyWLp747_U_VqABjtbXuJkwgEHgt1jaUPRTb_b_b6Fub9g2ZOySsFUHGEV1H0InrBh38wWjbAR4Qlgw5jE9-7qlh4EKmsHslnnbeDfQ7NSgY2ZB_",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/udhrNnicDclLDoIwFADAEyGKRcTEGIgI_kUtqJvGFiwg1mIfIVzK-3gbySzn980ApJroeirYp5WQJhpQ0e9xBXfIWY-9X7rK3lLmgs-qaXcTZ5fYPgtNjCLYtvFGWsgimESV4xZAL_Xq2XAv4DAo7vhwPFPSGS1qanPjtm9PaoED34sGQX8pPm42HDdxQZ0jCkvemIVna1ZVZshbv1SgSiFoOn-E1u7Er8bNJX8bYT2x"
+    }
+  ],
+  "filters": [
+    {
+      "input_type": "link_with_icon",
+      "options": [
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyonc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSsgMjU2Z2IgNWcgY29zdGNvMgwIAxIGTmVhcmJ5GAJYiKogYAI",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Tab+S11%2B+256GB+5G+Costco+nearby&shoprs=CAEYAyonc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSsgMjU2Z2IgNWcgY29zdGNvMgwIAxIGTmVhcmJ5GAJYiKogYAI"
+        }
+      ]
+    },
+    {
+      "type": "Carousel Filters",
+      "options": [
+        {
+          "text": "Nearby",
+          "shoprs": "CAEYAyonc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSsgMjU2Z2IgNWcgY29zdGNvMgwIAxIGTmVhcmJ5GAJYiKogYAE",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=Samsung+Galaxy+Tab+S11%2B+256GB+5G+Costco+nearby&shoprs=CAEYAyonc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSsgMjU2Z2IgNWcgY29zdGNvMgwIAxIGTmVhcmJ5GAJYiKogYAE",
+          "input_type": "link_with_icon"
+        },
+        {
+          "text": "Tablets",
+          "shoprs": "CAEYCSonc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSsgMjU2Z2IgNWcgY29zdGNvMgsICRIHVGFibGV0c2AB",
+          "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=us&google_domain=google.com&hl=en&location=United+States&q=tablets+samsung+galaxy+tab+s11%2B+256gb+5g+costco&shoprs=CAEYCSonc2Ftc3VuZyBnYWxheHkgdGFiIHMxMSsgMjU2Z2IgNWcgY29zdGNvMgsICRIHVGFibGV0c2AB",
+          "input_type": "link"
+        }
+      ]
+    }
+  ]
+}
