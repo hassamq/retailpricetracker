@@ -39,7 +39,7 @@ export function Footer() {
           </ul>
         </div>
 
-        <div className="lg:col-span-3">
+        <div className="lg:col-span-6">
           <h3 className="text-xs font-bold tracking-widest text-ink uppercase">
             Retailers
           </h3>
@@ -50,17 +50,6 @@ export function Footer() {
               </li>
             ))}
           </ul>
-        </div>
-
-        <div className="lg:col-span-3">
-          <h3 className="text-xs font-bold tracking-widest text-ink uppercase">
-            About this demo
-          </h3>
-          <p className="mt-4 text-sm leading-relaxed text-muted">
-            Built for a dealership interview walkthrough. Uses Gemini search
-            grounding for live prices when a key is present; otherwise runs
-            on recorded sample data so the demo never breaks.
-          </p>
         </div>
       </div>
 
